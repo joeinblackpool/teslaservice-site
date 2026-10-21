@@ -850,3 +850,5 @@
 /locations/woking/ /locations/woking 301
 # Any other old garage page
 /garages/* /locations/ 301
+
+# Old-site URLs still in Search Console (90 days) that returned 404 -> same garage / town / guide (added 2026-10-21)
