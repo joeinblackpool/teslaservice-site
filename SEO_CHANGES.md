@@ -5,3 +5,4 @@ Rollback rule: a change "clearly hurt" only if ALL hold for its URL pattern, com
 | Date | Commit | URLs affected | Change | Status |
 |---|---|---|---|---|
 | 2026-10-21 | (repo set-up) | all | Site moved to GitHub; identical files | baseline |
+| 2026-10-21 | (first Git deploy) | all | First deploy from GitHub: identical pages; removed the copy of Cloudflare's auto-injected analytics tag (the edge adds it itself) | baseline |
