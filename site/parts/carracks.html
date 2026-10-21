@@ -84,6 +84,7 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
 .navbar{display:none}
 @media (max-width:760px){.navbar{display:flex;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.25)}.navbar{box-sizing:border-box}.navbar .btn{flex:1 1 0;min-width:0;margin:0;text-align:center;padding:12px 4px;font-size:14px;box-sizing:border-box;white-space:nowrap}body.has-nav{padding-bottom:84px}}
 .card,.card a,.source-note{overflow-wrap:anywhere}</style>
+<style id="enrich-css">.charging h3,.glance h3{font-size:14.5px;margin:14px 0 6px;color:var(--ink-dim);font-weight:600}.glance{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:0 0 26px}.glance h2{font-size:17px;margin:0 0 10px}.glance ul{margin:0 0 10px;padding-left:18px;font-size:14.5px}.glance li{margin:3px 0}.glance a,.charging p a{color:var(--accent)}.enrich-src{font-size:12.5px;color:var(--ink-dim)}.enrich-src a{color:var(--ink-dim)!important}</style>
 </head>
 <body>
 <div class="wrap">
@@ -133,6 +134,24 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
     <ul><li><a href="/parts/pimp-my-ev">Pimp My EV</a> <span>— Parts &amp; cosmetic, Leicester (mobile base) · 2.4 mi</span></li><li><a href="/parts/windscreen-replacement-london">Windscreen Replacement London</a> <span>— Parts &amp; cosmetic, London · 2.7 mi</span></li><li><a href="/other/le-company-lecompany">LE Company (LECOMPANY)</a> <span>— Independent, London (Marylebone) · 3.2 mi</span></li><li><a href="/parts/prestige-ppf">Prestige PPF</a> <span>— Parts &amp; cosmetic, Hounslow / Central London · 3.4 mi</span></li><li><a href="/other/woodstock-motors">Woodstock Motors</a> <span>— Independent, Golders Green, London · 5.1 mi</span></li><li><a href="/parts/customise-my-tesla-electrovogue-ltd">Customise My Tesla (Electrovogue Ltd)</a> <span>— Parts &amp; cosmetic, London · 5.1 mi</span></li><li><a href="/parts/customise-my-tesla-uk">Customise My Tesla UK</a> <span>— Parts &amp; cosmetic, Golders Green, London · 5.1 mi</span></li><li><a href="/dealer/tesla-service-london-tottenham">Tesla Service London-Tottenham</a> <span>— Official, London · 6.1 mi</span></li></ul>
     <p class="town-link"><a href="/locations/london">Tesla servicing in London →</a></p><p><a href="/locations/greater-london">All Tesla servicing &amp; repair in London →</a></p>
   </section>
+  <!--enrich:start-->
+<section class="nearby charging" id="charging">
+  <h2>Charging near CarRacks</h2>
+  <p style="font-size:14px;color:var(--ink-dim);margin:0 0 6px;">Public chargers closest to CarRacks (EC1V 2NX), handy if you wait for your car or need charge after the visit.</p>
+  <h3>Nearest Tesla Superchargers</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/tesla-london-tower-supercharger-tower-hotel-city-of-london-57977/" rel="noopener">Tesla London Tower Supercharger / Tower Hotel</a> <span>— 2 stalls, up to 120 kW · 1.6 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-london-camberwell-road-t014/" rel="noopener">Tesla Supercharger London – Camberwell Road</a> <span>— up to 250 kW · 3.2 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-london-canary-wharf-5659/" rel="noopener">Tesla Supercharger London – Canary Wharf</a> <span>— 4 stalls, up to 150 kW · 3.5 mi</span></li>
+</ul>
+  <h3>Nearest other rapid chargers (50 kW+)</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/shell-old-street-finsbury-113557/" rel="noopener">Shell Old Street</a> <span>— Allego BV, 50 kW · 0.1 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/shell-recharge-old-street-barbican-254092/" rel="noopener">Shell Recharge Old Street</a> <span>— Shell Recharge Solutions, 50 kW · 0.2 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/holiday-inn-express-barbican-101415/" rel="noopener">Holiday Inn Express</a> <span>— bp pulse, 50 kW · 0.3 mi</span></li>
+</ul>
+  <p><a href="https://teslachargers.co.uk/england/greater-london/london/" rel="noopener">Tesla chargers in London →</a></p>
+  <p class="enrich-src">Charger data: <a href="https://openchargemap.org/" rel="noopener">Open Charge Map</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>) and Tesla, via <a href="https://teslachargers.co.uk/">TeslaChargers.co.uk</a>. Straight-line distances; check live availability in your Tesla app before you set off.</p>
+</section>
+<!--enrich:end-->
 
   <p class="source-note">Listed from https://www.carracks.co.uk/roof-racks-and-bars/3328/tesla. Spotted an error or a closure? <a href="/suggest">Let us know</a> — every correction is reviewed before it's published.</p>
 </main>

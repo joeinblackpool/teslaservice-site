@@ -85,6 +85,7 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
 .navbar{display:none}
 @media (max-width:760px){.navbar{display:flex;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.25)}.navbar{box-sizing:border-box}.navbar .btn{flex:1 1 0;min-width:0;margin:0;text-align:center;padding:12px 4px;font-size:14px;box-sizing:border-box;white-space:nowrap}body.has-nav{padding-bottom:84px}}
 .card,.card a,.source-note{overflow-wrap:anywhere}</style>
+<style id="enrich-css">.charging h3,.glance h3{font-size:14.5px;margin:14px 0 6px;color:var(--ink-dim);font-weight:600}.glance{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:0 0 26px}.glance h2{font-size:17px;margin:0 0 10px}.glance ul{margin:0 0 10px;padding-left:18px;font-size:14.5px}.glance li{margin:3px 0}.glance a,.charging p a{color:var(--accent)}.enrich-src{font-size:12.5px;color:var(--ink-dim)}.enrich-src a{color:var(--ink-dim)!important}</style>
 </head>
 <body>
 <div class="wrap">
@@ -134,6 +135,24 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
     <ul><li><a href="/authorised/wyndon-motors">Wyndon Motors</a> <span>— Tesla-approved bodyshop, Coventry · 4.0 mi</span></li><li><a href="/other/walsgrave-garage">Walsgrave Garage</a> <span>— Independent, Coventry · 6.4 mi</span></li><li><a href="/other/brookside-garage">Brookside Garage</a> <span>— Independent, Ibstock · 12 mi</span></li><li><a href="/hevra/douglass-motors-ltd">Douglass Motors Ltd</a> <span>— HEVRA, Rugby · 12 mi</span></li><li><a href="/other/corys-car-repairs">Cory&#x27;s Car Repairs</a> <span>— Independent, Rugby · 13 mi</span></li><li><a href="/hevra/weavers-garage-ltd">Weavers Garage Ltd</a> <span>— HEVRA, Leicester · 15 mi</span></li><li><a href="/hevra/unr-automotive">UNR Automotive</a> <span>— HEVRA, Leicester · 15 mi</span></li><li><a href="/parts/pp-protect">PP Protect</a> <span>— Parts &amp; cosmetic, Swadlincote · 15 mi</span></li><li><a href="/dealer/tesla-service-solihull">Tesla Service Solihull</a> <span>— Official, Solihull · 18 mi</span></li></ul>
     <p class="town-link"><a href="/locations/nuneaton">Tesla servicing in Nuneaton →</a></p><p><a href="/locations/county/warwickshire">All Tesla service options in Warwickshire →</a></p><p><a href="/locations/west-midlands">All Tesla servicing &amp; repair in the West Midlands →</a></p>
   </section>
+  <!--enrich:start-->
+<section class="nearby charging" id="charging">
+  <h2>Charging near The Peugeot Specialist</h2>
+  <p style="font-size:14px;color:var(--ink-dim);margin:0 0 6px;">Public chargers closest to The Peugeot Specialist (CV11 6RZ), handy if you wait for your car or need charge after the visit.</p>
+  <h3>Nearest Tesla Superchargers</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-rugby-175189/" rel="noopener">Tesla Supercharger Rugby</a> <span>— 12 stalls, up to 250 kW · 11 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-rugby-j1-retail-park-t166/" rel="noopener">Tesla Supercharger Rugby – J1 Retail Park</a> <span>— up to 250 kW · 12 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-leicester-t111/" rel="noopener">Tesla Supercharger Leicester</a> <span>— up to 250 kW · 12 mi</span></li>
+</ul>
+  <h3>Nearest other rapid chargers (50 kW+)</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/acorn-nuneaton-300776/" rel="noopener">Acorn</a> <span>— Osprey Charging, 60 kW · 0.5 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/attleborough-arms-265739/" rel="noopener">Attleborough Arms</a> <span>— Osprey Charging, 75 kW · 0.6 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/shell-waddington-nuneaton-105980/" rel="noopener">Shell Waddington</a> <span>— The GeniePoint Network (EQUANS EV Solutions), 50 kW · 0.6 mi</span></li>
+</ul>
+  <p><a href="https://teslachargers.co.uk/england/warwickshire/nuneaton/" rel="noopener">Tesla chargers in Nuneaton →</a></p>
+  <p class="enrich-src">Charger data: <a href="https://openchargemap.org/" rel="noopener">Open Charge Map</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>) and Tesla, via <a href="https://teslachargers.co.uk/">TeslaChargers.co.uk</a>. Straight-line distances; check live availability in your Tesla app before you set off.</p>
+</section>
+<!--enrich:end-->
 
   <p class="source-note">Listed from https://peugeotspecialist.co.uk/car-service-prices/tesla/. Spotted an error or a closure? <a href="/suggest">Let us know</a> — every correction is reviewed before it's published.</p>
 </main>

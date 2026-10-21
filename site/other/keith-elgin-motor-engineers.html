@@ -85,6 +85,7 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
 .navbar{display:none}
 @media (max-width:760px){.navbar{display:flex;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.25)}.navbar{box-sizing:border-box}.navbar .btn{flex:1 1 0;min-width:0;margin:0;text-align:center;padding:12px 4px;font-size:14px;box-sizing:border-box;white-space:nowrap}body.has-nav{padding-bottom:84px}}
 .card,.card a,.source-note{overflow-wrap:anywhere}</style>
+<style id="enrich-css">.charging h3,.glance h3{font-size:14.5px;margin:14px 0 6px;color:var(--ink-dim);font-weight:600}.glance{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:0 0 26px}.glance h2{font-size:17px;margin:0 0 10px}.glance ul{margin:0 0 10px;padding-left:18px;font-size:14.5px}.glance li{margin:3px 0}.glance a,.charging p a{color:var(--accent)}.enrich-src{font-size:12.5px;color:var(--ink-dim)}.enrich-src a{color:var(--ink-dim)!important}</style>
 </head>
 <body>
 <div class="wrap">
@@ -134,6 +135,24 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
     <ul><li><a href="/authorised/lj-eaton-arc">L&amp;J Eaton ARC</a> <span>— Tesla-approved bodyshop, Edinburgh · 2.9 mi</span></li><li><a href="/hevra/bonnington-mill-garage">Bonnington Mill Garage</a> <span>— HEVRA, Edinburgh · 3.3 mi</span></li><li><a href="/other/mh-autos">MH Autos</a> <span>— Independent, Edinburgh · 3.3 mi</span></li><li><a href="/hevra/mvt">MVT</a> <span>— HEVRA, Edinburgh · 3.7 mi</span></li><li><a href="/hevra/ace-auto-centre-ltd">Ace Auto Centre Ltd</a> <span>— HEVRA, Edinburgh · 3.8 mi</span></li><li><a href="/dealer/tesla-service-edinburgh">Tesla Service Edinburgh</a> <span>— Official, Edinburgh · 7.7 mi</span></li><li><a href="/authorised/eastern-western-arc">Eastern Western ARC</a> <span>— Tesla-approved bodyshop, Broxburn · 9.4 mi</span></li><li><a href="/other/oneill-motors">O&#x27;Neill Motors</a> <span>— Independent, Rosyth · 11 mi</span></li></ul>
     <p class="town-link"><a href="/locations/edinburgh">Tesla servicing in Edinburgh →</a></p><p><a href="/locations/scotland">All Tesla servicing &amp; repair in Scotland →</a></p>
   </section>
+  <!--enrich:start-->
+<section class="nearby charging" id="charging">
+  <h2>Charging near Keith Elgin Motor Engineers</h2>
+  <p style="font-size:14px;color:var(--ink-dim);margin:0 0 6px;">Public chargers closest to Keith Elgin Motor Engineers (EH10 4SU), handy if you wait for your car or need charge after the visit.</p>
+  <h3>Nearest Tesla Superchargers</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-edinburgh-airport-156460/" rel="noopener">Tesla Supercharger Edinburgh Airport</a> <span>— 1 stalls, up to 150 kW · 6.4 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-edinburgh-newbridge-city-of-edinburgh-171180/" rel="noopener">Tesla Supercharger Edinburgh – Newbridge</a> <span>— 16 stalls, up to 250 kW · 7.8 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-macmerry-gladsmuir-t127/" rel="noopener">Tesla Supercharger Macmerry</a> <span>— up to 250 kW · 13 mi</span></li>
+</ul>
+  <h3>Nearest other rapid chargers (50 kW+)</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/edinburgh-napier-university-colinton-road-edinburgh-137015/" rel="noopener">Edinburgh Napier University Colinton Road, Edinburgh</a> <span>— Chargeplace Scotland, 50 kW · 0.5 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/x-leisure-edinburgh-31372/" rel="noopener">X Leisure Edinburgh</a> <span>— Chargeplace Scotland, 50 kW · 1.0 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/lidl-slateford-road-edinburgh-303404/" rel="noopener">Lidl-Slateford Road</a> <span>— Pod Point, 50 kW · 1.2 mi</span></li>
+</ul>
+  <p><a href="https://teslachargers.co.uk/scotland/edinburgh/edinburgh/" rel="noopener">Tesla chargers in Edinburgh →</a></p>
+  <p class="enrich-src">Charger data: <a href="https://openchargemap.org/" rel="noopener">Open Charge Map</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>) and Tesla, via <a href="https://teslachargers.co.uk/">TeslaChargers.co.uk</a>. Straight-line distances; check live availability in your Tesla app before you set off.</p>
+</section>
+<!--enrich:end-->
 
   <p class="source-note">Listed from https://keithelgin.co.uk/car-service-prices/tesla/. Spotted an error or a closure? <a href="/suggest">Let us know</a> — every correction is reviewed before it's published.</p>
 </main>

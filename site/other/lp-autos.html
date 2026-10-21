@@ -85,6 +85,7 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
 .navbar{display:none}
 @media (max-width:760px){.navbar{display:flex;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.25)}.navbar{box-sizing:border-box}.navbar .btn{flex:1 1 0;min-width:0;margin:0;text-align:center;padding:12px 4px;font-size:14px;box-sizing:border-box;white-space:nowrap}body.has-nav{padding-bottom:84px}}
 .card,.card a,.source-note{overflow-wrap:anywhere}</style>
+<style id="enrich-css">.charging h3,.glance h3{font-size:14.5px;margin:14px 0 6px;color:var(--ink-dim);font-weight:600}.glance{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:0 0 26px}.glance h2{font-size:17px;margin:0 0 10px}.glance ul{margin:0 0 10px;padding-left:18px;font-size:14.5px}.glance li{margin:3px 0}.glance a,.charging p a{color:var(--accent)}.enrich-src{font-size:12.5px;color:var(--ink-dim)}.enrich-src a{color:var(--ink-dim)!important}</style>
 </head>
 <body>
 <div class="wrap">
@@ -134,6 +135,24 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
     <ul><li><a href="/hevra/north-manchester-auto-electrics">North Manchester Auto Electrics</a> <span>— HEVRA, North Manchester · 1.5 mi</span></li><li><a href="/hevra/cea-automotive">CEA Automotive</a> <span>— HEVRA, Dukinfield · 1.6 mi</span></li><li><a href="/dealer/tesla-service-manchester-central">Tesla Service Manchester Central</a> <span>— Official, Manchester · 1.8 mi</span></li><li><a href="/hevra/ev-repair-ltd">EV Repair Ltd</a> <span>— HEVRA, Openshaw, Manchester · 2.0 mi</span></li><li><a href="/hevra/gg-motors">GG Motors</a> <span>— HEVRA, Manchester · 2.5 mi</span></li><li><a href="/other/gorton-mot-test-centre">Gorton MOT Test Centre</a> <span>— Independent, Gorton, Manchester · 2.7 mi</span></li><li><a href="/authorised/prestige-repair">Prestige Repair</a> <span>— Tesla-approved bodyshop, Manchester · 3.0 mi</span></li><li><a href="/other/hallmark-motor-services">Hallmark Motor Services</a> <span>— Independent, Stockport · 6.1 mi</span></li></ul>
     <p class="town-link"><a href="/locations/manchester">Tesla servicing in Manchester →</a></p><p><a href="/locations/county/greater-manchester">All Tesla service options in Greater Manchester →</a></p><p><a href="/locations/north-west">All Tesla servicing &amp; repair in the North West →</a></p>
   </section>
+  <!--enrich:start-->
+<section class="nearby charging" id="charging">
+  <h2>Charging near LP Autos</h2>
+  <p style="font-size:14px;color:var(--ink-dim);margin:0 0 6px;">Public chargers closest to LP Autos (M35 0BW), handy if you wait for your car or need charge after the visit.</p>
+  <h3>Nearest Tesla Superchargers</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-manchester-north-hq-t129/" rel="noopener">Tesla Supercharger Manchester – North HQ</a> <span>— up to 250 kW · 2.0 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-birch-westbound-heywood-t026/" rel="noopener">Tesla Supercharger Birch – Westbound</a> <span>— up to 250 kW · 4.7 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-birch-eastbound-heywood-t027/" rel="noopener">Tesla Supercharger Birch – Eastbound</a> <span>— up to 250 kW · 4.7 mi</span></li>
+</ul>
+  <h3>Nearest other rapid chargers (50 kW+)</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/morrisons-failsworth-poplar-street-manchester-214723/" rel="noopener">Morrisons Failsworth Poplar Street</a> <span>— The GeniePoint Network (EQUANS EV Solutions), 50 kW · 0.2 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/oasis-be-ev-charging-station-failsworth-485658/" rel="noopener">Oasis be.EV Charging Station</a> <span>— Be.EV, 150 kW · 0.3 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/lidl-manchester-newton-heath-303736/" rel="noopener">Lidl-Manchester Newton Heath</a> <span>— Pod Point, 50 kW · 0.4 mi</span></li>
+</ul>
+  <p><a href="https://teslachargers.co.uk/england/manchester/failsworth/" rel="noopener">Tesla chargers in Failsworth →</a></p>
+  <p class="enrich-src">Charger data: <a href="https://openchargemap.org/" rel="noopener">Open Charge Map</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>) and Tesla, via <a href="https://teslachargers.co.uk/">TeslaChargers.co.uk</a>. Straight-line distances; check live availability in your Tesla app before you set off.</p>
+</section>
+<!--enrich:end-->
 
   <p class="source-note">Listed from https://lp-autos.co.uk/car-service-prices/tesla/. Spotted an error or a closure? <a href="/suggest">Let us know</a> — every correction is reviewed before it's published.</p>
 </main>
