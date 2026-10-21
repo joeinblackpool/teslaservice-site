@@ -1,0 +1,10 @@
+name: Wrangler dry run (every push)
+on: [push, workflow_dispatch]
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npx -y wrangler@4 deploy --dry-run --outdir /tmp/out
