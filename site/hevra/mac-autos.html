@@ -84,6 +84,7 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
 .navbar{display:none}
 @media (max-width:760px){.navbar{display:flex;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.25)}.navbar{box-sizing:border-box}.navbar .btn{flex:1 1 0;min-width:0;margin:0;text-align:center;padding:12px 4px;font-size:14px;box-sizing:border-box;white-space:nowrap}body.has-nav{padding-bottom:84px}}
 .card,.card a,.source-note{overflow-wrap:anywhere}</style>
+<style id="enrich-css">.charging h3,.glance h3{font-size:14.5px;margin:14px 0 6px;color:var(--ink-dim);font-weight:600}.glance{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:0 0 26px}.glance h2{font-size:17px;margin:0 0 10px}.glance ul{margin:0 0 10px;padding-left:18px;font-size:14.5px}.glance li{margin:3px 0}.glance a,.charging p a{color:var(--accent)}.enrich-src{font-size:12.5px;color:var(--ink-dim)}.enrich-src a{color:var(--ink-dim)!important}</style>
 </head>
 <body>
 <div class="wrap">
@@ -133,6 +134,24 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
     <ul><li><a href="/parts/its-a-wrap-uk">It&#x27;s A Wrap UK</a> <span>— Parts &amp; cosmetic, Worthing · 1.1 mi</span></li><li><a href="/hevra/keen-and-betts-ltd">Keen and Betts Ltd</a> <span>— HEVRA, Worthing · 1.5 mi</span></li><li><a href="/other/steves-auto-lancing">Steve&#x27;s Auto (Lancing)</a> <span>— Independent, Lancing · 3.4 mi</span></li><li><a href="/hevra/cedar-garage-ltd">Cedar Garage Ltd</a> <span>— HEVRA, Shoreham-by-Sea · 4.8 mi</span></li><li><a href="/other/lkq-electriq-cedar-electric">LKQ Electriq (Cedar Electric)</a> <span>— Independent, Shoreham-by-Sea · 4.8 mi</span></li><li><a href="/other/sg-motor-centre">S&amp;G Motor Centre</a> <span>— Independent, Fontwell, Arundel · 11 mi</span></li><li><a href="/hevra/p-d-motors-billingshurst-limited">P D Motors Billingshurst Limited</a> <span>— HEVRA, Billingshurst · 14 mi</span></li><li><a href="/parts/summit-details">Summit Details</a> <span>— Parts &amp; cosmetic, Chichester · 16 mi</span></li><li><a href="/dealer/tesla-service-gatwick">Tesla Service Gatwick</a> <span>— Official, Crawley · 24 mi</span></li></ul>
     <p class="town-link"><a href="/locations/worthing">Tesla servicing in Worthing →</a></p><p><a href="/locations/county/west-sussex">All Tesla service options in West Sussex →</a></p><p><a href="/locations/south-east">All Tesla servicing &amp; repair in the South East →</a></p>
   </section>
+  <!--enrich:start-->
+<section class="nearby charging" id="charging">
+  <h2>Charging near MAC Autos</h2>
+  <p style="font-size:14px;color:var(--ink-dim);margin:0 0 6px;">Public chargers closest to MAC Autos (BN13 1BL), handy if you wait for your car or need charge after the visit.</p>
+  <h3>Nearest Tesla Superchargers</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-pease-pottage-broadfield-284982/" rel="noopener">Tesla Supercharger Pease Pottage</a> <span>— 16 stalls, up to 250 kW · 20 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-gatwick-county-oak-crawley-56197/" rel="noopener">Tesla Supercharger Gatwick – County Oak</a> <span>— 8 stalls, up to 120 kW · 24 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-gatwick-crawley-289726/" rel="noopener">Tesla Supercharger Gatwick</a> <span>— 6 stalls, up to 250 kW · 26 mi</span></li>
+</ul>
+  <h3>Nearest other rapid chargers (50 kW+)</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/brewhouse-and-kitchen-worthing-260029/" rel="noopener">Brewhouse &amp; Kitchen</a> <span>— Osprey Charging, 75 kW · 0.9 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/morrisons-worthing-newland-street-135541/" rel="noopener">Morrisons Worthing, Newland Street</a> <span>— The GeniePoint Network (EQUANS EV Solutions), 50 kW · 1.2 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/morrisons-worthing-wm-morrison-supermarkets-plc-250768/" rel="noopener">Morrisons Worthing, Wm Morrison Supermarkets PLC</a> <span>— The GeniePoint Network (EQUANS EV Solutions), 50 kW · 1.2 mi</span></li>
+</ul>
+  <p><a href="https://teslachargers.co.uk/england/west-sussex/worthing/" rel="noopener">Tesla chargers in Worthing →</a></p>
+  <p class="enrich-src">Charger data: <a href="https://openchargemap.org/" rel="noopener">Open Charge Map</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>) and Tesla, via <a href="https://teslachargers.co.uk/">TeslaChargers.co.uk</a>. Straight-line distances; check live availability in your Tesla app before you set off.</p>
+</section>
+<!--enrich:end-->
 
   <p class="source-note">Listed from https://hevra.org.uk/ev-garages-near-me/. Spotted an error or a closure? <a href="/suggest">Let us know</a> — every correction is reviewed before it's published.</p>
 </main>

@@ -84,6 +84,7 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
 .navbar{display:none}
 @media (max-width:760px){.navbar{display:flex;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.25)}.navbar{box-sizing:border-box}.navbar .btn{flex:1 1 0;min-width:0;margin:0;text-align:center;padding:12px 4px;font-size:14px;box-sizing:border-box;white-space:nowrap}body.has-nav{padding-bottom:84px}}
 .card,.card a,.source-note{overflow-wrap:anywhere}</style>
+<style id="enrich-css">.charging h3,.glance h3{font-size:14.5px;margin:14px 0 6px;color:var(--ink-dim);font-weight:600}.glance{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:0 0 26px}.glance h2{font-size:17px;margin:0 0 10px}.glance ul{margin:0 0 10px;padding-left:18px;font-size:14.5px}.glance li{margin:3px 0}.glance a,.charging p a{color:var(--accent)}.enrich-src{font-size:12.5px;color:var(--ink-dim)}.enrich-src a{color:var(--ink-dim)!important}</style>
 </head>
 <body>
 <div class="wrap">
@@ -133,6 +134,24 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
     <ul><li><a href="/other/abp">ABP</a> <span>— Independent, Shavington, Crewe · 9.1 mi</span></li><li><a href="/authorised/road-and-race-restorations">Road And Race Restorations</a> <span>— Tesla-approved bodyshop, Warrington · 11 mi</span></li><li><a href="/hevra/precision-vehicle-repairs">Precision Vehicle Repairs</a> <span>— HEVRA, Newcastle-under-Lyme · 13 mi</span></li><li><a href="/hevra/castle-garage-staffs-ltd">Castle Garage Staffs Ltd</a> <span>— HEVRA, Newcastle-under-Lyme · 14 mi</span></li><li><a href="/hevra/cj-auto-service">CJ Auto Service</a> <span>— HEVRA, Warrington · 15 mi</span></li><li><a href="/hevra/b-i-appleton-ltd">B I Appleton Ltd</a> <span>— HEVRA, Cheshire · 15 mi</span></li><li><a href="/authorised/solution-repair-group">Solution Repair Group</a> <span>— Tesla-approved bodyshop, Warrington · 16 mi</span></li><li><a href="/other/cheadle-tyre-auto">Cheadle Tyre &amp; Auto</a> <span>— Independent, Cheadle Hulme · 17 mi</span></li><li><a href="/dealer/tesla-service-chester">Tesla Service Chester</a> <span>— Official, Chester · 19 mi</span></li></ul>
     <p class="town-link"><a href="/locations/northwich">Tesla servicing in Northwich →</a></p><p><a href="/locations/county/cheshire">All Tesla service options in Cheshire →</a></p><p><a href="/locations/north-west">All Tesla servicing &amp; repair in the North West →</a></p>
   </section>
+  <!--enrich:start-->
+<section class="nearby charging" id="charging">
+  <h2>Charging near Ignition Autos</h2>
+  <p style="font-size:14px;color:var(--ink-dim);margin:0 0 6px;">Public chargers closest to Ignition Autos (CW10 0JG), handy if you wait for your car or need charge after the visit.</p>
+  <h3>Nearest Tesla Superchargers</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-warrington-57982/" rel="noopener">Tesla Supercharger Warrington</a> <span>— 2 stalls, up to 150 kW · 12 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-lymm-t125/" rel="noopener">Tesla Supercharger Lymm</a> <span>— up to 250 kW · 12 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-keele-southbound-59089/" rel="noopener">Tesla Supercharger Keele – Southbound</a> <span>— 4 stalls, up to 150 kW · 15 mi</span></li>
+</ul>
+  <h3>Nearest other rapid chargers (50 kW+)</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/morrisons-middlewich-31-newton-bank-cw10-9ex-point-1-255292/" rel="noopener">Morrisons Middlewich, 31 Newton Bank (CW10 9EX), point 1</a> <span>— The GeniePoint Network (EQUANS EV Solutions), 50 kW · 0.7 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/morrisons-middlewich-31-newton-bank-cw10-9ex-point-2-174521/" rel="noopener">Morrisons Middlewich, 31 Newton Bank (CW10 9EX), point 2</a> <span>— The GeniePoint Network (EQUANS EV Solutions), 50 kW · 0.7 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/morrisons-winsford-255293/" rel="noopener">Morrisons</a> <span>— The GeniePoint Network (EQUANS EV Solutions), 50 kW · 3.1 mi</span></li>
+</ul>
+  <p><a href="https://teslachargers.co.uk/england/cheshire-east/middlewich/" rel="noopener">Tesla chargers in Middlewich →</a></p>
+  <p class="enrich-src">Charger data: <a href="https://openchargemap.org/" rel="noopener">Open Charge Map</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>) and Tesla, via <a href="https://teslachargers.co.uk/">TeslaChargers.co.uk</a>. Straight-line distances; check live availability in your Tesla app before you set off.</p>
+</section>
+<!--enrich:end-->
 
   <p class="source-note">Listed from https://hevra.org.uk/ev-garages-near-me/. Spotted an error or a closure? <a href="/suggest">Let us know</a> — every correction is reviewed before it's published.</p>
 </main>

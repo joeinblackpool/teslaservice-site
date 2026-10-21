@@ -84,6 +84,7 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
 .navbar{display:none}
 @media (max-width:760px){.navbar{display:flex;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.25)}.navbar{box-sizing:border-box}.navbar .btn{flex:1 1 0;min-width:0;margin:0;text-align:center;padding:12px 4px;font-size:14px;box-sizing:border-box;white-space:nowrap}body.has-nav{padding-bottom:84px}}
 .card,.card a,.source-note{overflow-wrap:anywhere}</style>
+<style id="enrich-css">.charging h3,.glance h3{font-size:14.5px;margin:14px 0 6px;color:var(--ink-dim);font-weight:600}.glance{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:0 0 26px}.glance h2{font-size:17px;margin:0 0 10px}.glance ul{margin:0 0 10px;padding-left:18px;font-size:14.5px}.glance li{margin:3px 0}.glance a,.charging p a{color:var(--accent)}.enrich-src{font-size:12.5px;color:var(--ink-dim)}.enrich-src a{color:var(--ink-dim)!important}</style>
 </head>
 <body>
 <div class="wrap">
@@ -133,6 +134,24 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
     <ul><li><a href="/authorised/touch-ups-bodyshop-glasgow">Touch Ups Bodyshop (Glasgow)</a> <span>— Tesla-approved bodyshop, Rutherglen, Glasgow · 3.7 mi</span></li><li><a href="/dealer/tesla-service-glasgow">Tesla Service Glasgow</a> <span>— Official, Glasgow · 3.8 mi</span></li><li><a href="/hevra/cam-autos-rutherglen-ltd">Cam Autos Rutherglen Ltd</a> <span>— HEVRA, Glasgow · 3.8 mi</span></li><li><a href="/other/bishopbriggs-mot-centre">Bishopbriggs MOT Centre</a> <span>— Independent, Springburn, Glasgow · 4.1 mi</span></li><li><a href="/hevra/prestige-car-specialists">Prestige Car Specialists</a> <span>— HEVRA, Glasgow · 6.6 mi</span></li><li><a href="/authorised/mitchell-inglis">Mitchell Inglis</a> <span>— Tesla-approved bodyshop, Glasgow · 8.2 mi</span></li><li><a href="/hevra/a-for-audi-ltd">A for Audi LTD</a> <span>— HEVRA, Clydebank, Glasgow · 10 mi</span></li><li><a href="/hevra/elite-land-rover">Elite Land Rover</a> <span>— HEVRA, Clydebank · 10 mi</span></li></ul>
     <p class="town-link"><a href="/locations/glasgow">Tesla servicing in Glasgow →</a></p><p><a href="/locations/scotland">All Tesla servicing &amp; repair in Scotland →</a></p>
   </section>
+  <!--enrich:start-->
+<section class="nearby charging" id="charging">
+  <h2>Charging near Motorhome Repair Centre</h2>
+  <p style="font-size:14px;color:var(--ink-dim);margin:0 0 6px;">Public chargers closest to Motorhome Repair Centre (G33 4ED), handy if you wait for your car or need charge after the visit.</p>
+  <h3>Nearest Tesla Superchargers</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-stepps-glasgow-t004/" rel="noopener">Tesla Supercharger Stepps</a> <span>— up to 250 kW · 2.2 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-glasgow-t081/" rel="noopener">Tesla Supercharger Glasgow</a> <span>— up to 250 kW · 3.9 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-eurocentral-146011/" rel="noopener">Tesla Supercharger Eurocentral</a> <span>— 12 stalls, up to 120 kW · 6.5 mi</span></li>
+</ul>
+  <h3>Nearest other rapid chargers (50 kW+)</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/for-ev-redcastle-square-garthamlock-glasgow-308471/" rel="noopener">For EV Redcastle Square Garthamlock</a> <span>— ForEV, 160 kW · 0.3 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/morrisons-g34-9jj-glasgow-214828/" rel="noopener">Morrisons (G34 9JJ)</a> <span>— The GeniePoint Network (EQUANS EV Solutions), 50 kW · 0.5 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/the-lochs-shopping-centre-stepps-134102/" rel="noopener">The Lochs Shopping Centre</a> <span>— Chargeplace Scotland, 50 kW · 0.8 mi</span></li>
+</ul>
+  <p><a href="https://teslachargers.co.uk/scotland/north-lanarkshire/glasgow/" rel="noopener">Tesla chargers in Glasgow →</a></p>
+  <p class="enrich-src">Charger data: <a href="https://openchargemap.org/" rel="noopener">Open Charge Map</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>) and Tesla, via <a href="https://teslachargers.co.uk/">TeslaChargers.co.uk</a>. Straight-line distances; check live availability in your Tesla app before you set off.</p>
+</section>
+<!--enrich:end-->
 
   <p class="source-note">Listed from https://hevra.org.uk/ev-garages-near-me/. Spotted an error or a closure? <a href="/suggest">Let us know</a> — every correction is reviewed before it's published.</p>
 </main>

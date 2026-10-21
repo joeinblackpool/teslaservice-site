@@ -84,6 +84,7 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
 .navbar{display:none}
 @media (max-width:760px){.navbar{display:flex;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.25)}.navbar{box-sizing:border-box}.navbar .btn{flex:1 1 0;min-width:0;margin:0;text-align:center;padding:12px 4px;font-size:14px;box-sizing:border-box;white-space:nowrap}body.has-nav{padding-bottom:84px}}
 .card,.card a,.source-note{overflow-wrap:anywhere}</style>
+<style id="enrich-css">.charging h3,.glance h3{font-size:14.5px;margin:14px 0 6px;color:var(--ink-dim);font-weight:600}.glance{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:0 0 26px}.glance h2{font-size:17px;margin:0 0 10px}.glance ul{margin:0 0 10px;padding-left:18px;font-size:14.5px}.glance li{margin:3px 0}.glance a,.charging p a{color:var(--accent)}.enrich-src{font-size:12.5px;color:var(--ink-dim)}.enrich-src a{color:var(--ink-dim)!important}</style>
 </head>
 <body>
 <div class="wrap">
@@ -133,6 +134,24 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
     <ul><li><a href="/authorised/jenkins-pain">Jenkins &amp; Pain</a> <span>— Tesla-approved bodyshop, Whitfield, Dover · 8.6 mi</span></li><li><a href="/other/sibley-automotive">Sibley Automotive</a> <span>— Independent, Ashford, Kent · 13 mi</span></li><li><a href="/other/elite-garages-canterbury">Elite Garages Canterbury</a> <span>— Independent, Canterbury · 14 mi</span></li><li><a href="/hevra/autocare">Autocare</a> <span>— HEVRA, Canterbury · 14 mi</span></li><li><a href="/hevra/injection-development-canterbury-ltd">Injection Development Canterbury Ltd</a> <span>— HEVRA, Canterbury · 16 mi</span></li><li><a href="/hevra/skinners-of-rye">Skinners of Rye</a> <span>— HEVRA, Rye · 20 mi</span></li><li><a href="/hevra/the-ev-workshop">The EV Workshop</a> <span>— HEVRA, Herne Bay · 20 mi</span></li><li><a href="/parts/car-polishing-co">Car Polishing Co</a> <span>— Parts &amp; cosmetic, Ramsgate · 20 mi</span></li><li><a href="/dealer/tesla-service-london-dartford">Tesla Service London-Dartford</a> <span>— Official, Dartford · 46 mi</span></li></ul>
     <p class="town-link"><a href="/locations/canterbury">Tesla servicing in Canterbury →</a></p><p><a href="/locations/county/kent">All Tesla service options in Kent →</a></p><p><a href="/locations/south-east">All Tesla servicing &amp; repair in the South East →</a></p>
   </section>
+  <!--enrich:start-->
+<section class="nearby charging" id="charging">
+  <h2>Charging near KAP Motorgroup</h2>
+  <p style="font-size:14px;color:var(--ink-dim);margin:0 0 6px;">Public chargers closest to KAP Motorgroup (CT20 3UJ), handy if you wait for your car or need charge after the visit.</p>
+  <h3>Nearest Tesla Superchargers</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-folkestone-485041/" rel="noopener">Tesla Supercharger Folkestone</a> <span>— 1 stalls, up to 250 kW · 1.0 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-folkestone-france-bound-only-59092/" rel="noopener">Tesla Supercharger Folkestone – France Bound Only</a> <span>— 8 stalls, up to 150 kW · 1.4 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-dover-459016/" rel="noopener">Tesla Supercharger Dover</a> <span>— 11 stalls, up to 250 kW · 8.2 mi</span></li>
+</ul>
+  <h3>Nearest other rapid chargers (50 kW+)</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/shell-mgf-folkestone-113358/" rel="noopener">Shell MGF Folkestone</a> <span>— MFG EV Power, 50 kW · 0.5 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/bannatyne-health-club-and-spa-folkestone-97298/" rel="noopener">Bannatyne Health Club &amp; Spa - Folkestone</a> <span>— InstaVolt, 50 kW · 1.0 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/sainsburys-west-park-folkestone-485040/" rel="noopener">Sainsbury&#x27;s West Park</a> <span>— Smart Charge by Sainsbury&#x27;s, 150 kW · 1.4 mi</span></li>
+</ul>
+  <p><a href="https://teslachargers.co.uk/england/kent/folkestone/" rel="noopener">Tesla chargers in Folkestone →</a></p>
+  <p class="enrich-src">Charger data: <a href="https://openchargemap.org/" rel="noopener">Open Charge Map</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>) and Tesla, via <a href="https://teslachargers.co.uk/">TeslaChargers.co.uk</a>. Straight-line distances; check live availability in your Tesla app before you set off.</p>
+</section>
+<!--enrich:end-->
 
   <p class="source-note">Listed from https://hevra.org.uk/ev-garages-near-me/. Spotted an error or a closure? <a href="/suggest">Let us know</a> — every correction is reviewed before it's published.</p>
 </main>

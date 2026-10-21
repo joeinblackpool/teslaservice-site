@@ -84,6 +84,7 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
 .navbar{display:none}
 @media (max-width:760px){.navbar{display:flex;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.25)}.navbar{box-sizing:border-box}.navbar .btn{flex:1 1 0;min-width:0;margin:0;text-align:center;padding:12px 4px;font-size:14px;box-sizing:border-box;white-space:nowrap}body.has-nav{padding-bottom:84px}}
 .card,.card a,.source-note{overflow-wrap:anywhere}</style>
+<style id="enrich-css">.charging h3,.glance h3{font-size:14.5px;margin:14px 0 6px;color:var(--ink-dim);font-weight:600}.glance{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:0 0 26px}.glance h2{font-size:17px;margin:0 0 10px}.glance ul{margin:0 0 10px;padding-left:18px;font-size:14.5px}.glance li{margin:3px 0}.glance a,.charging p a{color:var(--accent)}.enrich-src{font-size:12.5px;color:var(--ink-dim)}.enrich-src a{color:var(--ink-dim)!important}</style>
 </head>
 <body>
 <div class="wrap">
@@ -133,6 +134,24 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
     <ul><li><a href="/other/john-atherton-autos">John Atherton Autos</a> <span>— Independent, Wigan · 2.2 mi</span></li><li><a href="/hevra/mjp-autocentre">MJP Autocentre</a> <span>— HEVRA, Wigan · 2.4 mi</span></li><li><a href="/hevra/mk-tuning">MK Tuning</a> <span>— HEVRA, Leigh · 2.7 mi</span></li><li><a href="/hevra/lostock-motor-works">Lostock Motor Works</a> <span>— HEVRA, Lostock, Bolton · 3.8 mi</span></li><li><a href="/other/as-car-care-centre">A&amp;S Car Care Centre</a> <span>— Independent, Bolton · 5.9 mi</span></li><li><a href="/hevra/autowerks-ltd">Autowerks Ltd</a> <span>— HEVRA, Bolton · 7.3 mi</span></li><li><a href="/parts/barlow-street-breakers-barlow-street-auto-breakers-ltd">Barlow Street Breakers (Barlow Street Auto Breakers Ltd)</a> <span>— Parts &amp; cosmetic, Worsley / Walkden, Manchester · 7.4 mi</span></li><li><a href="/hevra/weldbank-garage">Weldbank Garage</a> <span>— HEVRA, Chorley · 8.0 mi</span></li><li><a href="/dealer/tesla-service-liverpool">Tesla Service Liverpool</a> <span>— Official, Liverpool · 16 mi</span></li></ul>
     <p class="town-link"><a href="/locations/wigan">Tesla servicing in Wigan →</a></p><p><a href="/locations/county/greater-manchester">All Tesla service options in Greater Manchester →</a></p><p><a href="/locations/north-west">All Tesla servicing &amp; repair in the North West →</a></p>
   </section>
+  <!--enrich:start-->
+<section class="nearby charging" id="charging">
+  <h2>Charging near N Burke Diagnostics</h2>
+  <p style="font-size:14px;color:var(--ink-dim);margin:0 0 6px;">Public chargers closest to N Burke Diagnostics (WN2 3JH), handy if you wait for your car or need charge after the visit.</p>
+  <h3>Nearest Tesla Superchargers</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-burtonwood-eastbound-108534/" rel="noopener">Tesla Supercharger Burtonwood – Eastbound</a> <span>— 8 stalls, up to 120 kW · 8.2 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-charnock-richard-southbound-chorley-78953/" rel="noopener">Tesla Supercharger Charnock Richard – Southbound</a> <span>— 12 stalls, up to 120 kW · 8.3 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-charnock-richard-northbound-chorley-t044/" rel="noopener">Tesla Supercharger Charnock Richard – Northbound</a> <span>— up to 250 kW · 8.4 mi</span></li>
+</ul>
+  <h3>Nearest other rapid chargers (50 kW+)</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/276-atherton-road-hindley-115206/" rel="noopener">276 Atherton Road</a> <span>— InstaVolt, 50 kW · 0.4 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/lidl-wigan-centre-303281/" rel="noopener">Lidl-Wigan Centre</a> <span>— Pod Point, 50 kW · 2.1 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesco-extra-wigan-175001/" rel="noopener">Tesco Extra-Wigan</a> <span>— Pod Point, 50 kW · 2.4 mi</span></li>
+</ul>
+  <p><a href="https://teslachargers.co.uk/england/borough-of-wigan/hindley/" rel="noopener">Tesla chargers in Hindley →</a></p>
+  <p class="enrich-src">Charger data: <a href="https://openchargemap.org/" rel="noopener">Open Charge Map</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>) and Tesla, via <a href="https://teslachargers.co.uk/">TeslaChargers.co.uk</a>. Straight-line distances; check live availability in your Tesla app before you set off.</p>
+</section>
+<!--enrich:end-->
 
   <p class="source-note">Listed from https://hevra.org.uk/ev-garages-near-me/. Spotted an error or a closure? <a href="/suggest">Let us know</a> — every correction is reviewed before it's published.</p>
 </main>
