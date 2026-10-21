@@ -4,10 +4,14 @@ Usage: python3 tools/check.py   (exit 1 on any problem)"""
 import os, re, sys, json, html, urllib.parse
 from html.parser import HTMLParser
 S = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'site')
-RED = {}
+RED = {}; seen_dynamic = False; static_after_dynamic = []
 for line in open(os.path.join(S, '_redirects'), encoding='utf-8'):
     p = line.split('#')[0].split()
-    if len(p) >= 2: RED[p[0]] = (p[1], int(p[2]) if len(p) > 2 else 302)
+    if len(p) >= 2:
+        RED[p[0]] = (p[1], int(p[2]) if len(p) > 2 else 302)
+        dyn = '*' in p[0] or ':' in p[0]
+        if dyn: seen_dynamic = True
+        elif seen_dynamic: static_after_dynamic.append(p[0])   # Cloudflare rejects the deploy: static rules must come first
 def resolve(path):
     """Return (status, location_or_file)."""
     if path in RED: return RED[path]
@@ -58,8 +62,8 @@ redir_targets_bad = [[k, v[0]] for k, v in RED.items() if v[0].startswith('/') a
 internal_redirect_links = [r for r in redir_links if r[0] not in smset]
 out = {'sitemap': len(smset), 'pages_checked': sum(1 for v in seen.values() if v == 200), 'broken_links': len(bad),
        'links_to_redirects': len(internal_redirect_links), 'dup_titles': len(dup), 'noindex_in_sitemap': len(noindex_in_sm),
-       'bad_jsonld': len(ld_bad), 'redirects': len(RED), 'redirect_targets_404': len(redir_targets_bad)}
+       'bad_jsonld': len(ld_bad), 'redirects': len(RED), 'redirect_targets_404': len(redir_targets_bad), 'static_after_dynamic': len(static_after_dynamic)}
 print(json.dumps(out))
-for name, v in [('broken', bad[:10]), ('links_to_redirects', internal_redirect_links[:10]), ('dup', list(dup.items())[:5]), ('redirect_targets_404', redir_targets_bad[:10])]:
+for name, v in [('broken', bad[:10]), ('links_to_redirects', internal_redirect_links[:10]), ('dup', list(dup.items())[:5]), ('redirect_targets_404', redir_targets_bad[:10]), ('static_after_dynamic', static_after_dynamic[:10])]:
     if v: print(name, v)
-sys.exit(1 if (bad or dup or ld_bad or noindex_in_sm or redir_targets_bad) else 0)
+sys.exit(1 if (bad or dup or ld_bad or noindex_in_sm or redir_targets_bad or static_after_dynamic) else 0)
