@@ -84,6 +84,7 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
 .navbar{display:none}
 @media (max-width:760px){.navbar{display:flex;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.25)}.navbar{box-sizing:border-box}.navbar .btn{flex:1 1 0;min-width:0;margin:0;text-align:center;padding:12px 4px;font-size:14px;box-sizing:border-box;white-space:nowrap}body.has-nav{padding-bottom:84px}}
 .card,.card a,.source-note{overflow-wrap:anywhere}</style>
+<style id="enrich-css">.charging h3,.glance h3{font-size:14.5px;margin:14px 0 6px;color:var(--ink-dim);font-weight:600}.glance{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:0 0 26px}.glance h2{font-size:17px;margin:0 0 10px}.glance ul{margin:0 0 10px;padding-left:18px;font-size:14.5px}.glance li{margin:3px 0}.glance a,.charging p a{color:var(--accent)}.enrich-src{font-size:12.5px;color:var(--ink-dim)}.enrich-src a{color:var(--ink-dim)!important}</style>
 </head>
 <body>
 <div class="wrap">
@@ -133,6 +134,24 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
     <ul><li><a href="/hevra/japex-automotive">Japex Automotive</a> <span>— HEVRA, Kings Langley · 2.0 mi</span></li><li><a href="/hevra/redbourn-auto-solutions">Redbourn Auto Solutions</a> <span>— HEVRA, Redbourn · 5.3 mi</span></li><li><a href="/hevra/s-and-b-motors">S and B Motors</a> <span>— HEVRA, Watford · 6.0 mi</span></li><li><a href="/parts/ultimate-car-detailing">Ultimate Car Detailing</a> <span>— Parts &amp; cosmetic, Watford · 7.1 mi</span></li><li><a href="/dealer/tesla-service-st-albans">Tesla Service St Albans</a> <span>— Official, St Albans · 8.4 mi</span></li><li><a href="/parts/e-vehicle-parts">E-Vehicle Parts</a> <span>— Parts &amp; cosmetic, Luton · 11 mi</span></li><li><a href="/other/cardoc">Cardoc</a> <span>— Independent, Harrow · 11 mi</span></li><li><a href="/parts/regal-ppf">Regal PPF</a> <span>— Parts &amp; cosmetic, Potters Bar · 12 mi</span></li></ul>
     <p class="town-link"><a href="/locations/hemel-hempstead">Tesla servicing in Hemel Hempstead →</a></p><p><a href="/locations/county/hertfordshire">All Tesla service options in Hertfordshire →</a></p><p><a href="/locations/east-of-england">All Tesla servicing &amp; repair in the East of England →</a></p>
   </section>
+  <!--enrich:start-->
+<section class="nearby charging" id="charging">
+  <h2>Charging near Turner Mechatronics</h2>
+  <p style="font-size:14px;color:var(--ink-dim);margin:0 0 6px;">Public chargers closest to Turner Mechatronics (HP3 9DW), handy if you wait for your car or need charge after the visit.</p>
+  <h3>Nearest Tesla Superchargers</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-st-albans-t177/" rel="noopener">Tesla Supercharger St Albans</a> <span>— up to 250 kW · 8.4 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-luton-289506/" rel="noopener">Tesla Supercharger Luton</a> <span>— 16 stalls, up to 250 kW · 9.7 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-south-mimms-potters-bar-48769/" rel="noopener">Tesla Supercharger South Mimms</a> <span>— 12 stalls, up to 120 kW · 11 mi</span></li>
+</ul>
+  <h3>Nearest other rapid chargers (50 kW+)</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/sainsburys-apsley-mills-hemel-hempstead-287924/" rel="noopener">Sainsbury&#x27;s Apsley Mills</a> <span>— Smart Charge by Sainsbury&#x27;s, 150 kW · 0.4 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/water-gardens-car-park-hemel-hempstead-300778/" rel="noopener">Water Gardens Car Park</a> <span>— Osprey Charging, 150 kW · 0.9 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/high-street-car-park-hemel-hempstead-279427/" rel="noopener">High Street Car Park</a> <span>— Osprey Charging, 60 kW · 1.5 mi</span></li>
+</ul>
+  <p><a href="https://teslachargers.co.uk/england/hertfordshire/hemel-hempstead/" rel="noopener">Tesla chargers in Hemel Hempstead →</a></p>
+  <p class="enrich-src">Charger data: <a href="https://openchargemap.org/" rel="noopener">Open Charge Map</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>) and Tesla, via <a href="https://teslachargers.co.uk/">TeslaChargers.co.uk</a>. Straight-line distances; check live availability in your Tesla app before you set off.</p>
+</section>
+<!--enrich:end-->
 
   <p class="source-note">Listed from https://hevra.org.uk/ev-garages-near-me/. Spotted an error or a closure? <a href="/suggest">Let us know</a> — every correction is reviewed before it's published.</p>
 </main>

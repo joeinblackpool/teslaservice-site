@@ -84,6 +84,7 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
 .navbar{display:none}
 @media (max-width:760px){.navbar{display:flex;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.25)}.navbar{box-sizing:border-box}.navbar .btn{flex:1 1 0;min-width:0;margin:0;text-align:center;padding:12px 4px;font-size:14px;box-sizing:border-box;white-space:nowrap}body.has-nav{padding-bottom:84px}}
 .card,.card a,.source-note{overflow-wrap:anywhere}</style>
+<style id="enrich-css">.charging h3,.glance h3{font-size:14.5px;margin:14px 0 6px;color:var(--ink-dim);font-weight:600}.glance{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:0 0 26px}.glance h2{font-size:17px;margin:0 0 10px}.glance ul{margin:0 0 10px;padding-left:18px;font-size:14.5px}.glance li{margin:3px 0}.glance a,.charging p a{color:var(--accent)}.enrich-src{font-size:12.5px;color:var(--ink-dim)}.enrich-src a{color:var(--ink-dim)!important}</style>
 </head>
 <body>
 <div class="wrap">
@@ -133,6 +134,24 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
     <ul><li><a href="/hevra/heath-road-garage">Heath Road Garage</a> <span>— HEVRA, Burwell · 5.1 mi</span></li><li><a href="/hevra/b-c-motors-ltd">B &amp; C Motors Ltd</a> <span>— HEVRA, Cottenham, Cambridge · 7.1 mi</span></li><li><a href="/dealer/tesla-service-cambridge">Tesla Service Cambridge</a> <span>— Official, Cambridge · 12 mi</span></li><li><a href="/authorised/brandon-accident-repair-centre">Brandon Accident Repair Centre</a> <span>— Tesla-approved bodyshop, Brandon · 16 mi</span></li><li><a href="/other/db-car-doctor">DB Car Doctor</a> <span>— Independent, Foxton, Cambridge · 17 mi</span></li><li><a href="/hevra/drive-green">Drive Green</a> <span>— HEVRA, Haverhill · 18 mi</span></li><li><a href="/hevra/saffron-autos">Saffron Autos</a> <span>— HEVRA, Saffron Walden · 21 mi</span></li><li><a href="/authorised/steer-sudbury">Steer Sudbury</a> <span>— Tesla-approved bodyshop, Sudbury · 26 mi</span></li></ul>
     <p class="town-link"><a href="/locations/cambridge">Tesla servicing in Cambridge →</a></p><p><a href="/locations/county/cambridgeshire">All Tesla service options in Cambridgeshire →</a></p><p><a href="/locations/east-of-england">All Tesla servicing &amp; repair in the East of England →</a></p>
   </section>
+  <!--enrich:start-->
+<section class="nearby charging" id="charging">
+  <h2>Charging near Wicken 4x4</h2>
+  <p style="font-size:14px;color:var(--ink-dim);margin:0 0 6px;">Public chargers closest to Wicken 4x4 (CB7 5YB), handy if you wait for your car or need charge after the visit.</p>
+  <h3>Nearest Tesla Superchargers</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-newmarket-t142/" rel="noopener">Tesla Supercharger Newmarket</a> <span>— up to 250 kW · 5.9 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-cambridge-t189/" rel="noopener">Tesla Supercharger Cambridge</a> <span>— up to 250 kW · 12 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-trumpington-cambridge-193119/" rel="noopener">Tesla Supercharger Trumpington</a> <span>— 12 stalls, up to 150 kW · 13 mi</span></li>
+</ul>
+  <h3>Nearest other rapid chargers (50 kW+)</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/tesco-superstore-ely-193688/" rel="noopener">Tesco Superstore-Ely</a> <span>— Pod Point, 50 kW · 5.2 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/starbucks-newmarket-bypass-southbound-279100/" rel="noopener">Starbucks Newmarket Bypass Southbound</a> <span>— Fuuse, 50 kW · 5.7 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesco-extra-newmarket-238338/" rel="noopener">Tesco Extra-Newmarket</a> <span>— Pod Point, 50 kW · 6.0 mi</span></li>
+</ul>
+  <p><a href="https://teslachargers.co.uk/england/cambridgeshire/ely/" rel="noopener">Tesla chargers in Ely →</a></p>
+  <p class="enrich-src">Charger data: <a href="https://openchargemap.org/" rel="noopener">Open Charge Map</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>) and Tesla, via <a href="https://teslachargers.co.uk/">TeslaChargers.co.uk</a>. Straight-line distances; check live availability in your Tesla app before you set off.</p>
+</section>
+<!--enrich:end-->
 
   <p class="source-note">Listed from https://hevra.org.uk/ev-garages-near-me/. Spotted an error or a closure? <a href="/suggest">Let us know</a> — every correction is reviewed before it's published.</p>
 </main>
