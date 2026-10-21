@@ -11,7 +11,7 @@ jobs:
         run: |
           { git diff --name-only HEAD~1 HEAD -- 'site/*.html' | head -6 | while read -r f; do
               p="/${f#site/}"; p="${p%.html}"; [ "$p" = "/index" ] && p="/"
-              m=$(grep -o -m1 'enrich[a-z-]*:start' "$f" || grep -o -m1 '<title>[^<]*' "$f" | cut -c8-60); echo "$p $m"; done
+              m=$(grep -o -m1 '<title>[^<]*</title>' "$f"); echo "$p $m"; done
             cat tools/live_urls.txt 2>/dev/null; } > /tmp/urls
           while read -r p want; do
             [ -z "$p" ] && continue
