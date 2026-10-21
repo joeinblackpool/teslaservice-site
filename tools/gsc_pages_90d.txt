@@ -1,0 +1,2001 @@
+path|clicks|impressions|ctr|position
+/other/tesla-specialist-birmingham-ltd|7|262|2.7%|9.7
+/locations/leicester|7|186|3.8%|9.6
+/other/megaev-tesla-repair-specialists|7|134|5.2%|6.4
+/locations/ipswich|7|63|11.1%|10.5
+/locations/manchester|6|402|1.5%|12.8
+/locations/nottingham|6|230|2.6%|13.5
+/locations/blackpool|6|109|5.5%|6.8
+/locations/stafford|6|100|6%|8.1
+/locations/county/kent|6|92|6.5%|19.2
+/locations/greater-london|5|649|0.8%|10.4
+/locations/newcastle|5|160|3.1%|15.1
+/locations/preston|5|126|4%|7.7
+/services/|5|77|6.5%|41.6
+/locations/county/bedfordshire|5|75|6.7%|6.6
+/locations/southampton/|5|73|6.8%|33.4
+/locations/walsall/|5|63|7.9%|30.9
+/tesla-service-centers|4|820|0.5%|21.7
+/locations/glasgow|4|419|1%|13.5
+/locations/london|4|156|2.6%|11.8
+/locations/southampton|4|143|2.8%|14.9
+/locations/bradford|4|127|3.1%|18.9
+/locations/barnsley|4|120|3.3%|19.2
+/locations/plymouth|4|104|3.8%|8.0
+/locations/wakefield|4|94|4.3%|22.8
+/locations/county/leicestershire|4|93|4.3%|11.8
+/locations/shrewsbury|4|87|4.6%|7.7
+/locations/county/north-yorkshire|4|75|5.3%|8.0
+/hevra/north-london-hybrid-ev-garage|4|69|5.8%|7.0
+/locations/royal-tunbridge-wells|4|40|10%|4.9
+/dealer/tesla-service-leeds|3|249|1.2%|11.1
+/other-tesla-services|3|215|1.4%|57.4
+/authorised/steer-cheltenham|3|197|1.5%|8.4
+/locations/bristol|3|197|1.5%|14.6
+/locations/edinburgh|3|186|1.6%|9.8
+/authorised/steer-horsham|3|169|1.8%|9.3
+/locations/london/|3|165|1.8%|18.0
+/locations/county/essex|3|154|1.9%|9.0
+/locations/hull|3|139|2.2%|8.2
+/locations/northern-ireland|3|102|2.9%|10.4
+/hevra/voltz-bedworth-mot-centre|3|90|3.3%|9.2
+/locations/warrington|3|86|3.5%|10.8
+/locations/stoke-on-trent|3|79|3.8%|6.7
+/authorised/steer-prestige-norwich-pronto|3|73|4.1%|5.3
+/locations/county/suffolk|3|73|4.1%|11.2
+/locations/royal-leamington-spa|3|67|4.5%|27.3
+/locations/shoreham-by-sea|3|55|5.5%|41.5
+/locations/county/devon|3|51|5.9%|6.4
+/locations/county/dorset|3|48|6.2%|8.8
+/locations/croydon|3|40|7.5%|9.7
+/locations/newcastle-upon-tyne/|3|36|8.3%|13.1
+/locations/county/cheshire|3|33|9.1%|8.3
+/locations/kilmarnock|3|32|9.4%|4.9
+/locations/inverness|3|31|9.7%|9.0
+/locations/county/shropshire|3|27|11.1%|8.4
+/garages/wakefield-tesla-and-ev-repair-specialist/|3|10|30%|7.1
+/authorised/steer-prestige-pontypridd-irg|2|315|0.6%|7.5
+/locations/derby|2|303|0.7%|24.8
+/locations/south-west|2|255|0.8%|29.8
+/dealer/tesla-body-repair-centre-dartford|2|234|0.9%|20.4
+/|2|221|0.9%|48.8
+/locations/county/greater-manchester|2|152|1.3%|9.6
+/dealer/tesla-service-lincoln|2|144|1.4%|9.7
+/locations/belfast|2|143|1.4%|20.3
+/locations/dartford|2|130|1.5%|9.2
+/locations/north-west|2|130|1.5%|9.5
+/locations/worcester|2|130|1.5%|19.9
+/locations/east-of-england|2|124|1.6%|22.2
+/locations/cardiff|2|116|1.7%|9.9
+/locations/york|2|114|1.8%|9.8
+/locations/chelmsford|2|110|1.8%|19.1
+/locations/county/cambridgeshire|2|106|1.9%|8.3
+/locations/county/west-sussex|2|90|2.2%|19.0
+/locations/st-albans|2|89|2.2%|11.3
+/authorised/steer-doncaster|2|87|2.3%|9.5
+/locations/west-midlands|2|85|2.4%|16.7
+/dealer/tesla-service-exeter|2|84|2.4%|18.2
+/locations/coventry|2|79|2.5%|18.6
+/locations/peterborough|2|76|2.6%|11.4
+/locations/county/hertfordshire|2|74|2.7%|9.7
+/locations/walsall|2|74|2.7%|17.5
+/locations/scotland|2|71|2.8%|9.6
+/locations/county/cornwall|2|70|2.9%|8.4
+/locations/colchester|2|68|2.9%|17.2
+/locations/slough|2|64|3.1%|8.4
+/locations/hereford|2|63|3.2%|8.3
+/locations/rugby|2|57|3.5%|11.2
+/locations/crawley|2|56|3.6%|21.1
+/locations/bracknell|2|49|4.1%|6.8
+/locations/surrey/|2|40|5%|61.0
+/locations/norwich/|2|38|5.3%|19.1
+/authorised/veetec-motor-group|2|37|5.4%|11.5
+/locations/oxford|2|36|5.6%|10.0
+/locations/burnley|2|32|6.2%|12.3
+/locations/cambridge|2|28|7.1%|10.5
+/locations/fareham|2|26|7.7%|39.4
+/locations/farnborough|2|23|8.7%|6.6
+/authorised/werrens-prestige|2|23|8.7%|9.4
+/locations/bradford/|2|22|9.1%|35.4
+/locations/preston/|2|19|10.5%|14.3
+/locations/doncaster/|2|18|11.1%|38.9
+/locations/county/aberdeenshire|2|13|15.4%|6.5
+/locations/leicester/|2|13|15.4%|17.6
+/garages/ipswich-tesla-and-ev-repair-specialist/|2|12|16.7%|5.8
+/locations/folkestone|2|12|16.7%|7.1
+/locations/chichester|2|9|22.2%|9.7
+/locations/ayr/|2|9|22.2%|12.4
+/locations/sevenoaks|2|8|25%|5.4
+/locations/stoke-on-trent/|2|8|25%|17.1
+/locations/durham/|2|7|28.6%|30.7
+/garages/megaev/|2|6|33.3%|15.5
+/buying-used-checklist|2|6|33.3%|16.3
+/tesla-garage-contact-details|1|376|0.3%|30.9
+/locations/south-east|1|319|0.3%|40.4
+/locations/birmingham|1|238|0.4%|15.3
+/dealer/tesla-service-london-dartford|1|217|0.5%|17.8
+/locations/maidstone|1|204|0.5%|19.7
+/locations/wolverhampton|1|188|0.5%|8.9
+/authorised-tesla-service|1|186|0.5%|24.3
+/dealer/tesla-service-chester|1|182|0.5%|11.2
+/authorised/touch-ups-bodyshop-glasgow|1|174|0.6%|18.0
+/dealer/tesla-service-liverpool|1|168|0.6%|21.6
+/other/sibley-automotive|1|156|0.6%|10.1
+/authorised/steer-nottingham|1|146|0.7%|15.0
+/dealer/tesla-service-chelmsford|1|146|0.7%|21.5
+/locations/bromley|1|129|0.8%|51.1
+/locations/exeter|1|124|0.8%|14.1
+/dealer/tesla-service-london-park-royal|1|123|0.8%|9.9
+/authorised/poole-accident-repair|1|123|0.8%|54.0
+/locations/norwich|1|120|0.8%|10.0
+/locations/leeds|1|110|0.9%|9.2
+/kids-car-seats|1|106|0.9%|8.2
+/authorised/steer-sudbury|1|103|1%|6.3
+/locations/brighton|1|101|1%|11.3
+/dealer/tesla-service-guildford|1|100|1%|8.6
+/locations/bicester|1|99|1%|16.6
+/parts/actronics-ltd|1|97|1%|19.5
+/authorised/steer-prestige-peterborough-pronto|1|92|1.1%|4.9
+/locations/county/norfolk|1|92|1.1%|11.2
+/locations/poole|1|90|1.1%|15.7
+/locations/county/surrey|1|90|1.1%|37.1
+/locations/sunderland|1|88|1.1%|19.9
+/locations/reading/|1|85|1.2%|14.8
+/locations/swindon|1|84|1.2%|13.4
+/locations/county/warwickshire|1|83|1.2%|13.8
+/locations/county/berkshire|1|78|1.3%|13.1
+/locations/county/south-yorkshire|1|77|1.3%|8.5
+/locations/county/oxfordshire|1|77|1.3%|8.7
+/locations/county/derbyshire|1|77|1.3%|9.5
+/locations/swansea|1|77|1.3%|10.1
+/locations/solihull|1|75|1.3%|10.7
+/locations/luton|1|74|1.4%|9.2
+/locations/county/east-sussex|1|71|1.4%|15.5
+/autopilot-fsd-guide|1|67|1.5%|7.3
+/locations/county/northamptonshire|1|66|1.5%|9.1
+/locations/county/hampshire|1|66|1.5%|13.6
+/garages/tesla-centre-trafford-park/|1|65|1.5%|8.3
+/locations/birmingham/|1|65|1.5%|15.8
+/locations/milton-keynes/|1|64|1.6%|13.5
+/locations/northampton|1|63|1.6%|8.2
+/locations/wales|1|62|1.6%|6.1
+/authorised/steer-lincoln|1|62|1.6%|8.3
+/tesla-approved-bodyshop/west-yorkshire|1|57|1.8%|22.7
+/parts/barlow-street-breakers-barlow-street-auto-breakers-ltd|1|56|1.8%|10.1
+/locations/guildford|1|56|1.8%|10.4
+/locations/liverpool|1|54|1.9%|7.3
+/hevra-tesla-service|1|54|1.9%|20.1
+/locations/county/staffordshire|1|53|1.9%|8.4
+/locations/grimsby|1|53|1.9%|10.5
+/locations/durham|1|53|1.9%|14.0
+/locations/county/east-riding-of-yorkshire|1|52|1.9%|9.6
+/hevra/jtd-diagnostics|1|50|2%|9.0
+/locations/portsmouth|1|50|2%|20.3
+/locations/crewe|1|48|2.1%|6.2
+/dealer/tesla-service-edinburgh|1|48|2.1%|12.0
+/tesla-mot-guide|1|48|2.1%|19.2
+/authorised/jenkins-pain|1|47|2.1%|48.2
+/locations/rotherham|1|45|2.2%|14.3
+/locations/cannock|1|44|2.3%|9.3
+/locations/lichfield|1|43|2.3%|14.1
+/locations/retford|1|42|2.4%|45.9
+/locations/glasgow/|1|41|2.4%|16.5
+/locations/cambridge/|1|41|2.4%|24.8
+/authorised/alton-cars-mansfield|1|40|2.5%|9.4
+/locations/county/herefordshire|1|39|2.6%|8.9
+/other/the-independent-tesla-specialists|1|39|2.6%|17.5
+/garages/tesla-centre-leeds/|1|37|2.7%|5.6
+/locations/county/tyne-and-wear|1|37|2.7%|7.2
+/locations/chelmsford/|1|37|2.7%|26.9
+/locations/sleaford|1|33|3%|14.6
+/authorised/shorade-cheltenham|1|31|3.2%|10.3
+/locations/county/bridgend|1|30|3.3%|10.6
+/locations/county/merseyside|1|29|3.4%|5.7
+/locations/county/perth-and-kinross|1|29|3.4%|17.5
+/authorised/mg-cannon|1|27|3.7%|8.2
+/other/team-valley-service-mot-centre|1|27|3.7%|14.4
+/hevra/harlow-auto-centre-ltd|1|27|3.7%|16.9
+/locations/manchester/|1|27|3.7%|24.7
+/locations/swindon/|1|27|3.7%|40.7
+/locations/redditch|1|26|3.8%|6.7
+/locations/east-midlands|1|26|3.8%|8.3
+/locations/county/highland|1|25|4%|9.2
+/fsd-worth-it|1|24|4.2%|15.9
+/locations/gloucester/|1|23|4.3%|16.7
+/locations/runcorn|1|22|4.5%|6.4
+/locations/keighley|1|22|4.5%|13.3
+/tesla-brake-caliper-seized|1|21|4.8%|6.6
+/locations/falkirk|1|21|4.8%|7.1
+/locations/canterbury|1|21|4.8%|9.4
+/locations/darwen|1|21|4.8%|10.2
+/locations/burton-upon-trent|1|20|5%|5.6
+/locations/hull/|1|20|5%|11.6
+/other/scotts-of-leeds|1|20|5%|13.5
+/locations/county/northumberland|1|19|5.3%|8.0
+/locations/halifax|1|18|5.6%|11.4
+/locations/doncaster|1|18|5.6%|12.4
+/parts/hills-salvage-recycling-hills-motors-green-parts-copart-group|1|18|5.6%|24.5
+/locations/sheffield/|1|18|5.6%|34.2
+/locations/herne-bay|1|17|5.9%|7.2
+/other/tsl-autoworks|1|17|5.9%|9.9
+/locations/bexhill-on-sea|1|17|5.9%|10.6
+/locations/banbury|1|17|5.9%|12.2
+/parts/e-vehicle-parts|1|17|5.9%|19.7
+/services/battery-diagnostics/|1|16|6.2%|9.2
+/parts/mobile-smart-repair|1|16|6.2%|21.9
+/tesla-approved-bodyshop/nottinghamshire|1|15|6.7%|5.5
+/locations/kidderminster|1|15|6.7%|10.8
+/tesla-approved-bodyshop/kent|1|15|6.7%|15.9
+/locations/aberdeen/|1|15|6.7%|25.8
+/locations/oxford/|1|14|7.1%|25.4
+/other/roystons-auto-centre|1|14|7.1%|30.9
+/locations/hereford/|1|14|7.1%|42.4
+/hevra/cps-north-london-ltd|1|13|7.7%|8.7
+/hevra/pontardulais-mot-centre|1|13|7.7%|14.8
+/locations/chippenham|1|12|8.3%|7.2
+/hevra/walters-ash-garage|1|12|8.3%|7.4
+/garages/tesla-centre-aberdeen/|1|12|8.3%|8.0
+/locations/blackburn|1|12|8.3%|8.2
+/locations/market-harborough|1|12|8.3%|19.7
+/locations/harrow|1|11|9.1%|4.8
+/garages/luton-tesla-and-ev-repair-specialist/|1|11|9.1%|7.5
+/locations/tamworth|1|11|9.1%|7.8
+/hevra/a66-auto-electrical-centre|1|11|9.1%|11.4
+/locations/swansea/|1|11|9.1%|18.7
+/locations/worcester/|1|11|9.1%|31.1
+/locations/south-shields|1|10|10%|6.0
+/locations/st-asaph|1|10|10%|7.8
+/locations/county/south-ayrshire|1|10|10%|9.5
+/locations/enfield|1|10|10%|20.4
+/locations/plymouth/|1|10|10%|29.3
+/locations/eastleigh|1|9|11.1%|6.6
+/other/db-car-doctor Copy URL to clipboard Open in new tab Inspect URL|1|9|11.1%|9.4
+/locations/dewsbury Copy URL to clipboard Open in new tab Inspect URL|1|9|11.1%|12.9
+/authorised/fix-auto-slough Copy URL to clipboard Open in new tab Inspect URL|1|9|11.1%|13.2
+/locations/darlington/ Copy URL to clipboard Open in new tab Inspect URL|1|9|11.1%|19.6
+/tesla-approved-bodyshop/county-armagh Copy URL to clipboard Open in new tab Inspect URL|1|9|11.1%|26.2
+/sentry-mode-dashcam-guide Copy URL to clipboard Open in new tab Inspect URL|1|9|11.1%|30.8
+/locations/ipswich/ Copy URL to clipboard Open in new tab Inspect URL|1|9|11.1%|33.6
+/locations/county/south-lanarkshire Copy URL to clipboard Open in new tab Inspect URL|1|8|12.5%|5.8
+/locations/christchurch Copy URL to clipboard Open in new tab Inspect URL|1|8|12.5%|13.6
+/parts/tesla-gear-uk Copy URL to clipboard Open in new tab Inspect URL|1|8|12.5%|14.0
+/other/kmc-electric Copy URL to clipboard Open in new tab Inspect URL|1|8|12.5%|24.5
+/locations/county/pembrokeshire Copy URL to clipboard Open in new tab Inspect URL|1|7|14.3%|4.9
+/locations/county/cumbria Copy URL to clipboard Open in new tab Inspect URL|1|7|14.3%|5.0
+/locations/kirkcaldy Copy URL to clipboard Open in new tab Inspect URL|1|7|14.3%|9.3
+/locations/middlesbrough/ Copy URL to clipboard Open in new tab Inspect URL|1|7|14.3%|30.0
+/locations/malton Copy URL to clipboard Open in new tab Inspect URL|1|6|16.7%|4.7
+/garages/doncaster-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|1|6|16.7%|7.5
+/garages/tesla-centre-liverpool/ Copy URL to clipboard Open in new tab Inspect URL|1|6|16.7%|10.3
+/authorised/james-alpe-ltd Copy URL to clipboard Open in new tab Inspect URL|1|6|16.7%|21.5
+/locations/lisburn Copy URL to clipboard Open in new tab Inspect URL|1|6|16.7%|29.5
+/locations/east-kilbride Copy URL to clipboard Open in new tab Inspect URL|1|5|20%|1.8
+/other/mc-autos Copy URL to clipboard Open in new tab Inspect URL|1|5|20%|8.8
+/other/aw-autotech Copy URL to clipboard Open in new tab Inspect URL|1|5|20%|12.6
+/garages/belfast-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|1|5|20%|14.0
+/other/wr-davies Copy URL to clipboard Open in new tab Inspect URL|1|5|20%|16.6
+/locations/county/torfaen Copy URL to clipboard Open in new tab Inspect URL|1|4|25%|3.5
+/hevra/chinnor-motors Copy URL to clipboard Open in new tab Inspect URL|1|4|25%|7.0
+/garages/tesla-centre-exeter/ Copy URL to clipboard Open in new tab Inspect URL|1|4|25%|7.8
+/locations/bathgate Copy URL to clipboard Open in new tab Inspect URL|1|4|25%|8.2
+/locations/irlam Copy URL to clipboard Open in new tab Inspect URL|1|4|25%|8.5
+/parts/ev-breakers Copy URL to clipboard Open in new tab Inspect URL|1|4|25%|11.2
+/locations/lisburn/ Copy URL to clipboard Open in new tab Inspect URL|1|4|25%|54.5
+/garages/newry-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|1|4|25%|60.0
+/locations/heanor Copy URL to clipboard Open in new tab Inspect URL|1|3|33.3%|4.3
+/garages/oldham-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|1|3|33.3%|5.0
+/garages/solihull-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|1|3|33.3%|6.7
+/locations/county/county-fermanagh Copy URL to clipboard Open in new tab Inspect URL|1|3|33.3%|6.7
+/hevra/qcd-autocentre-brackley Copy URL to clipboard Open in new tab Inspect URL|1|3|33.3%|32.0
+/garages/glasgow-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|1|2|50%|2.0
+/garages/huddersfield-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|1|2|50%|7.0
+/hevra/seer-green-motor-co-ltd Copy URL to clipboard Open in new tab Inspect URL|1|2|50%|18.5
+/garages/perth-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|1|2|50%|52.5
+/hevra/ems-diagnostics-ltd Copy URL to clipboard Open in new tab Inspect URL|1|1|100%|3.0
+/garages/falkirk-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|1|1|100%|7.0
+/authorised/steer-prestige-romford Copy URL to clipboard Open in new tab Inspect URL|0|343|0%|8.1
+/parts/ecu-testing-ltd Copy URL to clipboard Open in new tab Inspect URL|0|263|0%|35.0
+/authorised/brandon-accident-repair-centre Copy URL to clipboard Open in new tab Inspect URL|0|227|0%|39.0
+/locations/reading Copy URL to clipboard Open in new tab Inspect URL|0|209|0%|14.8
+/contact-tesla-uk Copy URL to clipboard Open in new tab Inspect URL|0|199|0%|9.1
+/dealer/tesla-service-solihull Copy URL to clipboard Open in new tab Inspect URL|0|199|0%|16.2
+/authorised/steer-sittingbourne Copy URL to clipboard Open in new tab Inspect URL|0|196|0%|10.7
+/insurance-guide Copy URL to clipboard Open in new tab Inspect URL|0|188|0%|42.3
+/authorised/steer-prestige-chichester-apollo-prestige Copy URL to clipboard Open in new tab Inspect URL|0|182|0%|8.8
+/garages/tesla-centre-sheffield/ Copy URL to clipboard Open in new tab Inspect URL|0|179|0%|16.5
+/company-car-tax-guide Copy URL to clipboard Open in new tab Inspect URL|0|171|0%|46.2
+/authorised/crash-repair-group-thame-thame-crash-repair-centre Copy URL to clipboard Open in new tab Inspect URL|0|170|0%|36.7
+/authorised/steer-sleaford Copy URL to clipboard Open in new tab Inspect URL|0|159|0%|9.6
+/dealer/tesla-service-nottingham Copy URL to clipboard Open in new tab Inspect URL|0|151|0%|24.4
+/dealer/tesla-service-cambridge Copy URL to clipboard Open in new tab Inspect URL|0|139|0%|11.4
+/authorised/steer-exeter Copy URL to clipboard Open in new tab Inspect URL|0|132|0%|9.0
+/dealer/tesla-service-milton-keynes Copy URL to clipboard Open in new tab Inspect URL|0|127|0%|20.0
+/authorised/warley-car-clinic Copy URL to clipboard Open in new tab Inspect URL|0|126|0%|45.9
+/authorised/solution-repair-group Copy URL to clipboard Open in new tab Inspect URL|0|126|0%|56.2
+/locations/chester Copy URL to clipboard Open in new tab Inspect URL|0|121|0%|8.7
+/authorised/steer-southend-on-sea Copy URL to clipboard Open in new tab Inspect URL|0|108|0%|8.8
+/dealer/tesla-service-gatwick Copy URL to clipboard Open in new tab Inspect URL|0|108|0%|21.2
+/authorised/ev-bodyshops Copy URL to clipboard Open in new tab Inspect URL|0|105|0%|56.1
+/locations/middlesbrough Copy URL to clipboard Open in new tab Inspect URL|0|104|0%|6.7
+/authorised/road-and-race-restorations Copy URL to clipboard Open in new tab Inspect URL|0|102|0%|52.8
+/warranty-guide Copy URL to clipboard Open in new tab Inspect URL|0|100|0%|14.1
+/authorised/individual-specialist-cars Copy URL to clipboard Open in new tab Inspect URL|0|100|0%|62.0
+/locations/lincoln Copy URL to clipboard Open in new tab Inspect URL|0|99|0%|12.3
+/dealer/tesla-service-st-albans Copy URL to clipboard Open in new tab Inspect URL|0|99|0%|13.8
+/dealer/tesla-service-northampton Copy URL to clipboard Open in new tab Inspect URL|0|97|0%|8.5
+/locations/worthing Copy URL to clipboard Open in new tab Inspect URL|0|97|0%|44.2
+/locations/solihull/ Copy URL to clipboard Open in new tab Inspect URL|0|96|0%|16.3
+/locations/ Copy URL to clipboard Open in new tab Inspect URL|0|93|0%|67.4
+/locations/sheffield Copy URL to clipboard Open in new tab Inspect URL|0|89|0%|11.2
+/authorised/steer-basingstoke Copy URL to clipboard Open in new tab Inspect URL|0|89|0%|12.0
+/dealer/tesla-service-manchester-central Copy URL to clipboard Open in new tab Inspect URL|0|88|0%|10.4
+/locations/winchester Copy URL to clipboard Open in new tab Inspect URL|0|86|0%|7.6
+/garages/brighton-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|84|0%|56.2
+/bodywork-accident-repair Copy URL to clipboard Open in new tab Inspect URL|0|84|0%|68.9
+/authorised/crash-repair-group-bicester Copy URL to clipboard Open in new tab Inspect URL|0|83|0%|25.8
+/buying-selling-guide Copy URL to clipboard Open in new tab Inspect URL|0|81|0%|54.2
+/authorised/finesse-arc-redhill Copy URL to clipboard Open in new tab Inspect URL|0|77|0%|9.7
+/dealer/tesla-service-norwich Copy URL to clipboard Open in new tab Inspect URL|0|77|0%|11.2
+/locations/gloucester Copy URL to clipboard Open in new tab Inspect URL|0|76|0%|6.7
+/authorised/ev-motor-group-lvs-coachworks Copy URL to clipboard Open in new tab Inspect URL|0|75|0%|8.5
+/hevra/north-manchester-auto-electrics Copy URL to clipboard Open in new tab Inspect URL|0|75|0%|10.5
+/authorised/crash-repair-group-oxford Copy URL to clipboard Open in new tab Inspect URL|0|75|0%|54.8
+/dealer/tesla-service-wolverhampton Copy URL to clipboard Open in new tab Inspect URL|0|70|0%|7.1
+/authorised/steer-electric-eastleigh Copy URL to clipboard Open in new tab Inspect URL|0|69|0%|9.8
+/authorised/ipswich-accident-repair-centre-iarc Copy URL to clipboard Open in new tab Inspect URL|0|69|0%|25.2
+/hevra/petersfield-service-centre Copy URL to clipboard Open in new tab Inspect URL|0|68|0%|66.2
+/locations/bicester/ Copy URL to clipboard Open in new tab Inspect URL|0|67|0%|12.3
+/dealer/tesla-service-sheffield Copy URL to clipboard Open in new tab Inspect URL|0|67|0%|16.8
+/locations/bury Copy URL to clipboard Open in new tab Inspect URL|0|66|0%|7.4
+/locations/newbury Copy URL to clipboard Open in new tab Inspect URL|0|66|0%|10.8
+/authorised/evolve-arc Copy URL to clipboard Open in new tab Inspect URL|0|66|0%|46.9
+/locations/wigan Copy URL to clipboard Open in new tab Inspect URL|0|65|0%|12.7
+/authorised/steer-chesterfield Copy URL to clipboard Open in new tab Inspect URL|0|64|0%|9.2
+/locations/basildon Copy URL to clipboard Open in new tab Inspect URL|0|64|0%|28.2
+/locations/telford Copy URL to clipboard Open in new tab Inspect URL|0|63|0%|7.7
+/hevra/the-manic-mechanic-southport-ltd Copy URL to clipboard Open in new tab Inspect URL|0|62|0%|9.9
+/authorised/steer-polegate Copy URL to clipboard Open in new tab Inspect URL|0|62|0%|13.0
+/authorised/steer-prestige-farnham-steer-luxury-south Copy URL to clipboard Open in new tab Inspect URL|0|60|0%|9.9
+/authorised/shorade-tonbridge Copy URL to clipboard Open in new tab Inspect URL|0|60|0%|12.0
+/software-updates Copy URL to clipboard Open in new tab Inspect URL|0|60|0%|14.1
+/authorised/fastlane-paint-and-body Copy URL to clipboard Open in new tab Inspect URL|0|59|0%|11.1
+/other/steves-auto-lancing Copy URL to clipboard Open in new tab Inspect URL|0|59|0%|24.2
+/locations/rochdale Copy URL to clipboard Open in new tab Inspect URL|0|58|0%|11.3
+/locations/county/lincolnshire Copy URL to clipboard Open in new tab Inspect URL|0|56|0%|8.0
+/dealer/tesla-service-london-heathrow Copy URL to clipboard Open in new tab Inspect URL|0|56|0%|14.8
+/hevra/collison-motoring-services-ltd Copy URL to clipboard Open in new tab Inspect URL|0|56|0%|75.0
+/hevra/attono-electric-hybrid Copy URL to clipboard Open in new tab Inspect URL|0|54|0%|8.4
+/parts/tesla-parts-store-ltd-tesla-parts-store-teslastoreuk Copy URL to clipboard Open in new tab Inspect URL|0|53|0%|9.5
+/authorised/finesse-arc-dorking Copy URL to clipboard Open in new tab Inspect URL|0|53|0%|23.9
+/locations/darlington Copy URL to clipboard Open in new tab Inspect URL|0|51|0%|6.7
+/locations/county/wiltshire Copy URL to clipboard Open in new tab Inspect URL|0|51|0%|7.7
+/authorised/reynolds-of-rushock Copy URL to clipboard Open in new tab Inspect URL|0|51|0%|39.5
+/authorised/mm-vehicle-repairs-fix-auto-north-staffs-leek Copy URL to clipboard Open in new tab Inspect URL|0|50|0%|11.3
+/locations/oldham Copy URL to clipboard Open in new tab Inspect URL|0|50|0%|19.9
+/locations/watford Copy URL to clipboard Open in new tab Inspect URL|0|50|0%|41.5
+/faq Copy URL to clipboard Open in new tab Inspect URL|0|50|0%|45.2
+/authorised/vehicle-bodycare-centre Copy URL to clipboard Open in new tab Inspect URL|0|49|0%|63.8
+/dealer/tesla-service-bristol Copy URL to clipboard Open in new tab Inspect URL|0|48|0%|8.4
+/garages/tesla-centre-birmingham-solihull/ Copy URL to clipboard Open in new tab Inspect URL|0|48|0%|8.9
+/locations/brentwood Copy URL to clipboard Open in new tab Inspect URL|0|48|0%|26.7
+/garages/portsmouth-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|48|0%|78.8
+/locations/romford Copy URL to clipboard Open in new tab Inspect URL|0|47|0%|13.7
+/authorised/protek Copy URL to clipboard Open in new tab Inspect URL|0|47|0%|69.7
+/locations/eastbourne Copy URL to clipboard Open in new tab Inspect URL|0|45|0%|7.2
+/locations/dudley Copy URL to clipboard Open in new tab Inspect URL|0|45|0%|7.5
+/resources Copy URL to clipboard Open in new tab Inspect URL|0|45|0%|46.2
+/locations/wrexham Copy URL to clipboard Open in new tab Inspect URL|0|44|0%|8.5
+/hevra/rubys-garage-ltd Copy URL to clipboard Open in new tab Inspect URL|0|43|0%|10.6
+/locations/county/nottinghamshire Copy URL to clipboard Open in new tab Inspect URL|0|43|0%|11.8
+/locations/petersfield Copy URL to clipboard Open in new tab Inspect URL|0|43|0%|61.1
+/other/ukteslacom Copy URL to clipboard Open in new tab Inspect URL|0|43|0%|70.8
+/other/boro-tyres-driffield Copy URL to clipboard Open in new tab Inspect URL|0|42|0%|9.6
+/locations/mansfield Copy URL to clipboard Open in new tab Inspect URL|0|42|0%|10.0
+/authorised/elder-and-paton Copy URL to clipboard Open in new tab Inspect URL|0|42|0%|10.8
+/authorised/dlg-auto-services-warwick Copy URL to clipboard Open in new tab Inspect URL|0|42|0%|28.5
+/other/lkq-electriq-cedar-electric Copy URL to clipboard Open in new tab Inspect URL|0|41|0%|8.3
+/locations/milton-keynes Copy URL to clipboard Open in new tab Inspect URL|0|41|0%|9.5
+/locations/chingford Copy URL to clipboard Open in new tab Inspect URL|0|41|0%|13.0
+/locations/north-east Copy URL to clipboard Open in new tab Inspect URL|0|41|0%|15.4
+/locations/reading#other Copy URL to clipboard Open in new tab Inspect URL|0|40|0%|7.2
+/hevra/ngc-hybrid-ev-ltd Copy URL to clipboard Open in new tab Inspect URL|0|40|0%|10.4
+/dealer/tesla-service-london-tottenham Copy URL to clipboard Open in new tab Inspect URL|0|40|0%|14.5
+/locations/maidenhead Copy URL to clipboard Open in new tab Inspect URL|0|40|0%|18.6
+/parts/pp-protect Copy URL to clipboard Open in new tab Inspect URL|0|40|0%|51.6
+/authorised/shorade-bristol Copy URL to clipboard Open in new tab Inspect URL|0|39|0%|6.4
+/locations/reading#hevra Copy URL to clipboard Open in new tab Inspect URL|0|39|0%|7.2
+/parts/diversion-automotive Copy URL to clipboard Open in new tab Inspect URL|0|39|0%|8.3
+/services/mot/ Copy URL to clipboard Open in new tab Inspect URL|0|39|0%|9.4
+/locations/st-albans/ Copy URL to clipboard Open in new tab Inspect URL|0|39|0%|10.4
+/authorised/cf-motoring-services-blaydon Copy URL to clipboard Open in new tab Inspect URL|0|39|0%|10.4
+/locations/taunton Copy URL to clipboard Open in new tab Inspect URL|0|39|0%|13.4
+/locations/yorkshire-and-humber Copy URL to clipboard Open in new tab Inspect URL|0|39|0%|13.9
+/tesla-suspension-noise Copy URL to clipboard Open in new tab Inspect URL|0|38|0%|9.1
+/dealer/tesla-service-cardiff Copy URL to clipboard Open in new tab Inspect URL|0|38|0%|14.3
+/locations/sutton Copy URL to clipboard Open in new tab Inspect URL|0|37|0%|8.7
+/hevra/novuna-vehicle-solutions Copy URL to clipboard Open in new tab Inspect URL|0|37|0%|11.7
+/hevra/sheffield-prestige Copy URL to clipboard Open in new tab Inspect URL|0|36|0%|6.7
+/locations/exeter/ Copy URL to clipboard Open in new tab Inspect URL|0|36|0%|25.8
+/tesla-service-schedule Copy URL to clipboard Open in new tab Inspect URL|0|35|0%|13.3
+/parts/on-track-detailing Copy URL to clipboard Open in new tab Inspect URL|0|35|0%|20.6
+/authorised/eastern-western-arc Copy URL to clipboard Open in new tab Inspect URL|0|34|0%|17.8
+/dealer/tesla-service-winchester Copy URL to clipboard Open in new tab Inspect URL|0|34|0%|18.1
+/locations/reading#authorised Copy URL to clipboard Open in new tab Inspect URL|0|33|0%|7.5
+/locations/heathrow/ Copy URL to clipboard Open in new tab Inspect URL|0|33|0%|13.8
+/locations/york/ Copy URL to clipboard Open in new tab Inspect URL|0|33|0%|17.9
+/authorised/shorade-cannock Copy URL to clipboard Open in new tab Inspect URL|0|33|0%|24.1
+/locations/horsham Copy URL to clipboard Open in new tab Inspect URL|0|33|0%|28.9
+/locations/bournemouth Copy URL to clipboard Open in new tab Inspect URL|0|32|0%|9.0
+/tesla-approved-bodyshop/london Copy URL to clipboard Open in new tab Inspect URL|0|32|0%|20.5
+/locations/thame Copy URL to clipboard Open in new tab Inspect URL|0|32|0%|53.9
+/other/gorton-mot-test-centre Copy URL to clipboard Open in new tab Inspect URL|0|31|0%|14.3
+/locations/nottingham/ Copy URL to clipboard Open in new tab Inspect URL|0|31|0%|31.9
+/parts/ultimate-car-detailing Copy URL to clipboard Open in new tab Inspect URL|0|31|0%|60.8
+/locations/wokingham Copy URL to clipboard Open in new tab Inspect URL|0|29|0%|5.6
+/locations/cheltenham Copy URL to clipboard Open in new tab Inspect URL|0|29|0%|5.6
+/hevra/blackpool-motor-care Copy URL to clipboard Open in new tab Inspect URL|0|29|0%|33.4
+/guides Copy URL to clipboard Open in new tab Inspect URL|0|29|0%|47.5
+/other/leeds-mots-millshaw-park-garage Copy URL to clipboard Open in new tab Inspect URL|0|28|0%|7.9
+/locations/leicester#hevra Copy URL to clipboard Open in new tab Inspect URL|0|28|0%|8.3
+/locations/leicester#other Copy URL to clipboard Open in new tab Inspect URL|0|28|0%|8.3
+/other/as-car-care-centre Copy URL to clipboard Open in new tab Inspect URL|0|28|0%|14.3
+/locations/huddersfield Copy URL to clipboard Open in new tab Inspect URL|0|28|0%|18.0
+/authorised/the-vella-group Copy URL to clipboard Open in new tab Inspect URL|0|28|0%|20.3
+/other/boro-tyres-scarborough Copy URL to clipboard Open in new tab Inspect URL|0|28|0%|23.5
+/locations/county/dundee Copy URL to clipboard Open in new tab Inspect URL|0|27|0%|6.3
+/garages/tesla-centre-chester/ Copy URL to clipboard Open in new tab Inspect URL|0|27|0%|8.2
+/locations/peacehaven Copy URL to clipboard Open in new tab Inspect URL|0|27|0%|71.6
+/other/aj-automedics Copy URL to clipboard Open in new tab Inspect URL|0|27|0%|79.6
+/locations/paisley Copy URL to clipboard Open in new tab Inspect URL|0|26|0%|6.4
+/parts/tessories-evgogo-ltd Copy URL to clipboard Open in new tab Inspect URL|0|26|0%|9.0
+/parts/restyle-automotive Copy URL to clipboard Open in new tab Inspect URL|0|26|0%|9.9
+/locations/stockport Copy URL to clipboard Open in new tab Inspect URL|0|26|0%|21.8
+/parts-accessories-cosmetic Copy URL to clipboard Open in new tab Inspect URL|0|26|0%|30.7
+/parts/wraps-ppf Copy URL to clipboard Open in new tab Inspect URL|0|26|0%|36.2
+/locations/leicester#dealer Copy URL to clipboard Open in new tab Inspect URL|0|25|0%|8.0
+/locations/ellesmere-port Copy URL to clipboard Open in new tab Inspect URL|0|25|0%|8.6
+/locations/county/gloucestershire Copy URL to clipboard Open in new tab Inspect URL|0|25|0%|8.8
+/hevra/turner-brothers-holmfirth-ltd Copy URL to clipboard Open in new tab Inspect URL|0|25|0%|11.3
+/parts/revolution-tint Copy URL to clipboard Open in new tab Inspect URL|0|25|0%|16.3
+/dealer/tesla-service-glasgow Copy URL to clipboard Open in new tab Inspect URL|0|25|0%|21.6
+/hevra/c-r-allen-sons Copy URL to clipboard Open in new tab Inspect URL|0|25|0%|38.6
+/locations/nationwide/ Copy URL to clipboard Open in new tab Inspect URL|0|25|0%|59.7
+/locations/county/county-durham Copy URL to clipboard Open in new tab Inspect URL|0|24|0%|6.9
+/locations/uxbridge Copy URL to clipboard Open in new tab Inspect URL|0|24|0%|8.8
+/other/westerleigh-car-centre Copy URL to clipboard Open in new tab Inspect URL|0|24|0%|21.2
+/parts/charles-trent-ltd Copy URL to clipboard Open in new tab Inspect URL|0|24|0%|22.2
+/tesla-approved-bodyshop/east-riding-of-yorkshire Copy URL to clipboard Open in new tab Inspect URL|0|24|0%|23.7
+/locations/cardiff/ Copy URL to clipboard Open in new tab Inspect URL|0|24|0%|34.2
+/locations/bedford Copy URL to clipboard Open in new tab Inspect URL|0|23|0%|6.7
+/authorised/finesse-arc-bracknell Copy URL to clipboard Open in new tab Inspect URL|0|23|0%|10.8
+/other/evhero Copy URL to clipboard Open in new tab Inspect URL|0|23|0%|11.6
+/parts/windscreen-replacement-london Copy URL to clipboard Open in new tab Inspect URL|0|23|0%|18.1
+/locations/reigate Copy URL to clipboard Open in new tab Inspect URL|0|23|0%|25.4
+/locations/beeston Copy URL to clipboard Open in new tab Inspect URL|0|22|0%|7.8
+/hevra/mvs-diagnostic-solutions Copy URL to clipboard Open in new tab Inspect URL|0|22|0%|10.1
+/locations/county/west-midlands-county Copy URL to clipboard Open in new tab Inspect URL|0|22|0%|18.7
+/locations/walton-on-thames Copy URL to clipboard Open in new tab Inspect URL|0|22|0%|22.0
+/other/martin-lee-vehicle-solutions Copy URL to clipboard Open in new tab Inspect URL|0|22|0%|23.4
+/authorised/arc-accident-repair-blackpool Copy URL to clipboard Open in new tab Inspect URL|0|22|0%|27.2
+/authorised/porters-bodyshop Copy URL to clipboard Open in new tab Inspect URL|0|22|0%|29.4
+/parts/car-polishing-co Copy URL to clipboard Open in new tab Inspect URL|0|22|0%|33.1
+/other/smb-autocentre Copy URL to clipboard Open in new tab Inspect URL|0|22|0%|44.6
+/other/the-garage-walton Copy URL to clipboard Open in new tab Inspect URL|0|22|0%|57.6
+/authorised/gillibrand-accident-repair-services Copy URL to clipboard Open in new tab Inspect URL|0|22|0%|62.7
+/locations/ashford Copy URL to clipboard Open in new tab Inspect URL|0|21|0%|5.8
+/locations/southend-on-sea Copy URL to clipboard Open in new tab Inspect URL|0|21|0%|7.5
+/locations/basingstoke Copy URL to clipboard Open in new tab Inspect URL|0|21|0%|8.1
+/locations/county/aberdeen-city Copy URL to clipboard Open in new tab Inspect URL|0|21|0%|12.2
+/authorised/mitchell-inglis Copy URL to clipboard Open in new tab Inspect URL|0|21|0%|15.3
+/locations/dorchester Copy URL to clipboard Open in new tab Inspect URL|0|21|0%|20.0
+/authorised/fix-auto-loughborough Copy URL to clipboard Open in new tab Inspect URL|0|21|0%|23.2
+/tesla-approved-bodyshop/berkshire Copy URL to clipboard Open in new tab Inspect URL|0|21|0%|23.4
+/other/mot-supercentre Copy URL to clipboard Open in new tab Inspect URL|0|21|0%|41.5
+/locations/livingston Copy URL to clipboard Open in new tab Inspect URL|0|20|0%|7.2
+/locations/reading#dealer Copy URL to clipboard Open in new tab Inspect URL|0|20|0%|7.2
+/locations/telford/ Copy URL to clipboard Open in new tab Inspect URL|0|20|0%|10.6
+/locations/high-wycombe Copy URL to clipboard Open in new tab Inspect URL|0|20|0%|10.8
+/hevra/hamble-garage-ltd Copy URL to clipboard Open in new tab Inspect URL|0|20|0%|17.7
+/locations/county/worcestershire Copy URL to clipboard Open in new tab Inspect URL|0|20|0%|18.2
+/tesla-low-voltage-battery Copy URL to clipboard Open in new tab Inspect URL|0|20|0%|18.8
+/road-trip-charging-planner Copy URL to clipboard Open in new tab Inspect URL|0|20|0%|36.0
+/locations/portsmouth/ Copy URL to clipboard Open in new tab Inspect URL|0|20|0%|46.2
+/hevra/we-fit-service-centre Copy URL to clipboard Open in new tab Inspect URL|0|20|0%|60.7
+/hevra/city-electric-vehicle-engineering Copy URL to clipboard Open in new tab Inspect URL|0|20|0%|70.4
+/locations/county/fife Copy URL to clipboard Open in new tab Inspect URL|0|19|0%|6.7
+/other/perfect-touch Copy URL to clipboard Open in new tab Inspect URL|0|19|0%|6.7
+/dealer/tesla-service-belfast Copy URL to clipboard Open in new tab Inspect URL|0|19|0%|8.4
+/locations/chesterfield Copy URL to clipboard Open in new tab Inspect URL|0|19|0%|8.5
+/locations/winchester/ Copy URL to clipboard Open in new tab Inspect URL|0|19|0%|9.2
+/hevra/intelligent-auto Copy URL to clipboard Open in new tab Inspect URL|0|19|0%|9.4
+/parts/combellack-vehicle-recyclers-ltd Copy URL to clipboard Open in new tab Inspect URL|0|19|0%|17.5
+/other/rallysport-automotive Copy URL to clipboard Open in new tab Inspect URL|0|19|0%|31.8
+/locations/derby/ Copy URL to clipboard Open in new tab Inspect URL|0|19|0%|44.8
+/locations/belfast/ Copy URL to clipboard Open in new tab Inspect URL|0|19|0%|64.2
+/hevra/ac-garage-services Copy URL to clipboard Open in new tab Inspect URL|0|19|0%|78.3
+/locations/weston-super-mare Copy URL to clipboard Open in new tab Inspect URL|0|18|0%|7.2
+/locations/county/buckinghamshire Copy URL to clipboard Open in new tab Inspect URL|0|18|0%|7.4
+/other/testec-automotive-ev Copy URL to clipboard Open in new tab Inspect URL|0|18|0%|8.0
+/locations/truro Copy URL to clipboard Open in new tab Inspect URL|0|18|0%|8.6
+/other/flat-6-automotive Copy URL to clipboard Open in new tab Inspect URL|0|18|0%|9.8
+/hevra/wicken-4x4 Copy URL to clipboard Open in new tab Inspect URL|0|18|0%|12.1
+/other/cars-worcester Copy URL to clipboard Open in new tab Inspect URL|0|18|0%|12.3
+/authorised/autocare-repair-centre Copy URL to clipboard Open in new tab Inspect URL|0|18|0%|15.9
+/hevra/ads-leeds Copy URL to clipboard Open in new tab Inspect URL|0|18|0%|17.8
+/locations/mirfield Copy URL to clipboard Open in new tab Inspect URL|0|18|0%|21.9
+/locations/macclesfield Copy URL to clipboard Open in new tab Inspect URL|0|18|0%|25.2
+/locations/leyland Copy URL to clipboard Open in new tab Inspect URL|0|18|0%|25.4
+/locations/stroud Copy URL to clipboard Open in new tab Inspect URL|0|17|0%|6.0
+/hevra/pete-thirtle-vehicle-services-ltd Copy URL to clipboard Open in new tab Inspect URL|0|17|0%|7.6
+/locations/hemel-hempstead Copy URL to clipboard Open in new tab Inspect URL|0|17|0%|7.7
+/locations/county/somerset Copy URL to clipboard Open in new tab Inspect URL|0|17|0%|8.4
+/locations/braintree Copy URL to clipboard Open in new tab Inspect URL|0|17|0%|10.6
+/parts/pf-jones-ltd Copy URL to clipboard Open in new tab Inspect URL|0|17|0%|20.5
+/locations/orpington Copy URL to clipboard Open in new tab Inspect URL|0|17|0%|38.4
+/dog-mode-guide Copy URL to clipboard Open in new tab Inspect URL|0|17|0%|41.4
+/locations/county/dumfries-and-galloway Copy URL to clipboard Open in new tab Inspect URL|0|16|0%|6.8
+/locations/potters-bar Copy URL to clipboard Open in new tab Inspect URL|0|16|0%|7.6
+/hevra/mvt Copy URL to clipboard Open in new tab Inspect URL|0|16|0%|7.9
+/locations/ferndown Copy URL to clipboard Open in new tab Inspect URL|0|16|0%|7.9
+/locations/bilston Copy URL to clipboard Open in new tab Inspect URL|0|16|0%|9.2
+/garages/tesla-centre-cardiff/ Copy URL to clipboard Open in new tab Inspect URL|0|16|0%|10.9
+/locations/dover Copy URL to clipboard Open in new tab Inspect URL|0|16|0%|11.4
+/locations/harrogate Copy URL to clipboard Open in new tab Inspect URL|0|16|0%|11.4
+/dealer/tesla-service-newcastle Copy URL to clipboard Open in new tab Inspect URL|0|16|0%|13.4
+/locations/stevenage Copy URL to clipboard Open in new tab Inspect URL|0|16|0%|13.5
+/locations/northampton/ Copy URL to clipboard Open in new tab Inspect URL|0|16|0%|13.6
+/other/cox-of-torbay Copy URL to clipboard Open in new tab Inspect URL|0|16|0%|13.6
+/locations/luton/ Copy URL to clipboard Open in new tab Inspect URL|0|16|0%|18.6
+/locations/edinburgh/ Copy URL to clipboard Open in new tab Inspect URL|0|16|0%|21.9
+/locations/stockport/ Copy URL to clipboard Open in new tab Inspect URL|0|16|0%|43.2
+/authorised/hilton-coachworks Copy URL to clipboard Open in new tab Inspect URL|0|16|0%|50.9
+/hevra/ja-services-ripon-ltd Copy URL to clipboard Open in new tab Inspect URL|0|16|0%|60.2
+/locations/marlow Copy URL to clipboard Open in new tab Inspect URL|0|15|0%|2.9
+/locations/birkenhead Copy URL to clipboard Open in new tab Inspect URL|0|15|0%|5.9
+/locations/county/lancashire Copy URL to clipboard Open in new tab Inspect URL|0|15|0%|6.1
+/locations/county/neath-port-talbot Copy URL to clipboard Open in new tab Inspect URL|0|15|0%|6.3
+/locations/hastings Copy URL to clipboard Open in new tab Inspect URL|0|15|0%|9.0
+/hevra/pearson-auto-electrics Copy URL to clipboard Open in new tab Inspect URL|0|15|0%|10.8
+/authorised/fcw-accident-repair-group Copy URL to clipboard Open in new tab Inspect URL|0|15|0%|12.3
+/locations/county/gwynedd Copy URL to clipboard Open in new tab Inspect URL|0|15|0%|14.9
+/authorised/balgores-motor-group Copy URL to clipboard Open in new tab Inspect URL|0|15|0%|16.3
+/locations/warrington/ Copy URL to clipboard Open in new tab Inspect URL|0|15|0%|18.9
+/authorised/castle-coachworks-northampton-ltd Copy URL to clipboard Open in new tab Inspect URL|0|15|0%|26.0
+/tesla-tyre-wear Copy URL to clipboard Open in new tab Inspect URL|0|14|0%|4.0
+/locations/thornton-cleveleys Copy URL to clipboard Open in new tab Inspect URL|0|14|0%|7.3
+/locations/county/isle-of-wight Copy URL to clipboard Open in new tab Inspect URL|0|14|0%|7.6
+/hevra/paul-gunstone-mechanical-services-ltd Copy URL to clipboard Open in new tab Inspect URL|0|14|0%|9.1
+/other/woodstock-motors Copy URL to clipboard Open in new tab Inspect URL|0|14|0%|9.2
+/hevra/modern-car-electronics Copy URL to clipboard Open in new tab Inspect URL|0|14|0%|10.9
+/other/rs-automotive Copy URL to clipboard Open in new tab Inspect URL|0|14|0%|11.9
+/locations/bootle Copy URL to clipboard Open in new tab Inspect URL|0|14|0%|12.5
+/authorised/sj-curtis Copy URL to clipboard Open in new tab Inspect URL|0|14|0%|17.7
+/locations/salisbury Copy URL to clipboard Open in new tab Inspect URL|0|14|0%|18.1
+/other/cleevely-ev-mobile Copy URL to clipboard Open in new tab Inspect URL|0|14|0%|18.2
+/locations/lancaster Copy URL to clipboard Open in new tab Inspect URL|0|14|0%|20.0
+/other/five-star-autocentre Copy URL to clipboard Open in new tab Inspect URL|0|14|0%|21.3
+/locations/cheshunt Copy URL to clipboard Open in new tab Inspect URL|0|14|0%|28.6
+/locations/county/carmarthenshire Copy URL to clipboard Open in new tab Inspect URL|0|13|0%|4.4
+/locations/barnet Copy URL to clipboard Open in new tab Inspect URL|0|13|0%|7.9
+/locations/bridgnorth Copy URL to clipboard Open in new tab Inspect URL|0|13|0%|8.2
+/locations/kidlington Copy URL to clipboard Open in new tab Inspect URL|0|13|0%|8.3
+/parts/devout-detailing Copy URL to clipboard Open in new tab Inspect URL|0|13|0%|10.3
+/hevra/oak-tree-garage Copy URL to clipboard Open in new tab Inspect URL|0|13|0%|11.2
+/parts/cleevely-electric-vehicles Copy URL to clipboard Open in new tab Inspect URL|0|13|0%|15.5
+/garages/tesla-centre-york/ Copy URL to clipboard Open in new tab Inspect URL|0|13|0%|15.7
+/locations/skelmersdale Copy URL to clipboard Open in new tab Inspect URL|0|13|0%|15.8
+/locations/bath Copy URL to clipboard Open in new tab Inspect URL|0|13|0%|19.1
+/parts/autoglass Copy URL to clipboard Open in new tab Inspect URL|0|13|0%|27.5
+/car-camping-guide Copy URL to clipboard Open in new tab Inspect URL|0|13|0%|28.7
+/locations/oldham/ Copy URL to clipboard Open in new tab Inspect URL|0|13|0%|30.9
+/locations/coventry/ Copy URL to clipboard Open in new tab Inspect URL|0|13|0%|32.6
+/locations/maidstone/ Copy URL to clipboard Open in new tab Inspect URL|0|13|0%|40.4
+/locations/derry-londonderry/ Copy URL to clipboard Open in new tab Inspect URL|0|13|0%|51.8
+/locations/perth Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|6.2
+/hevra/mms-technik Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|6.8
+/garages/tesla-centre-london-park-royal/ Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|7.4
+/authorised/mm-vehicle-repairs-fix-auto-stoke-longton Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|8.4
+/hevra/autologic-hessle-ltd Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|8.5
+/hevra/adams-garage-dorchester Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|8.7
+/locations/haverhill Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|8.7
+/hevra/tom-day-ltd Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|8.9
+/locations/county/west-lothian Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|9.2
+/locations/tetbury Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|9.4
+/garages/tesla-centre-manchester-central/ Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|9.6
+/locations/blackpool/ Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|10.3
+/parts/tesla-parts-store-tesla-parts-store-ltd Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|10.3
+/dealer/tesla-service-aberdeen Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|10.8
+/locations/welwyn-garden-city Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|14.2
+/garages/peterborough-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|15.1
+/locations/sittingbourne Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|16.2
+/parts/prestige-ppf Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|16.3
+/tesla-approved-bodyshop/stirling Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|18.1
+/authorised/prestige-repair Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|20.5
+/locations/waterlooville Copy URL to clipboard Open in new tab Inspect URL|0|12|0%|43.9
+/locations/county/conwy Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|5.6
+/locations/county/monmouthshire Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|5.8
+/hevra/allstar-vehicle-services Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|6.9
+/garages/tesla-body-repair-centre-dartford/ Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|7.0
+/locations/farnham Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|7.2
+/reviews Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|7.8
+/locations/newport Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|8.3
+/locations/bolton Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|8.9
+/hevra/p-d-motors-billingshurst-limited Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|9.6
+/other/pw-skipton-peter-watson Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|11.4
+/hevra/kinghorn-electric-vehicles-ltd Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|12.0
+/locations/letchworth-garden-city Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|14.8
+/hevra/barnside-motors Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|17.3
+/locations/tonbridge Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|21.6
+/hevra/the-village-garage Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|23.0
+/locations/portishead Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|26.1
+/authorised/master-cars-birstall Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|26.6
+/other/millers-garage Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|30.6
+/other/the-mot-centre-tmc-garages Copy URL to clipboard Open in new tab Inspect URL|0|11|0%|40.9
+/authorised/doseley-body-and-paint-centre Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|5.1
+/hevra/ajl-car-care-centre-ltd Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|5.2
+/authorised/wyndon-motors Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|6.3
+/hevra/mta-ev-hybrid-specialist Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|6.3
+/locations/kettering Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|6.4
+/hevra/fine-drive-autocentres-ltd Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|8.7
+/locations/dartford/ Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|8.7
+/locations/hartlepool Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|9.0
+/hevra/auto-diagnostics-servicing-ltd Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|9.2
+/other/pelican-diagnostics Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|10.6
+/locations/chester/ Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|15.8
+/dealer/tesla-service-bournemouth Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|16.6
+/locations/corby Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|18.2
+/locations/blackburn/ Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|18.5
+/locations/bristol/ Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|27.8
+/locations/bolton/ Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|28.6
+/hevra/ap-vehicle-services-east-anglia-ltd Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|31.9
+/tesla-wont-charge Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|37.3
+/home-charging-guide Copy URL to clipboard Open in new tab Inspect URL|0|10|0%|51.6
+/locations/pontefract Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|5.4
+/locations/chatham Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|7.1
+/locations/oldbury Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|7.2
+/hevra/ev-repair-ltd Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|7.3
+/locations/trowbridge Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|7.3
+/garages/wolverhampton-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|7.7
+/locations/bridlington Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|7.9
+/other/cleevely-motors Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|8.2
+/hevra/turner-mechatronics Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|8.3
+/other/browns-of-richmond Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|9.0
+/locations/wymondham Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|9.1
+/locations/county/west-yorkshire Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|9.3
+/other/hallmark-motor-services Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|9.6
+/locations/wolverhampton/ Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|10.0
+/hevra/cea-automotive Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|10.3
+/other/dore-service-station Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|10.8
+/other/aes-york Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|12.0
+/hevra/lakeside-garage Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|12.1
+/hevra/the-ev-workshop Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|12.7
+/parts/regal-ppf Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|12.9
+/hevra/wirral-automotive-services Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|13.7
+/other/shaikly-ev-specialists Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|17.4
+/locations/caerphilly Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|17.7
+/hevra/dd-services-ltd Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|17.9
+/hevra/sandhurst-mot-and-service-centre Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|18.0
+/other/lewis-motors Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|19.0
+/authorised/lj-eaton-arc Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|21.2
+/hevra/maidenhead-tyres-and-autocare Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|27.6
+/locations/sunderland/ Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|29.6
+/parts/mywindscreen Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|36.2
+/other/le-company-lecompany Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|37.0
+/calculator Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|39.6
+/hevra/knightsbridge-garage Copy URL to clipboard Open in new tab Inspect URL|0|9|0%|40.1
+/hevra/tiddington-garage Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|3.0
+/locations/wakefield#other Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|5.0
+/other/mike-wilson-motors Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|6.4
+/parts/lkq-synetiq Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|7.6
+/motion-sickness-regen Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|7.8
+/hevra/smp-automotives Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|7.9
+/locations/harlow Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|7.9
+/garages/bristol-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|8.4
+/other/a1-autocentre Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|8.5
+/other/tony-fowkes-automobiles Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|8.8
+/hevra/s-w-maddy-and-son Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|9.0
+/garages/tesla-centre-nottingham/ Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|9.2
+/hevra/ace-tuning Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|10.1
+/other/mccarthy-cars-service-centre Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|10.1
+/other/autocentre-chorley Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|11.5
+/locations/sudbury Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|12.2
+/locations/southport Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|13.0
+/other/automaster Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|13.4
+/locations/aylesbury Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|13.8
+/parts/customise-my-tesla-uk Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|14.0
+/other/ferris-garage Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|15.5
+/tesla-approved-bodyshop/gloucestershire Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|16.1
+/non-tesla-chargers-guide Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|16.5
+/other/md-vehicle-services Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|16.8
+/other/eac-telford Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|18.6
+/locations/bangor Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|21.5
+/locations/wellingborough Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|24.8
+/other/fix-any-car-we-fix-any-hybrid Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|24.9
+/hevra/simon-graeme-auto-service-centre Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|29.1
+/tesla-touchscreen-black Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|33.0
+/parts/uk-car-glass Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|35.8
+/parts/detailr Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|37.4
+/locations/county/county-antrim Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|52.6
+/locations/yorkshire/ Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|53.2
+/parts/surrey-detailing Copy URL to clipboard Open in new tab Inspect URL|0|8|0%|65.8
+/locations/wakefield#hevra Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|4.3
+/locations/wakefield#authorised Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|5.4
+/locations/swadlincote Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|6.3
+/locations/county/stirling Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|6.4
+/locations/nuneaton Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|6.4
+/locations/twickenham Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|6.6
+/hevra/drysdale-motors Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|6.9
+/locations/county/vale-of-glamorgan Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|7.1
+/hevra/rp-woods-motor-engineers-ltd Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|7.7
+/locations/hitchin Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|7.9
+/garages/tesla-centre-heathrow/ Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|8.0
+/hevra/ogs-mechanics Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|8.0
+/other/gk-mot-tachograph-centre Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|8.3
+/locations/chelmsford#authorised Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|8.4
+/locations/chelmsford#dealer Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|8.4
+/locations/chelmsford#hevra Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|8.4
+/locations/newcastle-under-lyme Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|8.9
+/hevra/mr-clutch-autocentre Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|9.0
+/hevra/sg-auto-repairs Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|9.4
+/locations/county/clackmannanshire Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|11.3
+/garages/tesla-centre-bristol/ Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|11.6
+/hevra/rs-autotechnik Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|14.1
+/other/walsgrave-garage Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|15.3
+/hidden-features Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|17.1
+/locations/ely Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|21.6
+/tesla-vs-rivals Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|22.4
+/hevra/fitnfix-auto Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|27.0
+/locations/barnsley/ Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|28.3
+/hevra/hsr-autos Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|30.9
+/parts/1st-choice-spares-uk-ltd Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|32.6
+/tesla-door-wont-open Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|33.7
+/hevra/magnet-autos Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|33.9
+/parts/tesla-shop-uk-official Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|40.7
+/parts/think-wraps Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|42.6
+/hevra/cam-autos-rutherglen-ltd Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|43.1
+/hevra/max-automotive-group-ltd Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|52.1
+/other/corys-car-repairs Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|53.7
+/locations/falkirk/ Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|55.7
+/tesla-approved-bodyshop/dumfries-and-galloway Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|59.9
+/parts/summit-details Copy URL to clipboard Open in new tab Inspect URL|0|7|0%|72.6
+/locations/county/ceredigion Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|2.0
+/locations/county/east-ayrshire Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|4.7
+/locations/warrington#dealer Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|4.7
+/locations/warrington#hevra Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|4.7
+/locations/andover Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|5.7
+/locations/wickford Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|5.8
+/locations/county/scottish-borders Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|6.8
+/locations/county/powys Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|7.0
+/locations/wimbledon Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|7.2
+/locations/harwich Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|7.5
+/services/ev-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|7.8
+/hevra/gg-motors Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|8.2
+/locations/colchester/ Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|8.3
+/hevra/sg-uffculme-ltd Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|8.7
+/garages/tesla-centre-chelmsford/ Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|8.8
+/other/vulcan-hybrid-electric-centre Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|8.8
+/hevra/lodge-bank-garage Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|9.0
+/locations/county/moray Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|9.2
+/locations/yeovil Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|9.3
+/services/tesla-repair/ Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|9.7
+/hevra/daves-garage Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|9.8
+/charging-stops-guide Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|10.0
+/garages/tesla-centre-reading/ Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|10.2
+/hevra/twa-autoelectrics-ltd Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|10.7
+/parts/unplugged-performance-uk Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|10.7
+/hevra/electron-garage Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|11.0
+/locations/grimsby/ Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|11.2
+/other/oneill-motors Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|11.2
+/hevra/sunside-service-station-ltd Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|11.5
+/hevra/garden-city-garage Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|11.7
+/locations/exeter#dealer Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|11.8
+/locations/exeter#hevra Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|11.8
+/locations/leek Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|12.3
+/hevra/all-trans-autos-ltd Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|13.8
+/locations/rotherham/ Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|13.8
+/voice-commands-cheatsheet Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|15.0
+/locations/wrexham/ Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|19.2
+/hevra/car-and-commercial-servicing-ltd Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|19.5
+/authorised/panelcraft-uk Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|20.7
+/hevra/robert-cockings-motor-repairs Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|20.8
+/hevra/erme-valley-autos Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|21.0
+/other/sg-motor-centre Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|21.8
+/accessibility-guide Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|22.2
+/locations/lancaster/ Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|24.5
+/garages/cambridge-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|25.0
+/tesla-approved-bodyshop/highland Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|26.0
+/locations/county/county-armagh Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|26.7
+/tesla-cabin-filter Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|27.0
+/other/mh-autos Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|27.3
+/locations/bath/ Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|28.0
+/parts/all-that-gleams Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|31.0
+/locations/wakefield/ Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|38.5
+/other/xpress-garage-tyres Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|41.2
+/hevra/harborne-garage-ltd Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|45.5
+/parts/velocity-detailers Copy URL to clipboard Open in new tab Inspect URL|0|6|0%|62.7
+/locations/brighton/ Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|3.0
+/locations/cumbernauld Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|3.4
+/locations/warrington#other Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|4.4
+/hevra/ishys-autoelectrics Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|4.6
+/locations/warrington#authorised Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|5.0
+/locations/clacton-on-sea Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|5.2
+/other/tgpp-autocare Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|5.4
+/locations/county/merthyr-tydfil Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|6.0
+/hevra/north-east-garages-ltd Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|6.6
+/other/sf-tebby-son Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|6.8
+/hevra/hicks-mot-and-service-centre Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|7.0
+/garages/sunderland-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|7.2
+/locations/bishops-stortford Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|7.2
+/locations/county/midlothian Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|7.2
+/other/gmc-motor-services Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|7.4
+/locations/county/rhondda-cynon-taf Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|7.6
+/garages/rochdale-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|7.8
+/hevra/castle-garage-staffs-ltd Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|7.8
+/other/city-garage Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|7.8
+/hevra/car-and-fleet-services-cfs Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|8.0
+/hevra/westmoor-mot-centre Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|8.0
+/locations/bodmin Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|8.0
+/locations/glenrothes Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|8.0
+/other/lp-autos Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|8.0
+/garages/tesla-centre-norwich/ Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|8.4
+/locations/derby#authorised Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|8.6
+/locations/derby#hevra Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|8.6
+/hevra/simon-dean-motor-services Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|9.6
+/towing-caravans Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|9.6
+/locations/rayleigh Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|10.4
+/hevra/priorslee-motor-services-ltd Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|10.8
+/locations/kilmarnock/ Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|11.0
+/locations/county/argyll-and-bute Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|14.6
+/hevra/ferdotti-motor-services-limited Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|16.0
+/hevra/cm-automotive-bristol Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|16.2
+/hevra/britannia-mot-repair-centre Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|17.4
+/hevra/mjp-autocentre Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|17.6
+/hevra/castle-garage-ashby-ltd Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|18.0
+/other/dvb-automotive Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|18.2
+/locations/canterbury/ Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|18.8
+/hevra/adas-solutions-ltd Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|19.8
+/other/howarths-garage Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|20.6
+/other/john-atherton-autos Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|20.6
+/other/wiltshire-tyres Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|20.6
+/locations/woking Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|21.2
+/about Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|21.4
+/tesla-approved-bodyshop/south-yorkshire Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|21.6
+/windscreen-camera-calibration Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|22.2
+/hevra/fairfax-motors-ltd Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|23.6
+/tesla-approved-bodyshop/dorset Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|26.8
+/hevra/beresford-auto-service-centre Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|28.4
+/hevra/star-tech-ltd Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|32.4
+/locations/bangor/ Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|39.0
+/hevra/parnell-ev Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|39.2
+/charging-etiquette Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|47.2
+/parts/wrapping-cars Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|50.4
+/hevra/central-auto-centre Copy URL to clipboard Open in new tab Inspect URL|0|5|0%|71.8
+/hevra/j-g-motor-services-limited Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|2.0
+/locations/driffield Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|2.8
+/locations/county/anglesey Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|3.2
+/hevra/steve-mott-and-co-ltd Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|4.5
+/garages/bolton-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|4.8
+/known-issues-by-model Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|5.0
+/locations/chorley Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|5.2
+/parts/north-west-windscreens Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|5.8
+/hevra/aa-auto-electrical-ltd Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|6.5
+/hevra/essential-power-ltd Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|6.5
+/locations/county/county-down Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|6.8
+/locations/newhaven Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|6.8
+/authorised/fix-auto-caldicot-mustoes-specialist-vehicle-body-repairs Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|7.2
+/locations/county/western-isles Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|7.2
+/locations/newcastle#hevra Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|7.5
+/locations/newcastle#other Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|7.5
+/garages/middlesbrough-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|7.8
+/locations/county/orkney Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|7.8
+/garages/tesla-centre-newcastle/ Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|8.0
+/hevra/injection-development-canterbury-ltd Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|8.0
+/locations/motherwell Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|8.0
+/other/phoenix-motor-centre Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|8.0
+/hevra/wellbrook-motor-services Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|8.2
+/12v-battery-failure-watch Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|8.5
+/garages/tesla-centre-st-albans/ Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|8.5
+/locations/derby#dealer Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|8.5
+/locations/newton-abbot Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|8.5
+/locations/shrewsbury#dealer Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|8.8
+/locations/shrewsbury#other Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|8.8
+/garages/coventry-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|9.2
+/locations/shrewsbury/ Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|9.2
+/garages/dundee-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|9.5
+/tesla-approved-bodyshop/worcestershire Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|9.5
+/hevra/grasmere-garage Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|9.8
+/hevra/sumner-automotive Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|9.8
+/garages/blackpool-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|10.0
+/other/ridge-west-garage Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|10.2
+/hevra/cj-auto-service Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|12.5
+/locations/dunfermline/ Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|13.8
+/hevra/bosch-car-service-livingston Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|14.2
+/hevra/hedaux-motor-company-ltd Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|14.2
+/locations/loughborough Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|14.5
+/other/station-garage-flaxton Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|14.5
+/locations/brackley Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|15.2
+/locations/burnley/ Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|16.8
+/parts/ultimate-towbar-systems-ltd-tesla-towbars Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|16.8
+/other/auto-engine-tune Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|17.2
+/hevra/shires-garage-auto-services Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|18.0
+/other/tektronic Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|19.8
+/other/keith-elgin-motor-engineers Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|21.5
+/locations/carlisle/ Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|22.5
+/locations/cranleigh Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|22.5
+/locations/perth/ Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|23.5
+/other/the-garage-sheffield Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|25.8
+/phone-key-troubleshooting Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|26.0
+/hevra/dinedor-cross-garage Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|27.2
+/hevra/parkside-garage-exeter-ltd Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|27.2
+/hevra/douglass-motors-ltd Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|27.5
+/locations/dorking Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|31.0
+/parts/telford-towbars Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|32.5
+/parts/alloy-fix Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|32.8
+/garages/stoke-on-trent-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|33.0
+/parts/utws-unbeatable-tints-wraps-signs Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|38.5
+/hevra/lunts-heath-tyre-and-exhaust Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|41.5
+/parts/dmd-car-detailing Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|49.0
+/hevra/eddie-holmes-auto-repairs Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|54.8
+/parts/pure-ppf Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|67.0
+/locations/wigan/ Copy URL to clipboard Open in new tab Inspect URL|0|4|0%|73.0
+/locations/county/east-renfrewshire Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|2.0
+/other/st-johns-garage Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|3.0
+/garages/birmingham-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|3.3
+/other/continental-motors-ev Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|3.3
+/hevra/simon-thorpe-motor-services Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|3.7
+/locations/saffron-walden Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|4.0
+/locations/ripon Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|4.3
+/hevra/elmwood-vehicles-ltd Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|4.7
+/locations/neath Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|4.7
+/garages/barnsley-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|5.0
+/hevra/fairway-motors Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|5.0
+/authorised/parkway-prestige Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|5.3
+/hevra/ac-autotech Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|5.3
+/locations/county/angus Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|5.3
+/other/bishopbriggs-mot-centre Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|5.3
+/other/lindleys-autocentres Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|5.7
+/parts/tiki-details Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|5.7
+/locations/county/blaenau-gwent Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|6.0
+/locations/uckfield Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|6.0
+/locations/wakefield#dealer Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|6.0
+/garages/walsall-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|6.3
+/hevra/kap-motorgroup Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|6.3
+/other/cleevely-ev Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|6.3
+/locations/county/county-tyrone Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|6.7
+/parts/unplugged-performance-uk-pwrd-ltd Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|6.7
+/garages/hereford-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|7.0
+/parts/marque-one-detailing Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|7.0
+/hevra/hogg-mot-and-service-centre Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|7.3
+/garages/oxford-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|7.7
+/hevra/london-road-garage-retford-ltd Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|7.7
+/hevra/pro-tech-automotive Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|7.7
+/other/complete-car-care Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|7.7
+/parts/carracks Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|7.7
+/garages/kilmarnock-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|8.0
+/other/elite-garages-canterbury Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|8.0
+/other/greentec-auto-uk Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|8.0
+/locations/county/north-lanarkshire Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|8.3
+/locations/newcastle#dealer Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|8.3
+/garages/tesla-centre-milton-keynes/ Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|8.7
+/locations/bishop-auckland Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|9.0
+/other/aj-auto-services Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|9.0
+/other/kettering-motorist-centre Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|9.0
+/parts/customise-my-tesla-electrovogue-ltd Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|9.0
+/parts/rm-towbars Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|9.0
+/hevra/ev-autocentre Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|9.3
+/locations/cupar Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|9.3
+/other/rew-auto-services Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|9.3
+/parts/pro-vinyl-manchester Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|9.3
+/parts/top-fit-towbars-and-towing Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|9.3
+/garages/the-independent-tesla-specialists/ Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|9.7
+/hevra/mobiltune-ltd Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|9.7
+/locations/county/east-dunbartonshire Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|9.7
+/locations/launceston Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|9.7
+/settings-recipes Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|9.7
+/hevra/goingreen Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|10.0
+/hevra/j-and-m-automotive-ltd Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|10.0
+/garages/tesla-centre-dartford/ Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|10.3
+/locations/edinburgh#dealer Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|10.7
+/locations/edinburgh#hevra Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|10.7
+/locations/edinburgh#other Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|10.7
+/hevra/upfront-automotive-ltd Copy URL to clipboard Open in new tab Inspect URL|0|3|0%|11.0
+/other/db-car-doctor|1|9|11.1%|9.4
+/locations/dewsbury|1|9|11.1%|12.9
+/authorised/fix-auto-slough|1|9|11.1%|13.2
+/locations/darlington/|1|9|11.1%|19.6
+/tesla-approved-bodyshop/county-armagh|1|9|11.1%|26.2
+/sentry-mode-dashcam-guide|1|9|11.1%|30.8
+/locations/ipswich/|1|9|11.1%|33.6
+/locations/county/south-lanarkshire|1|8|12.5%|5.8
+/locations/christchurch|1|8|12.5%|13.6
+/parts/tesla-gear-uk|1|8|12.5%|14.0
+/other/kmc-electric|1|8|12.5%|24.5
+/locations/county/pembrokeshire|1|7|14.3%|4.9
+/locations/county/cumbria|1|7|14.3%|5.0
+/locations/kirkcaldy|1|7|14.3%|9.3
+/locations/middlesbrough/|1|7|14.3%|30.0
+/locations/malton|1|6|16.7%|4.7
+/garages/doncaster-tesla-and-ev-repair-specialist/|1|6|16.7%|7.5
+/garages/tesla-centre-liverpool/|1|6|16.7%|10.3
+/authorised/james-alpe-ltd|1|6|16.7%|21.5
+/locations/lisburn|1|6|16.7%|29.5
+/locations/east-kilbride|1|5|20%|1.8
+/other/mc-autos|1|5|20%|8.8
+/other/aw-autotech|1|5|20%|12.6
+/garages/belfast-tesla-and-ev-repair-specialist/|1|5|20%|14.0
+/other/wr-davies|1|5|20%|16.6
+/locations/county/torfaen|1|4|25%|3.5
+/hevra/chinnor-motors|1|4|25%|7.0
+/garages/tesla-centre-exeter/|1|4|25%|7.8
+/locations/bathgate|1|4|25%|8.2
+/locations/irlam|1|4|25%|8.5
+/parts/ev-breakers|1|4|25%|11.2
+/locations/lisburn/|1|4|25%|54.5
+/garages/newry-tesla-and-ev-repair-specialist/|1|4|25%|60.0
+/locations/heanor|1|3|33.3%|4.3
+/garages/oldham-tesla-and-ev-repair-specialist/|1|3|33.3%|5.0
+/garages/solihull-tesla-and-ev-repair-specialist/|1|3|33.3%|6.7
+/locations/county/county-fermanagh|1|3|33.3%|6.7
+/hevra/qcd-autocentre-brackley|1|3|33.3%|32.0
+/garages/glasgow-tesla-and-ev-repair-specialist/|1|2|50%|2.0
+/garages/huddersfield-tesla-and-ev-repair-specialist/|1|2|50%|7.0
+/hevra/seer-green-motor-co-ltd|1|2|50%|18.5
+/garages/perth-tesla-and-ev-repair-specialist/|1|2|50%|52.5
+/hevra/ems-diagnostics-ltd|1|1|100%|3.0
+/garages/falkirk-tesla-and-ev-repair-specialist/|1|1|100%|7.0
+/authorised/steer-prestige-romford|0|343|0%|8.1
+/parts/ecu-testing-ltd|0|263|0%|35.0
+/authorised/brandon-accident-repair-centre|0|227|0%|39.0
+/locations/reading|0|209|0%|14.8
+/contact-tesla-uk|0|199|0%|9.1
+/dealer/tesla-service-solihull|0|199|0%|16.2
+/authorised/steer-sittingbourne|0|196|0%|10.7
+/insurance-guide|0|188|0%|42.3
+/authorised/steer-prestige-chichester-apollo-prestige|0|182|0%|8.8
+/garages/tesla-centre-sheffield/|0|179|0%|16.5
+/company-car-tax-guide|0|171|0%|46.2
+/authorised/crash-repair-group-thame-thame-crash-repair-centre|0|170|0%|36.7
+/authorised/steer-sleaford|0|159|0%|9.6
+/dealer/tesla-service-nottingham|0|151|0%|24.4
+/dealer/tesla-service-cambridge|0|139|0%|11.4
+/authorised/steer-exeter|0|132|0%|9.0
+/dealer/tesla-service-milton-keynes|0|127|0%|20.0
+/authorised/warley-car-clinic|0|126|0%|45.9
+/authorised/solution-repair-group|0|126|0%|56.2
+/locations/chester|0|121|0%|8.7
+/authorised/steer-southend-on-sea|0|108|0%|8.8
+/dealer/tesla-service-gatwick|0|108|0%|21.2
+/authorised/ev-bodyshops|0|105|0%|56.1
+/locations/middlesbrough|0|104|0%|6.7
+/authorised/road-and-race-restorations|0|102|0%|52.8
+/warranty-guide|0|100|0%|14.1
+/authorised/individual-specialist-cars|0|100|0%|62.0
+/locations/lincoln|0|99|0%|12.3
+/dealer/tesla-service-st-albans|0|99|0%|13.8
+/dealer/tesla-service-northampton|0|97|0%|8.5
+/locations/worthing|0|97|0%|44.2
+/locations/solihull/|0|96|0%|16.3
+/locations/|0|93|0%|67.4
+/locations/sheffield|0|89|0%|11.2
+/authorised/steer-basingstoke|0|89|0%|12.0
+/dealer/tesla-service-manchester-central|0|88|0%|10.4
+/locations/winchester|0|86|0%|7.6
+/garages/brighton-tesla-and-ev-repair-specialist/|0|84|0%|56.2
+/bodywork-accident-repair|0|84|0%|68.9
+/authorised/crash-repair-group-bicester|0|83|0%|25.8
+/buying-selling-guide|0|81|0%|54.2
+/authorised/finesse-arc-redhill|0|77|0%|9.7
+/dealer/tesla-service-norwich|0|77|0%|11.2
+/locations/gloucester|0|76|0%|6.7
+/authorised/ev-motor-group-lvs-coachworks|0|75|0%|8.5
+/hevra/north-manchester-auto-electrics|0|75|0%|10.5
+/authorised/crash-repair-group-oxford|0|75|0%|54.8
+/dealer/tesla-service-wolverhampton|0|70|0%|7.1
+/authorised/steer-electric-eastleigh|0|69|0%|9.8
+/authorised/ipswich-accident-repair-centre-iarc|0|69|0%|25.2
+/hevra/petersfield-service-centre|0|68|0%|66.2
+/locations/bicester/|0|67|0%|12.3
+/dealer/tesla-service-sheffield|0|67|0%|16.8
+/locations/bury|0|66|0%|7.4
+/locations/newbury|0|66|0%|10.8
+/authorised/evolve-arc|0|66|0%|46.9
+/locations/wigan|0|65|0%|12.7
+/authorised/steer-chesterfield|0|64|0%|9.2
+/locations/basildon|0|64|0%|28.2
+/locations/telford|0|63|0%|7.7
+/hevra/the-manic-mechanic-southport-ltd|0|62|0%|9.9
+/authorised/steer-polegate|0|62|0%|13.0
+/authorised/steer-prestige-farnham-steer-luxury-south|0|60|0%|9.9
+/authorised/shorade-tonbridge|0|60|0%|12.0
+/software-updates|0|60|0%|14.1
+/authorised/fastlane-paint-and-body|0|59|0%|11.1
+/other/steves-auto-lancing|0|59|0%|24.2
+/locations/rochdale|0|58|0%|11.3
+/locations/county/lincolnshire|0|56|0%|8.0
+/dealer/tesla-service-london-heathrow|0|56|0%|14.8
+/hevra/collison-motoring-services-ltd|0|56|0%|75.0
+/hevra/attono-electric-hybrid|0|54|0%|8.4
+/parts/tesla-parts-store-ltd-tesla-parts-store-teslastoreuk|0|53|0%|9.5
+/authorised/finesse-arc-dorking|0|53|0%|23.9
+/locations/darlington|0|51|0%|6.7
+/locations/county/wiltshire|0|51|0%|7.7
+/authorised/reynolds-of-rushock|0|51|0%|39.5
+/authorised/mm-vehicle-repairs-fix-auto-north-staffs-leek|0|50|0%|11.3
+/locations/oldham|0|50|0%|19.9
+/locations/watford|0|50|0%|41.5
+/faq|0|50|0%|45.2
+/authorised/vehicle-bodycare-centre|0|49|0%|63.8
+/dealer/tesla-service-bristol|0|48|0%|8.4
+/garages/tesla-centre-birmingham-solihull/|0|48|0%|8.9
+/locations/brentwood|0|48|0%|26.7
+/garages/portsmouth-tesla-and-ev-repair-specialist/|0|48|0%|78.8
+/locations/romford|0|47|0%|13.7
+/authorised/protek|0|47|0%|69.7
+/locations/eastbourne|0|45|0%|7.2
+/locations/dudley|0|45|0%|7.5
+/resources|0|45|0%|46.2
+/locations/wrexham|0|44|0%|8.5
+/hevra/rubys-garage-ltd|0|43|0%|10.6
+/locations/county/nottinghamshire|0|43|0%|11.8
+/locations/petersfield|0|43|0%|61.1
+/other/ukteslacom|0|43|0%|70.8
+/other/boro-tyres-driffield|0|42|0%|9.6
+/locations/mansfield|0|42|0%|10.0
+/authorised/elder-and-paton|0|42|0%|10.8
+/authorised/dlg-auto-services-warwick|0|42|0%|28.5
+/other/lkq-electriq-cedar-electric|0|41|0%|8.3
+/locations/milton-keynes|0|41|0%|9.5
+/locations/chingford|0|41|0%|13.0
+/locations/north-east|0|41|0%|15.4
+/locations/reading#other|0|40|0%|7.2
+/hevra/ngc-hybrid-ev-ltd|0|40|0%|10.4
+/dealer/tesla-service-london-tottenham|0|40|0%|14.5
+/locations/maidenhead|0|40|0%|18.6
+/parts/pp-protect|0|40|0%|51.6
+/authorised/shorade-bristol|0|39|0%|6.4
+/locations/reading#hevra|0|39|0%|7.2
+/parts/diversion-automotive|0|39|0%|8.3
+/services/mot/|0|39|0%|9.4
+/locations/st-albans/|0|39|0%|10.4
+/authorised/cf-motoring-services-blaydon|0|39|0%|10.4
+/locations/taunton|0|39|0%|13.4
+/locations/yorkshire-and-humber|0|39|0%|13.9
+/tesla-suspension-noise|0|38|0%|9.1
+/dealer/tesla-service-cardiff|0|38|0%|14.3
+/locations/sutton|0|37|0%|8.7
+/hevra/novuna-vehicle-solutions|0|37|0%|11.7
+/hevra/sheffield-prestige|0|36|0%|6.7
+/locations/exeter/|0|36|0%|25.8
+/tesla-service-schedule|0|35|0%|13.3
+/parts/on-track-detailing|0|35|0%|20.6
+/authorised/eastern-western-arc|0|34|0%|17.8
+/dealer/tesla-service-winchester|0|34|0%|18.1
+/locations/reading#authorised|0|33|0%|7.5
+/locations/heathrow/|0|33|0%|13.8
+/locations/york/|0|33|0%|17.9
+/authorised/shorade-cannock|0|33|0%|24.1
+/locations/horsham|0|33|0%|28.9
+/locations/bournemouth|0|32|0%|9.0
+/tesla-approved-bodyshop/london|0|32|0%|20.5
+/locations/thame|0|32|0%|53.9
+/other/gorton-mot-test-centre|0|31|0%|14.3
+/locations/nottingham/|0|31|0%|31.9
+/parts/ultimate-car-detailing|0|31|0%|60.8
+/locations/wokingham|0|29|0%|5.6
+/locations/cheltenham|0|29|0%|5.6
+/hevra/blackpool-motor-care|0|29|0%|33.4
+/guides|0|29|0%|47.5
+/other/leeds-mots-millshaw-park-garage|0|28|0%|7.9
+/locations/leicester#hevra|0|28|0%|8.3
+/locations/leicester#other|0|28|0%|8.3
+/other/as-car-care-centre|0|28|0%|14.3
+/locations/huddersfield|0|28|0%|18.0
+/authorised/the-vella-group|0|28|0%|20.3
+/other/boro-tyres-scarborough|0|28|0%|23.5
+/locations/county/dundee|0|27|0%|6.3
+/garages/tesla-centre-chester/|0|27|0%|8.2
+/locations/peacehaven|0|27|0%|71.6
+/other/aj-automedics|0|27|0%|79.6
+/locations/paisley|0|26|0%|6.4
+/parts/tessories-evgogo-ltd|0|26|0%|9.0
+/parts/restyle-automotive|0|26|0%|9.9
+/locations/stockport|0|26|0%|21.8
+/parts-accessories-cosmetic|0|26|0%|30.7
+/parts/wraps-ppf|0|26|0%|36.2
+/locations/leicester#dealer|0|25|0%|8.0
+/locations/ellesmere-port|0|25|0%|8.6
+/locations/county/gloucestershire|0|25|0%|8.8
+/hevra/turner-brothers-holmfirth-ltd|0|25|0%|11.3
+/parts/revolution-tint|0|25|0%|16.3
+/dealer/tesla-service-glasgow|0|25|0%|21.6
+/hevra/c-r-allen-sons|0|25|0%|38.6
+/locations/nationwide/|0|25|0%|59.7
+/locations/county/county-durham|0|24|0%|6.9
+/locations/uxbridge|0|24|0%|8.8
+/other/westerleigh-car-centre|0|24|0%|21.2
+/parts/charles-trent-ltd|0|24|0%|22.2
+/tesla-approved-bodyshop/east-riding-of-yorkshire|0|24|0%|23.7
+/locations/cardiff/|0|24|0%|34.2
+/locations/bedford|0|23|0%|6.7
+/authorised/finesse-arc-bracknell|0|23|0%|10.8
+/other/evhero|0|23|0%|11.6
+/parts/windscreen-replacement-london|0|23|0%|18.1
+/locations/reigate|0|23|0%|25.4
+/locations/beeston|0|22|0%|7.8
+/hevra/mvs-diagnostic-solutions|0|22|0%|10.1
+/locations/county/west-midlands-county|0|22|0%|18.7
+/locations/walton-on-thames|0|22|0%|22.0
+/other/martin-lee-vehicle-solutions|0|22|0%|23.4
+/authorised/arc-accident-repair-blackpool|0|22|0%|27.2
+/authorised/porters-bodyshop|0|22|0%|29.4
+/parts/car-polishing-co|0|22|0%|33.1
+/other/smb-autocentre|0|22|0%|44.6
+/other/the-garage-walton|0|22|0%|57.6
+/authorised/gillibrand-accident-repair-services|0|22|0%|62.7
+/locations/ashford|0|21|0%|5.8
+/locations/southend-on-sea|0|21|0%|7.5
+/locations/basingstoke|0|21|0%|8.1
+/locations/county/aberdeen-city|0|21|0%|12.2
+/authorised/mitchell-inglis|0|21|0%|15.3
+/locations/dorchester|0|21|0%|20.0
+/authorised/fix-auto-loughborough|0|21|0%|23.2
+/tesla-approved-bodyshop/berkshire|0|21|0%|23.4
+/other/mot-supercentre|0|21|0%|41.5
+/locations/livingston|0|20|0%|7.2
+/locations/reading#dealer|0|20|0%|7.2
+/locations/telford/|0|20|0%|10.6
+/locations/high-wycombe|0|20|0%|10.8
+/hevra/hamble-garage-ltd|0|20|0%|17.7
+/locations/county/worcestershire|0|20|0%|18.2
+/tesla-low-voltage-battery|0|20|0%|18.8
+/road-trip-charging-planner|0|20|0%|36.0
+/other/tesla-specialist-birmingham-ltd Copy URL to clipboard Open in new tab Inspect URL|7|262|2.7%|9.7
+/locations/leicester Copy URL to clipboard Open in new tab Inspect URL|7|186|3.8%|9.6
+/other/megaev-tesla-repair-specialists Copy URL to clipboard Open in new tab Inspect URL|7|134|5.2%|6.4
+/locations/ipswich Copy URL to clipboard Open in new tab Inspect URL|7|63|11.1%|10.5
+/locations/manchester Copy URL to clipboard Open in new tab Inspect URL|6|402|1.5%|12.8
+/locations/nottingham Copy URL to clipboard Open in new tab Inspect URL|6|230|2.6%|13.5
+/locations/blackpool Copy URL to clipboard Open in new tab Inspect URL|6|109|5.5%|6.8
+/locations/stafford Copy URL to clipboard Open in new tab Inspect URL|6|100|6%|8.1
+/locations/county/kent Copy URL to clipboard Open in new tab Inspect URL|6|92|6.5%|19.2
+/locations/greater-london Copy URL to clipboard Open in new tab Inspect URL|5|649|0.8%|10.4
+/locations/newcastle Copy URL to clipboard Open in new tab Inspect URL|5|160|3.1%|15.1
+/locations/preston Copy URL to clipboard Open in new tab Inspect URL|5|126|4%|7.7
+/services/ Copy URL to clipboard Open in new tab Inspect URL|5|77|6.5%|41.6
+/locations/county/bedfordshire Copy URL to clipboard Open in new tab Inspect URL|5|75|6.7%|6.6
+/locations/southampton/ Copy URL to clipboard Open in new tab Inspect URL|5|73|6.8%|33.4
+/locations/walsall/ Copy URL to clipboard Open in new tab Inspect URL|5|63|7.9%|30.9
+/tesla-service-centers Copy URL to clipboard Open in new tab Inspect URL|4|820|0.5%|21.7
+/locations/glasgow Copy URL to clipboard Open in new tab Inspect URL|4|419|1%|13.5
+/locations/london Copy URL to clipboard Open in new tab Inspect URL|4|156|2.6%|11.8
+/locations/southampton Copy URL to clipboard Open in new tab Inspect URL|4|143|2.8%|14.9
+/locations/bradford Copy URL to clipboard Open in new tab Inspect URL|4|127|3.1%|18.9
+/locations/barnsley Copy URL to clipboard Open in new tab Inspect URL|4|120|3.3%|19.2
+/locations/plymouth Copy URL to clipboard Open in new tab Inspect URL|4|104|3.8%|8.0
+/locations/wakefield Copy URL to clipboard Open in new tab Inspect URL|4|94|4.3%|22.8
+/locations/county/leicestershire Copy URL to clipboard Open in new tab Inspect URL|4|93|4.3%|11.8
+/locations/shrewsbury Copy URL to clipboard Open in new tab Inspect URL|4|87|4.6%|7.7
+/locations/county/north-yorkshire Copy URL to clipboard Open in new tab Inspect URL|4|75|5.3%|8.0
+/hevra/north-london-hybrid-ev-garage Copy URL to clipboard Open in new tab Inspect URL|4|69|5.8%|7.0
+/locations/royal-tunbridge-wells Copy URL to clipboard Open in new tab Inspect URL|4|40|10%|4.9
+/dealer/tesla-service-leeds Copy URL to clipboard Open in new tab Inspect URL|3|249|1.2%|11.1
+/other-tesla-services Copy URL to clipboard Open in new tab Inspect URL|3|215|1.4%|57.4
+/authorised/steer-cheltenham Copy URL to clipboard Open in new tab Inspect URL|3|197|1.5%|8.4
+/locations/bristol Copy URL to clipboard Open in new tab Inspect URL|3|197|1.5%|14.6
+/locations/edinburgh Copy URL to clipboard Open in new tab Inspect URL|3|186|1.6%|9.8
+/authorised/steer-horsham Copy URL to clipboard Open in new tab Inspect URL|3|169|1.8%|9.3
+/locations/london/ Copy URL to clipboard Open in new tab Inspect URL|3|165|1.8%|18.0
+/locations/county/essex Copy URL to clipboard Open in new tab Inspect URL|3|154|1.9%|9.0
+/locations/hull Copy URL to clipboard Open in new tab Inspect URL|3|139|2.2%|8.2
+/locations/northern-ireland Copy URL to clipboard Open in new tab Inspect URL|3|102|2.9%|10.4
+/hevra/voltz-bedworth-mot-centre Copy URL to clipboard Open in new tab Inspect URL|3|90|3.3%|9.2
+/locations/warrington Copy URL to clipboard Open in new tab Inspect URL|3|86|3.5%|10.8
+/locations/stoke-on-trent Copy URL to clipboard Open in new tab Inspect URL|3|79|3.8%|6.7
+/authorised/steer-prestige-norwich-pronto Copy URL to clipboard Open in new tab Inspect URL|3|73|4.1%|5.3
+/locations/county/suffolk Copy URL to clipboard Open in new tab Inspect URL|3|73|4.1%|11.2
+/locations/royal-leamington-spa Copy URL to clipboard Open in new tab Inspect URL|3|67|4.5%|27.3
+/locations/shoreham-by-sea Copy URL to clipboard Open in new tab Inspect URL|3|55|5.5%|41.5
+/locations/county/devon Copy URL to clipboard Open in new tab Inspect URL|3|51|5.9%|6.4
+/locations/county/dorset Copy URL to clipboard Open in new tab Inspect URL|3|48|6.2%|8.8
+/locations/croydon Copy URL to clipboard Open in new tab Inspect URL|3|40|7.5%|9.7
+/locations/newcastle-upon-tyne/ Copy URL to clipboard Open in new tab Inspect URL|3|36|8.3%|13.1
+/locations/county/cheshire Copy URL to clipboard Open in new tab Inspect URL|3|33|9.1%|8.3
+/locations/kilmarnock Copy URL to clipboard Open in new tab Inspect URL|3|32|9.4%|4.9
+/locations/inverness Copy URL to clipboard Open in new tab Inspect URL|3|31|9.7%|9.0
+/locations/county/shropshire Copy URL to clipboard Open in new tab Inspect URL|3|27|11.1%|8.4
+/garages/wakefield-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|3|10|30%|7.1
+/authorised/steer-prestige-pontypridd-irg Copy URL to clipboard Open in new tab Inspect URL|2|315|0.6%|7.5
+/locations/derby Copy URL to clipboard Open in new tab Inspect URL|2|303|0.7%|24.8
+/locations/south-west Copy URL to clipboard Open in new tab Inspect URL|2|255|0.8%|29.8
+/dealer/tesla-body-repair-centre-dartford Copy URL to clipboard Open in new tab Inspect URL|2|234|0.9%|20.4
+/ Copy URL to clipboard Open in new tab Inspect URL|2|221|0.9%|48.8
+/locations/county/greater-manchester Copy URL to clipboard Open in new tab Inspect URL|2|152|1.3%|9.6
+/dealer/tesla-service-lincoln Copy URL to clipboard Open in new tab Inspect URL|2|144|1.4%|9.7
+/locations/belfast Copy URL to clipboard Open in new tab Inspect URL|2|143|1.4%|20.3
+/locations/dartford Copy URL to clipboard Open in new tab Inspect URL|2|130|1.5%|9.2
+/locations/north-west Copy URL to clipboard Open in new tab Inspect URL|2|130|1.5%|9.5
+/locations/worcester Copy URL to clipboard Open in new tab Inspect URL|2|130|1.5%|19.9
+/locations/east-of-england Copy URL to clipboard Open in new tab Inspect URL|2|124|1.6%|22.2
+/locations/cardiff Copy URL to clipboard Open in new tab Inspect URL|2|116|1.7%|9.9
+/locations/york Copy URL to clipboard Open in new tab Inspect URL|2|114|1.8%|9.8
+/locations/chelmsford Copy URL to clipboard Open in new tab Inspect URL|2|110|1.8%|19.1
+/locations/county/cambridgeshire Copy URL to clipboard Open in new tab Inspect URL|2|106|1.9%|8.3
+/locations/county/west-sussex Copy URL to clipboard Open in new tab Inspect URL|2|90|2.2%|19.0
+/locations/st-albans Copy URL to clipboard Open in new tab Inspect URL|2|89|2.2%|11.3
+/authorised/steer-doncaster Copy URL to clipboard Open in new tab Inspect URL|2|87|2.3%|9.5
+/locations/west-midlands Copy URL to clipboard Open in new tab Inspect URL|2|85|2.4%|16.7
+/dealer/tesla-service-exeter Copy URL to clipboard Open in new tab Inspect URL|2|84|2.4%|18.2
+/locations/coventry Copy URL to clipboard Open in new tab Inspect URL|2|79|2.5%|18.6
+/locations/peterborough Copy URL to clipboard Open in new tab Inspect URL|2|76|2.6%|11.4
+/locations/county/hertfordshire Copy URL to clipboard Open in new tab Inspect URL|2|74|2.7%|9.7
+/locations/walsall Copy URL to clipboard Open in new tab Inspect URL|2|74|2.7%|17.5
+/locations/scotland Copy URL to clipboard Open in new tab Inspect URL|2|71|2.8%|9.6
+/locations/county/cornwall Copy URL to clipboard Open in new tab Inspect URL|2|70|2.9%|8.4
+/locations/colchester Copy URL to clipboard Open in new tab Inspect URL|2|68|2.9%|17.2
+/locations/slough Copy URL to clipboard Open in new tab Inspect URL|2|64|3.1%|8.4
+/locations/hereford Copy URL to clipboard Open in new tab Inspect URL|2|63|3.2%|8.3
+/locations/rugby Copy URL to clipboard Open in new tab Inspect URL|2|57|3.5%|11.2
+/locations/crawley Copy URL to clipboard Open in new tab Inspect URL|2|56|3.6%|21.1
+/locations/bracknell Copy URL to clipboard Open in new tab Inspect URL|2|49|4.1%|6.8
+/locations/surrey/ Copy URL to clipboard Open in new tab Inspect URL|2|40|5%|61.0
+/locations/norwich/ Copy URL to clipboard Open in new tab Inspect URL|2|38|5.3%|19.1
+/authorised/veetec-motor-group Copy URL to clipboard Open in new tab Inspect URL|2|37|5.4%|11.5
+/locations/oxford Copy URL to clipboard Open in new tab Inspect URL|2|36|5.6%|10.0
+/locations/burnley Copy URL to clipboard Open in new tab Inspect URL|2|32|6.2%|12.3
+/locations/cambridge Copy URL to clipboard Open in new tab Inspect URL|2|28|7.1%|10.5
+/locations/fareham Copy URL to clipboard Open in new tab Inspect URL|2|26|7.7%|39.4
+/locations/farnborough Copy URL to clipboard Open in new tab Inspect URL|2|23|8.7%|6.6
+/authorised/werrens-prestige Copy URL to clipboard Open in new tab Inspect URL|2|23|8.7%|9.4
+/locations/bradford/ Copy URL to clipboard Open in new tab Inspect URL|2|22|9.1%|35.4
+/locations/preston/ Copy URL to clipboard Open in new tab Inspect URL|2|19|10.5%|14.3
+/locations/doncaster/ Copy URL to clipboard Open in new tab Inspect URL|2|18|11.1%|38.9
+/locations/county/aberdeenshire Copy URL to clipboard Open in new tab Inspect URL|2|13|15.4%|6.5
+/locations/leicester/ Copy URL to clipboard Open in new tab Inspect URL|2|13|15.4%|17.6
+/garages/ipswich-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|2|12|16.7%|5.8
+/locations/folkestone Copy URL to clipboard Open in new tab Inspect URL|2|12|16.7%|7.1
+/locations/chichester Copy URL to clipboard Open in new tab Inspect URL|2|9|22.2%|9.7
+/locations/ayr/ Copy URL to clipboard Open in new tab Inspect URL|2|9|22.2%|12.4
+/locations/sevenoaks Copy URL to clipboard Open in new tab Inspect URL|2|8|25%|5.4
+/locations/stoke-on-trent/ Copy URL to clipboard Open in new tab Inspect URL|2|8|25%|17.1
+/locations/durham/ Copy URL to clipboard Open in new tab Inspect URL|2|7|28.6%|30.7
+/garages/megaev/ Copy URL to clipboard Open in new tab Inspect URL|2|6|33.3%|15.5
+/buying-used-checklist Copy URL to clipboard Open in new tab Inspect URL|2|6|33.3%|16.3
+/tesla-garage-contact-details Copy URL to clipboard Open in new tab Inspect URL|1|376|0.3%|30.9
+/locations/south-east Copy URL to clipboard Open in new tab Inspect URL|1|319|0.3%|40.4
+/locations/birmingham Copy URL to clipboard Open in new tab Inspect URL|1|238|0.4%|15.3
+/dealer/tesla-service-london-dartford Copy URL to clipboard Open in new tab Inspect URL|1|217|0.5%|17.8
+/locations/maidstone Copy URL to clipboard Open in new tab Inspect URL|1|204|0.5%|19.7
+/locations/wolverhampton Copy URL to clipboard Open in new tab Inspect URL|1|188|0.5%|8.9
+/authorised-tesla-service Copy URL to clipboard Open in new tab Inspect URL|1|186|0.5%|24.3
+/dealer/tesla-service-chester Copy URL to clipboard Open in new tab Inspect URL|1|182|0.5%|11.2
+/authorised/touch-ups-bodyshop-glasgow Copy URL to clipboard Open in new tab Inspect URL|1|174|0.6%|18.0
+/dealer/tesla-service-liverpool Copy URL to clipboard Open in new tab Inspect URL|1|168|0.6%|21.6
+/other/sibley-automotive Copy URL to clipboard Open in new tab Inspect URL|1|156|0.6%|10.1
+/authorised/steer-nottingham Copy URL to clipboard Open in new tab Inspect URL|1|146|0.7%|15.0
+/dealer/tesla-service-chelmsford Copy URL to clipboard Open in new tab Inspect URL|1|146|0.7%|21.5
+/locations/bromley Copy URL to clipboard Open in new tab Inspect URL|1|129|0.8%|51.1
+/locations/exeter Copy URL to clipboard Open in new tab Inspect URL|1|124|0.8%|14.1
+/dealer/tesla-service-london-park-royal Copy URL to clipboard Open in new tab Inspect URL|1|123|0.8%|9.9
+/authorised/poole-accident-repair Copy URL to clipboard Open in new tab Inspect URL|1|123|0.8%|54.0
+/locations/norwich Copy URL to clipboard Open in new tab Inspect URL|1|120|0.8%|10.0
+/locations/leeds Copy URL to clipboard Open in new tab Inspect URL|1|110|0.9%|9.2
+/kids-car-seats Copy URL to clipboard Open in new tab Inspect URL|1|106|0.9%|8.2
+/authorised/steer-sudbury Copy URL to clipboard Open in new tab Inspect URL|1|103|1%|6.3
+/locations/brighton Copy URL to clipboard Open in new tab Inspect URL|1|101|1%|11.3
+/dealer/tesla-service-guildford Copy URL to clipboard Open in new tab Inspect URL|1|100|1%|8.6
+/locations/bicester Copy URL to clipboard Open in new tab Inspect URL|1|99|1%|16.6
+/parts/actronics-ltd Copy URL to clipboard Open in new tab Inspect URL|1|97|1%|19.5
+/authorised/steer-prestige-peterborough-pronto Copy URL to clipboard Open in new tab Inspect URL|1|92|1.1%|4.9
+/locations/county/norfolk Copy URL to clipboard Open in new tab Inspect URL|1|92|1.1%|11.2
+/locations/poole Copy URL to clipboard Open in new tab Inspect URL|1|90|1.1%|15.7
+/locations/county/surrey Copy URL to clipboard Open in new tab Inspect URL|1|90|1.1%|37.1
+/locations/sunderland Copy URL to clipboard Open in new tab Inspect URL|1|88|1.1%|19.9
+/locations/reading/ Copy URL to clipboard Open in new tab Inspect URL|1|85|1.2%|14.8
+/locations/swindon Copy URL to clipboard Open in new tab Inspect URL|1|84|1.2%|13.4
+/locations/county/warwickshire Copy URL to clipboard Open in new tab Inspect URL|1|83|1.2%|13.8
+/locations/county/berkshire Copy URL to clipboard Open in new tab Inspect URL|1|78|1.3%|13.1
+/locations/county/south-yorkshire Copy URL to clipboard Open in new tab Inspect URL|1|77|1.3%|8.5
+/locations/county/oxfordshire Copy URL to clipboard Open in new tab Inspect URL|1|77|1.3%|8.7
+/locations/county/derbyshire Copy URL to clipboard Open in new tab Inspect URL|1|77|1.3%|9.5
+/locations/swansea Copy URL to clipboard Open in new tab Inspect URL|1|77|1.3%|10.1
+/locations/solihull Copy URL to clipboard Open in new tab Inspect URL|1|75|1.3%|10.7
+/locations/luton Copy URL to clipboard Open in new tab Inspect URL|1|74|1.4%|9.2
+/locations/county/east-sussex Copy URL to clipboard Open in new tab Inspect URL|1|71|1.4%|15.5
+/autopilot-fsd-guide Copy URL to clipboard Open in new tab Inspect URL|1|67|1.5%|7.3
+/locations/county/northamptonshire Copy URL to clipboard Open in new tab Inspect URL|1|66|1.5%|9.1
+/locations/county/hampshire Copy URL to clipboard Open in new tab Inspect URL|1|66|1.5%|13.6
+/garages/tesla-centre-trafford-park/ Copy URL to clipboard Open in new tab Inspect URL|1|65|1.5%|8.3
+/locations/birmingham/ Copy URL to clipboard Open in new tab Inspect URL|1|65|1.5%|15.8
+/locations/milton-keynes/ Copy URL to clipboard Open in new tab Inspect URL|1|64|1.6%|13.5
+/locations/northampton Copy URL to clipboard Open in new tab Inspect URL|1|63|1.6%|8.2
+/locations/wales Copy URL to clipboard Open in new tab Inspect URL|1|62|1.6%|6.1
+/authorised/steer-lincoln Copy URL to clipboard Open in new tab Inspect URL|1|62|1.6%|8.3
+/tesla-approved-bodyshop/west-yorkshire Copy URL to clipboard Open in new tab Inspect URL|1|57|1.8%|22.7
+/parts/barlow-street-breakers-barlow-street-auto-breakers-ltd Copy URL to clipboard Open in new tab Inspect URL|1|56|1.8%|10.1
+/locations/guildford Copy URL to clipboard Open in new tab Inspect URL|1|56|1.8%|10.4
+/locations/liverpool Copy URL to clipboard Open in new tab Inspect URL|1|54|1.9%|7.3
+/hevra-tesla-service Copy URL to clipboard Open in new tab Inspect URL|1|54|1.9%|20.1
+/locations/county/staffordshire Copy URL to clipboard Open in new tab Inspect URL|1|53|1.9%|8.4
+/locations/grimsby Copy URL to clipboard Open in new tab Inspect URL|1|53|1.9%|10.5
+/locations/durham Copy URL to clipboard Open in new tab Inspect URL|1|53|1.9%|14.0
+/locations/county/east-riding-of-yorkshire Copy URL to clipboard Open in new tab Inspect URL|1|52|1.9%|9.6
+/hevra/jtd-diagnostics Copy URL to clipboard Open in new tab Inspect URL|1|50|2%|9.0
+/locations/portsmouth Copy URL to clipboard Open in new tab Inspect URL|1|50|2%|20.3
+/locations/crewe Copy URL to clipboard Open in new tab Inspect URL|1|48|2.1%|6.2
+/dealer/tesla-service-edinburgh Copy URL to clipboard Open in new tab Inspect URL|1|48|2.1%|12.0
+/tesla-mot-guide Copy URL to clipboard Open in new tab Inspect URL|1|48|2.1%|19.2
+/authorised/jenkins-pain Copy URL to clipboard Open in new tab Inspect URL|1|47|2.1%|48.2
+/locations/rotherham Copy URL to clipboard Open in new tab Inspect URL|1|45|2.2%|14.3
+/locations/cannock Copy URL to clipboard Open in new tab Inspect URL|1|44|2.3%|9.3
+/locations/lichfield Copy URL to clipboard Open in new tab Inspect URL|1|43|2.3%|14.1
+/locations/retford Copy URL to clipboard Open in new tab Inspect URL|1|42|2.4%|45.9
+/locations/glasgow/ Copy URL to clipboard Open in new tab Inspect URL|1|41|2.4%|16.5
+/locations/cambridge/ Copy URL to clipboard Open in new tab Inspect URL|1|41|2.4%|24.8
+/authorised/alton-cars-mansfield Copy URL to clipboard Open in new tab Inspect URL|1|40|2.5%|9.4
+/locations/county/herefordshire Copy URL to clipboard Open in new tab Inspect URL|1|39|2.6%|8.9
+/other/the-independent-tesla-specialists Copy URL to clipboard Open in new tab Inspect URL|1|39|2.6%|17.5
+/garages/tesla-centre-leeds/ Copy URL to clipboard Open in new tab Inspect URL|1|37|2.7%|5.6
+/locations/county/tyne-and-wear Copy URL to clipboard Open in new tab Inspect URL|1|37|2.7%|7.2
+/locations/chelmsford/ Copy URL to clipboard Open in new tab Inspect URL|1|37|2.7%|26.9
+/locations/sleaford Copy URL to clipboard Open in new tab Inspect URL|1|33|3%|14.6
+/authorised/shorade-cheltenham Copy URL to clipboard Open in new tab Inspect URL|1|31|3.2%|10.3
+/locations/county/bridgend Copy URL to clipboard Open in new tab Inspect URL|1|30|3.3%|10.6
+/locations/county/merseyside Copy URL to clipboard Open in new tab Inspect URL|1|29|3.4%|5.7
+/locations/county/perth-and-kinross Copy URL to clipboard Open in new tab Inspect URL|1|29|3.4%|17.5
+/authorised/mg-cannon Copy URL to clipboard Open in new tab Inspect URL|1|27|3.7%|8.2
+/other/team-valley-service-mot-centre Copy URL to clipboard Open in new tab Inspect URL|1|27|3.7%|14.4
+/hevra/harlow-auto-centre-ltd Copy URL to clipboard Open in new tab Inspect URL|1|27|3.7%|16.9
+/locations/manchester/ Copy URL to clipboard Open in new tab Inspect URL|1|27|3.7%|24.7
+/locations/swindon/ Copy URL to clipboard Open in new tab Inspect URL|1|27|3.7%|40.7
+/locations/redditch Copy URL to clipboard Open in new tab Inspect URL|1|26|3.8%|6.7
+/locations/east-midlands Copy URL to clipboard Open in new tab Inspect URL|1|26|3.8%|8.3
+/locations/county/highland Copy URL to clipboard Open in new tab Inspect URL|1|25|4%|9.2
+/fsd-worth-it Copy URL to clipboard Open in new tab Inspect URL|1|24|4.2%|15.9
+/locations/gloucester/ Copy URL to clipboard Open in new tab Inspect URL|1|23|4.3%|16.7
+/locations/runcorn Copy URL to clipboard Open in new tab Inspect URL|1|22|4.5%|6.4
+/locations/keighley Copy URL to clipboard Open in new tab Inspect URL|1|22|4.5%|13.3
+/tesla-brake-caliper-seized Copy URL to clipboard Open in new tab Inspect URL|1|21|4.8%|6.6
+/locations/falkirk Copy URL to clipboard Open in new tab Inspect URL|1|21|4.8%|7.1
+/locations/canterbury Copy URL to clipboard Open in new tab Inspect URL|1|21|4.8%|9.4
+/locations/darwen Copy URL to clipboard Open in new tab Inspect URL|1|21|4.8%|10.2
+/locations/burton-upon-trent Copy URL to clipboard Open in new tab Inspect URL|1|20|5%|5.6
+/locations/hull/ Copy URL to clipboard Open in new tab Inspect URL|1|20|5%|11.6
+/other/scotts-of-leeds Copy URL to clipboard Open in new tab Inspect URL|1|20|5%|13.5
+/locations/county/northumberland Copy URL to clipboard Open in new tab Inspect URL|1|19|5.3%|8.0
+/locations/halifax Copy URL to clipboard Open in new tab Inspect URL|1|18|5.6%|11.4
+/locations/doncaster Copy URL to clipboard Open in new tab Inspect URL|1|18|5.6%|12.4
+/parts/hills-salvage-recycling-hills-motors-green-parts-copart-group Copy URL to clipboard Open in new tab Inspect URL|1|18|5.6%|24.5
+/locations/sheffield/ Copy URL to clipboard Open in new tab Inspect URL|1|18|5.6%|34.2
+/locations/herne-bay Copy URL to clipboard Open in new tab Inspect URL|1|17|5.9%|7.2
+/other/tsl-autoworks Copy URL to clipboard Open in new tab Inspect URL|1|17|5.9%|9.9
+/locations/bexhill-on-sea Copy URL to clipboard Open in new tab Inspect URL|1|17|5.9%|10.6
+/locations/banbury Copy URL to clipboard Open in new tab Inspect URL|1|17|5.9%|12.2
+/parts/e-vehicle-parts Copy URL to clipboard Open in new tab Inspect URL|1|17|5.9%|19.7
+/services/battery-diagnostics/ Copy URL to clipboard Open in new tab Inspect URL|1|16|6.2%|9.2
+/parts/mobile-smart-repair Copy URL to clipboard Open in new tab Inspect URL|1|16|6.2%|21.9
+/tesla-approved-bodyshop/nottinghamshire Copy URL to clipboard Open in new tab Inspect URL|1|15|6.7%|5.5
+/locations/kidderminster Copy URL to clipboard Open in new tab Inspect URL|1|15|6.7%|10.8
+/tesla-approved-bodyshop/kent Copy URL to clipboard Open in new tab Inspect URL|1|15|6.7%|15.9
+/locations/aberdeen/ Copy URL to clipboard Open in new tab Inspect URL|1|15|6.7%|25.8
+/locations/oxford/ Copy URL to clipboard Open in new tab Inspect URL|1|14|7.1%|25.4
+/other/roystons-auto-centre Copy URL to clipboard Open in new tab Inspect URL|1|14|7.1%|30.9
+/locations/hereford/ Copy URL to clipboard Open in new tab Inspect URL|1|14|7.1%|42.4
+/hevra/cps-north-london-ltd Copy URL to clipboard Open in new tab Inspect URL|1|13|7.7%|8.7
+/hevra/pontardulais-mot-centre Copy URL to clipboard Open in new tab Inspect URL|1|13|7.7%|14.8
+/locations/chippenham Copy URL to clipboard Open in new tab Inspect URL|1|12|8.3%|7.2
+/hevra/walters-ash-garage Copy URL to clipboard Open in new tab Inspect URL|1|12|8.3%|7.4
+/garages/tesla-centre-aberdeen/ Copy URL to clipboard Open in new tab Inspect URL|1|12|8.3%|8.0
+/locations/blackburn Copy URL to clipboard Open in new tab Inspect URL|1|12|8.3%|8.2
+/locations/market-harborough Copy URL to clipboard Open in new tab Inspect URL|1|12|8.3%|19.7
+/locations/harrow Copy URL to clipboard Open in new tab Inspect URL|1|11|9.1%|4.8
+/garages/luton-tesla-and-ev-repair-specialist/ Copy URL to clipboard Open in new tab Inspect URL|1|11|9.1%|7.5
+/locations/tamworth Copy URL to clipboard Open in new tab Inspect URL|1|11|9.1%|7.8
+/hevra/a66-auto-electrical-centre Copy URL to clipboard Open in new tab Inspect URL|1|11|9.1%|11.4
+/locations/swansea/ Copy URL to clipboard Open in new tab Inspect URL|1|11|9.1%|18.7
+/locations/worcester/ Copy URL to clipboard Open in new tab Inspect URL|1|11|9.1%|31.1
+/locations/south-shields Copy URL to clipboard Open in new tab Inspect URL|1|10|10%|6.0
+/locations/st-asaph Copy URL to clipboard Open in new tab Inspect URL|1|10|10%|7.8
+/locations/county/south-ayrshire Copy URL to clipboard Open in new tab Inspect URL|1|10|10%|9.5
+/locations/enfield Copy URL to clipboard Open in new tab Inspect URL|1|10|10%|20.4
+/locations/plymouth/ Copy URL to clipboard Open in new tab Inspect URL|1|10|10%|29.3
+/locations/eastleigh Copy URL to clipboard Open in new tab Inspect URL|1|9|11.1%|6.6
+/locations/portsmouth/|0|20|0%|46.2
+/hevra/we-fit-service-centre|0|20|0%|60.7
+/hevra/city-electric-vehicle-engineering|0|20|0%|70.4
+/locations/county/fife|0|19|0%|6.7
+/other/perfect-touch|0|19|0%|6.7
+/dealer/tesla-service-belfast|0|19|0%|8.4
+/locations/chesterfield|0|19|0%|8.5
+/locations/winchester/|0|19|0%|9.2
+/hevra/intelligent-auto|0|19|0%|9.4
+/parts/combellack-vehicle-recyclers-ltd|0|19|0%|17.5
+/other/rallysport-automotive|0|19|0%|31.8
+/locations/derby/|0|19|0%|44.8
+/locations/belfast/|0|19|0%|64.2
+/hevra/ac-garage-services|0|19|0%|78.3
+/locations/weston-super-mare|0|18|0%|7.2
+/locations/county/buckinghamshire|0|18|0%|7.4
+/other/testec-automotive-ev|0|18|0%|8.0
+/locations/truro|0|18|0%|8.6
+/other/flat-6-automotive|0|18|0%|9.8
+/hevra/wicken-4x4|0|18|0%|12.1
+/other/cars-worcester|0|18|0%|12.3
+/authorised/autocare-repair-centre|0|18|0%|15.9
+/hevra/ads-leeds|0|18|0%|17.8
+/locations/mirfield|0|18|0%|21.9
+/locations/macclesfield|0|18|0%|25.2
+/locations/leyland|0|18|0%|25.4
+/locations/stroud|0|17|0%|6.0
+/hevra/pete-thirtle-vehicle-services-ltd|0|17|0%|7.6
+/locations/hemel-hempstead|0|17|0%|7.7
+/locations/county/somerset|0|17|0%|8.4
+/locations/braintree|0|17|0%|10.6
+/parts/pf-jones-ltd|0|17|0%|20.5
+/locations/orpington|0|17|0%|38.4
+/dog-mode-guide|0|17|0%|41.4
+/locations/county/dumfries-and-galloway|0|16|0%|6.8
+/locations/potters-bar|0|16|0%|7.6
+/hevra/mvt|0|16|0%|7.9
+/locations/ferndown|0|16|0%|7.9
+/locations/bilston|0|16|0%|9.2
+/garages/tesla-centre-cardiff/|0|16|0%|10.9
+/locations/dover|0|16|0%|11.4
+/locations/harrogate|0|16|0%|11.4
+/dealer/tesla-service-newcastle|0|16|0%|13.4
+/locations/stevenage|0|16|0%|13.5
+/locations/northampton/|0|16|0%|13.6
+/other/cox-of-torbay|0|16|0%|13.6
+/locations/luton/|0|16|0%|18.6
+/locations/edinburgh/|0|16|0%|21.9
+/locations/stockport/|0|16|0%|43.2
+/authorised/hilton-coachworks|0|16|0%|50.9
+/hevra/ja-services-ripon-ltd|0|16|0%|60.2
+/locations/marlow|0|15|0%|2.9
+/locations/birkenhead|0|15|0%|5.9
+/locations/county/lancashire|0|15|0%|6.1
+/locations/county/neath-port-talbot|0|15|0%|6.3
+/locations/hastings|0|15|0%|9.0
+/hevra/pearson-auto-electrics|0|15|0%|10.8
+/authorised/fcw-accident-repair-group|0|15|0%|12.3
+/locations/county/gwynedd|0|15|0%|14.9
+/authorised/balgores-motor-group|0|15|0%|16.3
+/locations/warrington/|0|15|0%|18.9
+/authorised/castle-coachworks-northampton-ltd|0|15|0%|26.0
+/tesla-tyre-wear|0|14|0%|4.0
+/locations/thornton-cleveleys|0|14|0%|7.3
+/locations/county/isle-of-wight|0|14|0%|7.6
+/hevra/paul-gunstone-mechanical-services-ltd|0|14|0%|9.1
+/other/woodstock-motors|0|14|0%|9.2
+/hevra/modern-car-electronics|0|14|0%|10.9
+/other/rs-automotive|0|14|0%|11.9
+/locations/bootle|0|14|0%|12.5
+/authorised/sj-curtis|0|14|0%|17.7
+/locations/salisbury|0|14|0%|18.1
+/other/cleevely-ev-mobile|0|14|0%|18.2
+/locations/lancaster|0|14|0%|20.0
+/other/five-star-autocentre|0|14|0%|21.3
+/locations/cheshunt|0|14|0%|28.6
+/locations/county/carmarthenshire|0|13|0%|4.4
+/locations/barnet|0|13|0%|7.9
+/locations/bridgnorth|0|13|0%|8.2
+/locations/kidlington|0|13|0%|8.3
+/parts/devout-detailing|0|13|0%|10.3
+/hevra/oak-tree-garage|0|13|0%|11.2
+/parts/cleevely-electric-vehicles|0|13|0%|15.5
+/garages/tesla-centre-york/|0|13|0%|15.7
+/locations/skelmersdale|0|13|0%|15.8
+/locations/bath|0|13|0%|19.1
+/parts/autoglass|0|13|0%|27.5
+/car-camping-guide|0|13|0%|28.7
+/locations/oldham/|0|13|0%|30.9
+/locations/coventry/|0|13|0%|32.6
+/locations/maidstone/|0|13|0%|40.4
+/locations/derry-londonderry/|0|13|0%|51.8
+/locations/perth|0|12|0%|6.2
+/hevra/mms-technik|0|12|0%|6.8
+/garages/tesla-centre-london-park-royal/|0|12|0%|7.4
+/authorised/mm-vehicle-repairs-fix-auto-stoke-longton|0|12|0%|8.4
+/hevra/autologic-hessle-ltd|0|12|0%|8.5
+/hevra/adams-garage-dorchester|0|12|0%|8.7
+/locations/haverhill|0|12|0%|8.7
+/hevra/tom-day-ltd|0|12|0%|8.9
+/locations/county/west-lothian|0|12|0%|9.2
+/locations/tetbury|0|12|0%|9.4
+/garages/tesla-centre-manchester-central/|0|12|0%|9.6
+/locations/blackpool/|0|12|0%|10.3
+/parts/tesla-parts-store-tesla-parts-store-ltd|0|12|0%|10.3
+/dealer/tesla-service-aberdeen|0|12|0%|10.8
+/locations/welwyn-garden-city|0|12|0%|14.2
+/garages/peterborough-tesla-and-ev-repair-specialist/|0|12|0%|15.1
+/locations/sittingbourne|0|12|0%|16.2
+/parts/prestige-ppf|0|12|0%|16.3
+/tesla-approved-bodyshop/stirling|0|12|0%|18.1
+/authorised/prestige-repair|0|12|0%|20.5
+/locations/waterlooville|0|12|0%|43.9
+/locations/county/conwy|0|11|0%|5.6
+/locations/county/monmouthshire|0|11|0%|5.8
+/hevra/allstar-vehicle-services|0|11|0%|6.9
+/garages/tesla-body-repair-centre-dartford/|0|11|0%|7.0
+/locations/farnham|0|11|0%|7.2
+/reviews|0|11|0%|7.8
+/locations/newport|0|11|0%|8.3
+/locations/bolton|0|11|0%|8.9
+/hevra/p-d-motors-billingshurst-limited|0|11|0%|9.6
+/other/pw-skipton-peter-watson|0|11|0%|11.4
+/hevra/kinghorn-electric-vehicles-ltd|0|11|0%|12.0
+/locations/letchworth-garden-city|0|11|0%|14.8
+/hevra/barnside-motors|0|11|0%|17.3
+/locations/tonbridge|0|11|0%|21.6
+/hevra/the-village-garage|0|11|0%|23.0
+/locations/portishead|0|11|0%|26.1
+/authorised/master-cars-birstall|0|11|0%|26.6
+/other/millers-garage|0|11|0%|30.6
+/other/the-mot-centre-tmc-garages|0|11|0%|40.9
+/authorised/doseley-body-and-paint-centre|0|10|0%|5.1
+/hevra/ajl-car-care-centre-ltd|0|10|0%|5.2
+/authorised/wyndon-motors|0|10|0%|6.3
+/hevra/mta-ev-hybrid-specialist|0|10|0%|6.3
+/locations/kettering|0|10|0%|6.4
+/hevra/fine-drive-autocentres-ltd|0|10|0%|8.7
+/locations/dartford/|0|10|0%|8.7
+/locations/hartlepool|0|10|0%|9.0
+/hevra/auto-diagnostics-servicing-ltd|0|10|0%|9.2
+/other/pelican-diagnostics|0|10|0%|10.6
+/locations/chester/|0|10|0%|15.8
+/dealer/tesla-service-bournemouth|0|10|0%|16.6
+/locations/corby|0|10|0%|18.2
+/locations/blackburn/|0|10|0%|18.5
+/locations/bristol/|0|10|0%|27.8
+/locations/bolton/|0|10|0%|28.6
+/hevra/ap-vehicle-services-east-anglia-ltd|0|10|0%|31.9
+/tesla-wont-charge|0|10|0%|37.3
+/home-charging-guide|0|10|0%|51.6
+/locations/pontefract|0|9|0%|5.4
+/locations/chatham|0|9|0%|7.1
+/locations/oldbury|0|9|0%|7.2
+/hevra/ev-repair-ltd|0|9|0%|7.3
+/locations/trowbridge|0|9|0%|7.3
+/garages/wolverhampton-tesla-and-ev-repair-specialist/|0|9|0%|7.7
+/locations/bridlington|0|9|0%|7.9
+/other/cleevely-motors|0|9|0%|8.2
+/hevra/turner-mechatronics|0|9|0%|8.3
+/other/browns-of-richmond|0|9|0%|9.0
+/locations/wymondham|0|9|0%|9.1
+/locations/county/west-yorkshire|0|9|0%|9.3
+/other/hallmark-motor-services|0|9|0%|9.6
+/locations/wolverhampton/|0|9|0%|10.0
+/hevra/cea-automotive|0|9|0%|10.3
+/other/dore-service-station|0|9|0%|10.8
+/other/aes-york|0|9|0%|12.0
+/hevra/lakeside-garage|0|9|0%|12.1
+/hevra/the-ev-workshop|0|9|0%|12.7
+/parts/regal-ppf|0|9|0%|12.9
+/hevra/wirral-automotive-services|0|9|0%|13.7
+/other/shaikly-ev-specialists|0|9|0%|17.4
+/locations/caerphilly|0|9|0%|17.7
+/hevra/dd-services-ltd|0|9|0%|17.9
+/hevra/sandhurst-mot-and-service-centre|0|9|0%|18.0
+/other/lewis-motors|0|9|0%|19.0
+/authorised/lj-eaton-arc|0|9|0%|21.2
+/hevra/maidenhead-tyres-and-autocare|0|9|0%|27.6
+/locations/sunderland/|0|9|0%|29.6
+/parts/mywindscreen|0|9|0%|36.2
+/other/le-company-lecompany|0|9|0%|37.0
+/calculator|0|9|0%|39.6
+/hevra/knightsbridge-garage|0|9|0%|40.1
+/hevra/tiddington-garage|0|8|0%|3.0
+/locations/wakefield#other|0|8|0%|5.0
+/other/mike-wilson-motors|0|8|0%|6.4
+/parts/lkq-synetiq|0|8|0%|7.6
+/motion-sickness-regen|0|8|0%|7.8
+/hevra/smp-automotives|0|8|0%|7.9
+/locations/harlow|0|8|0%|7.9
+/garages/bristol-tesla-and-ev-repair-specialist/|0|8|0%|8.4
+/other/a1-autocentre|0|8|0%|8.5
+/other/tony-fowkes-automobiles|0|8|0%|8.8
+/hevra/s-w-maddy-and-son|0|8|0%|9.0
+/garages/tesla-centre-nottingham/|0|8|0%|9.2
+/hevra/ace-tuning|0|8|0%|10.1
+/other/mccarthy-cars-service-centre|0|8|0%|10.1
+/other/autocentre-chorley|0|8|0%|11.5
+/locations/sudbury|0|8|0%|12.2
+/locations/southport|0|8|0%|13.0
+/other/automaster|0|8|0%|13.4
+/locations/aylesbury|0|8|0%|13.8
+/parts/customise-my-tesla-uk|0|8|0%|14.0
+/other/ferris-garage|0|8|0%|15.5
+/tesla-approved-bodyshop/gloucestershire|0|8|0%|16.1
+/non-tesla-chargers-guide|0|8|0%|16.5
+/other/md-vehicle-services|0|8|0%|16.8
+/other/eac-telford|0|8|0%|18.6
+/locations/bangor|0|8|0%|21.5
+/locations/wellingborough|0|8|0%|24.8
+/other/fix-any-car-we-fix-any-hybrid|0|8|0%|24.9
+/hevra/simon-graeme-auto-service-centre|0|8|0%|29.1
+/tesla-touchscreen-black|0|8|0%|33.0
+/parts/uk-car-glass|0|8|0%|35.8
+/parts/detailr|0|8|0%|37.4
+/locations/county/county-antrim|0|8|0%|52.6
+/locations/yorkshire/|0|8|0%|53.2
+/parts/surrey-detailing|0|8|0%|65.8
+/locations/wakefield#hevra|0|7|0%|4.3
+/locations/wakefield#authorised|0|7|0%|5.4
+/locations/swadlincote|0|7|0%|6.3
+/locations/county/stirling|0|7|0%|6.4
+/locations/nuneaton|0|7|0%|6.4
+/locations/twickenham|0|7|0%|6.6
+/hevra/drysdale-motors|0|7|0%|6.9
+/locations/county/vale-of-glamorgan|0|7|0%|7.1
+/hevra/rp-woods-motor-engineers-ltd|0|7|0%|7.7
+/locations/hitchin|0|7|0%|7.9
+/garages/tesla-centre-heathrow/|0|7|0%|8.0
+/hevra/ogs-mechanics|0|7|0%|8.0
+/other/gk-mot-tachograph-centre|0|7|0%|8.3
+/locations/chelmsford#authorised|0|7|0%|8.4
+/locations/chelmsford#dealer|0|7|0%|8.4
+/locations/chelmsford#hevra|0|7|0%|8.4
+/locations/newcastle-under-lyme|0|7|0%|8.9
+/hevra/mr-clutch-autocentre|0|7|0%|9.0
+/hevra/sg-auto-repairs|0|7|0%|9.4
+/locations/county/clackmannanshire|0|7|0%|11.3
+/garages/tesla-centre-bristol/|0|7|0%|11.6
+/hevra/rs-autotechnik|0|7|0%|14.1
+/other/walsgrave-garage|0|7|0%|15.3
+/hidden-features|0|7|0%|17.1
+/locations/ely|0|7|0%|21.6
+/tesla-vs-rivals|0|7|0%|22.4
+/hevra/fitnfix-auto|0|7|0%|27.0
+/locations/barnsley/|0|7|0%|28.3
+/hevra/hsr-autos|0|7|0%|30.9
+/parts/1st-choice-spares-uk-ltd|0|7|0%|32.6
+/tesla-door-wont-open|0|7|0%|33.7
+/hevra/magnet-autos|0|7|0%|33.9
+/parts/tesla-shop-uk-official|0|7|0%|40.7
+/parts/think-wraps|0|7|0%|42.6
+/hevra/cam-autos-rutherglen-ltd|0|7|0%|43.1
+/hevra/max-automotive-group-ltd|0|7|0%|52.1
+/other/corys-car-repairs|0|7|0%|53.7
+/locations/falkirk/|0|7|0%|55.7
+/tesla-approved-bodyshop/dumfries-and-galloway|0|7|0%|59.9
+/parts/summit-details|0|7|0%|72.6
+/locations/county/ceredigion|0|6|0%|2.0
+/locations/county/east-ayrshire|0|6|0%|4.7
+/locations/warrington#dealer|0|6|0%|4.7
+/locations/warrington#hevra|0|6|0%|4.7
+/locations/andover|0|6|0%|5.7
+/locations/wickford|0|6|0%|5.8
+/locations/county/scottish-borders|0|6|0%|6.8
+/locations/county/powys|0|6|0%|7.0
+/locations/wimbledon|0|6|0%|7.2
+/locations/harwich|0|6|0%|7.5
+/services/ev-specialist/|0|6|0%|7.8
+/hevra/gg-motors|0|6|0%|8.2
+/locations/colchester/|0|6|0%|8.3
+/hevra/sg-uffculme-ltd|0|6|0%|8.7
+/garages/tesla-centre-chelmsford/|0|6|0%|8.8
+/other/vulcan-hybrid-electric-centre|0|6|0%|8.8
+/hevra/lodge-bank-garage|0|6|0%|9.0
+/locations/county/moray|0|6|0%|9.2
+/locations/yeovil|0|6|0%|9.3
+/services/tesla-repair/|0|6|0%|9.7
+/hevra/daves-garage|0|6|0%|9.8
+/charging-stops-guide|0|6|0%|10.0
+/garages/tesla-centre-reading/|0|6|0%|10.2
+/hevra/twa-autoelectrics-ltd|0|6|0%|10.7
+/parts/unplugged-performance-uk|0|6|0%|10.7
+/hevra/electron-garage|0|6|0%|11.0
+/locations/grimsby/|0|6|0%|11.2
+/other/oneill-motors|0|6|0%|11.2
+/hevra/sunside-service-station-ltd|0|6|0%|11.5
+/hevra/garden-city-garage|0|6|0%|11.7
+/locations/exeter#dealer|0|6|0%|11.8
+/locations/exeter#hevra|0|6|0%|11.8
+/locations/leek|0|6|0%|12.3
+/hevra/all-trans-autos-ltd|0|6|0%|13.8
+/locations/rotherham/|0|6|0%|13.8
+/voice-commands-cheatsheet|0|6|0%|15.0
+/locations/wrexham/|0|6|0%|19.2
+/hevra/car-and-commercial-servicing-ltd|0|6|0%|19.5
+/authorised/panelcraft-uk|0|6|0%|20.7
+/hevra/robert-cockings-motor-repairs|0|6|0%|20.8
+/hevra/erme-valley-autos|0|6|0%|21.0
+/other/sg-motor-centre|0|6|0%|21.8
+/accessibility-guide|0|6|0%|22.2
+/locations/lancaster/|0|6|0%|24.5
+/garages/cambridge-tesla-and-ev-repair-specialist/|0|6|0%|25.0
+/tesla-approved-bodyshop/highland|0|6|0%|26.0
+/locations/county/county-armagh|0|6|0%|26.7
+/tesla-cabin-filter|0|6|0%|27.0
+/other/mh-autos|0|6|0%|27.3
+/locations/bath/|0|6|0%|28.0
+/parts/all-that-gleams|0|6|0%|31.0
+/locations/wakefield/|0|6|0%|38.5
+/other/xpress-garage-tyres|0|6|0%|41.2
+/hevra/harborne-garage-ltd|0|6|0%|45.5
+/parts/velocity-detailers|0|6|0%|62.7
+/locations/brighton/|0|5|0%|3.0
+/locations/cumbernauld|0|5|0%|3.4
+/locations/warrington#other|0|5|0%|4.4
+/hevra/ishys-autoelectrics|0|5|0%|4.6
+/locations/warrington#authorised|0|5|0%|5.0
+/locations/clacton-on-sea|0|5|0%|5.2
+/other/tgpp-autocare|0|5|0%|5.4
+/locations/county/merthyr-tydfil|0|5|0%|6.0
+/hevra/north-east-garages-ltd|0|5|0%|6.6
+/other/sf-tebby-son|0|5|0%|6.8
+/hevra/hicks-mot-and-service-centre|0|5|0%|7.0
+/garages/sunderland-tesla-and-ev-repair-specialist/|0|5|0%|7.2
+/locations/bishops-stortford|0|5|0%|7.2
+/locations/county/midlothian|0|5|0%|7.2
+/other/gmc-motor-services|0|5|0%|7.4
+/locations/county/rhondda-cynon-taf|0|5|0%|7.6
+/garages/rochdale-tesla-and-ev-repair-specialist/|0|5|0%|7.8
+/hevra/castle-garage-staffs-ltd|0|5|0%|7.8
+/other/city-garage|0|5|0%|7.8
+/hevra/car-and-fleet-services-cfs|0|5|0%|8.0
+/hevra/westmoor-mot-centre|0|5|0%|8.0
+/locations/bodmin|0|5|0%|8.0
+/locations/glenrothes|0|5|0%|8.0
+/other/lp-autos|0|5|0%|8.0
+/garages/tesla-centre-norwich/|0|5|0%|8.4
+/locations/derby#authorised|0|5|0%|8.6
+/locations/derby#hevra|0|5|0%|8.6
+/hevra/simon-dean-motor-services|0|5|0%|9.6
+/towing-caravans|0|5|0%|9.6
+/locations/rayleigh|0|5|0%|10.4
+/hevra/priorslee-motor-services-ltd|0|5|0%|10.8
+/locations/kilmarnock/|0|5|0%|11.0
+/locations/county/argyll-and-bute|0|5|0%|14.6
+/hevra/ferdotti-motor-services-limited|0|5|0%|16.0
+/hevra/cm-automotive-bristol|0|5|0%|16.2
+/hevra/britannia-mot-repair-centre|0|5|0%|17.4
+/hevra/mjp-autocentre|0|5|0%|17.6
+/hevra/castle-garage-ashby-ltd|0|5|0%|18.0
+/other/dvb-automotive|0|5|0%|18.2
+/locations/canterbury/|0|5|0%|18.8
+/hevra/adas-solutions-ltd|0|5|0%|19.8
+/other/howarths-garage|0|5|0%|20.6
+/other/john-atherton-autos|0|5|0%|20.6
+/other/wiltshire-tyres|0|5|0%|20.6
+/locations/woking|0|5|0%|21.2
+/about|0|5|0%|21.4
+/tesla-approved-bodyshop/south-yorkshire|0|5|0%|21.6
+/windscreen-camera-calibration|0|5|0%|22.2
+/hevra/fairfax-motors-ltd|0|5|0%|23.6
+/tesla-approved-bodyshop/dorset|0|5|0%|26.8
+/hevra/beresford-auto-service-centre|0|5|0%|28.4
+/hevra/star-tech-ltd|0|5|0%|32.4
+/locations/bangor/|0|5|0%|39.0
+/hevra/parnell-ev|0|5|0%|39.2
+/charging-etiquette|0|5|0%|47.2
+/parts/wrapping-cars|0|5|0%|50.4
+/hevra/central-auto-centre|0|5|0%|71.8
+/hevra/j-g-motor-services-limited|0|4|0%|2.0
+/locations/driffield|0|4|0%|2.8
+/locations/county/anglesey|0|4|0%|3.2
+/hevra/steve-mott-and-co-ltd|0|4|0%|4.5
+/garages/bolton-tesla-and-ev-repair-specialist/|0|4|0%|4.8
+/known-issues-by-model|0|4|0%|5.0
+/locations/chorley|0|4|0%|5.2
+/parts/north-west-windscreens|0|4|0%|5.8
+/hevra/aa-auto-electrical-ltd|0|4|0%|6.5
+/hevra/essential-power-ltd|0|4|0%|6.5
+/locations/county/county-down|0|4|0%|6.8
+/locations/newhaven|0|4|0%|6.8
+/authorised/fix-auto-caldicot-mustoes-specialist-vehicle-body-repairs|0|4|0%|7.2
+/locations/county/western-isles|0|4|0%|7.2
+/locations/newcastle#hevra|0|4|0%|7.5
+/locations/newcastle#other|0|4|0%|7.5
+/garages/middlesbrough-tesla-and-ev-repair-specialist/|0|4|0%|7.8
+/locations/county/orkney|0|4|0%|7.8
+/garages/tesla-centre-newcastle/|0|4|0%|8.0
+/hevra/injection-development-canterbury-ltd|0|4|0%|8.0
+/locations/motherwell|0|4|0%|8.0
+/other/phoenix-motor-centre|0|4|0%|8.0
+/hevra/wellbrook-motor-services|0|4|0%|8.2
+/12v-battery-failure-watch|0|4|0%|8.5
+/garages/tesla-centre-st-albans/|0|4|0%|8.5
+/locations/derby#dealer|0|4|0%|8.5
+/locations/newton-abbot|0|4|0%|8.5
+/locations/shrewsbury#dealer|0|4|0%|8.8
+/locations/shrewsbury#other|0|4|0%|8.8
+/garages/coventry-tesla-and-ev-repair-specialist/|0|4|0%|9.2
+/locations/shrewsbury/|0|4|0%|9.2
+/garages/dundee-tesla-and-ev-repair-specialist/|0|4|0%|9.5
+/tesla-approved-bodyshop/worcestershire|0|4|0%|9.5
+/hevra/grasmere-garage|0|4|0%|9.8
+/hevra/sumner-automotive|0|4|0%|9.8
+/garages/blackpool-tesla-and-ev-repair-specialist/|0|4|0%|10.0
+/other/ridge-west-garage|0|4|0%|10.2
+/hevra/cj-auto-service|0|4|0%|12.5
+/locations/dunfermline/|0|4|0%|13.8
+/hevra/bosch-car-service-livingston|0|4|0%|14.2
+/hevra/hedaux-motor-company-ltd|0|4|0%|14.2
+/locations/loughborough|0|4|0%|14.5
+/other/station-garage-flaxton|0|4|0%|14.5
+/locations/brackley|0|4|0%|15.2
+/locations/burnley/|0|4|0%|16.8
+/parts/ultimate-towbar-systems-ltd-tesla-towbars|0|4|0%|16.8
+/other/auto-engine-tune|0|4|0%|17.2
+/hevra/shires-garage-auto-services|0|4|0%|18.0
+/other/tektronic|0|4|0%|19.8
+/other/keith-elgin-motor-engineers|0|4|0%|21.5
+/locations/carlisle/|0|4|0%|22.5
+/locations/cranleigh|0|4|0%|22.5
+/locations/perth/|0|4|0%|23.5
+/other/the-garage-sheffield|0|4|0%|25.8
+/phone-key-troubleshooting|0|4|0%|26.0
+/hevra/dinedor-cross-garage|0|4|0%|27.2
+/hevra/parkside-garage-exeter-ltd|0|4|0%|27.2
+/hevra/douglass-motors-ltd|0|4|0%|27.5
+/locations/dorking|0|4|0%|31.0
+/parts/telford-towbars|0|4|0%|32.5
+/parts/alloy-fix|0|4|0%|32.8
+/garages/stoke-on-trent-tesla-and-ev-repair-specialist/|0|4|0%|33.0
+/parts/utws-unbeatable-tints-wraps-signs|0|4|0%|38.5
+/hevra/lunts-heath-tyre-and-exhaust|0|4|0%|41.5
+/parts/dmd-car-detailing|0|4|0%|49.0
+/hevra/eddie-holmes-auto-repairs|0|4|0%|54.8
+/parts/pure-ppf|0|4|0%|67.0
+/locations/wigan/|0|4|0%|73.0
+/locations/county/east-renfrewshire|0|3|0%|2.0
+/other/st-johns-garage|0|3|0%|3.0
+/garages/birmingham-tesla-and-ev-repair-specialist/|0|3|0%|3.3
+/other/continental-motors-ev|0|3|0%|3.3
+/hevra/simon-thorpe-motor-services|0|3|0%|3.7
+/locations/saffron-walden|0|3|0%|4.0
+/locations/ripon|0|3|0%|4.3
+/hevra/elmwood-vehicles-ltd|0|3|0%|4.7
+/locations/neath|0|3|0%|4.7
+/garages/barnsley-tesla-and-ev-repair-specialist/|0|3|0%|5.0
+/hevra/fairway-motors|0|3|0%|5.0
+/authorised/parkway-prestige|0|3|0%|5.3
+/hevra/ac-autotech|0|3|0%|5.3
+/locations/county/angus|0|3|0%|5.3
+/other/bishopbriggs-mot-centre|0|3|0%|5.3
+/other/lindleys-autocentres|0|3|0%|5.7
+/parts/tiki-details|0|3|0%|5.7
+/locations/county/blaenau-gwent|0|3|0%|6.0
+/locations/uckfield|0|3|0%|6.0
+/locations/wakefield#dealer|0|3|0%|6.0
+/garages/walsall-tesla-and-ev-repair-specialist/|0|3|0%|6.3
+/hevra/kap-motorgroup|0|3|0%|6.3
+/other/cleevely-ev|0|3|0%|6.3
+/locations/county/county-tyrone|0|3|0%|6.7
+/parts/unplugged-performance-uk-pwrd-ltd|0|3|0%|6.7
+/garages/hereford-tesla-and-ev-repair-specialist/|0|3|0%|7.0
+/parts/marque-one-detailing|0|3|0%|7.0
+/hevra/hogg-mot-and-service-centre|0|3|0%|7.3
+/garages/oxford-tesla-and-ev-repair-specialist/|0|3|0%|7.7
+/hevra/london-road-garage-retford-ltd|0|3|0%|7.7
+/hevra/pro-tech-automotive|0|3|0%|7.7
+/other/complete-car-care|0|3|0%|7.7
+/parts/carracks|0|3|0%|7.7
+/garages/kilmarnock-tesla-and-ev-repair-specialist/|0|3|0%|8.0
+/other/elite-garages-canterbury|0|3|0%|8.0
+/other/greentec-auto-uk|0|3|0%|8.0
+/locations/county/north-lanarkshire|0|3|0%|8.3
+/locations/newcastle#dealer|0|3|0%|8.3
+/garages/tesla-centre-milton-keynes/|0|3|0%|8.7
+/locations/bishop-auckland|0|3|0%|9.0
+/other/aj-auto-services|0|3|0%|9.0
+/other/kettering-motorist-centre|0|3|0%|9.0
+/parts/customise-my-tesla-electrovogue-ltd|0|3|0%|9.0
+/parts/rm-towbars|0|3|0%|9.0
+/hevra/ev-autocentre|0|3|0%|9.3
+/locations/cupar|0|3|0%|9.3
+/other/rew-auto-services|0|3|0%|9.3
+/parts/pro-vinyl-manchester|0|3|0%|9.3
+/parts/top-fit-towbars-and-towing|0|3|0%|9.3
+/garages/the-independent-tesla-specialists/|0|3|0%|9.7
+/hevra/mobiltune-ltd|0|3|0%|9.7
+/locations/county/east-dunbartonshire|0|3|0%|9.7
+/locations/launceston|0|3|0%|9.7
+/settings-recipes|0|3|0%|9.7
+/hevra/goingreen|0|3|0%|10.0
+/hevra/j-and-m-automotive-ltd|0|3|0%|10.0
+/garages/tesla-centre-dartford/|0|3|0%|10.3
+/locations/edinburgh#dealer|0|3|0%|10.7
+/locations/edinburgh#hevra|0|3|0%|10.7
+/locations/edinburgh#other|0|3|0%|10.7
+/hevra/upfront-automotive-ltd|0|3|0%|11.0
