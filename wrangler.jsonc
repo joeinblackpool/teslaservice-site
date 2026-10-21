@@ -1,0 +1,16 @@
+{
+  // teslaservice.co.uk: static site served by Workers static assets (no script).
+  // Deployed by Cloudflare Workers Builds on every push to main (deploy command: npx wrangler deploy).
+  "name": "rough-snow-bc1f",
+  "compatibility_date": "2026-10-10",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./site",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "teslaservice.co.uk", "custom_domain": true }
+  ],
+  "observability": { "enabled": true }
+}

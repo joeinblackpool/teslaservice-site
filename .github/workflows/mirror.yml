@@ -1,8 +1,6 @@
 name: Mirror live site into repo (one-off)
 on:
-  push:
-    paths: ['.github/workflows/mirror.yml', 'tools/mirror.py']
-  workflow_dispatch:
+  workflow_dispatch:   # manual only: re-copies the live site (only needed if someone edits the site outside this repo)
 permissions:
   contents: write
 jobs:
