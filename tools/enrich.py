@@ -15,7 +15,7 @@ from sitelib import S, html_pages, url_of, garages, ts_places, miles, Chargers, 
 TCS = 'https://teslachargers.co.uk'
 CREDIT = ('Charger data: <a href="https://openchargemap.org/" rel="noopener">Open Charge Map</a> '
           '(<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>) and Tesla, '
-          'via <a href="https://teslachargers.co.uk/">TeslaChargers.co.uk</a>. Straight-line distances; check live availability in your Tesla app before you set off.')
+          'compiled by our sister site TeslaChargers.co.uk. Straight-line distances; check live availability in your Tesla app before you set off.')
 CSS = ('<style id="enrich-css">.charging h3,.glance h3{font-size:14.5px;margin:14px 0 6px;color:var(--ink-dim);font-weight:600}'
        '.glance{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:0 0 26px}'
        '.glance h2{font-size:17px;margin:0 0 10px}.glance ul{margin:0 0 10px;padding-left:18px;font-size:14.5px}.glance li{margin:3px 0}'
@@ -59,9 +59,9 @@ def charger_town(name, lat, lon):
 
 
 def link(i, label):
-    u = C.charger_url(i)
-    if not u: return esc(label)
-    USED.add(u); return f'<a href="{u}" rel="noopener">{esc(label)}</a>'
+    # Gold-standard cross-site linking: chargers are listed as plain text (the data is the value);
+    # each block carries ONE contextual link to the matching teslachargers town/county page.
+    return esc(label)
 
 
 def town_link(ti, label=None):
