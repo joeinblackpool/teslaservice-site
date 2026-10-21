@@ -1,0 +1,17 @@
+name: Live check (after each push)
+on: [push]
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sleep 180
+      - name: Fetch the paths in tools/live_urls.txt from the live site
+        run: |
+          while read -r p want; do
+            [ -z "$p" ] && continue
+            r=$(curl -s -o /tmp/b -w '%{http_code} %{redirect_url}' "https://teslaservice.co.uk$p")
+            hit=""; [ -n "$want" ] && grep -q -- "$want" /tmp/b && hit="found:$want"
+            [ -n "$want" ] && [ -z "$hit" ] && hit="MISSING:$want"
+            echo "::notice title=live::$p -> $r $hit"
+          done < tools/live_urls.txt
