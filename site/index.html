@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tesla Service UK — Independent Specialists &amp; Service Centres</title>
+<meta name="description" content="Find Tesla servicing near you: 660 UK garages, from official Service Centres to HEVRA-accredited independents. No paid listings.">
+<link rel="canonical" href="https://teslaservice.co.uk/">
+<link rel="alternate" hreflang="en-GB" href="https://teslaservice.co.uk/">
+<link rel="alternate" hreflang="x-default" href="https://teslaservice.co.uk/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tesla Service UK — Independent Tesla Specialists &amp; Service Centres">
+<meta property="og:description" content="Verified independent Tesla specialists, honest guides, no fake ratings. Not affiliated with Tesla, Inc.">
+<meta property="og:url" content="https://teslaservice.co.uk/">
+<meta property="og:image" content="https://teslaservice.co.uk/og-image-v2.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tesla Service UK">
+<meta name="twitter:description" content="An honest, independent directory for UK Tesla owners.">
+<meta name="twitter:image" content="https://teslaservice.co.uk/og-image-v2.png">
+<style>
+  :root{
+    --bg:#0B1113; --bg-alt:#10181A; --panel:#171F22;
+    --ink:#F2F5F4; --ink-dim:#93A6A3;
+    --accent:#33E0C0; --accent-dim:#1D4C44;
+    --line:#222C2E;
+    --radius:6px;
+    box-sizing:border-box;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-padding-top:env(safe-area-inset-top,0px); scroll-behavior:smooth;}
+  html,body{height:100%;}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif; line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:2px;}
+  ::selection{background:var(--accent-dim); color:var(--ink);}
+  h1,h2,h3,.brand{font-family:ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;}
+  a{color:inherit;}
+  .wrap{max-width:920px; margin:0 auto; padding:0 24px;}
+  header{position:sticky; top:0; z-index:10; background:rgba(11,17,19,.92); backdrop-filter:blur(6px); border-bottom:1px solid var(--line); padding:env(safe-area-inset-top,0px) 0 0;}
+  .nav{display:flex; align-items:center; justify-content:space-between; padding:16px 24px; max-width:920px; margin:0 auto;}
+  .brand{font-size:18px; font-weight:600; letter-spacing:-.01em;}
+  .brand span{color:var(--accent);}
+  nav ul{list-style:none; display:flex; gap:18px; margin:0; padding:0; font-size:14px; flex-wrap:wrap; justify-content:flex-end;}
+  .nav{flex-wrap:wrap; gap:12px;}
+  nav a{text-decoration:none; color:var(--ink-dim); transition:color .15s;}
+  nav a:hover{color:var(--ink);}
+
+  .hero{padding:72px 0 56px; border-bottom:1px solid var(--line); position:relative; overflow:hidden;}
+  .hero::before{content:"";position:absolute; top:-140px; right:-120px; width:480px; height:480px; border-radius:50%;
+    background:radial-gradient(circle, var(--accent-dim) 0%, transparent 70%); opacity:.35; pointer-events:none;}
+  .hero-grid{display:grid; grid-template-columns:1.3fr 1fr; gap:48px; align-items:center; position:relative;}
+  @media (max-width:720px){.hero-grid{grid-template-columns:1fr;} .hero{padding:48px 0 40px;}}
+  .hero h1{font-size:clamp(32px,5vw,46px); line-height:1.08; margin:0 0 18px; font-weight:600; letter-spacing:-.02em;}
+  .hero p{color:var(--ink-dim); font-size:17px; max-width:46ch; margin:0 0 28px;}
+  .cta-row{display:flex; gap:12px; flex-wrap:wrap;}
+  .btn{display:inline-block; padding:12px 20px; border-radius:var(--radius); font-size:14.5px; font-weight:600; text-decoration:none; cursor:pointer; border:1px solid transparent; transition:background .15s,border-color .15s,box-shadow .15s,transform .15s;}
+  .btn-primary{background:var(--accent); color:#071D18; box-shadow:0 0 0 rgba(51,224,192,0);}
+  .btn-ghost{border-color:var(--line); color:var(--ink);}
+  .btn-primary:hover{background:#55EDD0; box-shadow:0 6px 24px -6px rgba(51,224,192,.45); transform:translateY(-1px);}
+  .btn-ghost:hover{border-color:var(--ink-dim); transform:translateY(-1px);}
+
+  .charge{width:100%; max-width:300px; justify-self:center; position:relative;}
+  .charge svg{width:100%; height:auto; display:block; filter:drop-shadow(0 0 28px rgba(51,224,192,.25));}
+  .charge circle:nth-of-type(2){animation:chargeSpin 3.2s ease-in-out infinite alternate;}
+  @keyframes chargeSpin{from{stroke-dashoffset:340;} to{stroke-dashoffset:120;}}
+  @media (prefers-reduced-motion:reduce){.charge circle:nth-of-type(2){animation:none;}}
+  @media (max-width:720px){.charge{display:none;}}
+
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
+  .eyebrow{color:var(--accent); font-size:13px; margin:0 0 10px;}
+  h2{font-size:26px; font-weight:600; letter-spacing:-.01em; margin:0 0 8px;}
+  .lede{color:var(--ink-dim); max-width:60ch; margin:0 0 32px;}
+
+  .trust-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden;}
+  @media (max-width:720px){.trust-grid{grid-template-columns:1fr;}}
+  .trust-item{background:var(--bg); padding:24px; transition:background .15s;}
+  .trust-item:hover{background:var(--panel);}
+  .trust-item h3{font-size:15px; margin:0 0 8px; font-weight:600;}
+  .trust-item h3::before{content:"";display:inline-block; width:6px; height:6px; border-radius:50%; background:var(--accent); margin-right:8px; vertical-align:middle;}
+  .trust-item p{color:var(--ink-dim); font-size:14px; margin:0;}
+
+  .guides{display:flex; flex-direction:column;}
+  .guide{padding:22px 0; border-top:1px solid var(--line); display:grid; grid-template-columns:120px 1fr; gap:20px; transition:padding-left .15s;}
+  .guide:first-child{border-top:none;}
+  @media (hover:hover){.guide:hover{padding-left:6px;}}
+  @media (max-width:600px){.guide{grid-template-columns:1fr; gap:6px;} .guide:hover{padding-left:0;}}
+  .guide .tag{color:var(--ink-dim); font-size:12.5px; text-transform:uppercase; letter-spacing:.04em;}
+  .guide h3{font-size:17px; margin:0 0 6px; font-weight:600;}
+  .guide p{color:var(--ink-dim); font-size:14.5px; margin:0;}
+
+  .finder-bar{display:flex; gap:10px; margin-bottom:20px; flex-wrap:wrap;}
+  .finder-bar input, .finder-bar select{
+    background:var(--panel); border:1px solid var(--line); color:var(--ink);
+    padding:11px 14px; border-radius:var(--radius); font-size:14.5px; font-family:inherit; flex:1; min-width:160px;
+  }
+  .finder-note{background:var(--panel); border:1px solid var(--line); padding:14px 16px; font-size:13.5px; color:var(--ink-dim); margin-bottom:20px; border-radius:var(--radius);}
+  .listing{display:flex; justify-content:space-between; align-items:flex-start; gap:16px; padding:18px 0; border-top:1px solid var(--line); transition:padding-left .15s;}
+  .listing:first-of-type{border-top:none;}
+  @media (hover:hover){.listing:hover{padding-left:6px;}}
+  .listing h3{margin:0 0 4px; font-size:15.5px; font-weight:600;}
+  .listing .meta{color:var(--ink-dim); font-size:13.5px;}
+  .listing .type{font-size:12px; color:var(--accent); margin-top:4px;}
+  .verify-link{font-size:13px; text-decoration:none; color:var(--ink-dim); border:1px solid var(--line); padding:8px 12px; border-radius:var(--radius); white-space:nowrap; transition:border-color .15s,color .15s;}
+  .verify-link:hover{border-color:var(--accent); color:var(--accent);}
+  .empty{color:var(--ink-dim); font-size:14px; padding:24px 0; display:none;}
+
+  footer{padding:40px 0; }
+  footer p{color:var(--ink-dim); font-size:13px; max-width:60ch;}
+.u-more{color:var(--accent);font-size:14.5px;text-decoration:none}.u-nobb{border-bottom:none}.u-acc{color:var(--accent)}.u-dim{color:var(--ink-dim)}.u-ul{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}.u-small{color:var(--ink-dim);font-size:13.5px;margin-top:10px}.u-nobt{border-top:none}.u-plain{text-decoration:none;color:var(--ink)}.u-mt20{margin-top:20px}.u-mt10{margin-top:10px}.u-noflex{flex:0 0 auto}.u-empty{display:none;color:var(--ink-dim);font-size:14px}.choose-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:18px}.choose-grid>div{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}.choose-grid h3{margin:0 0 8px}.choose-grid p{margin:0;color:var(--ink-dim);font-size:15px}.choose-note{color:var(--ink-dim);font-size:14px;margin-top:16px}@media (max-width:720px){.choose-grid{grid-template-columns:1fr}}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://teslaservice.co.uk/#organization",
+      "name": "TeslaService.co.uk",
+      "alternateName": "Tesla Service UK",
+      "url": "https://teslaservice.co.uk/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://teslaservice.co.uk/og-image-v2.png"
+      },
+      "image": "https://teslaservice.co.uk/og-image-v2.png",
+      "description": "Independent directory and guide for Tesla drivers in the UK — 660 listings covering the official Tesla Service Centres, HEVRA-accredited EV specialists, Tesla-approved bodyshops and independent garages, plus plain-English ownership guides. No paid listings.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      "knowsAbout": [
+        "Tesla servicing",
+        "Tesla repair",
+        "Electric vehicle maintenance",
+        "HEVRA accreditation",
+        "Tesla warranty",
+        "Tesla battery health and range",
+        "EV charging in the UK",
+        "Tesla Autopilot and FSD in the UK",
+        "Tesla insurance",
+        "Used Tesla buying"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Mr Joseph"
+      },
+      "email": "tesla@f1rst.co.uk",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "tesla@f1rst.co.uk",
+        "areaServed": "GB",
+        "availableLanguage": "English"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://teslaservice.co.uk/#website",
+      "name": "Tesla Service UK",
+      "alternateName": "TeslaService.co.uk",
+      "url": "https://teslaservice.co.uk/",
+      "inLanguage": "en-GB",
+      "publisher": {
+        "@id": "https://teslaservice.co.uk/#organization"
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will an independent garage void my Tesla warranty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Routine servicing at a non-Tesla garage generally doesn't void the vehicle warranty under UK consumer law, provided the right parts and procedures are used. Battery and drive unit work is different. Keep every invoice and ask the garage to confirm parts specification in writing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a Tesla need annual servicing at all?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tesla doesn't require fixed-interval servicing the way petrol cars do. What matters is brake fluid moisture testing every 2 years, tyre wear and rotation, and HVAC filtration."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I ask before booking an independent Tesla specialist?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ask what high-voltage EV qualification the technicians hold, such as IMI TechSafe Level 3 EV, whether they have Tesla-specific diagnostic access, and whether they can source OEM parts or only aftermarket."
+      }
+    }
+  ]
+}
+</script>
+<style id="tap-targets">@media (max-width:720px){nav ul{gap:2px 16px;} nav a{display:inline-block; padding:10px 0;} .crumbs a, footer a{display:inline-block; padding:11px 0;} footer p, .by-region{line-height:2.1;}}</style>
+<style>[hidden]{display:none!important}
+[data-share]{display:none!important}.can-share [data-share]{display:inline-block!important}
+button.btn{background:transparent;font-family:inherit;cursor:pointer}
+.actions.dir{margin-top:-8px}
+.go-sm{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}.go-sm .btn{display:inline-block;padding:6px 10px;font-size:13px;font-weight:600;line-height:1.3;border:1px solid var(--line);border-radius:8px;color:var(--ink);background:transparent;text-decoration:none;font-family:inherit}.go-sm .btn:hover{border-color:var(--accent);color:var(--accent)}
+.share-help{color:var(--ink-dim);font-size:13.5px;margin:8px 0 16px}
+.dist-you{color:var(--ink-dim);font-size:14px;margin:-6px 0 22px}
+.navbar{display:none}
+@media (max-width:760px){.navbar{display:flex;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.25)}.navbar{box-sizing:border-box}.navbar .btn{flex:1 1 0;min-width:0;margin:0;text-align:center;padding:12px 4px;font-size:14px;box-sizing:border-box;white-space:nowrap}body.has-nav{padding-bottom:84px}}
+.card,.card a,.source-note{overflow-wrap:anywhere}</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a class="brand u-plain" href="/">TeslaService<span>.co.uk</span></a>
+    <nav aria-label="Main"><ul><li><a href="/#finder">Find a specialist</a></li><li><a href="/guides">Guides</a></li><li><a href="/locations/">Locations</a></li><li><a href="/faq">FAQ</a></li><li><a href="/resources">Resources</a></li><li><a href="/reviews">Reviews</a></li><li><a href="/calculator">Cost calculator</a></li></ul></nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero u-nobt">
+    <div class="hero-grid">
+      <div>
+        <h1>Tesla Service UK — honest, independent help finding Tesla servicing &amp; repair near you</h1>
+        <p>Tesla service across the UK in one place: all 32 official Tesla Service Centres alongside 600+ other listings — HEVRA-accredited EV specialists, independent and mobile technicians, Tesla-approved bodyshops and parts specialists — search by postcode, town or county to find the closest. The aim is simple: honest, independent help finding Tesla servicing and repair near you. We're an independent, self-funded, not-for-profit resource — no garage pays to be featured, and we don't inflate ratings. If we can't verify something, we tell you and point you to a source that can.</p>
+        <div class="cta-row">
+          <a href="#finder" class="btn btn-primary">Find a specialist</a>
+          <a href="#guides" class="btn btn-ghost">Read the guides</a>
+        </div>
+      </div>
+      <div class="charge">
+        <svg viewBox="0 0 220 220" fill="none">
+          <circle cx="110" cy="110" r="95" stroke="#222C2E" stroke-width="10"/>
+          <circle cx="110" cy="110" r="95" stroke="#33E0C0" stroke-width="10" stroke-linecap="round"
+            stroke-dasharray="597" stroke-dashoffset="180" transform="rotate(-90 110 110)"/>
+          <path d="M118 60L82 122h24l-8 40 40-64h-24l8-38z" fill="#33E0C0"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section id="verify" class="u-nobt">
+    <p class="eyebrow">Transparency</p>
+    <h2>How listings actually get here</h2>
+    <p class="lede">Most Tesla directories are built to rank on Google, not to help you. Here's exactly how this one works, so you can decide how much to trust it.</p>
+    <div class="trust-grid">
+      <div class="trust-item">
+        <h3>No paid placement</h3>
+        <p>Garages don't pay for position or inclusion. Order isn't sponsored.</p>
+      </div>
+      <div class="trust-item">
+        <h3>No invented ratings</h3>
+        <p>We don't display star ratings we can't attribute. Every listing links out to that garage's real Google reviews so you see the unfiltered number.</p>
+      </div>
+      <div class="trust-item">
+        <h3>Corrections welcome</h3>
+        <p>Closed, wrong, or misleading listing? It gets fixed or removed, not left up for SEO.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="guides">
+    <p class="eyebrow">Before you book</p>
+    <h2>Guides drivers actually search for</h2>
+    <p class="lede">Short, plain-English answers to what people ask before choosing where to take their Tesla.</p>
+    <div class="guides">
+      <div class="guide">
+        <div class="tag">Warranty</div>
+        <div>
+          <h3>Will an independent garage void my Tesla warranty?</h3>
+          <p>Routine servicing at a non-Tesla garage generally doesn't void the vehicle warranty under UK consumer law, provided the right parts and procedures are used — but battery and drive unit work is different. Keep every invoice and ask the garage to confirm parts specification in writing.</p>
+        </div>
+      </div>
+      <div class="guide">
+        <div class="tag">Servicing</div>
+        <div>
+          <h3>Does a Tesla need annual servicing at all?</h3>
+          <p>Tesla doesn't require fixed-interval servicing the way petrol cars do — there's no cambelt or oil change. What matters is brake fluid moisture testing (every 2 years), tyre wear and rotation, and HVAC filtration. A specialist quoting a full "annual service" menu copied from petrol cars is a signal to ask more questions.</p>
+        </div>
+      </div>
+      <div class="guide">
+        <div class="tag">Choosing a garage</div>
+        <div>
+          <h3>What should I actually ask before booking?</h3>
+          <p>Ask what high-voltage EV qualification the technicians hold (IMI TechSafe Level 3 EV is the standard to look for), whether they have Tesla-specific diagnostic access, and whether they can source OEM parts or only aftermarket. A garage that answers clearly and specifically is a good sign.</p>
+        </div>
+      </div>
+    </div>
+    <p class="u-mt20"><a href="/guides" class="u-more">See all guides →</a></p>
+  </section>
+
+  <section id="owner-tools">
+    <p class="eyebrow">Deeper guides</p>
+    <h2>Ownership questions people search for most</h2>
+    <p class="lede">Full guides, not FAQ snippets — buying and selling, software updates, Autopilot/FSD, and range & battery.</p>
+    <div class="guides">
+      <div class="guide">
+        <div class="tag">Buying / selling</div>
+        <div><h3><a href="/buying-selling-guide" class="u-ul">Buying, selling or upgrading a used Tesla</a></h3>
+        <p>What to check before buying used, how to sell or trade in, and whether upgrading is actually worth it.</p></div>
+      </div>
+      <div class="guide">
+        <div class="tag">Software</div>
+        <div><h3><a href="/software-updates" class="u-ul">How Tesla software updates work</a></h3>
+        <p>Rollout timing, checking your version, and what to do when an update stalls.</p></div>
+      </div>
+      <div class="guide">
+        <div class="tag">Autopilot & FSD</div>
+        <div><h3><a href="/autopilot-fsd-guide" class="u-ul">Autopilot & FSD in the UK: what's actually switched on</a></h3>
+        <p>What's legally yours to rely on, and what stays your responsibility as the driver.</p></div>
+      </div>
+      <div class="guide">
+        <div class="tag">Range & battery</div>
+        <div><h3><a href="/range-battery-guide" class="u-ul">Range & battery degradation explained</a></h3>
+        <p>What genuinely affects range, how to check battery health yourself, and the truth about fast charging.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="choose">
+    <p class="eyebrow">Choosing</p>
+    <h2>Which kind of garage is right for your Tesla?</h2>
+    <p class="lede">There are now more than 200,000 Teslas on UK roads (<a class="u-acc" href="https://iaaf.co.uk/independent-garages-risk-missing-out-on-tesla-servicing-boom-warns-delphi/" target="_blank" rel="noopener">IAAF, July 2025</a>), and four main routes to get one serviced or repaired. Most owners use more than one over the life of the car.</p>
+    <div class="choose-grid">
+      <div><h3>Tesla Service Centre</h3><p>We list <a class="u-acc" href="/tesla-service-centers">32 official Tesla Service Centres</a>. Go here for warranty repairs, recalls, high-voltage battery and drive unit faults, and anything Tesla must diagnose with its own software. You book through the Tesla app, and some jobs are done at home by Tesla's mobile technicians.</p></div>
+      <div><h3>HEVRA-accredited EV specialist</h3><p><a class="u-acc" href="/hevra-tesla-service">317 HEVRA-accredited garages</a> work on electric cars. They are often the quickest and cheapest for out-of-warranty jobs: tyres, brakes, suspension, 12V batteries, wheel alignment and brake fluid checks. Ask whether their technicians hold the IMI TechSafe Level 3 EV qualification.</p></div>
+      <div><h3>Independents and mobile mechanics</h3><p>A further <a class="u-acc" href="/other-tesla-services">152 independents and mobile services</a> cover jobs such as tyres, cabin filters, alignment and diagnostics, sometimes at your home or workplace. Check what they can and can't do on a Tesla before you book.</p></div>
+      <div><h3>Tesla-approved bodyshop</h3><p>After an accident, an <a class="u-acc" href="/authorised-tesla-service">approved bodyshop</a> (81 listed) has Tesla's repair procedures and parts access. Tell your insurer you want one, as some policies send you to their own network first.</p></div>
+    </div>
+    <p class="choose-note">Parts, wraps, paint protection, windscreens and detailing are in <a class="u-acc" href="/parts-accessories-cosmetic">parts &amp; cosmetic</a> (78 listed). Not sure? Read <a class="u-acc" href="/before-you-book-service">before you book a service</a>, or search by postcode below. Every listing links to that business's own reviews and website, so you can check them yourself.</p>
+  </section>
+
+  <section id="faults"><p class="eyebrow">Something wrong with your Tesla?</p><h2>Common Tesla faults and who can fix them</h2><p class="u-small"><a href="/tesla-suspension-noise" class="u-acc">Suspension noise</a> · <a href="/tesla-brake-caliper-seized" class="u-acc">Seized brakes</a> · <a href="/tesla-tyre-wear" class="u-acc">Tyre wear</a> · <a href="/tesla-low-voltage-battery" class="u-acc">12V / 16V battery</a> · <a href="/tesla-touchscreen-black" class="u-acc">Touchscreen black</a> · <a href="/tesla-service-schedule" class="u-acc">Service schedule</a> · <a href="/tesla-door-wont-open" class="u-acc">Door won&#x27;t open</a> · <a href="/tesla-wont-charge" class="u-acc">Won&#x27;t charge</a> · <a href="/tesla-cabin-filter" class="u-acc">Cabin filter &amp; A/C smell</a></p></section>
+
+  <section id="contacts"><h2>Tesla garage contact details</h2><p class="u-small">Need a phone number or email? See the <a href="/tesla-garage-contact-details" class="u-acc">contact details for all 660 businesses</a>, searchable by name or town.</p></section>
+
+  <section id="finder" class="u-nobb">
+    <p class="eyebrow">Directory</p>
+    <h2>Find Tesla service near you</h2>
+    <p class="lede">Search by location. Every entry links straight to that garage's own reviews and website — we don't reproduce ratings here.</p>
+
+    <div class="finder-note" id="finderNote" aria-live="polite">
+      Enter your postcode and pick a category — results are sorted by real distance, closest first. Coverage today: over 650 real UK Tesla-related businesses across 5 categories — official Tesla Service Centres, Tesla-approved bodyshops, HEVRA-accredited independents, other Tesla servicing, and parts/accessories/cosmetic specialists. Missing your area? <a href="/suggest" class="u-acc">Suggest a garage</a>.
+    </div>
+
+    <div class="finder-bar">
+      <input type="text" id="search" placeholder="Postcode, town or county — e.g. M1 1AE, Leeds or Surrey" aria-label="Postcode, town or county">
+      <select id="filterCategory" aria-label="Category">
+        <option value="">All categories</option>
+        <option value="dealer">Main dealer (official)</option>
+        <option value="hevra">HEVRA-accredited</option>
+        <option value="other">Other / independent</option>
+        <option value="authorised">Authorised bodyshop</option>
+        <option value="parts">Parts, accessories & cosmetic</option>
+      </select>
+      <button type="button" id="searchBtn" class="btn btn-primary u-noflex">Search</button>
+    </div>
+
+    <div id="listings">
+    <div class="listing">
+      <div>
+        <h3>Tesla Service Lincoln</h3>
+        <div class="meta">LN6 3UA</div>
+        <div class="type">Official Tesla Service Centre</div><p class="go-sm" role="group" aria-label="Directions to Tesla Service Lincoln"><a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=53.1984,-0.61287&amp;travelmode=driving" target="_blank" rel="nofollow noopener">Google Maps</a><a class="btn" href="https://maps.apple.com/?daddr=53.1984,-0.61287&amp;dirflg=d&amp;q=Tesla%20Service%20Lincoln" target="_blank" rel="nofollow noopener">Apple Maps</a><a class="btn" href="https://waze.com/ul?ll=53.1984,-0.61287&amp;navigate=yes" target="_blank" rel="nofollow noopener">Waze</a><button class="btn" type="button" data-share="Tesla Service Lincoln, 1 Turnstone Rd, Teal Park, Lincoln LN6 3UA" data-lat="53.1984" data-lon="-0.61287">Send to your Tesla</button></p>
+      </div>
+      <a class="verify-link" href="/dealer/tesla-service-lincoln">Full details →</a>
+    </div>
+    <div class="listing">
+      <div>
+        <h3>Tesla Service Northampton</h3>
+        <div class="meta">NN3 9HX</div>
+        <div class="type">Official Tesla Service Centre</div><p class="go-sm" role="group" aria-label="Directions to Tesla Service Northampton"><a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=52.24156,-0.8346&amp;travelmode=driving" target="_blank" rel="nofollow noopener">Google Maps</a><a class="btn" href="https://maps.apple.com/?daddr=52.24156,-0.8346&amp;dirflg=d&amp;q=Tesla%20Service%20Northampton" target="_blank" rel="nofollow noopener">Apple Maps</a><a class="btn" href="https://waze.com/ul?ll=52.24156,-0.8346&amp;navigate=yes" target="_blank" rel="nofollow noopener">Waze</a><button class="btn" type="button" data-share="Tesla Service Northampton, 1 Ferris Row, Northampton NN3 9HX" data-lat="52.24156" data-lon="-0.8346">Send to your Tesla</button></p>
+      </div>
+      <a class="verify-link" href="/dealer/tesla-service-northampton">Full details →</a>
+    </div>
+    <div class="listing">
+      <div>
+        <h3>Tesla Service Nottingham</h3>
+        <div class="meta">NG2 7LJ</div>
+        <div class="type">Official Tesla Service Centre</div><p class="go-sm" role="group" aria-label="Directions to Tesla Service Nottingham"><a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=52.93491,-1.13518&amp;travelmode=driving" target="_blank" rel="nofollow noopener">Google Maps</a><a class="btn" href="https://maps.apple.com/?daddr=52.93491,-1.13518&amp;dirflg=d&amp;q=Tesla%20Service%20Nottingham" target="_blank" rel="nofollow noopener">Apple Maps</a><a class="btn" href="https://waze.com/ul?ll=52.93491,-1.13518&amp;navigate=yes" target="_blank" rel="nofollow noopener">Waze</a><button class="btn" type="button" data-share="Tesla Service Nottingham, 5-27 Loughborough Rd, Nottingham NG2 7LJ" data-lat="52.93491" data-lon="-1.13518">Send to your Tesla</button></p>
+      </div>
+      <a class="verify-link" href="/dealer/tesla-service-nottingham">Full details →</a>
+    </div>
+    <div class="listing">
+      <div>
+        <h3>Tesla Service Cambridge</h3>
+        <div class="meta">CB23 8AP</div>
+        <div class="type">Official Tesla Service Centre</div><p class="go-sm" role="group" aria-label="Directions to Tesla Service Cambridge"><a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=52.25662,0.01735&amp;travelmode=driving" target="_blank" rel="nofollow noopener">Google Maps</a><a class="btn" href="https://maps.apple.com/?daddr=52.25662,0.01735&amp;dirflg=d&amp;q=Tesla%20Service%20Cambridge" target="_blank" rel="nofollow noopener">Apple Maps</a><a class="btn" href="https://waze.com/ul?ll=52.25662,0.01735&amp;navigate=yes" target="_blank" rel="nofollow noopener">Waze</a><button class="btn" type="button" data-share="Tesla Service Cambridge, Bridge House, Saxon Way, Cambridge CB23 8AP" data-lat="52.25662" data-lon="0.01735">Send to your Tesla</button></p>
+      </div>
+      <a class="verify-link" href="/dealer/tesla-service-cambridge">Full details →</a>
+    </div>
+    <div class="listing">
+      <div>
+        <h3>Tesla Service Chelmsford</h3>
+        <div class="meta">CM2 5EF</div>
+        <div class="type">Official Tesla Service Centre</div><p class="go-sm" role="group" aria-label="Directions to Tesla Service Chelmsford"><a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=51.75059,0.51084&amp;travelmode=driving" target="_blank" rel="nofollow noopener">Google Maps</a><a class="btn" href="https://maps.apple.com/?daddr=51.75059,0.51084&amp;dirflg=d&amp;q=Tesla%20Service%20Chelmsford" target="_blank" rel="nofollow noopener">Apple Maps</a><a class="btn" href="https://waze.com/ul?ll=51.75059,0.51084&amp;navigate=yes" target="_blank" rel="nofollow noopener">Waze</a><button class="btn" type="button" data-share="Tesla Service Chelmsford, 1 White Hart Lane, Chelmer Village, Chelmsford CM2 5EF" data-lat="51.75059" data-lon="0.51084">Send to your Tesla</button></p>
+      </div>
+      <a class="verify-link" href="/dealer/tesla-service-chelmsford">Full details →</a>
+    </div>
+    <div class="listing">
+      <div>
+        <h3>Tesla Service Norwich</h3>
+        <div class="meta">NR6 6TX</div>
+        <div class="type">Official Tesla Service Centre</div><p class="go-sm" role="group" aria-label="Directions to Tesla Service Norwich"><a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=52.65638,1.28793&amp;travelmode=driving" target="_blank" rel="nofollow noopener">Google Maps</a><a class="btn" href="https://maps.apple.com/?daddr=52.65638,1.28793&amp;dirflg=d&amp;q=Tesla%20Service%20Norwich" target="_blank" rel="nofollow noopener">Apple Maps</a><a class="btn" href="https://waze.com/ul?ll=52.65638,1.28793&amp;navigate=yes" target="_blank" rel="nofollow noopener">Waze</a><button class="btn" type="button" data-share="Tesla Service Norwich, 79 Mile Cross Ln, Norwich NR6 6TX" data-lat="52.65638" data-lon="1.28793">Send to your Tesla</button></p>
+      </div>
+      <a class="verify-link" href="/dealer/tesla-service-norwich">Full details →</a>
+    </div>
+    <div class="listing">
+      <div>
+        <h3>Tesla Service St Albans</h3>
+        <div class="meta">AL4 0LQ</div>
+        <div class="type">Official Tesla Service Centre</div><p class="go-sm" role="group" aria-label="Directions to Tesla Service St Albans"><a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=51.7513,-0.27595&amp;travelmode=driving" target="_blank" rel="nofollow noopener">Google Maps</a><a class="btn" href="https://maps.apple.com/?daddr=51.7513,-0.27595&amp;dirflg=d&amp;q=Tesla%20Service%20St%20Albans" target="_blank" rel="nofollow noopener">Apple Maps</a><a class="btn" href="https://waze.com/ul?ll=51.7513,-0.27595&amp;navigate=yes" target="_blank" rel="nofollow noopener">Waze</a><button class="btn" type="button" data-share="Tesla Service St Albans, 16 Lyon Way, St Albans AL4 0LQ" data-lat="51.7513" data-lon="-0.27595">Send to your Tesla</button></p>
+      </div>
+      <a class="verify-link" href="/dealer/tesla-service-st-albans">Full details →</a>
+    </div>
+    <div class="listing">
+      <div>
+        <h3>Tesla Service London-Park Royal</h3>
+        <div class="meta">W3 0SL</div>
+        <div class="type">Official Tesla Service Centre</div><p class="go-sm" role="group" aria-label="Directions to Tesla Service London-Park Royal"><a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=51.52496,-0.28304&amp;travelmode=driving" target="_blank" rel="nofollow noopener">Google Maps</a><a class="btn" href="https://maps.apple.com/?daddr=51.52496,-0.28304&amp;dirflg=d&amp;q=Tesla%20Service%20London-Park%20Royal" target="_blank" rel="nofollow noopener">Apple Maps</a><a class="btn" href="https://waze.com/ul?ll=51.52496,-0.28304&amp;navigate=yes" target="_blank" rel="nofollow noopener">Waze</a><button class="btn" type="button" data-share="Tesla Service London-Park Royal, 152 Dukes Road, London W3 0SL" data-lat="51.52496" data-lon="-0.28304">Send to your Tesla</button></p>
+      </div>
+      <a class="verify-link" href="/dealer/tesla-service-london-park-royal">Full details →</a>
+    </div></div>
+    <p class="empty u-empty" id="empty">Enter a UK postcode, town or county above to see the closest results.</p>
+
+    <p class="u-small u-mt20">Prefer to browse by category? <a href="/tesla-service-centers" class="u-acc">Main dealer</a> · <a href="/hevra-tesla-service" class="u-acc">HEVRA-accredited</a> · <a href="/other-tesla-services" class="u-acc">Other Tesla servicing</a> · <a href="/authorised-tesla-service" class="u-acc">Authorised bodyshops</a> · <a href="/parts-accessories-cosmetic" class="u-acc">Parts, accessories &amp; cosmetic</a></p>
+    <p class="by-region u-small">Or browse Tesla servicing by region: <a href="/locations/greater-london" class="u-acc">Greater London</a> · <a href="/locations/south-east" class="u-acc">South East</a> · <a href="/locations/south-west" class="u-acc">South West</a> · <a href="/locations/east-of-england" class="u-acc">East of England</a> · <a href="/locations/east-midlands" class="u-acc">East Midlands</a> · <a href="/locations/west-midlands" class="u-acc">West Midlands</a> · <a href="/locations/north-west" class="u-acc">North West</a> · <a href="/locations/north-east" class="u-acc">North East</a> · <a href="/locations/yorkshire-and-humber" class="u-acc">Yorkshire &amp; Humber</a> · <a href="/locations/wales" class="u-acc">Wales</a> · <a href="/locations/scotland" class="u-acc">Scotland</a> · <a href="/locations/northern-ireland" class="u-acc">Northern Ireland</a></p>
+    <p class="by-county u-small">Or by county: <a href="/locations/county/bedfordshire" class="u-acc">Bedfordshire</a> · <a href="/locations/county/berkshire" class="u-acc">Berkshire</a> · <a href="/locations/county/buckinghamshire" class="u-acc">Buckinghamshire</a> · <a href="/locations/county/cambridgeshire" class="u-acc">Cambridgeshire</a> · <a href="/locations/county/cheshire" class="u-acc">Cheshire</a> · <a href="/locations/county/cornwall" class="u-acc">Cornwall</a> · <a href="/locations/county/county-durham" class="u-acc">County Durham</a> · <a href="/locations/county/derbyshire" class="u-acc">Derbyshire</a> · <a href="/locations/county/devon" class="u-acc">Devon</a> · <a href="/locations/county/dorset" class="u-acc">Dorset</a> · <a href="/locations/county/east-riding-of-yorkshire" class="u-acc">East Riding of Yorkshire</a> · <a href="/locations/county/east-sussex" class="u-acc">East Sussex</a> · <a href="/locations/county/essex" class="u-acc">Essex</a> · <a href="/locations/county/fife" class="u-acc">Fife</a> · <a href="/locations/county/gloucestershire" class="u-acc">Gloucestershire</a> · <a href="/locations/county/greater-manchester" class="u-acc">Greater Manchester</a> · <a href="/locations/county/hampshire" class="u-acc">Hampshire</a> · <a href="/locations/county/herefordshire" class="u-acc">Herefordshire</a> · <a href="/locations/county/hertfordshire" class="u-acc">Hertfordshire</a> · <a href="/locations/county/highland" class="u-acc">Highland</a> · <a href="/locations/county/kent" class="u-acc">Kent</a> · <a href="/locations/county/lancashire" class="u-acc">Lancashire</a> · <a href="/locations/county/leicestershire" class="u-acc">Leicestershire</a> · <a href="/locations/county/lincolnshire" class="u-acc">Lincolnshire</a> · <a href="/locations/county/merseyside" class="u-acc">Merseyside</a> · <a href="/locations/county/norfolk" class="u-acc">Norfolk</a> · <a href="/locations/county/north-yorkshire" class="u-acc">North Yorkshire</a> · <a href="/locations/county/northamptonshire" class="u-acc">Northamptonshire</a> · <a href="/locations/county/nottinghamshire" class="u-acc">Nottinghamshire</a> · <a href="/locations/county/oxfordshire" class="u-acc">Oxfordshire</a> · <a href="/locations/county/perth-and-kinross" class="u-acc">Perth and Kinross</a> · <a href="/locations/county/shropshire" class="u-acc">Shropshire</a> · <a href="/locations/county/somerset" class="u-acc">Somerset</a> · <a href="/locations/county/south-lanarkshire" class="u-acc">South Lanarkshire</a> · <a href="/locations/county/south-yorkshire" class="u-acc">South Yorkshire</a> · <a href="/locations/county/staffordshire" class="u-acc">Staffordshire</a> · <a href="/locations/county/suffolk" class="u-acc">Suffolk</a> · <a href="/locations/county/surrey" class="u-acc">Surrey</a> · <a href="/locations/county/tyne-and-wear" class="u-acc">Tyne and Wear</a> · <a href="/locations/county/warwickshire" class="u-acc">Warwickshire</a> · <a href="/locations/county/west-lothian" class="u-acc">West Lothian</a> · <a href="/locations/county/west-midlands-county" class="u-acc">West Midlands county</a> · <a href="/locations/county/west-sussex" class="u-acc">West Sussex</a> · <a href="/locations/county/west-yorkshire" class="u-acc">West Yorkshire</a> · <a href="/locations/county/wiltshire" class="u-acc">Wiltshire</a> · <a href="/locations/county/worcestershire" class="u-acc">Worcestershire</a> · <a href="/locations/#by-county" class="u-acc">all counties →</a></p>
+  </section>
+
+</main>
+
+<section id="share"><p class="u-small">Know a Tesla owner who needs a garage? Share this site: <a class="u-acc" href="https://wa.me/?text=Find%20an%20independent%20Tesla%20specialist%20near%20you%3A%20https%3A%2F%2Fteslaservice.co.uk%2F" target="_blank" rel="noopener nofollow">WhatsApp</a> · <a class="u-acc" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fteslaservice.co.uk%2F" target="_blank" rel="noopener nofollow">Facebook</a> · <a class="u-acc" href="https://x.com/intent/post?url=https%3A%2F%2Fteslaservice.co.uk%2F&amp;text=Find%20an%20independent%20Tesla%20specialist%20near%20you" target="_blank" rel="noopener nofollow">X</a> · <a class="u-acc" href="mailto:?subject=Tesla%20servicing%20near%20you&amp;body=https%3A%2F%2Fteslaservice.co.uk%2F">Email</a></p></section>
+<footer class="wrap">
+  <p>TeslaService.co.uk is an independent, self-funded, not-for-profit resource for UK Tesla owners. We are not affiliated with Tesla, Inc. Always confirm pricing, parts and warranty implications directly with any garage before booking.</p>
+  <p class="u-mt10"><a href="/about" class="u-dim">About</a> · <a href="/privacy" class="u-dim">Privacy</a> · <a href="/terms" class="u-dim">Terms</a> · <a href="/suggest" class="u-dim">Suggest a garage</a></p>
+</footer>
+
+<script src="/assets/garages-data.js?v=2" defer></script>
+<script src="/assets/finder.js?v=7" defer></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => initFinder({ defaultCategory: "" }));
+</script>
+
+<script src="/assets/directions.js?v=1" defer></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"b0fbf497875344da94bcd4ca03383a97","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

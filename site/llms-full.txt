@@ -1,0 +1,1367 @@
+# TeslaService.co.uk — full guide text
+
+> Full text of the TeslaService.co.uk guides for UK Tesla owners. Independent; not affiliated with Tesla, Inc. For the directory of 660 UK garages and a summary of key pages, see https://teslaservice.co.uk/llms.txt
+
+## Tesla 12V Battery Failure: Warning Signs & How to Prepare
+Source: https://teslaservice.co.uk/12v-battery-failure-watch
+
+Home / Guides / 12V Battery
+Why this small, easily overlooked battery causes disproportionate stress — and how to catch it before it strands you.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+What it is
+
+### Why does a Tesla even have a normal 12V battery?
+Alongside the large main traction battery, every Tesla uses a conventional 12V battery to run low-voltage systems — door handles, the main touchscreen, contactors that connect the main battery to the drivetrain, and the systems that wake the car up in the first place. It's a wear item, just like in a petrol car, and it fails independently of the main battery's charge level.
+Warning signs
+
+### What are the warning signs before it fails completely?
+Common signs owners report: the touchscreen occasionally rebooting or going blank briefly, the car being slower than usual to wake up when you approach it, door handles not presenting automatically, or a dashboard warning specifically about the 12V system if your software version surfaces one. Any of these on their own isn't necessarily urgent, but noticing more than one together is worth acting on before you're left with a car that won't wake up at all.
+Preparing
+
+### What can you actually do about it?
+A few practical steps:
+- Don't ignore a 12V warning message if your car shows one — it's specifically flagging this system, not the main battery.
+- If the car seems unusually slow to wake or the screen is glitching, get it checked before you're relying on it for an important trip.
+- 12V replacement is a routine job most independent EV specialists and official centres can both do — it doesn't require official-only tools in most cases.
+- Keep the Tesla app updated and check it periodically; a car that won't respond to the app at all when it should be reachable is a stronger signal than a single screen glitch.
+
+
+## Tesla Accessibility Guide
+Source: https://teslaservice.co.uk/accessibility-guide
+
+Home / Guides / Accessibility
+Practical guidance on entry, door handles, and control reach for owners and passengers with accessibility needs.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+Entry & seating
+
+### Entry height and seating considerations
+Entry height and seat position vary meaningfully across Tesla's range — lower saloon-style models sit closer to the ground and require more of a 'drop down' motion into the seat, while taller SUV-style models offer a higher seating position that many find easier to get in and out of. If accessibility is a significant factor in your choice, it's genuinely worth test-sitting in more than one model rather than assuming based on general size.
+Door handles
+
+### Door handle operation for those who find retractable handles difficult
+Tesla's flush, retracting door handles are a distinctive design feature, but operating them (a specific press or pull motion depending on the model) can be less intuitive or more physically demanding for some users than a conventional handle. Familiarise yourself and any regular passengers with the exact motion for your specific model before relying on it in an unfamiliar or urgent situation, and note that the interior door release (for exiting) is typically a simple, separate mechanism.
+Controls & screen reach
+
+### Touchscreen and control reach
+Since most functions are controlled through the central touchscreen rather than physical buttons, screen position and reach matters more than in many other cars. Voice commands (see our voice commands cheat sheet) can meaningfully reduce the need to physically reach and interact with the screen for common tasks, which is worth setting up and practising if physical reach is a limiting factor.
+
+
+## Ask an Owner Near You (UK)
+Source: https://teslaservice.co.uk/ask-an-owner
+
+Home / Guides / Ask an Owner
+Considering a Tesla? Connect with a real local owner willing to answer honest questions — once real owners have volunteered.
+Why this page looks empty: This only works with real volunteers who've actually agreed to be contacted — there's no honest way to fake a local point of contact.
+We don't fabricate entries here to make this look more populated than it is — every other page on this site is built the same way, on real, sourced or verified information, not invented content. This page becomes genuinely useful once real UK Tesla owners start contributing to it.
+What this will become
+
+### What this page will look like once it has real data
+A list of real UK owners, by rough area, who've volunteered to answer genuine questions from prospective buyers — not a sales pitch, just an actual owner's honest take, arranged directly between the two of you.
+
+
+## Autopilot & FSD in the UK — What's Actually Switched On
+Source: https://teslaservice.co.uk/autopilot-fsd-guide
+
+Home / Guides / Autopilot & FSD
+What each package legally means for you as the driver, in plain terms — not a marketing description.
+Last fact-checked: 27 September 2026 . Automated-driving law is actively changing in the UK under the Automated Vehicles Act 2024 framework. This page explains the general legal principle, not a specific feature's current live status — always check GOV.UK and Tesla's own UK site for what's authorised today.
+Standard Autopilot
+
+### Is Autopilot legal to use in the UK?
+Yes. Standard Autopilot — traffic-aware cruise control and lane-centring — is a driver-assistance feature, the same broad category as adaptive cruise control and lane-keep assist offered by many other manufacturers. You remain the driver in the legal sense at all times: hands on the wheel, attention on the road, and liable for the vehicle's behaviour exactly as you would be without it engaged.
+Full Self-Driving (Supervised)
+
+### Is FSD approved for hands-off driving in the UK?
+No. As of this page's last check, no consumer car sold in the UK — including any Tesla — is authorised for genuinely hands-off, driver-not-responsible automated driving on public roads. Tesla's own naming reflects this: the package is called "Full Self-Driving (Supervised)" specifically because supervision and full legal responsibility stay with the driver, wherever the feature is made available. Don't take the product name as a statement of legal permission — check the current position directly with GOV.UK and Tesla before assuming otherwise.
+What's the difference
+
+### Autopilot vs Enhanced Autopilot vs FSD (Supervised)
+- Autopilot — traffic-aware cruise control and lane centring.
+- Enhanced Autopilot — adds features like automatic lane changes and self-parking on top of standard Autopilot.
+- FSD (Supervised) — the broadest package, aiming to handle more driving situations including junctions and turns, but "Supervised" is doing the legal work in that name: full attention and readiness to intervene is required at all times, regardless of package.
+Liability
+
+### Who's liable if something goes wrong while it's engaged?
+You are. Current UK law treats the human driver as responsible for the vehicle while using any Tesla driver-assistance feature. These systems assist — they don't transfer legal responsibility. That distinction only applies to a vehicle specifically authorised as self-driving under future regulation, and no Tesla on UK roads currently holds that status.
+When features get restricted
+
+### Why did my car disable Autopilot or FSD features?
+Tesla can restrict driver-assistance features if its cabin camera or steering-wheel torque sensors register repeated inattention, or in response to a safety recall or a regulatory requirement. This is a software-level decision made entirely by Tesla — not something a garage, independent or official, has any ability to override.
+
+
+## UK Autopilot & FSD Tricky Roads Map
+Source: https://teslaservice.co.uk/autopilot-tricky-roads
+
+Home / Guides / Tricky Roads Map
+Specific UK junctions and roundabouts where owners have flagged unexpected driver-assistance behaviour — built from real reports.
+Why this page looks empty: A made-up 'tricky junction' could send someone to the wrong place or, worse, give false confidence about a real location that's actually fine. This only works as real, specific, submitted locations.
+We don't fabricate entries here to make this look more populated than it is — every other page on this site is built the same way, on real, sourced or verified information, not invented content. This page becomes genuinely useful once real UK Tesla owners start contributing to it.
+What this will become
+
+### What this page will look like once it has real data
+A simple map/list of specific locations UK owners have flagged as consistently tricky for Autopilot or FSD — a particular roundabout layout, an unusually marked junction — so other owners know to pay extra attention there, built entirely from genuine, located reports.
+
+
+## Tesla Battery Degradation Tracker (UK)
+Source: https://teslaservice.co.uk/battery-degradation-tracker
+
+Home / Guides / Battery Degradation Tracker
+Log your car's current range at 100% and see how it compares by model, year and mileage — once enough owners have contributed.
+Why this page looks empty: This needs real submissions from real owners to mean anything — a single number or a handful of invented examples would be actively misleading rather than useful.
+We don't fabricate entries here to make this look more populated than it is — every other page on this site is built the same way, on real, sourced or verified information, not invented content. This page becomes genuinely useful once real UK Tesla owners start contributing to it.
+What this will become
+
+### What this page will look like once it has real data
+A simple table: model, model year, current mileage, and current max range at 100% charge compared with the original rated figure, sorted so you can find cars similar to yours and see a genuine, crowd-built pattern of real-world degradation rather than a single manufacturer figure.
+
+
+## Before You Book a Tesla Service — The Checklist
+Source: https://teslaservice.co.uk/before-you-book-service
+
+Home / Guides / Before You Book
+A few minutes of preparation that make any service visit, official or independent, go more smoothly.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+Document first
+
+### What to note and photograph before dropping the car off
+Photograph existing bodywork condition (especially anything you didn't cause but might get blamed for), note the current odometer reading and state of charge, and write down the exact symptom or fault as specifically as you can — 'a clicking noise from the front-left over speed bumps at low speed' is far more useful to a technician than 'it makes a noise sometimes'.
+What to ask
+
+### Questions worth asking when booking
+Ask upfront what the visit will actually involve, whether a diagnostic fee applies if no fault is found, expected timeframe, and — for anything warranty-related — explicit confirmation of whether the work is covered before it starts, in writing if possible.
+A quick checklist
+
+### The short version
+Before you hand the keys over:
+- Photos of the car's exterior condition from all angles.
+- Odometer reading and charge level noted.
+- The specific symptom written down as precisely as possible, including when it happens.
+- Any relevant fault codes or app-reported alerts screenshotted.
+- Confirmation of cost estimate and what happens if the issue can't be reproduced.
+
+
+## Tesla Bodywork & Accident Repair in the UK — What to Expect
+Source: https://teslaservice.co.uk/bodywork-accident-repair
+
+Home / Guides / Bodywork & Accident Repair
+What's genuinely different, and how to cope with the parts waits that catch a lot of owners out.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+Why it's different
+
+### Why does Tesla bodywork repair often take longer?
+Several factors combine: aluminium body panels require different welding and repair techniques than steel, sensor and camera recalibration is often needed after structural repair work (see our windscreen calibration guide for the same underlying issue), and genuine parts availability for Tesla specifically has historically been less consistent across the UK than for more established manufacturers with a longer-established parts supply chain, though this has generally improved over time.
+Coping with delays
+
+### How to cope with a longer-than-expected repair
+If your insurer is arranging a courtesy car, confirm upfront whether it's guaranteed for the full repair duration or only an initial estimate — parts delays can extend a job well past the original quote. Ask your repairer for realistic, not optimistic, timeline expectations, and get regular updates rather than assuming no news is good news.
+Choosing a repairer
+
+### What to check when choosing who does the repair
+Worth confirming before work starts:
+- Whether the repairer is an official Tesla-approved body shop or an independent handling the work — either can be fine, but you should know which and what that means for parts sourcing.
+- Whether genuine Tesla parts will be used, or manufacturer-approved equivalents, and get this in writing.
+- Whether post-repair camera/sensor calibration is included in the quote.
+- Your rights under your insurance policy to choose your own repairer, if that matters to you — see our insurance guide.
+
+
+## Buying, Selling or Upgrading a Used Tesla in the UK
+Source: https://teslaservice.co.uk/buying-selling-guide
+
+Home / Guides / Buying, Selling & Upgrading
+A plain checklist for the three moments that actually matter: buying used, selling or trading in, and deciding whether an upgrade is worth it. No sales pitch, nothing invented.
+Last fact-checked: 27 September 2026 . Tesla's own trade-in tool, account-transfer process and finance-check providers can change — always confirm current steps directly with Tesla and DVLA before relying on this page alone.
+Buying used
+
+### What to check before buying a used Tesla
+- Battery health. After a full charge, compare the car's estimated range on the trip screen against the original EPA/WLTP figure for that model and year. Some falloff over time and mileage is normal; a large unexplained drop is a question to ask, not necessarily a dealbreaker.
+- Outstanding finance and history. Run a standard UK vehicle history check (HPI or equivalent) exactly as you would for any car — Teslas are not exempt from finance fraud or clocking.
+- Open recalls. Enter the VIN into GOV.UK's recall checker before agreeing a price.
+- Panel and paint condition. Uneven panel gaps or paint that doesn't match across adjoining panels can indicate prior accident repair — worth a professional inspection if you're unsure.
+- Account transfer readiness. Confirm the seller is willing and able to release the car from their Tesla account. A car that still shows the previous owner's profile isn't fully yours yet.
+- Remaining warranty. Ask for the VIN and check remaining new-vehicle and battery/drive-unit warranty terms — see the FAQ below.
+Warranty
+
+### Does the warranty transfer to a new owner?
+Yes. Tesla's new vehicle limited warranty and the separate battery and drive unit warranty (which typically runs longer and covers more) both transfer automatically for whatever term remains — you don't need to register anything extra. What you do need is the VIN, so you or the seller can check exact remaining coverage either through Tesla directly or the Tesla app once the car is under your account.
+Selling or trading in
+
+### How to sell or part-exchange your Tesla
+There are three realistic routes, each with a different effort-to-price trade-off:
+- Private sale. Usually the best price, but the most effort — you handle viewings, price negotiation, and paperwork yourself.
+- Trade-in through Tesla. If you're ordering a new Tesla, Tesla's own trade-in valuation tool gives an instant estimate applied directly against your new order — convenient, though rarely the top price on the open market.
+- Sell to a used EV specialist. Faster than private sale, typically a middle-ground price, and the dealer handles the DVLA paperwork.
+Whichever route you choose: run a battery health check before listing (buyers will ask), gather every service/repair invoice you have as proof of care, and remove the car from your Tesla account/profile only once the sale is complete and paid.
+Upgrade or keep
+
+### Is it worth upgrading, or should I keep servicing my current car?
+There's no single right answer, but three questions cut through most of the decision:
+- How much remaining battery and drive unit warranty is left? A car still well inside that cover carries much less financial risk than one just out of it.
+- What does a real battery health check actually show, rather than how the car "feels" to drive day-to-day?
+- Does the newer model's hardware or software genuinely change how you use the car, or is it a marginal upgrade you'd get for free eventually anyway via an update?
+A healthy, still-under-warranty Tesla is almost always cheaper to keep and maintain than to trade in for a new one that starts depreciating from day one. See our running-cost calculator if you want to model the numbers for your own situation.
+Paperwork
+
+### What paperwork actually needs to change hands?
+Two separate transfers, both required:
+- DVLA V5C / new keeper slip — the standard logbook transfer that applies to any UK car sale.
+- Tesla account/digital ownership transfer — Tesla-specific, done through the seller's account or in-person handover process. Easy to forget, and skipping it can leave the previous owner with lingering app access to the vehicle.
+
+
+## Buying a Used Tesla in the UK
+Source: https://teslaservice.co.uk/buying-used-checklist
+
+Home / Guides / Used Buying Checklist
+What to actually inspect, ask and verify before you commit — beyond the usual used-car basics.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+Documentation
+
+### What to check on paper before you even view the car
+Full service history (even if informal, since Tesla doesn't require fixed servicing), any accident or repair history, current recall status via GOV.UK using the VIN, and — critically — whether any Autopilot/FSD software package was purchased outright on this specific car (it may not transfer automatically to a new owner depending on how it was originally bought).
+On inspection
+
+### What to physically check
+Beyond the standard used-car checks (panel gaps, tyre wear, service items), specifically test: all four door handles present and retract properly, the main screen for any lag or glitches, Autopilot/driver-assist features actually engaging if the listing claims them, and the charging port and cable for physical damage. Ask to see a recent charge to 100% (or the owner's typical max-charge screenshot) to sense-check quoted range against the car's original rated figure — a like-for-like comparison is the best DIY signal of battery health available to a buyer.
+Questions to ask
+
+### Questions worth asking the seller directly
+Don't be afraid to ask directly:
+- Has the 12V battery ever been replaced, and when?
+- Any suspension or steering component work done, and where?
+- Is any driver-assistance package transferable, or was it a subscription that ends with the sale?
+- Can they show the car's original delivery date and rated range for comparison against current max-charge range?
+- Any outstanding finance on the vehicle — always check via an official vehicle history check, not just the seller's word.
+
+
+## Petrol vs Tesla Running Cost Calculator (UK, 2026)
+Source: https://teslaservice.co.uk/calculator
+
+Real numbers, your inputs — see roughly how much a Tesla saves you per year based on your actual mileage and charging mix.
+Estimates only — actual costs vary with driving style, weather, tariff and charger speed. Petrol litres/gallon conversion uses 4.546 litres per UK gallon.
+
+
+## Tesla Car Camping Guide (UK)
+Source: https://teslaservice.co.uk/car-camping-guide
+
+Home / Guides / Car Camping
+Practical guidance for sleeping in the car overnight, done properly rather than uncomfortably.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+Camp Mode setup
+
+### Setting up Camp Mode for an overnight stay
+Camp Mode maintains cabin climate and keeps interior lighting, USB power and the media system available while parked, specifically designed for exactly this use. It draws down battery charge over a full night though, so start with a healthy charge level and check the estimated overnight consumption rate shown on screen for the current conditions before committing to it for an extended period, particularly in very cold or hot weather where climate control works harder.
+Bedding & space
+
+### Making the space actually comfortable
+Rear seats fold flat on many models, creating usable sleeping space with the right bedding setup — a dedicated inflatable camping mattress cut or shaped for the specific model's floor contours makes a meaningful comfort difference over simply laying a sleeping bag on the folded seats directly. Window shades or blackout covers, widely available as aftermarket accessories, help both with privacy and blocking early morning light.
+Choosing a spot
+
+### Finding somewhere sensible to stop
+Beyond the general practicalities of legal, safe overnight parking (which varies by specific location and local rules — always check rather than assume), it's worth choosing a spot within reasonable range of a charging point for the morning, since you'll likely want to top up before continuing rather than starting the day already low.
+
+
+## Tesla Car-Only Zone (UK) — Discussion Without the Politics
+Source: https://teslaservice.co.uk/car-only-zone
+
+Home / Guides / Car-Only Zone
+Discussion about the car, not the wider noise around the brand — here's where that already happens well.
+Why this page looks empty: A brand-new forum with zero members isn't a discussion space, it's an empty room — existing communities like Tesla Motors Club and Tesla Owners UK already have that critical mass.
+We don't fabricate entries here to make this look more populated than it is — every other page on this site is built the same way, on real, sourced or verified information, not invented content. This page becomes genuinely useful once real UK Tesla owners start contributing to it.
+What this will become
+
+### What this page will look like once it has real data
+Rather than build a competing forum from scratch with no members on day one, this page will curate and link to specific threads, subforums or channels in existing, active UK owner communities that are genuinely car-focused — so you land somewhere with real, ongoing discussion rather than an empty new forum with no one in it.
+
+
+## UK Charger Reality Reports
+Source: https://teslaservice.co.uk/charger-reality-reports
+
+Home / Guides / Charger Reality Reports
+What a specific site is actually like — queues, working stalls, and real speeds — from owners who've actually charged there.
+Why this page looks empty: Charger reliability changes site by site and week by week — a made-up example would be actively wrong the moment real conditions differ, which they always will.
+We don't fabricate entries here to make this look more populated than it is — every other page on this site is built the same way, on real, sourced or verified information, not invented content. This page becomes genuinely useful once real UK Tesla owners start contributing to it.
+What this will become
+
+### What this page will look like once it has real data
+Site-by-site real reports: how busy it actually was, how many stalls were genuinely working versus offline, and the real charging speed achieved versus the network's advertised maximum — the kind of ground truth that a network's own app doesn't always reflect.
+
+
+## EV Charging Etiquette in the UK — Unwritten Rules Explained
+Source: https://teslaservice.co.uk/charging-etiquette
+
+Home / Guides / Charging Etiquette
+The unwritten rules that make shared public charging work better for everyone.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+Idle fees
+
+### Why do idle fees exist, and how do they work?
+Most rapid and ultra-rapid networks in the UK charge an idle fee once your car has finished charging but is still occupying the bay, specifically to discourage using a charging space as a parking space. Move your car promptly once charging completes — the app or car will usually notify you — both to avoid the fee and to free the bay for the next person.
+Sharing the bays
+
+### What counts as 'hogging' a charger?
+Charging to 100% at a rapid charger when you only need enough to reach your next stop is generally considered poor etiquette at a busy site, since charging speed slows significantly above roughly 80% on most rapid chargers — meaning you occupy the bay for a disproportionately long time for a small amount of extra range. Charging to a higher percentage makes more sense when it's genuinely your last stop before a longer drive, or at a quiet site with no one waiting.
+Practical courtesies
+
+### A few other practical habits
+Things that make shared charging smoother for everyone:
+- Coil the cable back neatly when you're done, rather than leaving it trailing.
+- If a charger is broken, report it through the network's app — it genuinely helps other drivers and speeds up the fix.
+- Don't unplug someone else's car, even if you think it's finished — check the screen or ask first.
+- At a busy site with people waiting, a quick, friendly heads-up on how much longer you need goes a long way.
+
+
+## Making the Most of a Tesla Charging Stop (UK)
+Source: https://teslaservice.co.uk/charging-stops-guide
+
+Home / Guides / Charging Stops
+A 15-30 minute stop doesn't have to be dead time — practical ways to use it well.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+The reality
+
+### How long are you actually waiting?
+A typical top-up charge on a road trip is realistically 15-30 minutes depending on how much charge you need and the site's charging speed — not the hours some assume from thinking in petrol-stop terms, but long enough to be worth planning for rather than just standing next to the car.
+Make it useful
+
+### What to actually do with the time
+Most UK Supercharger and rapid-charging sites are increasingly sited near retail parks, motorway services or town centres specifically because operators know this. Check what's within a short walk before you arrive using a regular maps app — a coffee, a proper toilet break, or just stretching your legs and switching drivers all turn a charging stop into a normal part of the journey rather than dead time.
+Practical tips
+
+### A few practical habits
+Small things that help:
+- Start navigation to your next stop before you get out of the car, so the route and charge plan are already set when you're back.
+- If travelling with others, use the stop for a driver swap rather than stopping again later just for that.
+- Check the charging app or car screen for an estimated 'done' time and set a phone timer rather than checking repeatedly.
+- For very young children or pets, a scheduled stop is often easier to plan around than an unplanned one — build it into the itinerary rather than treating it as an interruption.
+
+
+## Tesla Company Car & Salary Sacrifice Tax Guide (UK, 2026)
+Source: https://teslaservice.co.uk/company-car-tax-guide
+
+Home / Guides / Company Car Tax
+How Benefit-in-Kind tax and salary sacrifice actually work for a Tesla, in plain terms.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+The basic mechanism
+
+### How does company car tax work for an EV?
+Benefit-in-Kind (BIK) tax is calculated as a percentage of the car's list price (P11D value), based on its official CO2 emissions banding, then taxed at your personal income tax rate. Fully electric cars like Tesla sit in the lowest BIK bands available, which has made them a genuinely popular company car choice — but the exact percentage rate is set by the government and reviewed periodically, so always check the current rate rather than a figure from a previous tax year.
+Salary sacrifice
+
+### How does salary sacrifice change things?
+A salary sacrifice EV scheme lets you give up part of your gross salary in exchange for the car, its insurance, maintenance and (often) a home charger, typically bundled into one deduction taken before income tax and National Insurance — which is what makes it attractive, since you're effectively paying for some of it with pre-tax income. You still pay BIK tax on the car as a benefit, but the overall combined saving compared with buying the same car with post-tax salary can be substantial for many drivers.
+Checking current numbers
+
+### Where to get the actual current figures
+Rates, thresholds and rules for both BIK and salary sacrifice schemes are reviewed and can change at each Budget, so this page deliberately doesn't quote a specific percentage that will likely be outdated by the time you read it.
+- Check the current BIK percentage for electric vehicles directly on GOV.UK.
+- Ask your employer's specific salary sacrifice scheme provider for a personalised calculation — the actual saving depends on your tax band and the specific car's P11D value.
+- Compare the total cost against buying/leasing personally (see our lease vs buy guide) rather than assuming salary sacrifice is automatically cheaper for your situation.
+
+
+## Tesla DIY Jobs Ranked by Difficulty
+Source: https://teslaservice.co.uk/diy-jobs-ranked
+
+Home / Guides / DIY Jobs
+What's genuinely safe to do yourself, what needs some competence, and what should always go to a professional.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+Easy
+
+### Easy — most owners can do these confidently
+Wiper blade replacement, cabin air filter replacement (typically a straightforward panel-and-clip job on most models), topping up windscreen washer fluid, and checking/adjusting tyre pressure. These involve no electrical risk and are well documented in the owner's manual.
+Moderate
+
+### Moderate — doable with some mechanical confidence and the right guide
+12V battery replacement (location and access vary significantly by model — check your specific model's guide first), tyre rotation if you already have the right jack points and torque wrench, and replacing wiper arm assemblies. None of these involve the high-voltage system directly, but getting jack points or torque specs wrong can cause real damage, so follow a model-specific guide rather than generic advice.
+Leave it to a professional
+
+### Always leave these to a qualified technician
+Anything involving the high-voltage battery or drive unit system, suspension component replacement (safety-critical and requires proper alignment afterward), brake fluid replacement (requires correct bleeding procedure and disposal), and any work behind panels warning of high-voltage components. The cost of professional labour here is genuinely justified by both safety and warranty considerations.
+
+
+## Tesla Dog Mode Explained
+Source: https://teslaservice.co.uk/dog-mode-guide
+
+Home / Guides / Dog Mode
+What Dog Mode actually does, its genuine limits, and practical guidance for travelling with pets.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+How it works
+
+### What does Dog Mode actually do?
+Dog Mode keeps the climate control running at a set temperature while the car is parked and locked, and displays the current cabin temperature on the exterior touchscreen along with a message explaining the owner will be back shortly — intended to reassure a passerby who might otherwise be concerned about a pet left in a hot or cold car.
+Genuine limits
+
+### What are its genuine limits?
+Dog Mode depends on the car maintaining sufficient charge and the climate system continuing to function correctly for the whole period — it is a technology feature, not a guarantee, and relies on trusting the system to keep working reliably. It also draws down battery charge over time, meaningfully more than the car being off, so a long stop needs enough starting charge for both the climate system and your onward journey.
+Practical guidance
+
+### Practical guidance for UK owners
+A few sensible practices:
+- Check the estimated remaining charge specifically accounts for Dog Mode's consumption before leaving the car for an extended period.
+- Consider the outside temperature and how long you're realistically leaving the pet — Dog Mode reduces risk, but doesn't eliminate the general caution around leaving any animal unattended for long periods.
+- Check local guidance and use good judgement about acceptable duration, rather than treating any in-car technology as removing the need for that judgement.
+- Combine with Sentry Mode if security while parked is also a concern.
+
+
+## Tesla Servicing FAQ — Quick Answers for UK Owners (2026)
+Source: https://teslaservice.co.uk/faq
+
+Home / FAQ
+Quick, real answers to the questions UK owners actually search for — cost, intervals, warranty, MOT and who's qualified to work on one.
+Last fact-checked: 28 September 2026 . Tax and legal specifics change — always confirm current figures on GOV.UK before relying on them.
+Cost & scheduling
+
+#### How much does a Tesla service cost in the UK?
+There's no fixed annual service like a petrol car. Costs are per-item: tyres, brake fluid roughly every two years, cabin air filter, and wear items as needed. Most owners spend less per year overall than on an equivalent petrol car — no oil changes, no timing belt, no exhaust. Try the cost calculator for a fuller comparison.
+
+#### How often should a Tesla be serviced?
+There's no mandatory fixed-interval full service. Individual items have their own intervals — brake fluid roughly every two years, cabin filter periodically, tyre rotation based on wear. An annual inspection is still sensible even without a mandated schedule.
+
+#### How do I book a Tesla service appointment?
+Official Tesla Service Centers are booked through the Tesla app, not by phone. For an independent specialist, contact them directly — see our official centres list or independent specialists .
+What actually needs doing
+
+#### Do Teslas need oil changes?
+No — no combustion engine means no engine oil or oil filter. Some models have a long-interval gearbox fluid, but it's nothing like an annual oil change.
+
+#### What actually breaks or needs attention over time?
+Suspension components, 12V auxiliary battery replacement, tyres, and occasionally infotainment or door handle mechanisms on older models. See our full tyres & brakes guide .
+
+#### Why is my 12V battery flat when the main battery is charged?
+They're separate systems — the 12V battery runs low-voltage electronics and can fail independently of the main pack's charge, particularly with age. It's a known, recognised issue, not usually a wider fault.
+Who can work on it
+
+#### Can any garage service a Tesla?
+A growing number of independents, including HEVRA-accredited EV specialists, handle routine work competently. For warranty claims or software-linked components, an official Tesla Service Center is the safer choice. Always ask about specific Tesla experience before booking anywhere independent.
+
+#### Does independent servicing void my warranty?
+Routine maintenance at a competent independent garage generally doesn't void the manufacturer's warranty under UK/EU consumer law, provided correct parts and standards are used. Warranty claims themselves are typically handled through Tesla directly.
+
+#### Can I get a battery replaced independently?
+Full pack-level replacement is really an official Tesla Service Center job — genuine parts, diagnostics and warranty cover. If your car's still under battery warranty, go through Tesla directly to avoid voiding it.
+Legal & money
+
+#### Does a Tesla need an MOT?
+Yes, from three years old, same as any UK car — largely the same core safety checks, minus emissions items that don't apply to an EV.
+
+#### Do I pay road tax (VED) on a Tesla?
+The previous EV exemption has ended for most EVs including Teslas under current rules. Check the current rate and any luxury-car supplement threshold directly on GOV.UK, since this is reviewed periodically.
+
+#### Is an extended warranty worth it?
+Depends on the car's age, remaining factory cover and your own risk tolerance — a financial decision we don't advise on directly. See the buying, selling & upgrading guide for what to check on warranty transfer when buying used.
+
+
+## Tesla Frunk & Boot Space
+Source: https://teslaservice.co.uk/frunk-boot-space
+
+Home / Guides / Frunk & Boot Space
+Practical, real-world packing guidance rather than just headline litre figures.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+The frunk
+
+### What's the frunk actually good for?
+The front trunk ('frunk') varies considerably in size across Tesla's range, and its usefulness depends heavily on shape as much as raw volume — a shallower, wider frunk suits flat items like a folded pushchair or a soft bag better than a tall, narrow one. Check your specific model's official frunk dimensions against the folded size of anything specific you're hoping to fit, like a particular pushchair, rather than relying on a general 'it's roomy' impression.
+The main boot
+
+### What genuinely fits in the main boot
+Rear boot space and shape also vary by model, with fold-flat rear seats on most models substantially increasing usable space for larger items when needed. For specific common items like golf clubs, larger suitcases, or bulky pushchairs, checking official published cargo dimensions for your exact model — including with seats up versus folded — is more reliable than a general size comparison to a different car type.
+Packing tips
+
+### Practical packing tips
+A few things that help:
+- Soft bags pack more efficiently into an irregularly shaped frunk than rigid suitcases.
+- Check your specific model's official cargo volume figures (seats up and folded) rather than assuming based on the car's exterior size.
+- For a car full of passengers and luggage together, remember frunk space is genuinely separate additional capacity, not a replacement for boot space.
+- If towing (see our towing guide), remember a tow bar can sometimes slightly affect rear cargo access depending on the specific setup.
+
+
+## Tesla FSD in the UK: Worth It or Not? An Honest Breakdown
+Source: https://teslaservice.co.uk/fsd-worth-it
+
+Home / Guides / FSD: Worth It?
+An honest look at the cost-versus-value question, given what's actually usable in the UK today.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+The legal reality first
+
+### Start with what FSD legally means in the UK
+Before any cost-benefit question, the legal position matters: no Tesla in the UK is currently authorised for hands-off, driver-not-responsible driving, whatever the package is called. See our full Autopilot & FSD legal guide for the detail. Any value judgment below assumes you understand you remain the fully responsible, attentive driver regardless of which package you buy.
+What you're actually paying for
+
+### What does the money buy, practically, today?
+In the UK context, FSD (Supervised) today mainly buys a more capable supervised driver-assistance experience — handling more of the driving task in more situations (junctions, turns, more complex roads) than standard Autopilot, while still requiring your full attention throughout. Whether that's worth the cost is genuinely a personal value judgment: some owners find it meaningfully reduces fatigue on long or repetitive drives; others find the requirement to stay fully attentive throughout means the practical benefit is smaller than the marketing suggests.
+Questions to ask yourself
+
+### Questions worth asking before buying it
+Before paying for it, honestly consider:
+- What proportion of your driving is on the kind of roads where it currently performs well versus roads where you'd likely disengage it anyway?
+- Is the current UK feature set (which can differ from the US) actually what you expect — check Tesla's own current UK feature page, not general marketing.
+- Would a used car with FSD already included be better value than paying for it new or as an add-on?
+- Are you comfortable that 'Supervised' means genuinely supervising it, not treating it as autonomous?
+
+
+## Tesla Ownership Guides UK — Servicing, Warranty, Tax & MOT
+Source: https://teslaservice.co.uk/guides
+
+Plain-English answers to the questions that actually come up — servicing, tax, MOT, and the parts of ownership nobody explains clearly.
+Last fact-checked: 26 September 2026 . Rules like VED change — if you're reading this months later, verify current rates on GOV.UK before relying on the numbers below.
+Full guides
+
+### Bigger questions, their own pages
+Buying, selling or upgrading a used Tesla →
+How Tesla software updates work →
+Autopilot & FSD in the UK: what's actually switched on →
+Range & battery degradation explained →
+Tesla insurance in the UK: why it costs more →
+Home EV charger installation: grants & costs →
+Tyres, brakes & routine maintenance →
+Full FAQ: quick answers to common questions →
+Owner tips & explainers →
+Warranty
+
+### Will an independent garage void my Tesla warranty?
+Routine servicing at a non-Tesla garage generally doesn't void the vehicle warranty under UK consumer law, provided the right parts and procedures are used. Battery and drive unit work is different — keep every invoice and ask the garage to confirm parts specification in writing.
+Servicing
+
+### Does a Tesla need annual servicing at all?
+Tesla doesn't require fixed-interval servicing the way petrol cars do — there's no cambelt or oil change. What matters is brake fluid moisture testing every 2 years, tyre wear and rotation, and HVAC filtration. A specialist quoting a full "annual service" menu copied from petrol cars is a signal to ask more questions.
+Choosing a garage
+
+### What should I actually ask before booking?
+Ask what high-voltage EV qualification the technicians hold — IMI TechSafe Level 3 EV is the standard to look for — whether they have Tesla-specific diagnostic access, and whether they can source OEM parts or only aftermarket.
+Road tax
+
+### Do electric cars still pay road tax (VED)?
+Not anymore for free. The long-standing EV road tax exemption ended on 1 April 2025 — electric cars now sit in the standard Vehicle Excise Duty system, paying a reduced first-year rate followed by the standard annual rate. From April 2026 the "Expensive Car Supplement" threshold for zero-emission vehicles rises to £50,000, so many mid-priced Tesla models avoid that extra charge where a petrol equivalent might not. If you bought into "EVs are tax-free" a few years ago, that's now out of date — check GOV.UK for the current rate before budgeting.
+MOT
+
+### Does a Tesla need an MOT?
+Yes — once a car passes 3 years old, it needs an annual MOT exactly like any petrol or diesel vehicle. There's no exemption for electric cars. The tests differ slightly in practice (no emissions test, obviously), but tyres, brakes, lights, steering and structural checks all still apply.
+ULEZ & Congestion Charge
+
+### Is a Tesla exempt from ULEZ and the London Congestion Charge?
+Zero-emission vehicles like Teslas are exempt from ULEZ and most UK Clean Air Zone charges thanks to having no tailpipe emissions. London's Congestion Charge is different — full exemption has been phased out, and electric vehicles registered for Auto Pay instead qualify for a discount rather than a total exemption. Don't assume "electric = free" in central London without checking the current scheme rules.
+Maintenance basics
+
+### What is brake fluid moisture testing, and why does it matter?
+Brake fluid absorbs moisture over time, which lowers its boiling point and can affect braking performance under heavy use. Tesla recommends testing (and replacing if needed) roughly every 2 years — it's one of the few genuinely fixed-interval items on an otherwise low-maintenance car, and one an independent garage can do just as well as Tesla itself.
+The part people forget
+
+### Wait — Teslas have a normal 12V battery too?
+Yes. Alongside the large main battery pack, Teslas use a conventional 12V battery to run low-voltage systems (screens, door handles, computers). It's a wear item like in any car and can fail — a "bricked" screen or a car that won't wake up is sometimes just a flat or failing 12V battery, not a main battery problem. Worth knowing before assuming the worst.
+More guides
+
+### Every topic, by category
+Ownership health & data
+Real-world range by season →
+12V battery failure watch →
+Known issues by model & year →
+Battery degradation tracker (owner-submitted) →
+"Is this normal?" symptom checker (owner-submitted) →
+Software update scorecard (owner-submitted) →
+Phantom braking log (owner-submitted) →
+Charging
+Making the most of a charging stop →
+Charging etiquette →
+Using non-Tesla chargers in the UK →
+Road trip charging: planning tips →
+Charger reality reports (owner-submitted) →
+Money
+Buying a used Tesla: the complete checklist →
+FSD: worth it or not? →
+Lease vs buy for EVs →
+Company car & salary sacrifice tax guide →
+Repairs & service
+Before you book a service: the checklist →
+Tesla warranty: what's actually covered →
+DIY jobs ranked by difficulty →
+Windscreen & camera calibration guide →
+Bodywork & accident repair advice →
+Software & features
+Hidden features library →
+Settings recipes: winter, camping, kids & pets →
+Autopilot & FSD tricky roads (owner-submitted) →
+Phone key & app troubleshooting →
+Sentry Mode & dashcam guide →
+Voice commands cheat sheet →
+Life with the car
+Kids & car seats →
+Dogs & Dog Mode →
+Towing & caravans →
+Car camping guide →
+Accessibility guide →
+Winter survival guide →
+Frunk & boot space: what actually fits →
+Motion sickness & regen braking →
+Community
+Owner meetups & convoys (owner-submitted) →
+Ask an owner near you (owner-submitted) →
+Owner stories (owner-submitted) →
+High-mileage hall of fame (owner-submitted) →
+Car-only zone →
+Buying & the future
+Which Tesla should I buy? A quiz →
+New vs used vs wait →
+Tesla vs rivals, honestly →
+
+
+## Tesla Hidden Features & Easter Eggs — UK Owner's Guide
+Source: https://teslaservice.co.uk/hidden-features
+
+Home / Guides / Hidden Features
+Buried settings genuinely worth knowing about, separate from headline marketing features.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+Useful buried settings
+
+### Settings worth finding that aren't obvious
+A few genuinely useful ones tucked away in menus rather than on the main screen: adjustable regenerative braking feel (on models where it's configurable), a dog mode and camp mode combination for climate control while parked, customisable steering feel and one-pedal driving sensitivity, and scheduled departure/preconditioning tied to a calendar rather than a fixed daily time. Exact menu locations shift between software versions, so check your current settings menu directly rather than following an old screenshot from an outdated version.
+Well-known Easter eggs
+
+### The playful extras Tesla has built in over time
+Tesla has a long-running tradition of hidden playful features triggered by specific button combinations or menu taps — from screen animations to seasonal light shows on the exterior lighting. These change and are added/removed across software updates, so a specific Easter egg from an older review may no longer exist, and new ones appear periodically. Treat any specific example you read online as 'may or may not still be there' rather than guaranteed.
+Where to check
+
+### How to find what's currently available on your car
+Rather than list specific menu paths that will likely go stale as software updates change them, the most reliable approach is checking your own car's current software release notes (shown after an update) and browsing the settings menu directly — most hidden features are genuinely just settings that aren't part of the main default-visible menu, not secrets requiring special unlocking.
+
+
+## Tesla High-Mileage Hall of Fame (UK)
+Source: https://teslaservice.co.uk/high-mileage-hall-of-fame
+
+Home / Guides / High-Mileage Hall of Fame
+Real UK owners with genuinely high mileage, and an honest account of how their car has held up.
+Why this page looks empty: This only has value as real, verifiable examples — an invented '210,000 miles, still going strong' entry would be exactly the fake-credibility problem this site was built to avoid.
+We don't fabricate entries here to make this look more populated than it is — every other page on this site is built the same way, on real, sourced or verified information, not invented content. This page becomes genuinely useful once real UK Tesla owners start contributing to it.
+What this will become
+
+### What this page will look like once it has real data
+A list of real, verified-where-possible high-mileage Tesla owners (200,000+ miles as a rough starting point) with their own account of battery health, what's needed replacing, and what hasn't — genuinely useful long-term reliability signal that only exists once real high-mileage owners share it.
+
+
+## Home EV Charger Installation UK (2026)
+Source: https://teslaservice.co.uk/home-charging-guide
+
+Home / Guides / Home Charging
+The current grant, who actually qualifies now, typical costs, choosing an installer, and getting a tariff that suits how you charge.
+Last fact-checked: 28 September 2026 , against current OZEV EV Chargepoint Grant guidance. Grant eligibility and amounts have changed more than once — always confirm the live rules with an OZEV-authorised installer before assuming a figure quoted here still applies.
+The grant, right now
+
+### Is there still a home charger grant in 2026?
+Yes, but eligibility has shifted since earlier versions of the scheme. Outright homeowners living in houses they own no longer qualify under the current EV Chargepoint Grant. It's now aimed at renters, flat owners and landlords installing for tenants, alongside separate, distinct schemes covering on-street residential parking, businesses and state-funded educational institutions. From April 2026 the maximum grant increased to £500 per socket , covering up to 75% of the combined purchase and installation cost — a significant rise from the previous £350 cap — with funding currently confirmed through March 2027. You also can't claim if you already received support through the older Electric Vehicle Homecharge Scheme (EVHS) or the Domestic Recharge Scheme for the same property.
+Claiming it
+
+### How do I actually get the grant?
+You don't apply for it directly yourself. Book your installation through an OZEV-authorised installer — they handle the application and paperwork on your behalf, and the grant amount is deducted straight from your invoice rather than paid to you. The charger itself has to be a "smart" charger that appears on the official approved product list, and the assessment typically takes around 10 working days on the current digital platform. If you previously registered under an older version of the scheme, you'll likely need to re-register on the new platform.
+Cost & choosing a wallbox
+
+### What does installation actually cost, and how do I pick a unit?
+Where you don't qualify for the grant, a straightforward domestic installation — a short cable run from an accessible consumer unit, no extra electrical work needed — typically runs from a few hundred pounds up to roughly £1,200-£1,500 including the charger itself. Costs rise if you need a new circuit, a consumer unit upgrade, or a long cable run to reach your parking spot. When comparing wallboxes, prioritise: a genuinely "smart" unit (needed for grant eligibility and useful for scheduling cheap-rate charging), a cable length that comfortably reaches your charging spot without straining, and an installer who is both NICEIC or equivalent certified and OZEV-authorised specifically — the two aren't automatically the same thing.
+Electricity tariffs
+
+### Do I need a special tariff to charge cheaply?
+Not strictly, but it usually pays to get one if you charge at home regularly. Dedicated EV or overnight tariffs offer several hours of significantly cheaper electricity, typically overnight, aimed squarely at EV owners who can schedule most charging into that window using the car's own scheduled-charging feature or the wallbox's app. Compare a few EV-specific tariffs against what you currently pay using your actual charging pattern rather than the headline rate alone — the cheapest advertised rate isn't always the best fit if your charging times don't line up with its cheap window.
+What to expect
+
+### What happens on installation day?
+- A qualified electrician assesses your consumer unit, existing circuits and cable route (often already done at a prior survey visit).
+- Installation of a dedicated circuit and the wallbox itself, typically taking a few hours for a straightforward job.
+- Testing and certification — you should receive an electrical installation certificate, which matters for home insurance and any future sale.
+- Registration of the charger with your chosen electricity supplier if needed, and setup of any scheduled/smart charging features via the manufacturer's app.
+
+
+## Tesla Insurance in the UK Explained (2026)
+Source: https://teslaservice.co.uk/insurance-guide
+
+Home / Guides / Insurance
+Why premiums run higher than a comparable petrol car, what actually drives the cost, and practical ways to bring it down.
+Last fact-checked: 28 September 2026 . Insurance groups and premiums change as insurers reassess risk — always get a current quote for your exact variant rather than relying on a figure from this page.
+The headline reason
+
+### Why does Tesla insurance cost more?
+It's rarely one single factor. Most Tesla models sit in high insurance groups — typically 37-50, with the Model 3 Standard Range the cheapest to insure at around group 32. On top of the group rating, aluminium body panels, camera and sensor clusters used for driver assistance, and structural battery packs all make even a minor collision more expensive to put right than the same-looking damage on a conventional steel-bodied car. Insurers price that repair-cost risk directly into the premium, not just the car's performance or value.
+Insurance groups
+
+### What insurance group is my Tesla actually in?
+It depends on the exact model and variant, and groups are reassessed periodically as insurers gather more real-world claims data. As a general guide: the Model 3 Standard Range tends to sit lowest, around group 32; most other Model 3, Model Y and Model S/X variants fall between roughly 37 and 50, with performance variants at the top of that range. The Model Y in particular was reassessed downward in 2025, so current Model Y quotes are often noticeably cheaper than older group data would suggest. Don't rely on a figure you saw for a different year or trim — check your specific variant's current group directly.
+Repairs & claims
+
+### Does it matter who repairs the car after a claim?
+Often, yes. Most UK insurers steer claims toward their own approved repair network by default, and that network may or may not include an official Tesla-authorised body shop. If having genuine Tesla parts and Tesla-trained technicians on any bodywork or structural repair matters to you, ask your insurer explicitly, before you ever need to claim, whether you can choose your own repairer and whether an official centre is in their approved list.
+See our full list of official Tesla Service Centers if you want to identify one near you in advance.
+Security
+
+### Does keyless entry affect my premium?
+Thatcham Research, the body UK insurers rely on for vehicle security assessments, has previously flagged relay-attack vulnerability in keyless entry systems — including Tesla's — as a factor that can influence security ratings and, indirectly, insurance group placement. Two practical, low-cost steps some owners take: a signal-blocking (Faraday) pouch for a key card or phone-as-key device when it's not in use, and enabling PIN-to-drive in the car's own security settings. Neither is guaranteed to move your specific quote, but both are sensible regardless.
+Cutting the cost
+
+### What actually reduces the premium?
+- A no-claims bonus, built up over time, is the single biggest lever most owners have.
+- Compare quotes 3-4 weeks before renewal, not on the renewal date itself — insurers price new-business quotes differently from auto-renewals.
+- Pay annually if you can. Monthly instalment plans typically carry an effective interest cost of 15-25% on top.
+- Choose a realistic voluntary excess rather than the minimum.
+- Keep your declared annual mileage accurate — both over- and under-declaring can cause problems, the latter potentially affecting a claim.
+- Ask whether your insurer accepts Tesla's own in-car driving data, or offers a telematics-based policy, if you're a demonstrably low-risk driver.
+
+
+## Tesla & Car Seats — What Fits Where (UK Model Guide)
+Source: https://teslaservice.co.uk/kids-car-seats
+
+Home / Guides / Kids & Car Seats
+Practical fitting guidance and what to check before buying a specific seat.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+The basics
+
+### What car seat fittings does a Tesla have?
+UK-spec Teslas are fitted with standard ISOFIX anchor points in the rear outboard seats, and most models also support a top-tether connection, meeting the same UK/EU child seat regulations as any other car sold here. Models with an optional third row have their own specific space and access considerations worth checking against your specific seat's dimensions before buying, since third-row access and space can differ noticeably from the main cabin.
+What to check before buying a seat
+
+### What to verify before purchasing a specific car seat
+Rather than assume any ISOFIX-compatible seat will fit comfortably, check the seat manufacturer's own compatibility list for your specific Tesla model and seating position where available, and — if possible — test fit before buying, particularly for bulkier seats in a smaller vehicle interior or the third row of models that have one.
+Practical tips
+
+### A few practical tips from common owner experience
+Things that help in practice:
+- The frunk (front boot) can be a genuinely useful spot for a folded pushchair on models where it's large enough, worth checking against your specific pushchair's folded dimensions.
+- Sunshades for rear windows are a popular, simple addition given the amount of glass in some models' panoramic roofs.
+- If using a third row, check both legroom for the specific ages involved and how straightforward access in and out actually is in practice, not just on paper.
+
+
+## Tesla Known Issues by Model: What UK Owners Commonly Report
+Source: https://teslaservice.co.uk/known-issues-by-model
+
+Home / Guides / Known Issues
+A straight, sourced summary of what owners and independent bodies commonly report — not speculation dressed up as fact.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+How to read this
+
+### What this page is, and isn't
+This is a summary of patterns reported by owners, independent garages and official recall notices — it is not a claim that any specific car will develop any specific fault, and it isn't a substitute for checking a specific vehicle's own history (MOT records, recall status via GOV.UK, and a pre-purchase inspection if buying used). Treat this as 'things worth asking about', not a diagnosis.
+Common patterns
+
+### What comes up most often across models
+Across Tesla's range, the issues most frequently mentioned by owners and independent specialists include: suspension wear (control arms and bushings, accelerated by weight and torque), the 12V auxiliary battery (see our dedicated page on this), door handle mechanisms on some earlier production years, and occasional infotainment/software glitches that are usually resolved by an update rather than a hardware fix. Panel gaps and paint finish issues have been more commonly reported on early production runs of a given model than on later ones, as is typical across the car industry generally.
+Checking a specific car
+
+### How to check a specific car rather than relying on generalisations
+Always check GOV.UK's vehicle recall checker using the specific VIN, review the car's full MOT history for repeat advisories, and — for a used purchase — see our full buying checklist. General patterns across a model line tell you what to ask about; they don't tell you the condition of the one specific car in front of you.
+
+
+## Lease vs Buy a Tesla in the UK — The Trade-offs Explained
+Source: https://teslaservice.co.uk/lease-vs-buy
+
+Home / Guides / Lease vs Buy
+Neither is automatically right — here's what genuinely differs and who each suits.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+The core trade-off
+
+### What's the fundamental difference?
+Buying (outright or on finance you'll own at the end) means you carry the depreciation risk and benefit if the car holds value better than expected, but also lose out if it depreciates faster — as covered in our owner tips page, Tesla depreciation has become less predictable than its earlier reputation suggested. Leasing fixes your cost for a known period and hands the depreciation risk to the leasing company, in exchange for you never owning the car and typically facing mileage limits and end-of-contract condition charges.
+Who leasing suits
+
+### When does leasing make more sense?
+Leasing tends to suit drivers who want a predictable monthly cost, don't want to deal with resale, and are comfortable switching to a newer model every few years — which also means always having current software/hardware and a fresh warranty. It's less suitable if you drive high annual mileage (excess mileage charges add up) or want to heavily customise or keep a car long-term.
+Who buying suits
+
+### When does buying make more sense?
+Buying suits drivers planning to keep the car for many years past any typical lease term, who drive unusually high mileage where lease penalties would be costly, or who value building equity in an asset rather than a pure running cost. It carries more risk if the car depreciates faster than expected, but also more upside if it doesn't.
+
+
+## Tesla Regenerative Braking & Motion Sickness
+Source: https://teslaservice.co.uk/motion-sickness-regen
+
+Home / Guides / Motion Sickness
+Why regen braking specifically affects some passengers, and practical adjustments that genuinely help.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+Why it happens
+
+### Why does regen braking specifically trigger motion sickness for some people?
+Regenerative braking creates noticeably stronger deceleration when lifting off the accelerator than a petrol car coasting normally does, and this pattern of frequent, distinct deceleration-acceleration cycles — especially in stop-start traffic — can be more likely to trigger motion sickness in susceptible passengers than smoother, more gradual speed changes, similar to why some people feel unwell with an unfamiliar or inexperienced driver's abrupt pedal inputs in any car.
+Settings that help
+
+### Settings adjustments worth trying
+Where available on your specific model, reducing the regenerative braking strength to a lower or 'standard' setting rather than the strongest 'one-pedal driving' mode produces a smoother, more gradual deceleration feel closer to a conventional car, which some sensitive passengers find noticeably more comfortable.
+Driving adjustments
+
+### Driving style adjustments that also help
+Beyond the settings themselves:
+- Anticipate the need to slow down earlier and lift off the accelerator more gradually rather than abruptly, which smooths out the regen effect regardless of setting.
+- Seat susceptible passengers in the front where visual reference to the road ahead is easier, a standard motion-sickness mitigation that applies in any vehicle.
+- Standard motion sickness advice still applies generally — looking at the horizon rather than a phone screen, fresh air, and avoiding a full stomach immediately before a winding or stop-start journey.
+
+
+## New Tesla vs Used vs Waiting for the Next Model
+Source: https://teslaservice.co.uk/new-vs-used-vs-wait
+
+Home / Guides / New vs Used vs Wait
+A balanced way to think through the timing question, rather than chasing a constantly moving target.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+The case for buying now
+
+### When does buying now, new or used, make sense?
+If you have a genuine, current need for a car, waiting indefinitely for an unannounced future update carries its own cost — you're paying for alternative transport or missing out on ownership in the meantime. A well-specified used or current-generation new model that meets your actual needs today is often the better decision than delaying for a rumoured future change that may not materialise on the timeline or with the exact features you're hoping for.
+The case for waiting
+
+### When is it genuinely worth waiting?
+Waiting makes more sense when there's a confirmed, announced change (not just rumour or speculation) that specifically matters to your use case — a announced new model variant, a confirmed significant price change, or a specific feature you know is coming that would change your decision. Vague 'something better might come along eventually' isn't a strong reason to delay a genuine current need.
+Used as a middle path
+
+### Why used is often underrated
+A used Tesla from a well-established production run, checked thoroughly (see our buying checklist), often represents better value than either extreme — avoiding new-car depreciation in the first year or two while still getting a mature, well-understood model rather than an unproven brand-new variant with less track record.
+
+
+## Using Non-Tesla Chargers in the UK
+Source: https://teslaservice.co.uk/non-tesla-chargers-guide
+
+Home / Guides / Non-Tesla Chargers
+Which networks work, what adapter you need, and what's genuinely different from Supercharging.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+The basics
+
+### Can a Tesla actually use non-Tesla chargers?
+Yes. UK-market Teslas use the CCS (Combined Charging System) connector as standard, the same connector used by the vast majority of other EVs and public rapid/ultra-rapid chargers in the UK — networks like Ionity, InstaVolt, GRIDSERVE, BP Pulse and Osprey are all directly compatible without an adapter. For slower public and destination chargers using a Type 2 connector, a standard cable (often carried in the car) covers that too.
+What's different
+
+### What's genuinely different from Supercharging?
+The main practical differences are payment (most third-party networks need their own app or a contactless card rather than being built into the Tesla navigation experience the way Supercharging is), and route-planning integration — Tesla's own trip planner prioritises and shows live Supercharger availability directly, while third-party chargers may need a separate app like Zapmap to check status and availability in advance.
+Practical tips
+
+### Making it work smoothly
+A few practical points:
+- Download the apps for major networks (Zapmap is a good aggregator to start with) before you need them, not when you're already low on charge.
+- Contactless payment is now mandatory on new rapid chargers under UK regulations, so many no longer require an app at all for one-off use.
+- Check real-world reliability via Zapmap's live status feed where available — a charger showing as operational in an app isn't always guaranteed working on arrival.
+
+
+## UK Tesla Owner Meetups & Convoys — Find or Post an Event
+Source: https://teslaservice.co.uk/owner-meetups
+
+Home / Guides / Owner Meetups
+Real UK owner meetups and convoys, planned around charging stops — posted by the people actually organising them.
+Why this page looks empty: An invented meetup would just waste someone's time turning up to nothing — this only works listing events that are actually happening.
+We don't fabricate entries here to make this look more populated than it is — every other page on this site is built the same way, on real, sourced or verified information, not invented content. This page becomes genuinely useful once real UK Tesla owners start contributing to it.
+What this will become
+
+### What this page will look like once it has real data
+A simple, genuine listing of upcoming UK owner meetups and organised convoys, with date, location and a contact route to the actual organiser — not a generic events calendar, but real gatherings real owners have organised.
+
+
+## Tesla Owner Stories (UK) — Real Experiences from Real Owners
+Source: https://teslaservice.co.uk/owner-stories
+
+Home / Guides / Owner Stories
+First-year diaries, road trips and long-term ownership experiences, told by the owners who lived them.
+Why this page looks empty: A story presented as a real owner's experience has to actually be one — anything else is exactly the kind of fabricated content this site has avoided from day one.
+We don't fabricate entries here to make this look more populated than it is — every other page on this site is built the same way, on real, sourced or verified information, not invented content. This page becomes genuinely useful once real UK Tesla owners start contributing to it.
+What this will become
+
+### What this page will look like once it has real data
+Genuine, attributed stories from real UK owners — a first year of ownership, a memorable road trip, lessons learned the hard way — published as submitted (lightly edited for clarity, never invented or composited from multiple sources pretending to be one person).
+
+
+## Tesla Owner Tips UK — Depreciation, Reliability & Winter Driving
+Source: https://teslaservice.co.uk/owner-tips
+
+Home / Owner Tips & Explainers
+Straight, evergreen explainers on the things owners actually wonder about — not time-sensitive news, just how things genuinely work.
+Last fact-checked: 28 September 2026 . Pricing and packages mentioned below change — always check Tesla's own current UK site for live figures.
+Money
+
+### How does Tesla depreciation actually compare to petrol cars?
+It's shifted over time, and the old reputation isn't the full current picture. Early Tesla models genuinely did hold their value unusually well compared with a typical petrol depreciation curve — strong demand, limited supply, and no direct equivalent on the used market all helped. That's changed: increased EV competition, Tesla's own new-car price cuts (which drag comparable used values down with them), and a maturing wider EV market have pushed used Tesla depreciation closer to, and in some cases past, typical petrol rates in recent years.
+What this means practically: don't buy or budget around Tesla's older "holds value brilliantly" reputation. Look up current used values for your specific model, age and mileage directly — Autotrader, What Car? and similar UK sites track this — rather than assuming history repeats. See our buying, selling & upgrading guide for the fuller used-Tesla purchase picture.
+Reliability
+
+### What actually breaks on a Tesla after a few years?
+Based on commonly reported owner and independent-garage experience, not official Tesla data: suspension components (control arms and bushings, worn faster by the car's weight and instant torque), the 12V auxiliary battery (a wear item separate from the main pack — see our FAQ on this), door handle mechanisms on some older models, and occasionally trim or panel-gap issues reported more on early production runs of a given model than later ones.
+None of these are unique to Tesla in kind — every car accumulates wear items — but they're genuinely different from what an owner moving from a typical petrol car might expect to watch for. None of them require an official Tesla Service Center by default; a competent independent EV specialist can generally handle suspension and 12V battery work.
+Software
+
+### What's actually hardware vs just software-locked?
+Tesla has historically sold some features this way: the physical hardware is present in every car of a given spec, but a feature is only switched on if you've purchased or subscribed to it in software — Acceleration Boost (a performance upgrade on certain models) and some connectivity features have worked this way at points. Other features genuinely need different physical hardware and can't be unlocked in software regardless of what you pay.
+The exact list of what's software-unlockable, what it costs, and whether it's a one-off purchase or subscription changes fairly often — including differences between UK and US offerings at various points. Rather than repeat a specific price or package list here that will likely be out of date by the time you read it, check Tesla's own current UK site for what's actually on offer today.
+Winter
+
+### Does cold weather really hurt range that much?
+Yes, and it's worth planning around rather than being caught out by. Cold temperatures reduce the battery's chemical efficiency and increase the energy cabin heating draws, and together these commonly cut real-world winter range by roughly 20-30% compared with mild-weather figures — sometimes more on short, cold journeys where the battery never fully warms up.
+- Precondition the battery and cabin while still plugged in at home, before you unplug and leave — this uses mains power rather than battery charge to do the warming.
+- Use seat and steering wheel heaters rather than the cabin air heater where comfortable — they use meaningfully less energy for the same comfort.
+- Keep tyre pressures correct — cold weather naturally drops tyre pressure, and under-inflated tyres increase rolling resistance and reduce range further.
+- Build in a bigger margin than usual on longer winter trips, and check charger availability along the route rather than assuming your usual warm-weather range estimate holds.
+
+
+## Tesla Phantom Braking Log (UK) — Where & When It Happens
+Source: https://teslaservice.co.uk/phantom-braking-log
+
+Home / Guides / Phantom Braking Log
+Where it happens, on which software versions, and what genuinely helps — built from real owner reports.
+Why this page looks empty: A single fabricated example wouldn't tell you anything real about where or why this happens — this only becomes useful once a genuine pattern of real reports exists to look at.
+We don't fabricate entries here to make this look more populated than it is — every other page on this site is built the same way, on real, sourced or verified information, not invented content. This page becomes genuinely useful once real UK Tesla owners start contributing to it.
+What this will become
+
+### What this page will look like once it has real data
+A log of specific locations and conditions (a particular junction, a bridge, a shadow pattern) where owners have experienced unexpected braking from driver-assistance features, tagged by software version, so patterns become visible over time rather than each incident feeling like an isolated mystery.
+
+
+## Tesla Phone Key & App Troubleshooting
+Source: https://teslaservice.co.uk/phone-key-troubleshooting
+
+Home / Guides / Phone Key Troubleshooting
+Practical fixes for the most common phone key and app frustrations.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+The basics
+
+### How the phone key actually works, briefly
+The Tesla app communicates with the car over Bluetooth for proximity-based unlocking and starting, with the app itself needing an internet connection for remote features like pre-conditioning or checking location. Most 'phone key not working' problems trace back to one of these two connections rather than a fault with the car itself.
+Common fixes
+
+### The fixes that solve most problems
+In rough order of what to try first:
+- Force-close and reopen the Tesla app, then walk away from and back toward the car to re-trigger Bluetooth pairing.
+- Check Bluetooth is actually enabled on your phone and the Tesla app has Bluetooth permission in your phone's settings.
+- Restart your phone if the app has been running for a long time without issue — a stuck background process is a common, boring cause.
+- As a reliable backup, always carry the physical key card — it works even when phone-based access is temporarily misbehaving.
+- If problems persist across multiple restarts, check for a pending software update on both the car and the app.
+When it's more than a glitch
+
+### When to get it looked at properly
+If phone key issues are frequent and persistent despite the above, and particularly if combined with other symptoms like slow wake-up or screen glitches, it may be worth checking the 12V battery's health — see our dedicated 12V battery page, since related low-voltage electronics issues can present as connectivity problems too.
+
+
+## Tesla Range & Battery Degradation Explained
+Source: https://teslaservice.co.uk/range-battery-guide
+
+Home / Guides / Range & Battery
+What genuinely affects range and battery health, how to check your own car's condition, and how to read the numbers without guessing.
+Last fact-checked: 27 September 2026 . This page explains general principles that apply across Tesla's range — for your specific car's numbers, always check the car's own screen and your battery warranty documentation rather than relying on a general guide.
+Real-world vs advertised range
+
+### Why is my real range lower than the advertised figure?
+The advertised WLTP or EPA range comes from controlled test-cycle conditions, not everyday driving. In practice, range is reduced by cold weather (battery chemistry is less efficient when cold, and cabin heating draws real power), sustained motorway speeds above roughly 60-70mph, tyre choice and under-inflation, and extra weight such as a full car or roof box. Seeing 10-30% less than the advertised figure in cold weather or fast motorway driving is normal — it doesn't indicate a fault with the car.
+Checking battery health
+
+### How do I actually check my battery's health?
+Tesla doesn't show a single "battery health %" figure on the car's own screen. The most reliable DIY method: after a full charge to 100%, note the estimated range shown, and compare it against the original rated range for your exact model, year and battery variant when new. A single reading is a snapshot — logging it every few months (or using a third-party tool like TeslaFi , in our resources list) gives a much more meaningful trend than one number in isolation.
+Fast charging
+
+### Does Supercharging damage the battery faster?
+Heavy, exclusive reliance on DC fast charging can contribute to somewhat faster long-term degradation compared with mostly slower AC home charging — but Tesla's battery management system is built specifically to manage heat and charge rate during fast charging, and Tesla does not advise owners to avoid Supercharging for normal use, including regularly on long trips. It's a matter of degree over a car's whole life, not a rule that turns one Supercharge session into meaningful damage.
+Best routine
+
+### What's the best charging habit to protect the battery long-term?
+- Daily charging to roughly 80-90% rather than 100% every night.
+- Reserve charging to 100% for days you actually need the extra range, such as a long trip.
+- Avoid leaving the car sitting at a very low state of charge for long periods, particularly in cold weather.
+None of this is a strict rule — occasionally charging to 100% or letting the battery run low doesn't cause sudden damage. It's a long-term habit that modestly slows the rate of degradation over years, not a daily requirement to panic about.
+Warranty cover
+
+### Is degradation actually covered by warranty?
+Yes — Tesla's battery and drive unit warranty specifically covers excessive degradation, not only outright failure, typically defined as capacity dropping below a stated percentage within the warranty's year and mileage limits. Exact thresholds vary by model and battery pack, so check your own vehicle's specific terms directly with Tesla using your VIN rather than assuming a figure quoted for a different model applies to yours.
+
+
+## Tesla Range by Season: Summer vs Winter (UK)
+Source: https://teslaservice.co.uk/real-world-range-by-season
+
+Home / Guides / Range by Season
+How much real-world range genuinely changes across the year in the UK, and why.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+The gap
+
+### How big is the summer-to-winter range gap really?
+Most UK owners report somewhere between 15-30% less real-world range in cold winter conditions compared with a mild summer day, though the exact figure depends on the specific trip: short cold journeys where the battery and cabin never fully warm up lose proportionally more than a long motorway run where the car settles into a steady state.
+This isn't a fault or a sign of degradation — it's the same physics affecting every EV, caused by reduced battery efficiency in the cold and the extra energy cabin heating draws that a petrol car gets largely for free from waste engine heat.
+Why it happens
+
+### What's actually causing the drop?
+Two separate effects stack together. Battery chemistry is measurably less efficient at low temperatures, so the same amount of stored energy delivers less usable range. Separately, heating the cabin and the battery itself (for charging and driving efficiency) is drawn from the same battery that also powers the drivetrain — unlike a petrol car, there's no free waste heat from an engine to repurpose.
+Planning around it
+
+### How to plan for it rather than be caught out
+A few habits make a real difference:
+- Precondition the cabin and battery while still plugged in at home, so warming doesn't come out of your driving range.
+- Use seat and steering wheel heaters rather than the cabin air heater where it's comfortable to do so.
+- Build in a bigger buffer on longer winter trips — don't plan a route assuming summer range figures.
+- Check charger reliability along your route in winter specifically; very cold weather can also affect charging speed on some fast chargers.
+
+
+## Top 10 Tesla Resources for UK Owners (2026)
+Source: https://teslaservice.co.uk/resources
+
+Real, verified places to go for official service, accredited independents, charging, software tracking, battery data, safety and community — not another SEO directory.
+Looking specifically for an official Tesla Service Center? See all 31 UK locations, grouped by region →
+
+#### Tesla's official UK Service Centers Official
+The authoritative list of Tesla-owned service locations — go here first if you specifically want dealer-network service.
+
+#### The Motor Ombudsman — EV Servicing garage finder Accredited
+Search by town or postcode for garages independently accredited under the EV Servicing code, with real customer reviews attached.
+
+#### HEVRA — Hybrid and Electric Vehicle Repair Alliance Trade body
+A UK-wide network of 200+ independent garages vetted and technically supported specifically for EV and hybrid repair. Owned by the Independent Garage Association. Read about it via Fully Charged's overview .
+
+#### Zapmap Charging
+The UK's leading charge point map — find nearby chargers, plan routes, and compare fuel-vs-electricity running costs.
+
+#### Not a Tesla App Software
+Tracks every Tesla software update release in detail — what's new, which regions and hardware have it. The first place most owners check after an update notification.
+
+#### TeslaFi Battery & trip data
+Third-party logging for trips, charging habits and battery state-of-health over time — deeper history than Tesla's own app provides.
+
+#### The EV Pros Directory
+A competitor directory worth knowing — it actually shows HEVRA approval and IMI qualifications per garage rather than generic star ratings.
+
+#### GOV.UK — Check if a vehicle has been recalled Safety
+The official DVSA recall checker. Enter make, model and year to see any outstanding safety recalls — genuinely useful before buying used.
+
+#### Tesla Motors Club Community
+A long-running international owner forum with deep, searchable threads on real faults, battery degradation specifics and fixes.
+
+#### Tesla Owners UK Owners club
+The official, not-for-profit UK owners club — over 10,000 members, regional meetups, and direct representation to Tesla and government on driver issues.
+
+
+## Top 10 Tesla Review YouTube Channels (2026)
+Source: https://teslaservice.co.uk/reviews
+
+Ten creators genuinely worth your time if you're researching, buying or just enjoy watching Teslas get tested properly — ranked by depth and reliability, not just subscriber count.
+
+### Featured reviews
+Two real, verified videos to start with.
+Doug DeMuro — 2024 Tesla Model 3 (Highland) full review
+Doug DeMuro — Tesla Model Y full review
+
+### The 10 channels worth following
+Links go to each creator's channel or a live YouTube search for their Tesla coverage — pick any video from there.
+
+#### Doug DeMuro Verified
+Famous "quirks and features" format — exhaustive, methodical walkthroughs of every button and control. His Tesla playlist alone covers most models over several years.
+
+#### Auto Focus (MKBHD) Verified
+Marques Brownlee's car-focused channel. Reviews Tesla software, screens and Autopilot/FSD from a tech-reviewer's lens rather than a traditional car journalist's.
+
+#### Out of Spec Reviews
+Kyle Conner's channel is the one to watch for real-world range, charging-curve and road-trip testing — the numbers Tesla's own spec sheet won't show you.
+
+#### Fully Charged Show / Everything Electric
+Robert Llewellyn's long-running UK EV show — now the Everything Electric network — with a UK/European lens that's directly relevant to British driving and charging.
+
+#### Bjørn Nyland
+Norwegian EV tester known for rigorous, repeatable cold-weather and range tests — genuinely useful if you're weighing up winter range anxiety.
+
+#### Carwow
+UK-based, high-production reviews and drag races — a good entry point if you want Tesla covered in a familiar British motoring-show style.
+
+#### Munro Live
+Sandy Munro's engineering teardowns go inside the car — literally — comparing build quality and manufacturing decisions against rival EVs.
+
+#### Now You Know
+Deep dives on Tesla news, software updates and strategy — good for owners who want context on what an update actually changes.
+
+#### The Fast Lane Car
+Practical, unglamorous testing — towing, payload, cold starts — aimed at buyers cross-shopping a Tesla against a normal family car.
+
+#### Ride the Lightning
+Owner-perspective daily coverage — useful for the small, everyday questions a formal review never answers.
+Once you've watched something worth featuring: open it on YouTube, click Share → Embed, and copy just the video ID from the URL (the part after embed/ ). Send it to me, or drop it straight into a new video-card block matching the two above — I only embedded the two I could verify end-to-end rather than guess at IDs.
+
+
+## Tesla Road Trip Charging: Planning Tips for the UK
+Source: https://teslaservice.co.uk/road-trip-charging-planner
+
+Home / Guides / Road Trip Planning
+Where to trust the car's own planner, and where it pays to think ahead yourself.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+Trust, but verify
+
+### Should I just trust the car's own trip planner?
+Tesla's built-in trip planner is generally reliable for choosing sensible Supercharger stops and estimating charge time, and for most UK trips it's a genuinely good default. Where it can fall short: it optimises primarily for its own Supercharger network, so it won't necessarily route you via a closer or cheaper third-party charger, and it doesn't always account for a charger being temporarily out of service.
+When to plan yourself
+
+### When does it pay to check ahead yourself?
+For a genuinely important trip — a long journey with a fixed arrival time, poor weather forecast (which affects both range and, rarely, charger reliability), or travelling somewhere with sparser charging infrastructure — it's worth cross-checking the planned stops against Zapmap or the relevant network's own app a day or two before, so you're not discovering a closed or broken charger only once you're already low on range.
+A practical checklist
+
+### Before a long trip
+Worth doing before setting off:
+- Check the car's planned stops match your actual route and timing preferences, not just the shortest total time.
+- Cross-check at least the first two planned stops on Zapmap for live status.
+- Build in a genuine buffer for winter trips — see our range by season page for why.
+- Know your backup option at each planned stop in case it's unavailable on arrival.
+
+
+## Tesla Sentry Mode & Dashcam Guide (UK)
+Source: https://teslaservice.co.uk/sentry-mode-dashcam-guide
+
+Home / Guides / Sentry Mode & Dashcam
+Getting storage, footage retrieval and battery drain right, so it actually works when you need it.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+Storage setup
+
+### What you need for storage
+Both Sentry Mode and dashcam recording require a USB drive formatted correctly and inserted into one of the car's USB ports, since there's no built-in storage for continuous recording. A reasonably fast USB 3.0 drive with enough capacity (footage fills storage quickly, especially with multiple camera angles) avoids the recording dropping frames or the drive failing to keep up, which is a common, avoidable cause of missing footage exactly when it's needed.
+Retrieving footage
+
+### Getting footage off after an incident
+Footage is organised into folders on the USB drive by date and event type, viewable by removing the drive and plugging it into a computer, or in some cases through the car's own screen. If Sentry Mode has captured an incident, footage is usually saved to a separate protected folder automatically so it isn't overwritten by continued recording — but don't assume this indefinitely; back up anything relevant to insurance or police promptly rather than leaving it on the drive.
+Managing battery drain
+
+### Why Sentry Mode drains the battery, and how to manage it
+Sentry Mode keeps cameras, sensors and the car's computer active while parked, which draws a meaningful amount of charge over several hours — noticeably more than the car simply being switched off. If you regularly park for long periods (an airport trip, for example), consider whether Sentry Mode is necessary for the full duration, and always check your remaining charge is sufficient for your return journey plus a buffer, rather than assuming it.
+
+
+## Tesla Settings Recipes
+Source: https://teslaservice.co.uk/settings-recipes
+
+Home / Guides / Settings Recipes
+Practical combinations of existing settings worth setting up in advance, for situations that come up repeatedly.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+Winter setup
+
+### Getting ready for cold mornings
+Schedule departure time with preconditioning enabled so the cabin and battery warm while still plugged in, turn on steering wheel and seat heating as a default rather than the cabin heater alone to save range (see our range by season guide), and check tyre pressures are set for cold weather rather than left at a summer reading.
+Camping setup
+
+### Setting up for an overnight stay in the car
+Camp mode maintains cabin temperature and keeps essential systems running while parked overnight, using the main battery rather than needing an external power source — but it does draw down charge over a full night, so start with a healthy charge level and check the estimated overnight consumption shown on screen before relying on it in very cold or hot conditions.
+Kids & pets
+
+### Setting up for kids or a pet left briefly in the car
+Dog Mode keeps the climate control running and displays the cabin temperature on the exterior screen for passersby when a pet is left briefly, while Sentry Mode can run alongside it for security. For children, cabin overheat protection (keeping minimal climate control running even with the car off) is worth confirming is enabled in settings, and child lock settings for rear doors and windows are worth checking before a trip if not already familiar with them.
+
+
+## Tesla Software Update Scorecard (UK)
+Source: https://teslaservice.co.uk/software-update-scorecard
+
+Home / Guides / Software Update Scorecard
+What each update genuinely fixed, broke or changed, straight from owners who've actually run it.
+Why this page looks empty: Rating something before real owners have used it would just be guessing dressed up as data. Ratings only mean something once they're built from people who've actually run the update.
+We don't fabricate entries here to make this look more populated than it is — every other page on this site is built the same way, on real, sourced or verified information, not invented content. This page becomes genuinely useful once real UK Tesla owners start contributing to it.
+What this will become
+
+### What this page will look like once it has real data
+Each software version gets its own entry with real owner-submitted notes on what changed in daily use, any new issues introduced, and a simple genuine thumbs-up/thumbs-down tally — a more grounded picture than Tesla's own release notes alone, once enough owners have weighed in on a given version.
+
+
+## Tesla Software Updates Explained — How They Work in the UK
+Source: https://teslaservice.co.uk/software-updates
+
+Home / Guides / Software Updates
+How over-the-air updates actually roll out, how to check your own version, and what to do when one stalls or something breaks.
+Last fact-checked: 27 September 2026 . Release schedules, feature names and version numbering change frequently — for the live release feed, see Not a Tesla App in our resources list.
+The basics
+
+### How do Tesla updates actually get installed?
+Every Tesla receives software updates over-the-air (OTA) through its built-in internet connection — no dealer or garage visit required, which is a genuine difference from almost every petrol car. When an update is ready, the touchscreen shows a notification; you can install immediately, schedule it (commonly overnight), or postpone it for a period.
+Checking your version
+
+### How do I check what version I'm running?
+On the car: Controls > Software . This shows the current installed version and, if one is queued, the pending update and its size. The Tesla app mirrors this remotely, so you can check without being in the car.
+Rollout timing
+
+### Why does everyone else have an update before me?
+Tesla stages rollouts rather than pushing to the entire fleet simultaneously — by region, hardware configuration (e.g. HW3 vs HW4 vehicles often get different timing or feature sets), and sometimes a smaller early group first specifically to catch problems before a wider release. Seeing other owners post about a new version days or weeks before it reaches you is normal, not a sign anything is wrong with your car.
+When something goes wrong
+
+### An update failed to install, or something broke afterwards — what now?
+- Stalled or stuck install: a soft reboot usually clears it. Hold the two scroll wheels (or the equivalent steering control combination for your model) until the screen goes black and restarts. This does not erase your settings, profiles or data.
+- A feature seems broken after updating: check Tesla's own release notes for that version first — some behaviour changes are intentional and documented, not bugs.
+- Still broken after checking release notes: contact Tesla support directly. This is a software issue, not something an independent garage — however good — has any access to fix, since update servers and firmware are entirely controlled by Tesla.
+Staying on an older version
+
+### Can I just stay on my current version and skip updates?
+You can defer an update for a period, but not indefinitely. Tesla eventually applies updates as mandatory, particularly ones addressing safety issues, so long-term version-skipping isn't something the car is designed to support.
+
+
+## "Is This Normal?" Tesla Symptom Checker (UK)
+Source: https://teslaservice.co.uk/symptom-checker
+
+Home / Guides / Symptom Checker
+Noises, warnings and quirks — see what other owners have reported for the same symptom, once real reports come in.
+Why this page looks empty: A genuinely useful symptom checker needs a real base of reported experiences to compare against — an empty or invented one would give false reassurance or false alarm, either of which is worse than no answer at all.
+We don't fabricate entries here to make this look more populated than it is — every other page on this site is built the same way, on real, sourced or verified information, not invented content. This page becomes genuinely useful once real UK Tesla owners start contributing to it.
+What this will become
+
+### What this page will look like once it has real data
+A searchable list of specific symptoms (a clicking noise over speed bumps, a particular dashboard warning, a screen glitch pattern) each with genuine owner-submitted context on when it happened, what model/year, and — where known — what it turned out to be. Never a diagnosis, always clearly owner-reported experience rather than professional advice.
+
+
+## Tesla vs Rival EVs, Honestly
+Source: https://teslaservice.co.uk/tesla-vs-rivals
+
+Home / Guides / Tesla vs Rivals
+An even-handed look at where Tesla genuinely leads, and where rivals have closed the gap or done better.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+Charging network
+
+### Charging network: still a genuine Tesla advantage
+Tesla's Supercharger network remains a genuine practical advantage in the UK — extensive coverage, generally high reliability, and increasingly open to non-Tesla EVs too (reducing this advantage's exclusivity over time, but not eliminating the benefit for Tesla owners of deep integration with the car's own navigation and trip planning).
+Software & updates
+
+### Software and over-the-air updates: a genuine Tesla strength, though the gap has narrowed
+Tesla's approach to shipping meaningful new features and fixes via over-the-air software updates was a genuine differentiator for years, and remains a strength — but several rival manufacturers have significantly improved their own OTA update capability since, narrowing what was once a much larger gap.
+Build quality & interior
+
+### Build quality and interior fit-and-finish: a more mixed picture
+This is genuinely more contested than either extreme suggests. Independent reviews and owner reports have historically noted more variability in panel gaps and interior fit-and-finish on some Tesla models, particularly earlier production years, compared with some established rivals with longer manufacturing experience — while other reviews rate specific Tesla models highly on this exact point. It's worth checking recent, model-specific reviews rather than relying on either brand's general reputation, since this varies meaningfully by specific model and production year.
+
+
+## Towing with a Tesla in the UK
+Source: https://teslaservice.co.uk/towing-caravans
+
+Home / Guides / Towing & Caravans
+What towing genuinely does to range, and practical guidance for UK caravan and trailer owners.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+Which models can tow
+
+### Which Tesla models are actually rated to tow?
+Towing capability and rated maximum towing weight vary significantly by model — some Tesla models are rated for meaningful towing with a factory or approved tow bar, while others aren't rated for towing at all. Always check your specific model and configuration's official rated towing capacity directly with Tesla rather than assuming based on the vehicle's size or a different model's specification.
+The range impact
+
+### How much does towing actually reduce range?
+Significantly — towing adds substantial aerodynamic drag and weight, and UK owners commonly report range reductions in the region of 30-50% while actively towing a caravan or heavy trailer, compared with unladen range. This is a bigger effect than most owners expect coming from a petrol tow vehicle, where the fuel-consumption penalty while towing feels proportionally smaller against a larger energy reserve.
+Practical guidance
+
+### Planning a towing trip
+Given the scale of the range impact:
+- Plan charging stops assuming closer to half your normal range, not your unladen rated figure.
+- Check your specific tow bar and electrics are Tesla-approved or explicitly compatible, not just physically fitting.
+- Confirm your specific model's rated maximum towing weight and nose weight before assuming a caravan or trailer is suitable.
+- Practice manoeuvring and reversing with the combination in a quiet, open area before a real trip if you're new to towing generally.
+
+
+## Tesla Tyres, Brakes & Routine Maintenance
+Source: https://teslaservice.co.uk/tyres-brakes-guide
+
+Home / Guides / Tyres & Brakes
+What genuinely wears differently on an EV, how regenerative braking changes brake maintenance, and what a Tesla actually needs versus a petrol car.
+Last fact-checked: 28 September 2026 . General principles across Tesla's range — always check your own model's specific maintenance recommendations for exact intervals.
+Tyre wear
+
+### Why do Tesla tyres wear out faster?
+Two compounding factors. Instant torque from an electric motor delivers power far more abruptly than a petrol engine's more gradual build-up, which puts more stress on the contact patch every time you accelerate. On top of that, a Tesla is typically heavier than an equivalent-sized petrol car because of the battery pack, and that extra weight accelerates tread wear on its own. The combination means many owners find they're replacing tyres somewhat more often than they were used to on a previous petrol car, particularly if driving style leans toward brisker acceleration.
+Choosing tyres
+
+### Do I need special EV tyres?
+Not strictly — a Tesla will run on standard tyres of the correct size and rating. But many owners specifically choose EV-designed or reinforced tyres, which typically have a stiffer sidewall built to cope with the extra weight and torque, better rolling resistance for range, and in some cases acoustic foam bonded inside the tyre to cut down road noise — more noticeable in an EV without engine noise to mask it. If you're replacing tyres anyway, it's worth asking whichever garage does the job whether an EV-specific option is available for your size before defaulting to a standard equivalent.
+Regenerative braking
+
+### Does regen braking mean the brakes last longer?
+Generally, yes, and often considerably so. Regenerative braking — using the electric motor to slow the car and recover energy back into the battery — handles most everyday deceleration, so the physical friction brakes do far less work than on a petrol car and typically last a lot longer before needing new pads or discs. The trade-off: brakes that are barely used can be more prone to corrosion or the callipers seizing slightly over time, particularly in wet or salted-road winter conditions, so they still benefit from periodic inspection and servicing even when the pads themselves have plenty of life left.
+Brake fluid
+
+### Do I still need to change the brake fluid?
+Yes — this is one maintenance item that doesn't change with an EV. Brake fluid absorbs moisture from the surrounding air over time regardless of how much the brakes are physically used, which gradually lowers its boiling point and effectiveness in an emergency stop. Tesla's own guidance is to have the brake fluid checked, and replaced if needed, roughly every two years, independent of mileage or how lightly the brakes have been used.
+The bigger picture
+
+### What routine maintenance does a Tesla actually need?
+- No engine oil, oil filter, spark plugs, timing belt or exhaust system — all eliminated compared with a petrol car.
+- Tyre rotation and wear checks, more frequently than you might be used to (see above).
+- Brake fluid check/replacement roughly every two years.
+- Cabin air filter replacement periodically.
+- Occasional coolant system check for the battery and motor cooling loop.
+- Wiper blades and 12V auxiliary battery health, as with any car.
+There's no fixed "service schedule" in the traditional sense, but an annual visual inspection at a competent garage — official or independent — is a sensible habit even without a mandated interval forcing it.
+
+
+## Tesla Voice Commands Cheat Sheet — What Actually Works
+Source: https://teslaservice.co.uk/voice-commands-cheatsheet
+
+Home / Guides / Voice Commands
+How to actually get good results from voice commands, and where it currently falls short.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+How it works
+
+### How does Tesla's voice command system actually work?
+Activated by a steering wheel button or a wake phrase depending on your car and software version, the system handles natural-language requests for common tasks — climate control, navigation, media, and various settings — processing much of it with genuine natural language understanding rather than requiring rigid exact phrases, which sets it apart from older, more limited in-car voice systems.
+What it's good at
+
+### Where it genuinely works well
+Climate adjustments ('set the temperature to 20 degrees', 'turn on the seat heater'), navigation ('navigate to the nearest Supercharger'), and media control are all generally reliable and worth using regularly rather than reaching for the touchscreen while driving, which is both safer and often quicker.
+Where it struggles
+
+### Where it's less reliable
+Highly specific or unusual settings changes, requests involving very uncommon place names, and commands issued in a noisy cabin (multiple people talking, loud music) are the areas most likely to need a repeat or a manual touchscreen fallback. If a command consistently fails, rephrasing more simply and directly usually works better than repeating the exact same phrasing louder.
+
+
+## Tesla Warranty in the UK: What's Actually Covered (2026)
+Source: https://teslaservice.co.uk/warranty-guide
+
+Home / Guides / Warranty
+What the published warranty terms actually cover, and how to check your own car's specific status.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+The two main warranties
+
+### What are the separate warranty categories?
+Tesla typically publishes two headline warranties: a new-vehicle limited warranty covering general manufacturing defects for a set period/mileage, and a separate, usually longer, battery and drive unit warranty specifically covering the traction battery pack and motor(s), including excessive capacity degradation below a stated threshold — not just outright failure. Terms and exact mileage/year limits vary by model and have changed over different production periods, so always check your specific car's terms using its VIN rather than a generic figure.
+What's excluded
+
+### What typically isn't covered
+Standard exclusions across most manufacturer warranties apply: wear-and-tear items (tyres, wiper blades, brake pads under normal wear), damage from accidents or misuse, and — as with any warranty — work carried out incorrectly by a third party can affect a claim for the specific system affected, though routine maintenance at a competent independent garage does not generally void the wider warranty under UK consumer law.
+Checking your own car
+
+### How to check your specific car's current warranty status
+The only reliable way to know your exact terms and remaining cover:
+- Check your warranty status and terms directly through your Tesla Account or app, which shows your specific car's VIN-linked coverage.
+- For a used purchase, ask the seller for the original warranty start date and any transferred terms, and verify independently with Tesla rather than relying solely on the seller's description.
+- Keep every service and repair invoice regardless of which garage did the work — this documentation matters if a warranty question ever arises.
+
+
+## Which Tesla Should I Buy? A Quick Quiz for UK Buyers
+Source: https://teslaservice.co.uk/which-tesla-quiz
+
+Home / Guides / Which Tesla Quiz
+A few honest questions to point you toward the right model for your actual situation, not just the newest one.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+Budget first
+
+### Start with a realistic budget, including running costs
+Before comparing models, work out a realistic total budget including insurance (see our insurance guide, since this varies more by model than many buyers expect), home charging setup if needed, and — if buying new — how UK price changes over a model's life might affect resale timing. A model that's a stretch to buy but comfortable to run beats one that's affordable to buy but strains your budget on insurance and running costs.
+Use case
+
+### Match the model to what you'll actually use it for
+Daily commuting with occasional long trips suits a different model and battery size than genuine everyday long-distance driving. If you regularly carry more than two passengers, need to tow (see our towing guide), or want third-row seating, that narrows the field considerably before styling or performance preferences even come into it. Be honest about your actual typical use rather than the occasional edge case you might use to justify a bigger, more expensive model.
+New vs used
+
+### New, used, or wait for the next update?
+See our dedicated new vs used vs wait page for the fuller trade-off, but as a starting principle: a used model from a well-established production run often offers better value than the newest available variant, unless a specific new feature genuinely matters to your use case rather than just being new.
+
+
+## Tesla Windscreen Replacement & Camera Calibration Guide (UK)
+Source: https://teslaservice.co.uk/windscreen-camera-calibration
+
+Home / Guides / Windscreen Calibration
+Why this is more involved — and more important — than replacing glass on an older car.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+Why it matters
+
+### Why does a windscreen replacement need calibration at all?
+Tesla's driver-assistance and Autopilot features rely on cameras mounted behind the windscreen, precisely aligned to interpret the road correctly. Replacing the glass — even with a correct OEM-spec part — can shift that alignment by a fraction of a degree, which is enough to affect how accurately the car reads lane markings, other vehicles and pedestrians. Recalibration resets that alignment; skipping it risks degraded or inconsistent driver-assistance performance without any obvious visual sign that something's wrong.
+What's involved
+
+### What does calibration actually involve?
+Typically a combination of a static calibration (using specific targets positioned at exact distances in a controlled space) and a dynamic calibration (a supervised drive under specific conditions letting the car's software confirm the cameras are reading correctly). Not every independent garage has this equipment or the specific procedure — this is one area worth explicitly asking about before booking.
+What to check
+
+### What to check before and after the job
+Before booking, and after collection:
+- Ask specifically whether the garage performs camera calibration in-house or subcontracts it — either can be fine, but you should know which.
+- Confirm the glass being fitted is the correct specification for a car with driver-assistance cameras, not a generic aftermarket windscreen.
+- After collection, test Autopilot or lane-assist features in a safe, familiar area before relying on them for a longer trip.
+- Keep the calibration certificate or confirmation, particularly relevant if you sell the car later.
+
+
+## Tesla Winter Survival Guide (UK)
+Source: https://teslaservice.co.uk/winter-survival-guide
+
+Home / Guides / Winter Survival
+Getting through a proper UK winter without any of the classic frozen-Tesla frustrations.
+Last fact-checked: 28 September 2026 . General guidance — always check your own model's specifics and current official sources before relying on it for a decision.
+Frozen handles
+
+### Dealing with frozen door handles
+Retractable door handles can occasionally freeze in place during a hard frost or after freezing rain. Most models have a manual override or a firmer push/pull technique documented in the owner's manual for exactly this situation — familiarise yourself with it before you actually need it in a hurry. Parking with handles less exposed to direct freezing rain where possible, and running a scheduled preconditioning session before you need to leave, both reduce how often this happens.
+Preconditioning
+
+### Using preconditioning properly
+Scheduling departure time with preconditioning enabled warms the cabin and battery while the car is still plugged in, using mains power rather than your driving range — genuinely one of the most useful winter features available, and worth setting up as a routine for a regular commute rather than only using it occasionally.
+Ice, snow & range
+
+### Driving on ice/snow and planning for reduced range
+Standard winter driving caution applies regardless of powertrain — reduced speed, increased following distance, and winter tyres if you regularly drive in genuinely snowy or icy conditions, since a Tesla's instant torque can make wheelspin easier to trigger on a slippery surface if not driven with appropriate care. Combine this with the range planning covered in our range by season page, since winter range reduction and slippery-condition driving often occur together.
+

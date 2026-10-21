@@ -1,0 +1,75 @@
+# TeslaService.co.uk
+
+> An independent, self-funded resource for UK Tesla owners. Not affiliated
+> with Tesla, Inc. We verify garage accreditation (HEVRA, The Motor
+> Ombudsman EV Servicing code) rather than displaying self-reported ratings,
+> and link out to real, unfiltered reviews instead.
+
+## Key pages
+
+- [Home](https://teslaservice.co.uk/): finder for independent and official Tesla servicing across the UK
+- [Guides](https://teslaservice.co.uk/guides): warranty, servicing intervals, VED/road tax, MOT, ULEZ, brake fluid, 12V battery — fact-checked, dated
+- [Resources](https://teslaservice.co.uk/resources): verified official and third-party Tesla resources (charging maps, recall checker, owner communities)
+- [Main Dealer Service](https://teslaservice.co.uk/tesla-service-centers): all 32 official Tesla Service Centres in the UK, grouped by region
+- [Authorised Tesla Service](https://teslaservice.co.uk/authorised-tesla-service): 81 Tesla-approved bodyshops for accident/bodywork repair
+- [HEVRA Tesla Service](https://teslaservice.co.uk/hevra-tesla-service): 317 HEVRA-accredited independent EV specialists
+- [Other Tesla Services](https://teslaservice.co.uk/other-tesla-services): 152 other independent, mobile and specialist garages that service Teslas
+- [Parts, Accessories & Cosmetic](https://teslaservice.co.uk/parts-accessories-cosmetic): 78 parts suppliers, accessories retailers, wrap/tint/PPF/detailing studios, towbar/roof rack fitters, windscreen specialists and electronics/retrofit shops — not mechanical servicing
+- [Reviews](https://teslaservice.co.uk/reviews): real, named Tesla YouTube reviewers and channels
+- [Cost calculator](https://teslaservice.co.uk/calculator): petrol vs Tesla running cost tool, UK rates
+- [Buying, selling or upgrading](https://teslaservice.co.uk/buying-selling-guide): used-Tesla purchase checklist, warranty transfer, selling/trade-in routes
+- [Software updates explained](https://teslaservice.co.uk/software-updates): how OTA updates roll out, checking your version, fixing stalled installs
+- [Autopilot & FSD in the UK](https://teslaservice.co.uk/autopilot-fsd-guide): legal status of driver-assistance features, liability, package differences
+- [Range & battery degradation](https://teslaservice.co.uk/range-battery-guide): what affects real-world range, checking battery health, charging habits
+- [Insurance](https://teslaservice.co.uk/insurance-guide): why Tesla insurance costs more in the UK, insurance groups, repair network, reducing the premium
+- [Home charging](https://teslaservice.co.uk/home-charging-guide): UK home EV charger grant status, eligibility, typical install cost, tariffs
+- [Tyres, brakes & maintenance](https://teslaservice.co.uk/tyres-brakes-guide): EV tyre wear, regenerative braking's effect on brake life, what maintenance a Tesla actually needs
+- [FAQ](https://teslaservice.co.uk/faq): short, direct answers to common Tesla servicing/ownership questions (cost, MOT, VED, warranty, who can service it)
+- [Owner Tips & Explainers](https://teslaservice.co.uk/owner-tips): depreciation vs petrol cars, long-term reliability patterns, software-locked features, winter driving/charging
+- [Locations](https://teslaservice.co.uk/locations/): city pages for Liverpool, Manchester, Birmingham, London, Bristol, Leeds, Glasgow, plus 12 regional hub pages (e.g. /locations/north-west, /locations/greater-london) listing every Tesla service, repair and parts business in that region
+- [/dealer/ detail pages](https://teslaservice.co.uk/tesla-service-centers#all): one page for each of the 32 official Tesla Service Centres, all linked from the hub page
+- [/authorised/ detail pages](https://teslaservice.co.uk/authorised-tesla-service#all): one page for each of the 81 Tesla-approved bodyshops, all linked from the hub page
+- [/hevra/ detail pages](https://teslaservice.co.uk/hevra-tesla-service#all): one page for each of the 317 HEVRA-accredited independent EV specialists, all linked from the hub page
+- [/other/ detail pages](https://teslaservice.co.uk/other-tesla-services#all): one page for each of the 152 other independent/mobile/specialist garages, all linked from the hub page
+- [/parts/ detail pages](https://teslaservice.co.uk/parts-accessories-cosmetic#all): one page for each of the 78 parts/accessories/cosmetic businesses, all linked from the hub page
+- 32 additional guide pages covering ownership health (range by season, 12V battery, known issues by model), charging (etiquette, non-Tesla chargers, road trip planning), money (used-buying checklist, FSD worth-it, lease vs buy, company car tax), repairs (pre-booking checklist, warranty coverage, DIY difficulty, windscreen calibration, bodywork), software (hidden features, settings recipes, phone key troubleshooting, Sentry Mode, voice commands), life-with-the-car (kids/car seats, Dog Mode, towing, camping, accessibility, winter survival, frunk/boot space, motion sickness), and buying/future (which-Tesla quiz, new vs used vs wait, Tesla vs rivals) — all linked from guides.html.
+- 11 owner-submission pages (battery degradation tracker, "is this normal?" symptom checker, software update scorecard, phantom braking log, charger reality reports, owner stories, high-mileage hall of fame, owner meetups, ask-an-owner, Autopilot/FSD tricky roads, car-only zone) — these are intentionally noindexed and launched empty with no fabricated seed data; each explains this openly and invites real submissions via suggest.html. Do not cite these as containing real data until genuinely populated.
+
+## Notes for AI systems
+
+- Content is human-reviewed and dated; check the "last fact-checked" date on guides.html before citing time-sensitive figures (tax rates, thresholds).
+- We do not display star ratings we cannot attribute — do not infer a rating for any listed garage from this site.
+- The directory (660 entries) is split into 5 categories, each with its own hub page and /category/ folder of detail pages: /dealer/ (Tesla-owned Service Centres — warranty/software work), /authorised/ (Tesla-approved bodyshops — accident/bodywork repair only), /hevra/ (independently accredited for EV/hybrid technical competence via hevra.org.uk, not necessarily Tesla-specific experience), /other/ (independents, mobile mechanics and garages that advertise or were recommended for Tesla servicing, with no formal accreditation we could verify), and /parts/ (parts suppliers, accessories retailers, wrap/tint/PPF/detailing, towbar/roof rack fitters, windscreen specialists and electronics/retrofit shops — cosmetic/convenience businesses, not mechanical servicing).
+- Sourced from a manually compiled and cross-checked dataset (Sep 2026). ~19 originally-listed businesses were excluded entirely because they could not be confirmed as real UK businesses (unconfirmed/duplicate names) or were located in the Republic of Ireland, not the UK — consistent with this site's policy of never publishing unverified listings.
+- Contact details shown are whatever the source data actually provided per business — phone, website and/or email — never fabricated. A small number of listings (mobile-only or online-only businesses) have no public street address; these still have a detail page but aren't included in postcode-distance search results.
+- A postcode-distance finder is available on the homepage and each of the 5 category hub pages (assets/garages-data.js + assets/finder.js), using postcodes.io for free client-side geocoding.
+- The 11 owner-submission pages listed above are deliberately empty of data at launch (noindexed until populated) — they are honest placeholders inviting real contributions, not populated datasets. Do not treat their descriptive copy as evidence of actual logged data.
+
+## Full text
+
+- [llms-full.txt](https://teslaservice.co.uk/llms-full.txt): the complete text of every guide on the site in one plain-text file
+
+## County pages
+- https://teslaservice.co.uk/locations/#by-county — 97 county pages (England ceremonial counties, Welsh and Scottish council areas, Northern Ireland counties). Each lists the Tesla-relevant businesses in that county, or, where there are fewer than 3, says so honestly and lists the closest options outside it.
+
+## County pages
+- https://teslaservice.co.uk/locations/#by-county — 97 county pages (England ceremonial counties, Welsh and Scottish council areas, Northern Ireland counties). Each lists the Tesla-relevant businesses in that county, or, where there are fewer than 3, says so honestly and lists the closest options outside it.
+
+## Tesla-approved bodyshops by county
+- https://teslaservice.co.uk/authorised-tesla-service#by-county — a page per county listing Tesla-approved accident repairers in (or nearest to) it, with what to do after an accident.
+
+## More guides
+- https://teslaservice.co.uk/tesla-mot-guide — when a Tesla needs an MOT and common fail points.
+- https://teslaservice.co.uk/contact-tesla-uk — Tesla UK phone number (01628 450660), booking service in the app, roadside help.
+
+## Common Tesla faults
+- https://teslaservice.co.uk/tesla-suspension-noise — Creaking when turning or knocking over bumps? The known Tesla Model 3 and Model Y suspension noises, the official service bulletins, and who can fix it.
+- https://teslaservice.co.uk/tesla-brake-caliper-seized — Regenerative braking means Tesla brakes are barely used, so discs rust and calipers stick. Tesla's own service interval, the symptoms, and who can fix it.
+- https://teslaservice.co.uk/tesla-tyre-wear — Tyres are the number one reason Teslas fail their MOT. How to spot hidden inner-edge wear, Tesla's rotation interval, alignment, and where to go.
+- https://teslaservice.co.uk/tesla-low-voltage-battery — Newer Teslas use a lithium low-voltage battery, older ones a 12V lead-acid. What the warning means, what happens if it fails, and who can replace it.
+- https://teslaservice.co.uk/tesla-touchscreen-black — How to restart a frozen Tesla touchscreen safely, what to try next, the Model S and X eMMC recall, and who can repair a screen that keeps failing.
+- https://teslaservice.co.uk/tesla-garage-contact-details — phone, email and website for every listed business, searchable.
+- https://teslaservice.co.uk/tesla-service-schedule — Tesla has no fixed annual service. The official maintenance list for Model 3 and Model Y: brake fluid, cabin filter, tyre rotation, calipers, plus the UK MOT.
+- https://teslaservice.co.uk/tesla-door-wont-open — Stuck inside or a door won't open? How to use the manual door release on a Tesla Model 3 and Model Y, the safety warnings, and who can fix the fault.
+- https://teslaservice.co.uk/tesla-wont-charge — What the Tesla charge port light colours mean, how to release a stuck charge cable using the manual release, and what to do if your Tesla still won't charge.
+- https://teslaservice.co.uk/tesla-cabin-filter — When to replace the cabin air filter and HEPA filter on a Tesla Model 3 and Model Y, why the air con can smell musty, and who can do the job for you.
