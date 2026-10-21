@@ -1,0 +1,42 @@
+name: IndexNow (after each push that changes site/)
+on:
+  push:
+    branches: [main]
+    paths: ['site/**']
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Wait for the Cloudflare deploy
+        run: sleep 180
+      - name: Submit changed pages to IndexNow
+        env:
+          KEY: a1c797c468201b408b268a3855091834
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          python3 - <<'PY'
+          import os, json, subprocess, urllib.request
+          b, a, key = os.environ['BEFORE'], os.environ['AFTER'], os.environ['KEY']
+          rng = [b + '..' + a] if b and set(b) != {'0'} else [a + '~1..' + a]
+          files = subprocess.run(['git', 'diff', '--name-only', '--diff-filter=AM', *rng, '--', 'site/*.html'], capture_output=True, text=True).stdout.split()
+          urls = []
+          for f in files:
+              p = f[len('site/'):]
+              if p in ('404.html',): continue
+              if p == 'index.html': u = '/'
+              elif p.endswith('/index.html'): u = '/' + p[:-10]
+              else: u = '/' + p[:-5]
+              urls.append('https://teslaservice.co.uk' + u)
+          print(len(urls), 'changed pages')
+          if not urls: raise SystemExit(0)
+          for i in range(0, len(urls), 10000):
+              body = json.dumps({'host': 'teslaservice.co.uk', 'key': key, 'keyLocation': f'https://teslaservice.co.uk/{key}.txt', 'urlList': urls[i:i + 10000]}).encode()
+              req = urllib.request.Request('https://api.indexnow.org/indexnow', data=body, headers={'Content-Type': 'application/json; charset=utf-8'})
+              try:
+                  r = urllib.request.urlopen(req, timeout=30); print('::notice title=indexnow::HTTP', r.status, len(urls[i:i + 10000]), 'urls')
+              except urllib.error.HTTPError as e:
+                  print('::warning title=indexnow::HTTP', e.code, e.read()[:300]); raise SystemExit(1)
+          PY
