@@ -5,16 +5,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Which deploy secrets exist (names only)
-        env: { A: "${{ secrets.CLOUDFLARE_API_TOKEN }}", B: "${{ secrets.CF_API_TOKEN }}", C: "${{ secrets.CLOUDFLARE_ACCOUNT_ID }}" }
-        run: echo "::notice title=secrets::CLOUDFLARE_API_TOKEN=${A:+set} CF_API_TOKEN=${B:+set} CLOUDFLARE_ACCOUNT_ID=${C:+set}"
+        with: { fetch-depth: 2 }
       - run: sleep 180
-      - name: Fetch the paths in tools/live_urls.txt from the live site
+      - name: Fetch changed pages (up to 6) and tools/live_urls.txt from the live site
         run: |
+          { git diff --name-only HEAD~1 HEAD -- 'site/*.html' | head -6 | while read -r f; do
+              p="/${f#site/}"; p="${p%.html}"; [ "$p" = "/index" ] && p="/"
+              m=$(grep -o -m1 'enrich[a-z-]*:start' "$f" || grep -o -m1 '<title>[^<]*' "$f" | cut -c8-60); echo "$p $m"; done
+            cat tools/live_urls.txt 2>/dev/null; } > /tmp/urls
           while read -r p want; do
             [ -z "$p" ] && continue
             r=$(curl -s -o /tmp/b -w '%{http_code} %{redirect_url}' "https://teslaservice.co.uk$p")
-            hit=""; [ -n "$want" ] && grep -q -- "$want" /tmp/b && hit="found:$want"
-            [ -n "$want" ] && [ -z "$hit" ] && hit="MISSING:$want"
+            hit=""; if [ -n "$want" ]; then grep -qF -- "$want" /tmp/b && hit="found" || hit="MISSING:$want"; fi
             echo "::notice title=live::$p -> $r $hit"
-          done < tools/live_urls.txt
+          done < /tmp/urls

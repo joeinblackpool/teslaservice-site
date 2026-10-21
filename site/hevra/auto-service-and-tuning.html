@@ -84,6 +84,7 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
 .navbar{display:none}
 @media (max-width:760px){.navbar{display:flex;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.25)}.navbar{box-sizing:border-box}.navbar .btn{flex:1 1 0;min-width:0;margin:0;text-align:center;padding:12px 4px;font-size:14px;box-sizing:border-box;white-space:nowrap}body.has-nav{padding-bottom:84px}}
 .card,.card a,.source-note{overflow-wrap:anywhere}</style>
+<style id="enrich-css">.charging h3,.glance h3{font-size:14.5px;margin:14px 0 6px;color:var(--ink-dim);font-weight:600}.glance{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:0 0 26px}.glance h2{font-size:17px;margin:0 0 10px}.glance ul{margin:0 0 10px;padding-left:18px;font-size:14.5px}.glance li{margin:3px 0}.glance a,.charging p a{color:var(--accent)}.enrich-src{font-size:12.5px;color:var(--ink-dim)}.enrich-src a{color:var(--ink-dim)!important}</style>
 </head>
 <body>
 <div class="wrap">
@@ -133,6 +134,24 @@ button.btn{background:transparent;font-family:inherit;cursor:pointer}
     <ul><li><a href="/other/autolube">Autolube</a> <span>— Independent, Letchworth Garden City · 2.6 mi</span></li><li><a href="/other/tgpp-autocare">TGPP Autocare</a> <span>— Independent, Stevenage · 5.4 mi</span></li><li><a href="/parts/e-vehicle-parts">E-Vehicle Parts</a> <span>— Parts &amp; cosmetic, Luton · 8.7 mi</span></li><li><a href="/hevra/ampthill-vehicle-services-ltd">Ampthill Vehicle Services Ltd</a> <span>— HEVRA, Ampthill · 11 mi</span></li><li><a href="/hevra/redbourn-auto-solutions">Redbourn Auto Solutions</a> <span>— HEVRA, Redbourn · 13 mi</span></li><li><a href="/parts/autoglass">Autoglass</a> <span>— Parts &amp; cosmetic, Nationwide (HQ Bedford) · 13 mi</span></li><li><a href="/parts/restyle-automotive">Restyle Automotive</a> <span>— Parts &amp; cosmetic, Bedford · 13 mi</span></li><li><a href="/parts/marque-one-detailing">Marque One Detailing</a> <span>— Parts &amp; cosmetic, Hockliffe · 14 mi</span></li><li><a href="/dealer/tesla-service-st-albans">Tesla Service St Albans</a> <span>— Official, St Albans · 15 mi</span></li></ul>
     <p class="town-link"><a href="/locations/stevenage">Tesla servicing in Stevenage →</a></p><p><a href="/locations/county/hertfordshire">All Tesla service options in Hertfordshire →</a></p><p><a href="/locations/east-of-england">All Tesla servicing &amp; repair in the East of England →</a></p>
   </section>
+  <!--enrich:start-->
+<section class="nearby charging" id="charging">
+  <h2>Charging near Auto Service and Tuning</h2>
+  <p style="font-size:14px;color:var(--ink-dim);margin:0 0 6px;">Public chargers closest to Auto Service and Tuning (SG4 0AP), handy if you wait for your car or need charge after the visit.</p>
+  <h3>Nearest Tesla Superchargers</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-stevenage-leisure-park-t179/" rel="noopener">Tesla Supercharger Stevenage Leisure Park</a> <span>— up to 250 kW · 4.9 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-stevenage-t178/" rel="noopener">Tesla Supercharger Stevenage</a> <span>— up to 250 kW · 5.7 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/tesla-supercharger-luton-289506/" rel="noopener">Tesla Supercharger Luton</a> <span>— 16 stalls, up to 250 kW · 8.4 mi</span></li>
+</ul>
+  <h3>Nearest other rapid chargers (50 kW+)</h3><ul>
+<li><a href="https://teslachargers.co.uk/charger/shell-waitrose-hitchin-267132/" rel="noopener">Shell Waitrose Hitchin</a> <span>— Shell Recharge Solutions, 175 kW · 1.1 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/bp-oakfield-sf-connect-hitchin-267133/" rel="noopener">BP Oakfield SF Connect</a> <span>— bp pulse, 150 kW · 1.5 mi</span></li>
+<li><a href="https://teslachargers.co.uk/charger/mercure-letchworth-hall-hotel-letchworth-garden-city-100566/" rel="noopener">Mercure Letchworth Hall Hotel</a> <span>— bp pulse, 50 kW · 1.5 mi</span></li>
+</ul>
+  <p><a href="https://teslachargers.co.uk/england/hertfordshire/hitchin/" rel="noopener">Tesla chargers in Hitchin →</a></p>
+  <p class="enrich-src">Charger data: <a href="https://openchargemap.org/" rel="noopener">Open Charge Map</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>) and Tesla, via <a href="https://teslachargers.co.uk/">TeslaChargers.co.uk</a>. Straight-line distances; check live availability in your Tesla app before you set off.</p>
+</section>
+<!--enrich:end-->
 
   <p class="source-note">Listed from https://hevra.org.uk/ev-garages-near-me/. Spotted an error or a closure? <a href="/suggest">Let us know</a> — every correction is reviewed before it's published.</p>
 </main>

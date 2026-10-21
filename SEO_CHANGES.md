@@ -6,4 +6,5 @@ Rollback rule: a change "clearly hurt" only if ALL hold for its URL pattern, com
 |---|---|---|---|---|
 | 2026-10-21 | (repo set-up) | all | Site moved to GitHub; identical files | baseline |
 | 2026-10-21 | (first Git deploy) | all | First deploy from GitHub: identical pages; removed the copy of Cloudflare's auto-injected analytics tag (the edge adds it itself) | baseline |
-| 2026-10-21 | 301 old GSC URLs | /garages/*/, /services/*/ (52 old paths, with and without slash: 104 rules) | 301 to the same garage's current /dealer/ or /other/ page, else the town /locations/ page, /services/x/ to the matching guide | watching |
+| 2026-10-21 | ac941fd | /garages/*/, /services/*/ (52 old paths, with and without slash: 104 rules) | 301 to the same garage's current /dealer/ or /other/ page, else the town /locations/ page, /services/x/ to the matching guide | watching |
+| 2026-10-21 | (see next row) | /dealer/*, /authorised/*, /hevra/* (first 150 garage pages, alphabetical) | ADDED "Charging near <garage>" section below existing content: nearest 3 Tesla Superchargers (60 mi), nearest 3 public rapid chargers 50 kW+ (15 mi), link to the teslachargers.co.uk town page; credited Open Charge Map CC BY-SA 4.0 + Tesla. No title/H1/text changes | additive |

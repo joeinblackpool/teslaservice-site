@@ -1,4 +1,0 @@
-/garages/megaev/
-/garages/tesla-centre-leeds
-/services/mot/
-/services/battery-diagnostics
