@@ -5,6 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Which deploy secrets exist (names only)
+        env: { A: "${{ secrets.CLOUDFLARE_API_TOKEN }}", B: "${{ secrets.CF_API_TOKEN }}", C: "${{ secrets.CLOUDFLARE_ACCOUNT_ID }}" }
+        run: echo "::notice title=secrets::CLOUDFLARE_API_TOKEN=${A:+set} CF_API_TOKEN=${B:+set} CLOUDFLARE_ACCOUNT_ID=${C:+set}"
       - run: sleep 180
       - name: Fetch the paths in tools/live_urls.txt from the live site
         run: |
