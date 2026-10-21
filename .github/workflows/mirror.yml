@@ -1,0 +1,20 @@
+name: Mirror live site into repo (one-off)
+on:
+  push:
+    paths: ['.github/workflows/mirror.yml', 'tools/mirror.py']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/mirror.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898729+github-actions[bot]@users.noreply.github.com"
+          git add site tools/mirror_log.json
+          git commit -m "Mirror of the live teslaservice.co.uk static site ($(date -u +%F))" || echo "nothing to commit"
+          git push
