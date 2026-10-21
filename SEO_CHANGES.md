@@ -6,3 +6,4 @@ Rollback rule: a change "clearly hurt" only if ALL hold for its URL pattern, com
 |---|---|---|---|---|
 | 2026-10-21 | (repo set-up) | all | Site moved to GitHub; identical files | baseline |
 | 2026-10-21 | (first Git deploy) | all | First deploy from GitHub: identical pages; removed the copy of Cloudflare's auto-injected analytics tag (the edge adds it itself) | baseline |
+| 2026-10-21 | 301 old GSC URLs | /garages/*/, /services/*/ (52 old paths, with and without slash: 104 rules) | 301 to the same garage's current /dealer/ or /other/ page, else the town /locations/ page, /services/x/ to the matching guide | watching |
