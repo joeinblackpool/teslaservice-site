@@ -27,6 +27,11 @@ paths = sorted({urllib.parse.urlparse(u.decode()).path or '/' for u in urls})
 for extra in ['/', '/robots.txt', '/sitemap.xml', '/llms.txt', '/llms-full.txt', '/favicon.svg', '/favicon.ico', '/og-image.png', '/og-image-v2.png', '/manifest.webmanifest', '/site.webmanifest', '/BingSiteAuth.xml', '/apple-touch-icon.png', '/suggest.html', '/404.html']:
     if extra not in paths: paths.append(extra)
 assets = set()
+RED = set()
+if os.path.exists(os.path.join(OUT, '_redirects')):
+    for line in open(os.path.join(OUT, '_redirects'), encoding='utf-8'):
+        q = line.split('#')[0].split()
+        if len(q) >= 2: RED.add(q[0])
 def page(p):
     s, final, b = get(p)
     fin = urllib.parse.urlparse(final).path
@@ -34,14 +39,24 @@ def page(p):
     if fin != p: log['redirected'].append([p, fin])
     save(fin, b)
     if fin.endswith('.html') or not re.search(r'\.[a-z0-9]{1,5}$', fin):
+        for m in re.findall(rb'<a [^>]*href="(/[^"#?]*)', b):
+            l = m.decode()
+            if not re.search(r'\.[A-Za-z0-9]{1,5}$', l): links.add(l)
         for m in re.findall(rb'(?:href|src|content)="(/[^"#?]+)', b):
             a = m.decode()
             if re.search(r'\.(css|js|mjs|png|jpe?g|webp|svg|ico|gif|avif|woff2?|ttf|json|webmanifest|xml|txt|pdf)$', a, re.I): assets.add(a)
     return p, s, fin
-with cf.ThreadPoolExecutor(12) as ex:
-    for p, s, fin in ex.map(page, paths):
-        if s == 200: log['pages'] += 1
-        elif p not in ('/favicon.ico', '/manifest.webmanifest', '/site.webmanifest', '/BingSiteAuth.xml', '/apple-touch-icon.png', '/404.html', '/suggest.html', '/llms-full.txt', '/og-image-v2.png'): log['errors'].append([p, s])
+links = set()
+OPTIONAL = ('/favicon.ico', '/manifest.webmanifest', '/site.webmanifest', '/BingSiteAuth.xml', '/apple-touch-icon.png', '/404.html', '/suggest.html', '/llms-full.txt', '/og-image-v2.png')
+done = set(); batch = list(paths)
+while batch:
+    with cf.ThreadPoolExecutor(12) as ex:
+        for p, s, fin in ex.map(page, batch):
+            done.add(p)
+            if s == 200: log['pages'] += 1
+            elif p not in OPTIONAL: log['errors'].append([p, s])
+    batch = sorted(l for l in links if l not in done and l not in RED)
+    log.setdefault('found_by_links', 0); log['found_by_links'] += len(batch)
 def asset(a):
     s, final, b = get(a)
     if s == 200: save(urllib.parse.urlparse(final).path, b); return 1
