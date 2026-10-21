@@ -1,16 +1,17 @@
 {
- "pages": 1230,
+ "pages": 1244,
  "assets": 5,
  "errors": [],
  "redirected": [
   [
-   "/404.html",
-   "/404"
-  ],
-  [
    "/suggest.html",
    "/suggest"
+  ],
+  [
+   "/404.html",
+   "/404"
   ]
  ],
+ "found_by_links": 14,
  "404_status": 404
 }
