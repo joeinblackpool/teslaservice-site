@@ -1,6 +1,14 @@
 # Old-site URLs → new pages (301 = permanent, passes ranking).
 # Add any other old URLs from Google Search Console → Indexing → Pages here, one per line: /old-path /new-path 301
 
+# Old URLs Google still reports as 404 (Search Console, 22 Oct 2026)
+/locations/dundee/ /locations/county/dundee 301
+/locations/dundee /locations/county/dundee 301
+/locations/stirling/ /locations/county/stirling 301
+/locations/stirling /locations/county/stirling 301
+/services/suspension/ /tesla-suspension-noise 301
+/services/suspension /tesla-suspension-noise 301
+
 # Folder roots that have no index page
 /dealer/ /tesla-service-centers 301
 /authorised/ /authorised-tesla-service 301
