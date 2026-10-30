@@ -26,3 +26,8 @@ Rollback rule: a change "clearly hurt" only if ALL hold for its URL pattern, com
 | 2026-10-22 | (this commit) | all pages (JSON-LD), /hevra/* (289 titles), 9 /locations/* titles, sitemap.xml | Two-reviewer fixes: FAQPage JSON-LD removed from 533 pages (visible FAQ text kept); HEVRA garage titles no longer claim Tesla servicing ("EV & Hybrid Servicing"); "& Repair" restored in 9 town titles; per-URL sitemap lastmod. No page with clicks had its title/H1 changed. | technical |
 | 2026-10-22 | (this commit) | /about, /privacy, /terms, 10 guide pages, / (JSON-LD only) | Named owner: "Mr Joseph" replaced with XKey Developments (xkey.co.uk) in text, author and founder markup (E-E-A-T; both reviewers) | additive |
 | 2026-10-22 | (this commit) | /locations/dundee, /locations/stirling, /services/suspension (+ slash forms) | 301s for the last old URLs Search Console reports as 404 | additive |
+
+## 2026-10-30 - Search Console 404 follow-up
+- 301 /services/tesla-service(/) -> / (old service URL still reported 404).
+- 301 junk URLs Google built from broken HTML (/locations/chelmsford/</p>..., /locations/chelm</p>...) -> /locations/chelmsford.
+- Left as-is on purpose: noindex on thin community pages (owner-stories, meetups, logs, /suggest forms) - under 300 words, waiting for submissions.

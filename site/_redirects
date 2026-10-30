@@ -6,6 +6,9 @@
 /locations/dundee /locations/county/dundee 301
 /locations/stirling/ /locations/county/stirling 301
 /locations/stirling /locations/county/stirling 301
+# Old service page still reported 404 (Search Console, 26 Oct 2026)
+/services/tesla-service/ / 301
+/services/tesla-service / 301
 /services/suspension/ /tesla-suspension-noise 301
 /services/suspension /tesla-suspension-noise 301
 
@@ -963,3 +966,6 @@
 /garages/falkirk-tesla-and-ev-repair-specialist /locations/falkirk 301
 # Any other old garage page
 /garages/* /locations/ 301
+# Broken-HTML junk URLs Google picked up ("/locations/chelmsford/</p>...")
+/locations/chelmsford/* /locations/chelmsford 301
+/locations/chelm%3C/* /locations/chelmsford 301
