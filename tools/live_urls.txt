@@ -1,0 +1,12 @@
+/tesla-service-centers id="every-centre"
+/warranty-guide Does using an independent garage void the Tesla warranty?
+/locations/glasgow id="quick-answer"
+/locations/greater-london id="quick-answer"
+/locations/manchester id="quick-answer"
+/locations/nottingham id="quick-answer"
+/locations/newcastle id="quick-answer"
+/ /tesla-service-centers#every-centre
+/locations/ /tesla-service-centers#every-centre
+/authorised-tesla-service id="approved-vs-independent"
+/home-charging-guide https://teslachargers.co.uk/guides/
+/tesla-garage-contact-details Browse Tesla garages by city
