@@ -4,6 +4,7 @@ marker comments and is replaced on re-run; nothing outside the markers is change
 
   python3 tools/enrich.py garages [--max N] [--refresh]   "Charging near <garage>" on /dealer|authorised|hevra|other|parts/ pages
   python3 tools/enrich.py towns   [--max N] [--refresh]   "Tesla servicing in <town> at a glance" on /locations/<town> and county pages
+  python3 tools/enrich.py quick   [--refresh]             short answer box at the TOP of the main city pages in QUICK_PAGES
   --max N    only add the block to N pages that don't have it yet (deploy batches); --refresh also rewrites existing blocks
   --urls F   write every teslachargers.co.uk URL used to file F (to verify them against the charger site's worker)
 
@@ -197,6 +198,8 @@ def glance_block(place, t, lat, lon, county_link, is_county=False):
         if ti is not None: links.append(town_link(ti, 'Tesla chargers in ' + esc(place) if C.TO[ti][0].lower() == place.lower() else 'Tesla chargers near ' + esc(place) + ' (' + esc(C.TO[ti][0]) + ')'))
     if county_link: links.append(county_link)
     if links: h.append('  <p>' + '<br>'.join(links) + '</p>')
+    if cities:
+        h.append('  <p>Neighbouring cities: ' + ' · '.join(f'<a href="{pu}">Tesla garages in {esc(n)}</a>' for _, n, pu in cities) + '</p>')
     h.append(f'  <p class="enrich-src">Counts are the listings on this page. {CREDIT if (lat is not None or cu) else ""}</p>')
     h.append('</section>')
     return '\n'.join(h)
@@ -236,9 +239,63 @@ def do_towns(maxn, refresh):
     print(f'towns: {n} new blocks, {changed} files changed')
 
 
+# ---------------- quick answer (top of main city pages) ----------------
+QUICK_PAGES = ['/locations/greater-london', '/locations/manchester', '/locations/glasgow', '/locations/nottingham', '/locations/newcastle']
+QUICK_CITIES = set(QUICK_PAGES) | {'/locations/' + c for c in ('birmingham', 'leeds', 'liverpool', 'sheffield', 'edinburgh', 'bristol',
+                                                              'leicester', 'derby', 'sunderland', 'cambridge', 'reading', 'milton-keynes')}
+QUICK_RADIUS = 15   # miles; matches the "within 15 miles" listings on town pages
+
+
+def quick_block(u, t, place, lat, lon, places):
+    counts, _ = sections(t)
+    G = garages()
+    dealers = sorted((miles(lat, lon, g['lat'], g['lon']), g) for g in G
+                     if g.get('c') == 'dealer' and g.get('lat') is not None and 'Body Repair' not in g['n'])
+    near_d, near = dealers[0]
+    in_area = [g for d, g in dealers if d <= QUICK_RADIUS]
+    is_region = u == '/locations/greater-london'
+    n_off = counts.get('dealer', 0) if is_region else len(in_area)
+    area = f'in {esc(place)}' if is_region else f'within {QUICK_RADIUS} miles of {esc(place)}'
+    li = [f'<li><strong>Official Tesla service centres {area}:</strong> {n_off}</li>',
+          f'<li><strong>Nearest official centre:</strong> <a href="{near["url"]}">{esc(near["n"])}</a>, {esc(near["pc"])}, {"under a mile" if near_d < 1 else f"about {near_d:.0f} mile" + ("s" if round(near_d) != 1 else "")} from central {esc(place)}</li>']
+    if 'authorised' in counts: li.append(f'<li><strong>Tesla-approved body shops listed:</strong> {counts["authorised"]}</li>')
+    ind = counts.get('hevra', 0) + counts.get('other', 0)
+    li.append(f'<li><strong>Independent Tesla specialists listed:</strong> {ind} ({counts.get("hevra", 0)} HEVRA-accredited EV specialists, {counts.get("other", 0)} other independent{"" if counts.get("other", 0) == 1 else "s"})</li>')
+    nb = sorted((miles(lat, lon, a, b), n, pu) for n, a, b, pu in places
+                if pu != u and re.match(r'^/locations/[^/]+$', pu) and pu.rsplit('/', 1)[-1] not in REGIONS and pu != '/locations/london')
+    seen = set(); nb = [x for x in nb if x[0] <= 40 and not (x[2] in seen or seen.add(x[2]))][:5]
+    cities = sorted((miles(lat, lon, a, b), n, pu) for n, a, b, pu in places if pu in QUICK_CITIES and pu != u)
+    cities = [x for x in cities if x[0] <= 150 and x[2] not in {y[2] for y in nb}][:3]
+    h = ['<section class="glance quick" id="quick-answer">', f'  <h2>Tesla garages in {esc(place)}: quick answer</h2>', '  <ul>' + ''.join(li) + '</ul>']
+    if nb:
+        h.append('  <p>Nearby town guides: ' + ' · '.join(f'<a href="{pu}">Tesla service in {esc(n)}</a>' for _, n, pu in nb) + '</p>')
+    if cities:
+        h.append('  <p>Neighbouring cities: ' + ' · '.join(f'<a href="{pu}">Tesla garages in {esc(n)}</a>' for _, n, pu in cities) + '</p>')
+    h.append(f'  <p class="enrich-src">Counts are the listings on this page. Official centres from Tesla\'s UK locator; see <a href="/tesla-service-centers#every-centre">all UK Tesla service centres with opening hours</a>. Straight-line distances.</p>')
+    h.append('</section>')
+    return '\n'.join(h)
+
+
+def do_quick(maxn, refresh):
+    places = ts_places(); P = {p[3]: (p[0], p[1], p[2]) for p in places}
+    changed = 0
+    for u in QUICK_PAGES:
+        f = os.path.join(S, u.lstrip('/') + '.html')
+        t = open(f, encoding='utf-8').read()
+        name, lat, lon = P[u]
+        crumbs = re.search(r'<p class="breadcrumb">([\s\S]*?)</p>', t)
+        place = strip_tags(crumbs.group(1).rsplit('/', 1)[-1]) if crumbs else name
+        b = quick_block(u, t, place, lat, lon, places)
+        new = put(t, '<!--enrich-quick:start-->', '<!--enrich-quick:end-->', b, r'<div class="intro">[\s\S]*?</div>', before=False)
+        if new is None: print('no anchor', u); continue
+        new = add_css(new)
+        if new != t: open(f, 'w', encoding='utf-8').write(new); changed += 1
+    print(f'quick: {changed} files changed')
+
+
 if __name__ == '__main__':
-    ap = argparse.ArgumentParser(); ap.add_argument('what', choices=['garages', 'towns'])
+    ap = argparse.ArgumentParser(); ap.add_argument('what', choices=['garages', 'towns', 'quick'])
     ap.add_argument('--max', type=int); ap.add_argument('--refresh', action='store_true'); ap.add_argument('--urls')
     a = ap.parse_args()
-    (do_garages if a.what == 'garages' else do_towns)(a.max, a.refresh)
+    {'garages': do_garages, 'towns': do_towns, 'quick': do_quick}[a.what](a.max, a.refresh)
     if a.urls: open(a.urls, 'w').write('\n'.join(sorted(USED)) + '\n')
