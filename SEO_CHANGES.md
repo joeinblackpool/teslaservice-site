@@ -42,3 +42,10 @@ Rollback rule: a change "clearly hurt" only if ALL hold for its URL pattern, com
 | 2026-11-02 | (see git log) | /locations/greater-london, manchester, glasgow, nottingham, newcastle | ADDED "quick answer" box under the intro (tools/enrich.py quick, marker block): official centres, nearest centre and distance, approved body shops, independents (counts from the page's own listings), links to nearby towns and neighbouring city pages | additive |
 | 2026-11-02 | (see git log) | /dealer/tesla-service-glasgow, /tesla-garage-contact-details | Wrong-page fix: added a descriptive link to /locations/glasgow from the Glasgow dealer page (plus Tesla's published hours); added a by-city link line to the contact-details page | additive |
 | 2026-11-02 | (see git log) | /home-charging-guide | ADDED one contextual link to the sister site's teslachargers.co.uk guides (home charging is moving there); page kept and indexed | additive |
+
+## 2026-11-02 - weekly guard (wrong-page links)
+| Date | Commit | URLs affected | Change | Status |
+|---|---|---|---|---|
+| 2026-11-02 | (see git log) | /dealer/tesla-service-{leeds,st-albans,nottingham,guildford,northampton,lincoln,liverpool,sheffield}, /authorised/steer-nottingham, /hevra/north-manchester-auto-electrics, /other/tesla-specialist-birmingham-ltd | Wrong-page fix: town searches were landing on these pages, not the town page. ADDED one line above the "Before you book" note: "Looking for <town>? See every Tesla service option in <town>" linking /locations/<town>. No title/H1/text changes | additive |
+
+Guard notes 2026-11-02 (no rollback): /hevra/* aggregate position and clicks fell (tiny numbers, single-digit clicks) but impressions per day rose ~70% from new deep-ranking pages; the pages that had clicks before held or improved position, so not attributed to a change. /locations/* position worse by ~4 with clicks per day down ~13% (under the 30% bar). Both re-check next week.
