@@ -50,3 +50,8 @@ Rollback rule: a change "clearly hurt" only if ALL hold for its URL pattern, com
 
 Guard notes 2026-11-02 (no rollback): /hevra/* aggregate position and clicks fell (tiny numbers, single-digit clicks) but impressions per day rose ~70% from new deep-ranking pages; the pages that had clicks before held or improved position, so not attributed to a change. /locations/* position worse by ~4 with clicks per day down ~13% (under the 30% bar). Both re-check next week.
 | 2026-11-02 | (this commit) | /home-charging-guide | Sister-site link now points at teslachargers.co.uk/guides/tesla-home-charging/ (was the guides hub) | additive |
+
+## 2026-11-06 - zero-click snippet rewrite (Joe: grow clicks)
+| Date | Commit | URLs affected | Change | Status |
+|---|---|---|---|---|
+| 2026-11-06 | (this commit) | 146 pages with 0 clicks in 3 months that rank in the top 15 (list in the private folder: targets_paths.txt): /locations/* (59 town/county), /hevra/* (30), /other/* (21), /authorised/* (20), /dealer/* (10), /parts/* (5), /contact-tesla-uk | tools/snippets.py: garage pages get a meta description from their own structured data (name, street, postcode, phone, type) instead of the shared boilerplate, and a title saying 'address & phone' (official centres: 'Tesla Service Centre <place>: address, phone & booking'); town/county titles lead with 'Tesla garage(s) in <place>: service, repair & specialists (n)' (site's top query 'tesla garage near me' 791 impr/28d); /contact-tesla-uk title leads with '01628 450660' (664 impr/28d for the number, pos 9-11, 0 clicks). H1s and page text unchanged; no page with a click in 3 months touched. Before (3 months to 3 Nov): these pages 8,778 impr, 0 clicks; site 28d 631 clicks, 41.3k impr, CTR 1.5%, pos 13.4 | watching |
