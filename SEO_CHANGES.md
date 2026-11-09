@@ -94,3 +94,8 @@ Guard notes 2026-11-02 (no rollback): /hevra/* aggregate position and clicks fel
 | Date | Commit | URLs affected | Change | Status |
 |---|---|---|---|---|
 | 2026-11-09 | (this commit) | /places/<area>/<place> (all) | JSON-LD only: the page's ItemList now holds each listed business as a typed node (AutomotiveBusiness / AutoRepair / AutoBodyShop / LocalBusiness) with address and geo, @id matching the business's own page (same entity). Bodyshops and parts added to the list. No visible change | technical |
+
+## 2026-11-09 - homepage links to popular town pages
+| Date | Commit | URLs affected | Change | Status |
+|---|---|---|---|---|
+| 2026-11-09 | (this commit) | / | ADDED one line under the region links (top-towns markers): "Tesla service in popular towns:" linking 24 big-town /locations pages (Reading, Birmingham, Manchester, ...). Joe: "Tesla service Reading" shows no page from the site; town pages were only reachable via region/county pages. Title, H1, text unchanged | additive |
