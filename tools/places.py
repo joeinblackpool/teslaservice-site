@@ -1,6 +1,7 @@
 """Build the data behind /places/ (nearest Tesla service for every town and village in Great Britain).
 
   python3 tools/places.py /path/to/IPN_GB_2023.csv
+  python3 tools/places.py --sitemaps-only      (rewrite the sitemaps from worker/places-data.js)
 
 Inputs
   - ONS Index of Place Names in Great Britain (IPN, 2023 release; OGL v3, contains OS data). Only the
@@ -37,6 +38,32 @@ def base_name(s):
 
 def key(s):
     return slugify(base_name(s))
+
+
+def write_sitemaps(A, out):
+    """Sitemap index + parts: hub, area pages and every place page."""
+    urls = [f'{SITE}/places'] + [f'{SITE}/places/{a[1]}' for a in A] + [f'{SITE}/places/{A[p[1]][1]}/{p[4]}' for p in out]
+    for f in os.listdir(S):
+        if re.match(r'sitemap-places(-\d+)?\.xml$', f): os.remove(os.path.join(S, f))
+    parts = [urls[i:i + PART] for i in range(0, len(urls), PART)]
+    for n, part in enumerate(parts, 1):
+        body = ''.join(f'  <url><loc>{u}</loc><lastmod>{BUILT}</lastmod></url>\n' for u in part)
+        open(os.path.join(S, f'sitemap-places-{n}.xml'), 'w', encoding='utf-8').write(
+            '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + '</urlset>\n')
+    idx = ''.join(f'  <sitemap><loc>{SITE}/sitemap-places-{n}.xml</loc><lastmod>{BUILT}</lastmod></sitemap>\n' for n in range(1, len(parts) + 1))
+    open(os.path.join(S, 'sitemap-places.xml'), 'w', encoding='utf-8').write(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + idx + '</sitemapindex>\n')
+    return urls
+
+
+def sitemaps_only():
+    """Rewrite the sitemaps from the committed worker/places-data.js (no ONS file needed)."""
+    d = {}
+    for line in open(os.path.join(ROOT, 'worker', 'places-data.js'), encoding='utf-8'):
+        m = re.match(r'export const (\w+) = (.*);$', line.rstrip('\n'))
+        if m: d[m.group(1)] = json.loads(m.group(2))
+    urls = write_sitemaps(d['A'], d['P'])
+    print(json.dumps({'sitemap_urls': len(urls)}))
 
 
 def main(ipn):
@@ -129,21 +156,10 @@ def main(ipn):
         f'export const {k} = {json.dumps(v, ensure_ascii=False, separators=(",", ":"))};\n' for k, v in data.items())
     open(os.path.join(ROOT, 'worker', 'places-data.js'), 'w', encoding='utf-8').write(js)
 
-    # sitemaps: hub + area pages + place pages
-    urls = [f'{SITE}/places'] + [f'{SITE}/places/{a[1]}' for a in A] + [f'{SITE}/places/{A[p[1]][1]}/{p[4]}' for p in out]
-    for f in os.listdir(S):
-        if re.match(r'sitemap-places(-\d+)?\.xml$', f): os.remove(os.path.join(S, f))
-    parts = [urls[i:i + PART] for i in range(0, len(urls), PART)]
-    for n, part in enumerate(parts, 1):
-        body = ''.join(f'  <url><loc>{u}</loc><lastmod>{BUILT}</lastmod></url>\n' for u in part)
-        open(os.path.join(S, f'sitemap-places-{n}.xml'), 'w', encoding='utf-8').write(
-            '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + '</urlset>\n')
-    idx = ''.join(f'  <sitemap><loc>{SITE}/sitemap-places-{n}.xml</loc><lastmod>{BUILT}</lastmod></sitemap>\n' for n in range(1, len(parts) + 1))
-    open(os.path.join(S, 'sitemap-places.xml'), 'w', encoding='utf-8').write(
-        '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + idx + '</sitemapindex>\n')
+    urls = write_sitemaps(A, out)
     print(json.dumps({'places': len(out), 'linked_to_locations': len(links), 'areas': len(A), 'garages': len(G), 'sitemap_urls': len(urls),
                       'data_kb': len(js.encode()) // 1024}))
 
 
 if __name__ == '__main__':
-    main(sys.argv[1])
+    sitemaps_only() if sys.argv[1] == '--sitemaps-only' else main(sys.argv[1])
