@@ -35,6 +35,7 @@
   <url><loc>https://teslaservice.co.uk/before-you-book-service</loc><lastmod>2026-11-02</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
   <url><loc>https://teslaservice.co.uk/warranty-guide</loc><lastmod>2026-11-02</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
   <url><loc>https://teslaservice.co.uk/diy-jobs-ranked</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://teslaservice.co.uk/tesla-fix-it-yourself</loc><lastmod>2026-11-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://teslaservice.co.uk/windscreen-camera-calibration</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
   <url><loc>https://teslaservice.co.uk/bodywork-accident-repair</loc><lastmod>2026-11-02</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
   <url><loc>https://teslaservice.co.uk/hidden-features</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
@@ -1218,4 +1219,9 @@
   <url><loc>https://teslaservice.co.uk/tesla-door-wont-open</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://teslaservice.co.uk/tesla-wont-charge</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://teslaservice.co.uk/tesla-cabin-filter</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://teslaservice.co.uk/models/</loc><lastmod>2026-11-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://teslaservice.co.uk/models/model-3</loc><lastmod>2026-11-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://teslaservice.co.uk/models/model-y</loc><lastmod>2026-11-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://teslaservice.co.uk/models/model-s</loc><lastmod>2026-11-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://teslaservice.co.uk/models/model-x</loc><lastmod>2026-11-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
