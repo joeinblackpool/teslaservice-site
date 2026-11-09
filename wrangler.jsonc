@@ -17,5 +17,7 @@
   "routes": [
     { "pattern": "teslaservice.co.uk", "custom_domain": true }
   ],
-  "observability": { "enabled": true }
+  "observability": { "enabled": true },
+  // Workers Builds runs `npx wrangler preview` for pull requests; it needs this block (can stay empty).
+  "previews": {}
 }
