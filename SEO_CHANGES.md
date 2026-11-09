@@ -99,3 +99,9 @@ Guard notes 2026-11-02 (no rollback): /hevra/* aggregate position and clicks fel
 | Date | Commit | URLs affected | Change | Status |
 |---|---|---|---|---|
 | 2026-11-09 | (this commit) | / | ADDED one line under the region links (top-towns markers): "Tesla service in popular towns:" linking 24 big-town /locations pages (Reading, Birmingham, Manchester, ...). Joe: "Tesla service Reading" shows no page from the site; town pages were only reachable via region/county pages. Title, H1, text unchanged | additive |
+
+## 2026-11-09 - /places: named places from parishes, Welsh communities and London wards
+
+| Date | Commit | URLs affected | Change | Status |
+|---|---|---|---|---|
+| 2026-11-09 | (this commit) | 2,902 new /places/<area>/<place> URLs; county pages' place counts | ADDED pages for named places the ONS list only has as a civil parish (Abinger), Welsh community (Beddgelert) or London ward (Canons). Total 61,715 place pages. No existing URL changes: a name already in the same council area or within 8 miles gets no new page; electoral divisions, wards outside London and admin labels skipped | additive |
