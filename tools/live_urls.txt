@@ -10,3 +10,7 @@
 /authorised-tesla-service id="approved-vs-independent"
 /home-charging-guide https://teslachargers.co.uk/guides/
 /tesla-garage-contact-details Browse Tesla garages by city
+/places/find?q=poulton {"name":"Poulton-le-Fylde","area":"Lancashire"
+/places/find?q=newport {"name":"Newport","area":"Wales"
+/places/find?q=crystal%20palace "name":"Crystal Palace"
+/assets/finder.js tsSearchPlaces
