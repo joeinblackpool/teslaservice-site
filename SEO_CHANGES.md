@@ -63,6 +63,11 @@ Guard notes 2026-11-02 (no rollback): /hevra/* aggregate position and clicks fel
 | 2026-11-09 | (this commit) | /locations/ (1), /locations/county/* (91), /locations/<town> (277) | Additive links between markers: hub link on /locations/, area link on county pages, "Tesla repair near villages around <town>" (10 nearest place pages) on town pages. Titles, H1s, descriptions and existing text unchanged | additive |
 
 
+## 2026-11-09 - /places: better links from town pages
+| Date | Commit | URLs affected | Change | Status |
+|---|---|---|---|---|
+| 2026-11-09 | (this commit) | /locations/<town> (285) | Between the places-links markers only: the "Tesla repair near villages around <town>" line now links the 10 nearest built-up-area place pages (e.g. Manchester: Salford, Stretford, Prestwich) instead of the nearest hamlets/street names. All 58,348 place pages stay indexable and in the sitemap (Joe, 9 Nov: every place gets its own page). Titles, H1s and text unchanged | additive |
+
 ## 2026-11-09 - Tesla service cost page
 | Date | Commit | URLs affected | Change | Status |
 |---|---|---|---|---|
