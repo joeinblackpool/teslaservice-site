@@ -81,3 +81,9 @@ Guard notes 2026-11-02 (no rollback): /hevra/* aggregate position and clicks fel
 | 2026-11-09 | (this commit) | /models/, /models/model-3, /models/model-y, /models/model-s, /models/model-x (new); sitemap.xml; llms.txt | New "Models" section (tools/models.py): grouped short-answer Q&A per model (servicing, common faults, warranty, repairs), each fact cited to Tesla's owner's manuals / service-interval pages, Tesla UK warranty page, GOV.UK, or sources already cited on this site. Article + BreadcrumbList JSON-LD only (no FAQPage, per 22 Oct). Targets "tesla model 3/y/s/x service/servicing/repair" searches with no dedicated page today | new pages |
 | 2026-11-09 | (this commit) | every static page with the main nav (1,234) + worker /places template | ADDED a "Models" item to the main nav after Guides. No title, H1, description or body text changed | additive |
 | 2026-11-09 | (this commit) | /guides, /known-issues-by-model | ADDED one link line each to the new model pages | additive |
+
+## 2026-11-09 - Tesla service cost page
+| Date | Commit | URLs affected | Change | Status |
+|---|---|---|---|---|
+| 2026-11-09 | (this commit) | /tesla-service-cost (new) | New guide for "how much does a Tesla service cost (UK)", a search with no page here: Cap HPI three-year/60k figures (servicing £338, brakes £113, tyres £2,377, total £2,946) via EV Fleet World 7 May 2024, Tesla's maintenance intervals (owner's manual), owner-posted TMC invoices labelled as single examples, official vs independent, MOT (GOV.UK), cost-saving links. Article + BreadcrumbList JSON-LD | new pages |
+| 2026-11-09 | (this commit) | /guides, /tesla-service-schedule, /before-you-book-service, sitemap.xml, llms.txt | ADDED one link each to /tesla-service-cost. No titles, H1s or text changed | additive |
