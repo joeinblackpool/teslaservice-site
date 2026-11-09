@@ -108,3 +108,9 @@ Guard notes 2026-11-02 (no rollback): /hevra/* aggregate position and clicks fel
 
 ## 2026-11-09 Single sitemap index
 - Added /sitemap-index.xml (sitemap.xml + the 7 places parts) so one URL covers all 63,130 pages; robots.txt now points only to it. Old sitemap URLs still served unchanged.
+
+## 2026-11-09 - XKey checker fixes (trust, tap-to-call, freshness) + place-page chargers
+| Date | Commit | URLs affected | Change | Status |
+|---|---|---|---|---|
+| 2026-11-09 | (this commit) | all static pages (1,241) | tools/trust_fixes.py: footer "Contact" link (/about#contact) after About; phone numbers in listing lines are tel: links; JSON-LD dateModified from the page's sitemap lastmod (existing CollectionPage/Article node, else a small WebPage node). Titles, H1s, descriptions and text unchanged | additive |
+| 2026-11-09 | (this commit) | /places/<area>/<place> (all) | Three H2s phrased as the questions people ask (nearest Tesla Service Centre to X? who can repair a Tesla near X? how do I get my Tesla serviced from X?); garage phone numbers as tel: links and in JSON-LD; new section: 3 nearest Tesla Superchargers (stalls, kW, distance) and the count of public 50 kW+ chargers within 5/10 miles (teslachargers.co.uk data: OCM CC BY-SA + Tesla; names as plain text, no links); footer Contact link. Titles and H1 unchanged | additive |
