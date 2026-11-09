@@ -22,3 +22,5 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - run: node --max-old-space-size=4096 tools/check_places.mjs
+      - name: Place search index is up to date (rebuild with node tools/place_search.mjs)
+        run: node tools/place_search.mjs && git diff --exit-code worker/place-search.js

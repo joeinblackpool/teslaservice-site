@@ -22,7 +22,7 @@ for (const [label, ctxOpts, useEnter] of [['desktop', {}, false], ['phone', { ..
     await pg.goto(BASE + pagePath + '?nocache=' + Date.now(), { waitUntil: 'networkidle' });
     const js = await pg.$$eval('script[src*="finder.js"]', s => s.map(x => x.getAttribute('src')));
     for (const [q, want] of CASES) {
-      calls.length = 0;
+      calls.length = 0; const t0 = Date.now();
       await pg.fill('#search', q);
       if (useEnter) await pg.press('#search', 'Enter'); else await pg.click('#searchBtn');
       await pg.waitForFunction(() => !/Finding/.test(document.getElementById('finderNote').textContent), null, { timeout: 15000 }).catch(() => {});
@@ -30,7 +30,7 @@ for (const [label, ctxOpts, useEnter] of [['desktop', {}, false], ['phone', { ..
       const n = await pg.$$eval('#listings .listing', e => e.length);
       const ok = note.startsWith('Closest results to ' + want) && n > 0;
       if (!ok) bad++;
-      console.log(`${ok ? 'ok  ' : 'FAIL'} ${label} ${pagePath} [${js}] "${q}" -> ${n} rows | ${note.slice(0, 140)} | calls: ${calls.join(' ')}${errs.length ? ' | errors: ' + errs.join('; ') : ''}`);
+      console.log(`${ok ? 'ok  ' : 'FAIL'} ${((Date.now() - t0) / 1000).toFixed(1)}s ${label} ${pagePath} [${js}] "${q}" -> ${n} rows | ${note.slice(0, 140)} | calls: ${calls.join(' ')}${errs.length ? ' | errors: ' + errs.join('; ') : ''}`);
       errs.length = 0;
     }
     await pg.close();

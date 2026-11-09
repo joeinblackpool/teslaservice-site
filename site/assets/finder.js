@@ -33,12 +33,14 @@ const TS_POSTCODE_RE = /^[A-Za-z]{1,2}\d[A-Za-z\d]?(\s*\d[A-Za-z]{2})?$/;
 // The site's own place search (worker /places/find): every town, village and London district with that
 // name, biggest first. Returns [] if it can't be reached, so the older lookups still run.
 async function tsSearchPlaces(q) {
+  const ac = typeof AbortController !== "undefined" ? new AbortController() : null;
+  const timer = ac ? setTimeout(() => ac.abort(), 6000) : null;   // never leave the visitor on "Finding your location…"
   try {
-    const r = await fetch("/places/find?q=" + encodeURIComponent(q));
+    const r = await fetch("/places/find?q=" + encodeURIComponent(q.trim()), ac ? { signal: ac.signal } : {});
     if (!r.ok) return [];
     const j = await r.json();
     return Array.isArray(j.results) ? j.results : [];
-  } catch (e) { return []; }
+  } catch (e) { return []; } finally { if (timer) clearTimeout(timer); }
 }
 function tsPlaceLabel(p) { return p.area && tsNorm(p.area) !== tsNorm(p.name) ? p.name + ", " + p.area : p.name; }
 
@@ -136,6 +138,7 @@ function initFinder(opts) {
     renderRows(rows, true);
   }
 
+  let searchSeq = 0;
   async function search() {
     const q = searchInput.value.trim();
     const cat = currentCategory();
@@ -148,7 +151,7 @@ function initFinder(opts) {
     }
 
     if (noteEl) noteEl.textContent = "Finding your location…";
-    searchBtn.disabled = true;
+    const my = ++searchSeq, stale = () => my !== searchSeq;   // a newer search wins; an older answer is dropped
     try {
       const compact = q.replace(/\s+/g, "");
       let origin = null, label = "", pageLink = "", alts = [], found0 = null;
@@ -161,6 +164,7 @@ function initFinder(opts) {
           origin = { lat: place.lat, lon: place.lon }; label = place.name; pageLink = place.url;
         } else {
           const found = await tsSearchPlaces(q);
+          if (stale()) return;
           if (found.length) {
             const top = found[0];
             origin = { lat: top.lat, lon: top.lon }; label = tsPlaceLabel(top); pageLink = top.url;
@@ -170,6 +174,7 @@ function initFinder(opts) {
           } else {
             const pr = await fetch("https://api.postcodes.io/places?q=" + encodeURIComponent(q) + "&limit=1");
             const pj = await pr.json();
+            if (stale()) return;
             if (pj.status === 200 && pj.result && pj.result.length) {
               origin = { lat: pj.result[0].latitude, lon: pj.result[0].longitude };
               label = pj.result[0].name_1 + (pj.result[0].county_unitary ? ", " + pj.result[0].county_unitary : "");
@@ -187,10 +192,12 @@ function initFinder(opts) {
       }
       let json, res = await fetch("https://api.postcodes.io/postcodes/" + encodeURIComponent(compact));
       json = await res.json();
+      if (stale()) return;
       // Fall back to a partial postcode / outcode (e.g. "M1", "BS8") — lots of people only type the first half.
       if ((json.status !== 200 || !json.result) && /^[A-Za-z]{1,2}\d[A-Za-z\d]?$/.test(compact)) {
         res = await fetch("https://api.postcodes.io/outcodes/" + encodeURIComponent(compact));
         json = await res.json();
+        if (stale()) return;
         if (json.result) json.result.postcode = json.result.outcode;
       }
       if (json.status !== 200 || !json.result) {
@@ -201,9 +208,7 @@ function initFinder(opts) {
       }
       showFrom({ lat: json.result.latitude, lon: json.result.longitude }, json.result.postcode, "", []);
     } catch (e) {
-      if (noteEl) noteEl.textContent = "Couldn't reach the postcode lookup service right now — try again in a moment.";
-    } finally {
-      searchBtn.disabled = false;
+      if (noteEl && !stale()) noteEl.textContent = "Couldn't reach the postcode lookup service right now — try again in a moment.";
     }
   }
 
