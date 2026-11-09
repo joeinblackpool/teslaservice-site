@@ -21,3 +21,4 @@ Additive only on pages that already get clicks: never change the title, H1, URL 
 
 ## Deploy
 Push to `main` -> Cloudflare Workers Builds runs `npx wrangler deploy` (about 2 minutes). Roll back from the dashboard (Worker > Deployments) if a deploy goes wrong; the pre-repo deployment is version 31.
+- "IndexNow full submit" (manual workflow): reads every live sitemap and submits all URLs (site + 61,715 /places pages) to IndexNow in 10,000-URL batches. Run after a big launch or sitemap rebuild.
