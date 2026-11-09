@@ -30,6 +30,18 @@ function tsFindPlace(q) {
 }
 const TS_POSTCODE_RE = /^[A-Za-z]{1,2}\d[A-Za-z\d]?(\s*\d[A-Za-z]{2})?$/;
 
+// The site's own place search (worker /places/find): every town, village and London district with that
+// name, biggest first. Returns [] if it can't be reached, so the older lookups still run.
+async function tsSearchPlaces(q) {
+  try {
+    const r = await fetch("/places/find?q=" + encodeURIComponent(q));
+    if (!r.ok) return [];
+    const j = await r.json();
+    return Array.isArray(j.results) ? j.results : [];
+  } catch (e) { return []; }
+}
+function tsPlaceLabel(p) { return p.area && tsNorm(p.area) !== tsNorm(p.name) ? p.name + ", " + p.area : p.name; }
+
 function milesBetween(lat1, lon1, lat2, lon2) {
   const R = 3958.8; // miles
   const toRad = (d) => (d * Math.PI) / 180;
@@ -88,6 +100,42 @@ function initFinder(opts) {
     emptyEl.style.display = rows.length ? "none" : "block";
   }
 
+  // Closest results to one point, plus a "Did you mean" row when the name fits other places too.
+  function showFrom(origin, label, pageLink, alts, cur) {
+    const cat = currentCategory();
+    const rows = ALL_GARAGES.filter((d) => (!cat || d.c === cat) && d.lat != null)
+      .map((d) => ({ ...d, distance: milesBetween(origin.lat, origin.lon, d.lat, d.lon) }))
+      .sort((a, b) => a.distance - b.distance)
+      .slice(0, resultSize);
+    if (noteEl) {
+      noteEl.textContent = `Closest results to ${label}, sorted by distance.`;
+      if (pageLink) {
+        const a = document.createElement("a");
+        a.href = pageLink; a.textContent = ` See the full ${label.split(",")[0]} page →`; a.style.color = "var(--accent)";
+        noteEl.appendChild(a);
+      }
+      if (alts && alts.length) {
+        const box = document.createElement("span");
+        box.className = "did-you-mean";
+        box.style.cssText = "display:block;margin-top:8px";
+        box.appendChild(document.createTextNode("Not this one? Did you mean: "));
+        alts.forEach((p, i) => {
+          const b = document.createElement("button");
+          b.type = "button"; b.textContent = tsPlaceLabel(p);
+          b.style.cssText = "background:none;border:0;padding:0;font:inherit;color:var(--accent);text-decoration:underline;cursor:pointer";
+          b.addEventListener("click", () => {
+            const rest = (cur ? [cur] : []).concat(alts.filter((x) => x !== p));
+            showFrom({ lat: p.lat, lon: p.lon }, tsPlaceLabel(p), p.url, rest, p);
+          });
+          box.appendChild(b);
+          if (i < alts.length - 1) box.appendChild(document.createTextNode(" · "));
+        });
+        noteEl.appendChild(box);
+      }
+    }
+    renderRows(rows, true);
+  }
+
   async function search() {
     const q = searchInput.value.trim();
     const cat = currentCategory();
@@ -103,18 +151,29 @@ function initFinder(opts) {
     searchBtn.disabled = true;
     try {
       const compact = q.replace(/\s+/g, "");
-      let origin = null, label = "", pageLink = "";
+      let origin = null, label = "", pageLink = "", alts = [], found0 = null;
       if (!TS_POSTCODE_RE.test(q.trim())) {
         const place = tsFindPlace(q);
-        if (place) {
-          origin = { lat: place.lat, lon: place.lon }; label = place.name;
-          pageLink = place.url;
+        // A county ("Kent", "Surrey") is matched on the page. Any town or village name goes to the site's own
+        // place search, which lists every place with that name, biggest first ("Poulton" -> Poulton-le-Fylde,
+        // Newport -> Newport in Wales), so the rest can be offered as "Did you mean".
+        if (place && place.url.indexOf("/county/") >= 0 && tsNorm(place.name) === tsNorm(q)) {
+          origin = { lat: place.lat, lon: place.lon }; label = place.name; pageLink = place.url;
         } else {
-          const pr = await fetch("https://api.postcodes.io/places?q=" + encodeURIComponent(q) + "&limit=1");
-          const pj = await pr.json();
-          if (pj.status === 200 && pj.result && pj.result.length) {
-            origin = { lat: pj.result[0].latitude, lon: pj.result[0].longitude };
-            label = pj.result[0].name_1 + (pj.result[0].county_unitary ? ", " + pj.result[0].county_unitary : "");
+          const found = await tsSearchPlaces(q);
+          if (found.length) {
+            const top = found[0];
+            origin = { lat: top.lat, lon: top.lon }; label = tsPlaceLabel(top); pageLink = top.url;
+            alts = found.slice(1); found0 = top;
+          } else if (place) {
+            origin = { lat: place.lat, lon: place.lon }; label = place.name; pageLink = place.url;
+          } else {
+            const pr = await fetch("https://api.postcodes.io/places?q=" + encodeURIComponent(q) + "&limit=1");
+            const pj = await pr.json();
+            if (pj.status === 200 && pj.result && pj.result.length) {
+              origin = { lat: pj.result[0].latitude, lon: pj.result[0].longitude };
+              label = pj.result[0].name_1 + (pj.result[0].county_unitary ? ", " + pj.result[0].county_unitary : "");
+            }
           }
         }
         if (!origin) {
@@ -123,10 +182,10 @@ function initFinder(opts) {
           emptyEl.style.display = "block";
           return;
         }
+        showFrom(origin, label, pageLink, alts, alts.length ? found0 : null);
+        return;
       }
-      let json = { status: 200, result: { latitude: origin ? origin.lat : null, longitude: origin ? origin.lon : null, postcode: label } };
-      if (!origin) {
-      let res = await fetch("https://api.postcodes.io/postcodes/" + encodeURIComponent(compact));
+      let json, res = await fetch("https://api.postcodes.io/postcodes/" + encodeURIComponent(compact));
       json = await res.json();
       // Fall back to a partial postcode / outcode (e.g. "M1", "BS8") — lots of people only type the first half.
       if ((json.status !== 200 || !json.result) && /^[A-Za-z]{1,2}\d[A-Za-z\d]?$/.test(compact)) {
@@ -140,24 +199,7 @@ function initFinder(opts) {
         emptyEl.style.display = "block";
         return;
       }
-      }
-      origin = { lat: json.result.latitude, lon: json.result.longitude };
-      const withDistance = filtered
-        .map((d) => {
-          return d.lat != null ? { ...d, distance: milesBetween(origin.lat, origin.lon, d.lat, d.lon) } : { ...d, distance: null };
-        })
-        .filter((d) => d.distance != null)
-        .sort((a, b) => a.distance - b.distance)
-        .slice(0, resultSize);
-      if (noteEl) {
-        noteEl.textContent = `Closest results to ${json.result.postcode}, sorted by distance.`;
-        if (pageLink) {
-          const a = document.createElement("a");
-          a.href = pageLink; a.textContent = ` See the full ${json.result.postcode} page →`; a.style.color = "var(--accent)";
-          noteEl.appendChild(a);
-        }
-      }
-      renderRows(withDistance, true);
+      showFrom({ lat: json.result.latitude, lon: json.result.longitude }, json.result.postcode, "", []);
     } catch (e) {
       if (noteEl) noteEl.textContent = "Couldn't reach the postcode lookup service right now — try again in a moment.";
     } finally {
