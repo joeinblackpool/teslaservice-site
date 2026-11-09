@@ -91,7 +91,7 @@ ${lds}
 <div class="wrap">
   <header>
     <div class="brand"><a href="/">TeslaService<span>.co.uk</span></a></div>
-    <nav aria-label="Main"><ul><li><a href="/#finder">Find a specialist</a></li><li><a href="/guides">Guides</a></li><li><a href="/models/">Models</a></li><li><a href="/locations/">Locations</a></li><li><a href="/places"${path === '/places' ? ' aria-current="page"' : ''}>Places</a></li><li><a href="/faq">FAQ</a></li><li><a href="/resources">Resources</a></li><li><a href="/calculator">Cost calculator</a></li></ul></nav>
+    <nav aria-label="Main"><ul><li><a href="/#finder">Find a specialist</a></li><li><a href="/guides">Guides</a></li><li><a href="/models/">Models</a></li><li><a href="/locations/">Locations</a></li><li><a href="/faq">FAQ</a></li><li><a href="/resources">Resources</a></li><li><a href="/reviews">Reviews</a></li><li><a href="/calculator">Cost calculator</a></li></ul></nav>
   </header>
 <main>
   <p class="breadcrumb"><a href="/">Tesla Service UK</a> / ${crumbs.map(([n, u]) => u ? `<a href="${u}">${esc(n)}</a>` : esc(n)).join(' / ')}</p>
