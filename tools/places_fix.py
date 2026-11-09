@@ -56,7 +56,8 @@ def base(slug):
     return re.sub(r'-near-.*$', '', slug)
 
 
-def apply(d):
+def apply(d, old=None):
+    """old: the data as committed before a rebuild, so every URL it served keeps working (301 to its new page)."""
     A, P, L, G = d['A'], d['P'], d['L'], d['G']
     R = dict(d.get('R') or {})
     for a in A:
@@ -131,8 +132,25 @@ def apply(d):
         taken.add((p[1], p[4])); R[old] = url(p)
         for s_, t_ in R.items():
             if t_ == old: R[s_] = url(p)
-    # redirects must end on a live page (no chains)
     live = {url(p) for p in P}
+    if old:   # pages from the previous build that are gone now: 301 to the same place's new page
+        oA = old['A']; ourl = lambda p: f'/places/{oA[p[1]][1]}/{p[4]}'
+        AS = {a[1]: i for i, a in enumerate(A)}
+        bykey = {}
+        for p in P: bykey.setdefault(base(p[4]), []).append(p)
+        lk = {}
+        for l in L: lk.setdefault(re.sub(r'[^a-z0-9]+', '-', l[0].lower()).strip('-'), []).append(l)
+        for s_, t_ in (old.get('R') or {}).items(): R.setdefault(s_, t_)
+        for p in old['P']:
+            u = ourl(p)
+            if u in live: continue
+            if u in R and (R[u] in live or not R[u].startswith('/places')): continue
+            c = sorted((miles(p[2], p[3], q[2], q[3]), url(q)) for q in bykey.get(base(p[4]), []))
+            c = [x for x in c if x[0] <= 8]
+            lc = [l[4] for l in lk.get(base(p[4]), []) if miles(p[2], p[3], l[2], l[3]) <= 8]
+            ai = AS.get(oA[p[1]][1])
+            R[u] = c[0][1] if c else lc[0] if lc else (f'/places/{A[ai][1]}' if ai is not None else '/places')
+    # redirects must end on a live page (no chains)
     for _ in range(5):
         for s, t in R.items():
             if t in R: R[s] = R[t]
@@ -169,5 +187,5 @@ def save(d):
 
 if __name__ == '__main__':
     d = load(); n0 = len(d['P'])
-    apply(d); n = save(d)
+    apply(d, load()); n = save(d)
     print(json.dumps({'places': len(d['P']), 'merged_or_redirected': n0 - len(d['P']), 'redirects': len(d['R']), 'garages': len(d['G']), 'sitemap_urls': n}))
