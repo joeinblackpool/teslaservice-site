@@ -68,6 +68,7 @@
 - https://teslaservice.co.uk/tesla-brake-caliper-seized — Regenerative braking means Tesla brakes are barely used, so discs rust and calipers stick. Tesla's own service interval, the symptoms, and who can fix it.
 - https://teslaservice.co.uk/tesla-tyre-wear — Tyres are the number one reason Teslas fail their MOT. How to spot hidden inner-edge wear, Tesla's rotation interval, alignment, and where to go.
 - https://teslaservice.co.uk/tesla-low-voltage-battery — Newer Teslas use a lithium low-voltage battery, older ones a 12V lead-acid. What the warning means, what happens if it fails, and who can replace it.
+- https://teslaservice.co.uk/tesla-fix-it-yourself — Which Tesla faults UK owners can safely fix at home (cabin filters, window and camera calibration, resets, frozen handles, stuck charge cable, 12V checks), from Tesla's own DIY guides, and which jobs need a professional.
 - https://teslaservice.co.uk/tesla-touchscreen-black — How to restart a frozen Tesla touchscreen safely, what to try next, the Model S and X eMMC recall, and who can repair a screen that keeps failing.
 - https://teslaservice.co.uk/tesla-garage-contact-details — phone, email and website for every listed business, searchable.
 - https://teslaservice.co.uk/tesla-service-schedule — Tesla has no fixed annual service. The official maintenance list for Model 3 and Model Y: brake fluid, cabin filter, tyre rotation, calipers, plus the UK MOT.

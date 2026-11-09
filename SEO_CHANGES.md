@@ -56,6 +56,11 @@ Guard notes 2026-11-02 (no rollback): /hevra/* aggregate position and clicks fel
 |---|---|---|---|---|
 | 2026-11-06 | (this commit) | 146 pages with 0 clicks in 3 months that rank in the top 15 (list in the private folder: targets_paths.txt): /locations/* (59 town/county), /hevra/* (30), /other/* (21), /authorised/* (20), /dealer/* (10), /parts/* (5), /contact-tesla-uk | tools/snippets.py: garage pages get a meta description from their own structured data (name, street, postcode, phone, type) instead of the shared boilerplate, and a title saying 'address & phone' (official centres: 'Tesla Service Centre <place>: address, phone & booking'); town/county titles lead with 'Tesla garage(s) in <place>: service, repair & specialists (n)' (site's top query 'tesla garage near me' 791 impr/28d); /contact-tesla-uk title leads with '01628 450660' (664 impr/28d for the number, pos 9-11, 0 clicks). H1s and page text unchanged; no page with a click in 3 months touched. Before (3 months to 3 Nov): these pages 8,778 impr, 0 clicks; site 28d 631 clicks, 41.3k impr, CTR 1.5%, pos 13.4 | watching |
 
+## 2026-11-09 - Tesla fix it yourself (DIY) page
+| Date | Commit | URLs affected | Change | Status |
+|---|---|---|---|---|
+| 2026-11-09 | (see git log) | /tesla-fix-it-yourself (new); /guides, /diy-jobs-ranked (one link each); sitemap.xml, llms.txt | New page: which common Tesla faults UK owners can safely fix themselves (cabin filters, window and camera calibration, resets, frozen handles, stuck charge cable, 12V checks, tyre rotation) with steps summarised from Tesla's own DIY guides and manuals (20 cited sources), plus a "leave to a pro" section correcting risky forum advice (HV battery deep discharge, ball-joint grease injection, heater removal). Article + BreadcrumbList JSON-LD. Targets "tesla fix it yourself / tesla diy repair" searches. No title, H1 or text changed on existing pages | new page |
+
 ## 2026-11-09 - Tesla repair near every town and village (/places)
 | Date | Commit | URLs affected | Change | Status |
 |---|---|---|---|---|
