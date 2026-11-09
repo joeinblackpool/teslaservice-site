@@ -25,7 +25,9 @@ for (const [label, ctxOpts, useEnter] of [['desktop', {}, false], ['phone', { ..
       calls.length = 0; const t0 = Date.now();
       await pg.fill('#search', q);
       if (useEnter) await pg.press('#search', 'Enter'); else await pg.click('#searchBtn');
-      await pg.waitForFunction(() => !/Finding/.test(document.getElementById('finderNote').textContent), null, { timeout: 15000 }).catch(() => {});
+      // poll from here (the site's CSP blocks Playwright's in-page waitForFunction); give up after 15 s
+      await pg.waitForTimeout(150);
+      while (Date.now() - t0 < 15000 && /Finding/.test(await pg.textContent('#finderNote'))) await pg.waitForTimeout(100);
       const note = (await pg.textContent('#finderNote')).trim();
       const n = await pg.$$eval('#listings .listing', e => e.length);
       const ok = note.startsWith('Closest results to ' + want) && n > 0;
