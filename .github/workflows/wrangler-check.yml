@@ -1,8 +1,17 @@
-name: Wrangler dry run (every push)
-on: [push, workflow_dispatch]
+name: Wrangler dry run
+# Cloudflare Workers Builds already builds every push to main and every PR, so this only runs
+# when the Worker code or its config changes (or by hand).
+on:
+  pull_request:
+    paths: ['worker/**', 'wrangler.jsonc']
+  workflow_dispatch:
+concurrency:
+  group: wrangler-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 jobs:
   dry-run:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
