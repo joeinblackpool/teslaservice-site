@@ -7,6 +7,8 @@
 import { BUILT, A, P, L, G, LT, R } from './places-data.js';
 import { CSS } from './css.js';
 import { POP } from './place-pop.js';
+import { SX as SX0, LTA as LTA0, CHECK } from './place-search.js';
+import { qnorm } from './qnorm.js';
 
 const SITE = 'https://teslaservice.co.uk';
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -68,18 +70,37 @@ const dirLink = (lat, lon) => `https://www.google.com/maps/dir/?api=1&amp;destin
 // place most people mean (Poulton -> Poulton-le-Fylde, Newport -> Newport in Wales) and the page can offer
 // the rest as "Did you mean". Matches: whole name ("newport"), first word(s) of a longer name
 // ("poulton" -> "Poulton-le-Fylde"), and, only when nothing matches that way, the start of a name once 4+ letters are typed ("poulton-le").
-const qnorm = s => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, ' ').trim();
 // a London district (Soho, Brixton) is far bigger than a village of the same name elsewhere
 const inLondon = (la, lo) => miles(51.5074, -0.1277, la, lo) < 13;
-const SEARCH = lazy(() => [
-  ...P.map((p, i) => ({ n: qnorm(p[0].split(/\s*[(/]/)[0]), name: placeName(p), area: A[p[1]][0], ai: p[1], lat: p[2], lon: p[3], url: placeUrl(p), pop: POP[`${A[p[1]][1]}/${p[4]}`] || (inLondon(p[2], p[3]) ? 5000 : p[6] ? 2000 : 300), b: p[6] })),
-  ...LT.map(t => { const ai = near(P, t[2], t[3], p => p[2], p => p[3], 1)[0][0][1]; return { n: qnorm(t[0]), name: t[0], area: A[ai][0], ai, lat: t[2], lon: t[3], url: t[1], pop: POP[t[1]] || 20000, b: 1 }; }),
-]);
+// one candidate from the prebuilt index (worker/place-search.js): k >= 0 is P[k], k < 0 is LT[-k - 1]
+function cand(k) {
+  if (k >= 0) {
+    const p = P[k];
+    return { n: qnorm(p[0].split(/\s*[(/]/)[0]), name: placeName(p), ai: p[1], lat: p[2], lon: p[3], url: placeUrl(p), b: p[6],
+      pop: POP[`${A[p[1]][1]}/${p[4]}`] || (inLondon(p[2], p[3]) ? 5000 : p[6] ? 2000 : 300) };
+  }
+  const t = LT[-k - 1];
+  return { n: qnorm(t[0]), name: t[0], ai: INDEX().LTA[-k - 1], lat: t[2], lon: t[3], url: t[1], b: 1, pop: POP[t[1]] || 20000 };
+}
+// the prebuilt index (tools/place_search.mjs), or, if places-data.js was rebuilt without it, one built here (slower)
+const INDEX = lazy(() => {
+  if (CHECK[0] === P.length && CHECK[1] === LT.length && CHECK.slice(2).every(([k, n]) => P[k] && P[k][0] === n)) return { SX: SX0, LTA: LTA0 };
+  const SX = {}, add = (name, k) => { const w = qnorm(name.split(/\s*[(/]/)[0]).split(' ')[0]; if (w) (SX[w] ||= []).push(k); };
+  P.forEach((p, i) => add(p[0], i)); LT.forEach((t, i) => add(t[0], -i - 1));
+  return { SX, LTA: LT.map(t => near(P, t[2], t[3], p => p[2], p => p[3], 1)[0][0][1]) };
+});
+const SXKEYS = lazy(() => Object.keys(INDEX().SX));
 export function findPlaces(q, max = 8) {
   const n = qnorm(q);
   if (n.length < 2) return [];
+  // only places whose first word is the query's first word (or, for a part-typed word of 4+ letters, starts with it)
+  const w0 = n.split(' ')[0];
+  const { SX } = INDEX();
+  let ks = SX[w0] || [];
+  if (n.length >= 4) for (const key of SXKEYS()) if (key !== w0 && key.startsWith(w0) && ks.length < 3000) ks = ks.concat(SX[key]);
   const hits = [];
-  for (const e of SEARCH()) {
+  for (const k of ks) {
+    const e = cand(k);
     const w = e.n === n ? 3 : e.n.startsWith(n + ' ') ? 1 : n.length >= 4 && e.n.startsWith(n) ? 0.5 : 0;
     if (w) hits.push({ ...e, w, score: e.pop * w });
   }
@@ -93,7 +114,7 @@ export function findPlaces(q, max = 8) {
     if (out.length >= max) break;
   }
   // "Newport, Newport" says nothing: a place named after its own council shows the country instead
-  return out.map(({ n, name, area, ai, lat, lon, url }) => ({ name, area: qnorm(area) === n ? A[ai][2] : area, lat, lon, url }));
+  return out.map(({ name, ai, lat, lon, url }) => ({ name, area: qnorm(A[ai][0]) === qnorm(name) ? A[ai][2] : A[ai][0], lat, lon, url }));
 }
 
 // ---------- page shell (same look as the static pages) ----------
@@ -298,9 +319,13 @@ export default {
     if (!url.pathname.startsWith('/places')) return env.ASSETS.fetch(request);
     if (request.method !== 'GET' && request.method !== 'HEAD') return new Response('Method not allowed', { status: 405, headers: { allow: 'GET, HEAD' } });
     let path = url.pathname;
-    if (path === '/places/find') {
-      const q = (url.searchParams.get('q') || '').slice(0, 80);
-      return new Response(JSON.stringify({ q, results: findPlaces(q) }), { headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'public, max-age=86400', 'x-robots-tag': 'noindex' } });
+    if (path === '/places/find') {   // place search for the finder box; answers are cached at the edge per query
+      const q = qnorm((url.searchParams.get('q') || '').slice(0, 80));
+      const fc = typeof caches !== 'undefined' ? caches.default : null, fk = new Request(`${SITE}/places/find?q=${encodeURIComponent(q)}&v=${BUILT}`);
+      if (fc) { const hit = await fc.match(fk); if (hit) return hit; }
+      const res = new Response(JSON.stringify({ q, results: findPlaces(q) }), { headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'public, max-age=86400', 'x-robots-tag': 'noindex' } });
+      if (fc && ctx) ctx.waitUntil(fc.put(fk, res.clone()));
+      return res;
     }
     const clean = path.toLowerCase().replace(/\/+$/, '') || '/';
     if (clean !== path) return Response.redirect(SITE + clean, 301);

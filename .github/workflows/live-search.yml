@@ -1,0 +1,35 @@
+name: Live search check
+# Real-browser check of the garage finder (desktop and phone): Poulton, Brixton, Peckham, Crystal Palace,
+# Newport, a county and a postcode must each find the right place and list garages.
+# After each deploy to main it tests teslaservice.co.uk; on a pull request it tests that branch's Cloudflare
+# preview (so a change is checked before it goes live). It first waits until the new finder script is served.
+on:
+  push:
+    branches: [main]
+    paths: ['site/**', 'worker/**', 'tools/live_search.mjs', '.github/workflows/live-search.yml']
+  pull_request:
+    paths: ['site/assets/finder.js', 'worker/**', 'tools/live_search.mjs', '.github/workflows/live-search.yml']
+  workflow_dispatch:
+concurrency:
+  group: live-search-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  live-search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Pick the site to test and wait for this commit's finder script
+        env: { HEAD_REF: '${{ github.head_ref }}' }
+        run: |
+          if [ -n "$HEAD_REF" ]; then slug=$(echo "$HEAD_REF" | tr 'A-Z' 'a-z' | sed 's/[^a-z0-9]/-/g'); BASE="https://$slug-rough-snow-bc1f.joe-f37.workers.dev"; else BASE=https://teslaservice.co.uk; fi
+          want=$(grep -o 'finder.js?v=[0-9]*' site/index.html)
+          echo "BASE=$BASE" >> "$GITHUB_ENV"
+          for i in $(seq 1 40); do curl -s "$BASE/?w=$i" | grep -qF "$want" && { echo "$BASE serves $want"; exit 0; }; sleep 15; done
+          echo "::error::$BASE never served $want"; exit 1
+      - name: Cache headers of the finder page, script and place search
+        run: for p in / /assets/finder.js /places/find?q=brixton; do echo "== $p"; curl -sI "$BASE$p" | grep -iE '^(http|cache-control|cf-cache-status|age)'; done
+      - run: npm i --no-save playwright@1.48.2 && npx playwright install --with-deps chromium
+      - run: node tools/live_search.mjs "$BASE"
