@@ -1,0 +1,27 @@
+name: Live search check
+# Real-browser check of the garage finder on the live site (desktop and phone): Poulton, Brixton, Peckham,
+# Crystal Palace, Newport, a county and a postcode must each find the right place and list garages.
+# Runs after each deploy to main, on pull requests that change this check, and by hand.
+on:
+  push:
+    branches: [main]
+    paths: ['site/**', 'worker/**', 'tools/live_search.mjs', '.github/workflows/live-search.yml']
+  pull_request:
+    paths: ['tools/live_search.mjs', '.github/workflows/live-search.yml']
+  workflow_dispatch:
+concurrency:
+  group: live-search-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  live-search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Wait for the Cloudflare deploy
+        if: github.event_name == 'push'
+        run: sleep 150
+      - run: npm i --no-save playwright@1.48.2 && npx playwright install --with-deps chromium
+      - run: node tools/live_search.mjs
