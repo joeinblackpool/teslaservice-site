@@ -138,6 +138,14 @@ function rowsTable(list, lat, lon, typeCol) {
 ${list.map(([g, d]) => `<tr><td><a href="${g[2]}">${esc(g[0])}</a>${g[7] ? `<br><span class="meta">${esc(g[7])}</span>` : ''}</td>${typeCol ? `<td>${GCAT[g[1]]}${g[6] && g[1] === 'other' ? ' (HEVRA)' : ''}</td>` : ''}<td>${fmtS(d)} ${bearing(lat, lon, g[3], g[4])}</td></tr>`).join('\n')}
 </tbody></table></div>`;
 }
+// schema.org business for a listing; @id matches the JSON-LD on the garage's own page (same entity, one node)
+const BIZ_TYPE = { dealer: 'AutomotiveBusiness', hevra: 'AutoRepair', other: 'AutoRepair', authorised: 'AutoBodyShop', parts: 'LocalBusiness' };
+function bizLd(g) {
+  const o = { '@type': BIZ_TYPE[g[1]] || 'LocalBusiness', '@id': `${SITE}${g[2]}#business`, name: g[0], url: SITE + g[2] };
+  if (g[7] || g[8]) o.address = { '@type': 'PostalAddress', ...(g[7] ? { streetAddress: g[7] } : {}), ...(g[8] ? { postalCode: g[8] } : {}), ...(g[5] ? { addressLocality: g[5] } : {}), addressCountry: 'GB' };
+  o.geo = { '@type': 'GeoCoordinates', latitude: g[3], longitude: g[4] };
+  return o;
+}
 function placePage(k) {
   const p = P[k], [name, ai, lat, lon] = p, area = A[ai], nm = placeName(p), url = placeUrl(p);
   const reg = regionOf(ai), bc = byCat()[reg];
@@ -185,8 +193,8 @@ ${nb.length ? `  <h2 id="nearby">Places near ${esc(name)}</h2>
   const ld = [{ '@context': 'https://schema.org', '@type': 'WebPage', '@id': `${SITE}${url}#page`, url: SITE + url, name: title, description: desc, inLanguage: 'en-GB', dateModified: BUILT,
     isPartOf: { '@type': 'WebSite', name: 'TeslaService.co.uk', url: SITE + '/' },
     about: { '@type': 'Place', name, geo: { '@type': 'GeoCoordinates', latitude: lat, longitude: lon }, containedInPlace: { '@type': 'AdministrativeArea', name: area[0] } },
-    mainEntity: { '@type': 'ItemList', name: `Nearest Tesla repair to ${name}`, numberOfItems: dealers.length + spec.length,
-      itemListElement: dealers.concat(spec).map(([g], i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + g[2], name: g[0] })) } }];
+    mainEntity: { '@type': 'ItemList', name: `Nearest Tesla repair to ${name}`, numberOfItems: dealers.length + spec.length + body.length + parts.length,
+      itemListElement: dealers.concat(spec, body, parts).map(([g], i) => ({ '@type': 'ListItem', position: i + 1, item: bizLd(g) })) } }];
   return shell({ path: url, title, desc, h1: `Tesla repair and service near ${nm}`,
     crumbs: [['Places', '/places'], [area[0], areaUrl(ai)], [nm, null]], body: html, ld });
 }
