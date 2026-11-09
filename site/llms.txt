@@ -9,6 +9,7 @@
 
 - [Home](https://teslaservice.co.uk/): finder for independent and official Tesla servicing across the UK
 - [Guides](https://teslaservice.co.uk/guides): warranty, servicing intervals, VED/road tax, MOT, ULEZ, brake fluid, 12V battery — fact-checked, dated
+- [Models](https://teslaservice.co.uk/models/): service and repair answers for the Tesla Model 3, Model Y, Model S and Model X (maintenance intervals, known faults, warranty), sourced from Tesla
 - [Resources](https://teslaservice.co.uk/resources): verified official and third-party Tesla resources (charging maps, recall checker, owner communities)
 - [Main Dealer Service](https://teslaservice.co.uk/tesla-service-centers): all 32 official Tesla Service Centres in the UK, grouped by region
 - [Authorised Tesla Service](https://teslaservice.co.uk/authorised-tesla-service): 81 Tesla-approved bodyshops for accident/bodywork repair
