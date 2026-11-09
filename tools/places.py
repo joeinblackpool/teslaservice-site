@@ -59,6 +59,10 @@ def write_sitemaps(A, out):
     idx = ''.join(f'  <sitemap><loc>{SITE}/sitemap-places-{n}.xml</loc><lastmod>{BUILT}</lastmod></sitemap>\n' for n in range(1, len(parts) + 1))
     open(os.path.join(S, 'sitemap-places.xml'), 'w', encoding='utf-8').write(
         '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + idx + '</sitemapindex>\n')
+    # One URL for Search Console / Bing / robots.txt: the main sitemap plus every places part.
+    allidx = f'  <sitemap><loc>{SITE}/sitemap.xml</loc><lastmod>{BUILT}</lastmod></sitemap>\n' + idx
+    open(os.path.join(S, 'sitemap-index.xml'), 'w', encoding='utf-8').write(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + allidx + '</sitemapindex>\n')
     return urls
 
 

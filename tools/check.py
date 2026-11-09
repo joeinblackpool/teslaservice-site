@@ -70,10 +70,20 @@ while todo:
 dup = {t: v for t, v in titles.items() if len(v) > 1}
 redir_targets_bad = [[k, v[0]] for k, v in RED.items() if v[0].startswith('/') and resolve(v[0])[0] == 404]
 internal_redirect_links = [r for r in redir_links if r[0] not in smset]
+# Google/Bing sitemap limits: 50,000 URLs and 50 MB (uncompressed) per file; every index entry must exist.
+sitemap_over_limit = []
+for f in sorted(os.listdir(S)):
+    if not re.match(r'sitemap[\w-]*\.xml$', f): continue
+    raw = open(os.path.join(S, f), 'rb').read(); txt = raw.decode('utf-8')
+    n = txt.count('<url>') + txt.count('<sitemap>')
+    if n > 50000 or len(raw) > 50 * 1024 * 1024: sitemap_over_limit.append([f, n, len(raw)])
+    if '<sitemapindex' in txt:
+        for loc in re.findall(r'<loc>https://teslaservice\.co\.uk/([^<]+)</loc>', txt):
+            if not os.path.exists(os.path.join(S, loc)): sitemap_over_limit.append([f, 'missing', loc])
 out = {'sitemap': len(smset), 'pages_checked': sum(1 for v in seen.values() if v == 200), 'broken_links': len(bad),
        'links_to_redirects': len(internal_redirect_links), 'dup_titles': len(dup), 'noindex_in_sitemap': len(noindex_in_sm),
-       'bad_jsonld': len(ld_bad), 'redirects': len(RED), 'redirect_targets_404': len(redir_targets_bad), 'static_after_dynamic': len(static_after_dynamic)}
+       'bad_jsonld': len(ld_bad), 'redirects': len(RED), 'redirect_targets_404': len(redir_targets_bad), 'static_after_dynamic': len(static_after_dynamic), 'sitemap_problems': len(sitemap_over_limit)}
 print(json.dumps(out))
-for name, v in [('broken', bad[:10]), ('links_to_redirects', internal_redirect_links[:10]), ('dup', list(dup.items())[:5]), ('redirect_targets_404', redir_targets_bad[:10]), ('static_after_dynamic', static_after_dynamic[:10])]:
+for name, v in [('broken', bad[:10]), ('links_to_redirects', internal_redirect_links[:10]), ('dup', list(dup.items())[:5]), ('redirect_targets_404', redir_targets_bad[:10]), ('static_after_dynamic', static_after_dynamic[:10]), ('sitemap_problems', sitemap_over_limit[:10])]:
     if v: print(name, v)
-sys.exit(1 if (bad or dup or ld_bad or noindex_in_sm or redir_targets_bad or static_after_dynamic) else 0)
+sys.exit(1 if (bad or dup or ld_bad or noindex_in_sm or redir_targets_bad or static_after_dynamic or sitemap_over_limit) else 0)
