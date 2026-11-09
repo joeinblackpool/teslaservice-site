@@ -1,16 +1,35 @@
-name: IndexNow (after each push that changes site/)
+name: After deploy (live check + IndexNow)
+# One job after each push to main: waits once for the Cloudflare deploy, then checks the live pages
+# and submits changed pages to IndexNow. Branch pushes are not deployed, so they are not checked here.
 on:
   push:
     branches: [main]
-    paths: ['site/**']
+    paths: ['site/**', 'worker/**', 'wrangler.jsonc', 'tools/live_urls.txt']
+  workflow_dispatch:
+concurrency:
+  group: after-deploy
+  cancel-in-progress: false   # each push must still submit its own changed pages
 jobs:
-  ping:
+  after-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 0 }
       - name: Wait for the Cloudflare deploy
         run: sleep 180
+      - name: Fetch changed pages (up to 6) and tools/live_urls.txt from the live site
+        run: |
+          { git diff --name-only HEAD~1 HEAD -- 'site/*.html' | head -6 | while read -r f; do
+              p="/${f#site/}"; p="${p%.html}"; [ "$p" = "/index" ] && p="/"
+              m=$(grep -o -m1 '<title>[^<]*</title>' "$f"); echo "$p $m"; done
+            cat tools/live_urls.txt 2>/dev/null; } > /tmp/urls
+          while read -r p want; do
+            [ -z "$p" ] && continue
+            r=$(curl -s -o /tmp/b -w '%{http_code} %{redirect_url}' "https://teslaservice.co.uk$p")
+            hit=""; if [ -n "$want" ]; then grep -qF -- "$want" /tmp/b && hit="found" || hit="MISSING:$want"; fi
+            echo "::notice title=live::$p -> $r $hit"
+          done < /tmp/urls
       - name: Submit changed pages to IndexNow
         env:
           KEY: a1c797c468201b408b268a3855091834

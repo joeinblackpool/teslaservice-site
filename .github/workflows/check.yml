@@ -1,8 +1,20 @@
-name: Check site (every push)
-on: [push, pull_request]
+name: Check site
+# Runs once per pull request (not twice for push + PR) and once on main after a merge.
+# A newer push to the same PR cancels the older run, and doc-only changes are skipped.
+on:
+  pull_request:
+    paths-ignore: ['**.md']
+  push:
+    branches: [main]
+    paths-ignore: ['**.md']
+  workflow_dispatch:
+concurrency:
+  group: check-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - run: python3 tools/check.py
