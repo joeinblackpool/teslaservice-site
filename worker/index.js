@@ -58,12 +58,17 @@ function nearbyPlaces(k, n) {
   return cand.sort((a, b) => a[0] - b[0]).slice(0, n);
 }
 const placeName = p => p[5] ? `${p[0]} (near ${p[5]})` : p[0];
+// Only built-up areas (ONS 'BUA': real towns and villages people search for) are offered to Google.
+// The ~50,000 'LOC' localities (hamlets, farms, street names) stay live for visitors and pass link value
+// (noindex, follow) but are kept out of the index and the sitemap: tens of thousands of near-identical
+// pages with no search demand are what Google's doorway and scaled-content policies demote site-wide.
+export const indexable = p => p[6] === 1;
 const placeUrl = p => `/places/${A[p[1]][1]}/${p[4]}`;
 const areaUrl = ai => `/places/${A[ai][1]}`;
 const dirLink = (lat, lon) => `https://www.google.com/maps/dir/?api=1&amp;destination=${lat},${lon}`;
 
 // ---------- page shell (same look as the static pages) ----------
-function shell({ path, title, desc, h1, crumbs, body, ld }) {
+function shell({ path, title, desc, h1, crumbs, body, ld, noindex }) {
   const url = SITE + path;
   const bc = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [['Tesla Service UK', '/'], ...crumbs].map(([n, u], i) => ({ '@type': 'ListItem', position: i + 1, name: n, ...(u ? { item: SITE + u } : {}) })) };
   const lds = [bc, ...(ld || [])].map(x => `<script type="application/ld+json">${JSON.stringify(x).replace(/</g, '\\u003c')}</script>`).join('\n');
@@ -76,7 +81,7 @@ function shell({ path, title, desc, h1, crumbs, body, ld }) {
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
-<link rel="canonical" href="${url}">
+<link rel="canonical" href="${url}">${noindex ? '\n<meta name="robots" content="noindex, follow">' : ''}
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="TeslaService.co.uk">
 <meta property="og:title" content="${esc(title)}">
@@ -179,7 +184,7 @@ ${nb.length ? `  <h2 id="nearby">Places near ${esc(name)}</h2>
     about: { '@type': 'Place', name, geo: { '@type': 'GeoCoordinates', latitude: lat, longitude: lon }, containedInPlace: { '@type': 'AdministrativeArea', name: area[0] } },
     mainEntity: { '@type': 'ItemList', name: `Nearest Tesla repair to ${name}`, numberOfItems: dealers.length + spec.length,
       itemListElement: dealers.concat(spec).map(([g], i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + g[2], name: g[0] })) } }];
-  return shell({ path: url, title, desc, h1: `Tesla repair and service near ${nm}`,
+  return shell({ path: url, title, desc, noindex: !indexable(p), h1: `Tesla repair and service near ${nm}`,
     crumbs: [['Places', '/places'], [area[0], areaUrl(ai)], [nm, null]], body: html, ld });
 }
 
