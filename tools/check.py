@@ -17,10 +17,9 @@ def places_ok(p):
     """/places pages come from the Worker (worker/index.js), not files: valid if the Worker serves them (tools/check_places.mjs checks the pages)."""
     global PLACES
     if PLACES is None:
-        PLACES = set()
-        for f in os.listdir(S):
-            if re.match(r'sitemap-places-\d+\.xml$', f):
-                PLACES |= {urllib.parse.urlparse(u).path for u in re.findall(r'<loc>([^<]+)</loc>', open(os.path.join(S, f), encoding='utf-8').read())}
+        js = open(os.path.join(S, '..', 'worker', 'places-data.js'), encoding='utf-8').read()
+        D = {m.group(1): json.loads(m.group(2)) for m in re.finditer(r'^export const (\w+) = (.*);$', js, re.M)}
+        PLACES = {'/places'} | {f"/places/{a[1]}" for a in D['A']} | {f"/places/{D['A'][p[1]][1]}/{p[4]}" for p in D['P']}
     return p in PLACES
 def resolve(path):
     """Return (status, location_or_file)."""

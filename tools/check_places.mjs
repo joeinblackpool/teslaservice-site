@@ -5,7 +5,7 @@
 import fs from 'node:fs'; import path from 'node:path'; import { fileURLToPath } from 'node:url';
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..'), S = path.join(ROOT, 'site');
 const w = await import(path.join(ROOT, 'worker', 'index.js'));
-const { A, P } = await import(path.join(ROOT, 'worker', 'places-data.js'));
+const { A, P, R } = await import(path.join(ROOT, 'worker', 'places-data.js'));
 const red = new Set(fs.readFileSync(path.join(S, '_redirects'), 'utf8').split('\n').map(l => l.split('#')[0].trim().split(/\s+/)[0]).filter(Boolean));
 const staticOk = p => { p = decodeURIComponent(p); const f = path.join(S, p);
   return p === '/' || red.has(p) || (fs.existsSync(f) && fs.statSync(f).isFile()) || fs.existsSync(f + '.html') || fs.existsSync(path.join(f, 'index.html')) || fs.existsSync(f.replace(/\/$/, '') + '.html'); };
@@ -28,6 +28,11 @@ for (const u of urls) {
   if (u.split('/').length === 4) words += h.replace(/<(script|style)[\s\S]*?<\/\1>/g, ' ').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
 }
 for (const l of links) if (!(l.startsWith('/places') ? served.has(l) : staticOk(l))) bad.push(['broken link', l]);
+// merged/moved place pages (tools/places_fix.py) must 301 to a live page, never to another redirect
+for (const [from, to] of Object.entries(R || {})) {
+  if (served.has(from)) bad.push(['redirect source is still a page', from]);
+  if (to.startsWith('/places') ? !served.has(to) : !staticOk(to)) bad.push(['redirect to missing page', from, to]);
+}
 // sitemaps
 const sm = new Set();
 for (const f of fs.readdirSync(S)) if (/^sitemap-places-\d+\.xml$/.test(f)) for (const m of fs.readFileSync(path.join(S, f), 'utf8').matchAll(/<loc>https:\/\/teslaservice\.co\.uk([^<]+)<\/loc>/g)) sm.add(m[1]);

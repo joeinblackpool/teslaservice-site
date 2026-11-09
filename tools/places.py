@@ -1,6 +1,7 @@
 """Build the data behind /places/ (nearest Tesla service for every town and village in Great Britain).
 
-  python3 tools/places.py /path/to/IPN_GB_2023.csv [/path/to/geonames/GB.txt]
+  python3 tools/places.py /path/to/IPN_GB_2023.csv [/path/to/geonames/GB.txt]   (GB.txt: Northern Ireland, see below)
+  python3 tools/places.py --sitemaps-only      (rewrite the sitemaps from worker/places-data.js)
 
 Inputs
   - ONS Index of Place Names in Great Britain (IPN, 2023 release; OGL v3, contains OS data). Only the
@@ -45,13 +46,63 @@ def key(s):
     return slugify(base_name(s))
 
 
+def write_sitemaps(A, out):
+    """Sitemap index + parts: hub, area pages and every place page."""
+    urls = [f'{SITE}/places'] + [f'{SITE}/places/{a[1]}' for a in A] + [f'{SITE}/places/{A[p[1]][1]}/{p[4]}' for p in out]
+    for f in os.listdir(S):
+        if re.match(r'sitemap-places(-\d+)?\.xml$', f): os.remove(os.path.join(S, f))
+    parts = [urls[i:i + PART] for i in range(0, len(urls), PART)]
+    for n, part in enumerate(parts, 1):
+        body = ''.join(f'  <url><loc>{u}</loc><lastmod>{BUILT}</lastmod></url>\n' for u in part)
+        open(os.path.join(S, f'sitemap-places-{n}.xml'), 'w', encoding='utf-8').write(
+            '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + '</urlset>\n')
+    idx = ''.join(f'  <sitemap><loc>{SITE}/sitemap-places-{n}.xml</loc><lastmod>{BUILT}</lastmod></sitemap>\n' for n in range(1, len(parts) + 1))
+    open(os.path.join(S, 'sitemap-places.xml'), 'w', encoding='utf-8').write(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + idx + '</sitemapindex>\n')
+    return urls
+
+
+def sitemaps_only():
+    """Rewrite the sitemaps from the committed worker/places-data.js (no ONS file needed)."""
+    d = {}
+    for line in open(os.path.join(ROOT, 'worker', 'places-data.js'), encoding='utf-8'):
+        m = re.match(r'export const (\w+) = (.*);$', line.rstrip('\n'))
+        if m: d[m.group(1)] = json.loads(m.group(2))
+    urls = write_sitemaps(d['A'], d['P'])
+    print(json.dumps({'sitemap_urls': len(urls)}))
+
+
 def main(ipn, ni=None):
+    # a built-up area that crosses councils has one BUA row per council (splitind 1): keep only its main piece.
+    # Main = the council with most wards/parishes named after the town, then the one holding the same-name
+    # locality (the town-centre point), then the council the town is named after.
+    split, loc, admin = {}, {}, []
+    with open(ipn, encoding='cp1252', newline='') as f:
+        for x in csv.DictReader(f):
+            if not x['lat']: continue
+            if x['descnm'] == 'BUA' and x['splitind'] == '1': split.setdefault(x['bua22cd'], []).append(x)
+            elif x['descnm'] == 'LOC': loc.setdefault(key(clean(x['place22nm'])), []).append(x)
+            elif x['descnm'] in ('WD', 'PAR'): admin.append((key(x['place22nm']), float(x['lat']), float(x['long']), x['lad22nm']))
+    akey = {}
+    for k, la, lo, lad in admin: akey.setdefault(k.split('-')[0], []).append((k, la, lo, lad))
+    main = {}
+    for code, xs in split.items():
+        la, lo = sum(float(x['lat']) for x in xs) / len(xs), sum(float(x['long']) for x in xs) / len(xs)
+        k = key(clean(xs[0]['place22nm'])); lads = [x['lad22nm'] for x in xs]; nm = clean(xs[0]['place22nm']).lower()
+        wards = {}
+        for ak, a_la, a_lo, lad in akey.get(k.split('-')[0], []):
+            if (ak == k or ak.startswith(k + '-')) and lad in lads and miles(la, lo, a_la, a_lo) <= 6: wards[lad] = wards.get(lad, 0) + 1
+        lc = sorted((miles(la, lo, float(l['lat']), float(l['long'])), l['lad22nm']) for l in loc.get(k, []))
+        lc = [lad for d, lad in lc if d <= 6 and lad in lads]
+        main[code] = max(lads, key=lambda l: (wards.get(l, 0), bool(lc) and lc[0] == l, nm in l.lower(), -lads.index(l)))
+
     rows = []
     with open(ipn, encoding='cp1252', newline='') as f:
         for x in csv.DictReader(f):
             if x['descnm'] not in ('LOC', 'BUA'): continue
             nm = clean(x['place22nm'])
             if not nm or not x['lat']: continue
+            if x['descnm'] == 'BUA' and x['splitind'] == '1' and x['lad22nm'] != main.get(x['bua22cd'], x['lad22nm']): continue
             area = x['lad22nm'] if x['cty22nm'] in ('', 'Inner London', 'Outer London') else x['cty22nm']   # London: the borough
             rows.append((nm, x['descnm'] == 'BUA', float(x['lat']), float(x['long']), area, x['lad22nm'], x['ctry22nm']))
     # Northern Ireland (not in the GB list): GeoNames GB.txt (CC BY 4.0), populated places (feature class P) with
@@ -135,29 +186,22 @@ def main(ipn, ni=None):
     G = [[g['n'], g['c'], g['url'], round(g['lat'], 5), round(g['lon'], 5), g.get('town') or '', 1 if g.get('hevra') else 0, re.sub(r'\s*\(earlier listings?:[^)]*\)', '', g.get('addr') or ''), g.get('pc') or '']
          for g in garages() if g.get('lat') and g.get('url')]
     A = [[a[0], aslug[i], a[1], county_pages.get(aslug[i], '') or ('/locations/northern-ireland' if a[1] == 'Northern Ireland' else '')] for i, a in enumerate(areas)]
-    LT = [[n, u, la, lo] for n, la, lo, u in towns]
+    def in_ni(u):   # town page whose breadcrumb sits under Northern Ireland
+        f = os.path.join(S, u.lstrip('/') + '.html')
+        return 1 if os.path.exists(f) and re.search(r'class="breadcrumb"[^\n]*href="/locations/northern-ireland"', open(f, encoding='utf-8').read()) else 0
+    LT = [[n, u, la, lo, in_ni(u)] for n, la, lo, u in towns]   # [4] = 1 in Northern Ireland
 
     data = {'BUILT': BUILT, 'A': A, 'P': out, 'L': links, 'G': G, 'LT': LT}
+    import places_fix; places_fix.apply(data, places_fix.load() if os.path.exists(places_fix.DATA) else None); out = data['P']   # tidy names, merge split towns, redirects in R
     os.makedirs(os.path.join(ROOT, 'worker'), exist_ok=True)
     js = '// Generated by tools/places.py - do not edit by hand.\n' + ''.join(
         f'export const {k} = {json.dumps(v, ensure_ascii=False, separators=(",", ":"))};\n' for k, v in data.items())
     open(os.path.join(ROOT, 'worker', 'places-data.js'), 'w', encoding='utf-8').write(js)
 
-    # sitemaps: hub + area pages + place pages
-    urls = [f'{SITE}/places'] + [f'{SITE}/places/{a[1]}' for a in A] + [f'{SITE}/places/{A[p[1]][1]}/{p[4]}' for p in out]
-    for f in os.listdir(S):
-        if re.match(r'sitemap-places(-\d+)?\.xml$', f): os.remove(os.path.join(S, f))
-    parts = [urls[i:i + PART] for i in range(0, len(urls), PART)]
-    for n, part in enumerate(parts, 1):
-        body = ''.join(f'  <url><loc>{u}</loc><lastmod>{BUILT}</lastmod></url>\n' for u in part)
-        open(os.path.join(S, f'sitemap-places-{n}.xml'), 'w', encoding='utf-8').write(
-            '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + '</urlset>\n')
-    idx = ''.join(f'  <sitemap><loc>{SITE}/sitemap-places-{n}.xml</loc><lastmod>{BUILT}</lastmod></sitemap>\n' for n in range(1, len(parts) + 1))
-    open(os.path.join(S, 'sitemap-places.xml'), 'w', encoding='utf-8').write(
-        '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + idx + '</sitemapindex>\n')
+    urls = write_sitemaps(A, out)
     print(json.dumps({'places': len(out), 'linked_to_locations': len(links), 'areas': len(A), 'garages': len(G), 'sitemap_urls': len(urls),
                       'data_kb': len(js.encode()) // 1024}))
 
 
 if __name__ == '__main__':
-    main(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else None)
+    sitemaps_only() if sys.argv[1] == '--sitemaps-only' else main(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else None)

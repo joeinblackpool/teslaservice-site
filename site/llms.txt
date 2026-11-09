@@ -9,6 +9,7 @@
 
 - [Home](https://teslaservice.co.uk/): finder for independent and official Tesla servicing across the UK
 - [Guides](https://teslaservice.co.uk/guides): warranty, servicing intervals, VED/road tax, MOT, ULEZ, brake fluid, 12V battery — fact-checked, dated
+- [Models](https://teslaservice.co.uk/models/): service and repair answers for the Tesla Model 3, Model Y, Model S and Model X (maintenance intervals, known faults, warranty), sourced from Tesla
 - [Resources](https://teslaservice.co.uk/resources): verified official and third-party Tesla resources (charging maps, recall checker, owner communities)
 - [Main Dealer Service](https://teslaservice.co.uk/tesla-service-centers): all 32 official Tesla Service Centres in the UK, grouped by region
 - [Authorised Tesla Service](https://teslaservice.co.uk/authorised-tesla-service): 81 Tesla-approved bodyshops for accident/bodywork repair
@@ -67,9 +68,11 @@
 - https://teslaservice.co.uk/tesla-brake-caliper-seized — Regenerative braking means Tesla brakes are barely used, so discs rust and calipers stick. Tesla's own service interval, the symptoms, and who can fix it.
 - https://teslaservice.co.uk/tesla-tyre-wear — Tyres are the number one reason Teslas fail their MOT. How to spot hidden inner-edge wear, Tesla's rotation interval, alignment, and where to go.
 - https://teslaservice.co.uk/tesla-low-voltage-battery — Newer Teslas use a lithium low-voltage battery, older ones a 12V lead-acid. What the warning means, what happens if it fails, and who can replace it.
+- https://teslaservice.co.uk/tesla-fix-it-yourself — Which Tesla faults UK owners can safely fix at home (cabin filters, window and camera calibration, resets, frozen handles, stuck charge cable, 12V checks), from Tesla's own DIY guides, and which jobs need a professional.
 - https://teslaservice.co.uk/tesla-touchscreen-black — How to restart a frozen Tesla touchscreen safely, what to try next, the Model S and X eMMC recall, and who can repair a screen that keeps failing.
 - https://teslaservice.co.uk/tesla-garage-contact-details — phone, email and website for every listed business, searchable.
 - https://teslaservice.co.uk/tesla-service-schedule — Tesla has no fixed annual service. The official maintenance list for Model 3 and Model Y: brake fluid, cabin filter, tyre rotation, calipers, plus the UK MOT.
+- https://teslaservice.co.uk/tesla-service-cost — How much a Tesla service costs in the UK: no fixed annual service, a £338 average over 3 years (Cap HPI), and why tyres are the big bill.
 - https://teslaservice.co.uk/tesla-door-wont-open — Stuck inside or a door won't open? How to use the manual door release on a Tesla Model 3 and Model Y, the safety warnings, and who can fix the fault.
 - https://teslaservice.co.uk/tesla-wont-charge — What the Tesla charge port light colours mean, how to release a stuck charge cable using the manual release, and what to do if your Tesla still won't charge.
 - https://teslaservice.co.uk/tesla-cabin-filter — When to replace the cabin air filter and HEPA filter on a Tesla Model 3 and Model Y, why the air con can smell musty, and who can do the job for you.

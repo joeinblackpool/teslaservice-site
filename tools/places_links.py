@@ -5,7 +5,7 @@ Idempotent: each block sits between <!--places-links:start--> and <!--places-lin
 
 - /locations/ index: one line linking the /places hub.
 - /locations/county/<x>: one link to the matching /places/<area> page.
-- /locations/<town>: 'Tesla repair near villages around <town>': the 10 nearest place pages + the area page.
+- /locations/<town>: 'Tesla repair near villages around <town>': the 10 nearest indexable (built-up area) place pages + the area page.
 Nothing outside the markers changes; titles, H1s and existing text stay as they are."""
 import os, re, sys, json, html
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -73,7 +73,7 @@ def main():
         if '/county/' in u: continue
         f = os.path.join(S, u.lstrip('/') + '.html')
         if not os.path.exists(f): continue
-        near = sorted((miles(la, lo, p[2], p[3]), k) for k, p in enumerate(P) if abs(p[2] - la) < 0.25 and abs(p[3] - lo) < 0.4)
+        near = sorted((miles(la, lo, p[2], p[3]), k) for k, p in enumerate(P) if p[6] and abs(p[2] - la) < 0.25 and abs(p[3] - lo) < 0.4)   # indexable (built-up area) pages only
         near = [(d, k) for d, k in near if d > 0.3][:10]
         if not near: continue
         areas = []
