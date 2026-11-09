@@ -1,12 +1,14 @@
 """Build the data behind /places/ (nearest Tesla service for every town and village in Great Britain).
 
-  python3 tools/places.py /path/to/IPN_GB_2023.csv
+  python3 tools/places.py /path/to/IPN_GB_2023.csv [/path/to/geonames/GB.txt]   (GB.txt: Northern Ireland, see below)
   python3 tools/places.py --sitemaps-only      (rewrite the sitemaps from worker/places-data.js)
 
 Inputs
   - ONS Index of Place Names in Great Britain (IPN, 2023 release; OGL v3, contains OS data). Only the
     'LOC' (locality) and 'BUA' (built-up area) rows are used: wards, parishes and council rows are
     admin units that repeat the same places. Same-name rows within 3 km are one place.
+  - optional: GeoNames GB.txt (download.geonames.org/export/dump/GB.zip, CC BY 4.0) for Northern Ireland's
+    towns, villages and localities. Without it Northern Ireland gets no place pages.
   - tools/places_extra.json: GB airports (sourced coordinates), which the ONS list does not have as places.
   - this site's garages (assets/garages-data.js) and /locations/ town and county pages (assets/finder.js).
 
@@ -24,6 +26,10 @@ from sitelib import ROOT, S, garages, ts_places, miles, slugify
 BUILT = os.environ.get('BUILT', '2026-11-09')
 SITE = 'https://teslaservice.co.uk'
 PART = 10000
+NI_COUNCILS = {'N09000001': 'Antrim and Newtownabbey', 'N09000002': 'Armagh City, Banbridge and Craigavon', 'N09000003': 'Belfast',
+               'N09000004': 'Causeway Coast and Glens', 'N09000005': 'Derry City and Strabane', 'N09000006': 'Fermanagh and Omagh',
+               'N09000007': 'Lisburn and Castlereagh', 'N09000008': 'Mid and East Antrim', 'N09000009': 'Mid Ulster',
+               'N09000010': 'Newry, Mourne and Down', 'N09000011': 'Ards and North Down'}
 
 
 def clean(s):
@@ -66,7 +72,7 @@ def sitemaps_only():
     print(json.dumps({'sitemap_urls': len(urls)}))
 
 
-def main(ipn):
+def main(ipn, ni=None):
     # a built-up area that crosses councils has one BUA row per council (splitind 1): keep only its main piece.
     # Main = the council with most wards/parishes named after the town, then the one holding the same-name
     # locality (the town-centre point), then the council the town is named after.
@@ -99,6 +105,14 @@ def main(ipn):
             if x['descnm'] == 'BUA' and x['splitind'] == '1' and x['lad22nm'] != main.get(x['bua22cd'], x['lad22nm']): continue
             area = x['lad22nm'] if x['cty22nm'] in ('', 'Inner London', 'Outer London') else x['cty22nm']   # London: the borough
             rows.append((nm, x['descnm'] == 'BUA', float(x['lat']), float(x['long']), area, x['lad22nm'], x['ctry22nm']))
+    # Northern Ireland (not in the GB list): GeoNames GB.txt (CC BY 4.0), populated places (feature class P) with
+    # admin1 NIR, grouped by the 11 councils (GeoNames admin2 = council GSS code; names from admin2Codes.txt).
+    # The official OSNI gazetteer (336 places) refuses downloads from our build machine, so GeoNames is used.
+    if ni:
+        for x in csv.reader(open(ni, encoding='utf-8'), delimiter='\t', quoting=csv.QUOTE_NONE):
+            if x[10] != 'NIR' or x[6] != 'P' or x[11] not in NI_COUNCILS: continue
+            nm = clean(x[1])
+            if nm: rows.append((nm, x[7] != 'PPLX', round(float(x[4]), 5), round(float(x[5]), 5), NI_COUNCILS[x[11]], NI_COUNCILS[x[11]], 'Northern Ireland'))
     # airports (tools/places_extra.json): not places in the ONS list; area = that of the nearest listed place
     for e in json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'places_extra.json'), encoding='utf-8'))['places']:
         n = min(rows, key=lambda r: (r[2] - e['lat']) ** 2 + ((r[3] - e['lon']) * 0.6) ** 2)
@@ -171,8 +185,11 @@ def main(ipn):
 
     G = [[g['n'], g['c'], g['url'], round(g['lat'], 5), round(g['lon'], 5), g.get('town') or '', 1 if g.get('hevra') else 0, re.sub(r'\s*\(earlier listings?:[^)]*\)', '', g.get('addr') or ''), g.get('pc') or '']
          for g in garages() if g.get('lat') and g.get('url')]
-    A = [[a[0], aslug[i], a[1], county_pages.get(aslug[i], '')] for i, a in enumerate(areas)]
-    LT = [[n, u, la, lo] for n, la, lo, u in towns]
+    A = [[a[0], aslug[i], a[1], county_pages.get(aslug[i], '') or ('/locations/northern-ireland' if a[1] == 'Northern Ireland' else '')] for i, a in enumerate(areas)]
+    def in_ni(u):   # town page whose breadcrumb sits under Northern Ireland
+        f = os.path.join(S, u.lstrip('/') + '.html')
+        return 1 if os.path.exists(f) and re.search(r'class="breadcrumb"[^\n]*href="/locations/northern-ireland"', open(f, encoding='utf-8').read()) else 0
+    LT = [[n, u, la, lo, in_ni(u)] for n, la, lo, u in towns]   # [4] = 1 in Northern Ireland
 
     data = {'BUILT': BUILT, 'A': A, 'P': out, 'L': links, 'G': G, 'LT': LT}
     import places_fix; places_fix.apply(data, places_fix.load() if os.path.exists(places_fix.DATA) else None); out = data['P']   # tidy names, merge split towns, redirects in R
@@ -187,4 +204,4 @@ def main(ipn):
 
 
 if __name__ == '__main__':
-    sitemaps_only() if sys.argv[1] == '--sitemaps-only' else main(sys.argv[1])
+    sitemaps_only() if sys.argv[1] == '--sitemaps-only' else main(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else None)

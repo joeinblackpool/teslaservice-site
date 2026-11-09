@@ -9,7 +9,8 @@ Fixes found in the 9 Nov 2026 glitch scan:
   - one built-up area split into pieces, one per council it touches ('Brent' had pages in Barnet, Ealing, Harrow and
     Kensington; 'Hillingdon' in Buckinghamshire and Surrey): one page is kept, the others 301 to it (R below).
   - council names cut off or in list order: 'Bournemouth, Christchurch an', 'Bristol, City of'.
-  - garages outside Great Britain (Belfast, Jersey, Isle of Man) are no longer the 'nearest' to a GB place across the sea.
+  - garages in Jersey, Guernsey and the Isle of Man are dropped; Northern Ireland (BT) garages are kept and the Worker
+    never offers a garage across the sea (GB places see GB garages, NI places NI garages).
   - Tesla Body Repair Centre Dartford is a bodyshop, not a Service Centre."""
 import os, re, sys, json, math
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -28,7 +29,7 @@ COUNTY_PAGES = {'herefordshire-county-of': 'herefordshire', 'isle-of-anglesey': 
 LEAD = {'st', 'st.', 'saint', 'the', 'upper', 'lower', 'higher', 'high', 'little', 'great', 'north', 'south', 'east',
         'west', 'old', 'new', 'nether', 'over', 'middle', 'isles', 'hill', 'city'}
 TAIL_STOP = {'farm', 'street', 'road', 'lane', 'cottages', 'house'}
-NON_GB = ('BT', 'JE', 'GY', 'IM')
+NON_GB = ('JE', 'GY', 'IM')   # Northern Ireland (BT) garages stay: the Worker shows them only to NI places, and GB garages only to GB places
 
 
 def tidy(n):
