@@ -29,5 +29,7 @@ jobs:
           echo "BASE=$BASE" >> "$GITHUB_ENV"
           for i in $(seq 1 40); do curl -s "$BASE/?w=$i" | grep -qF "$want" && { echo "$BASE serves $want"; exit 0; }; sleep 15; done
           echo "::error::$BASE never served $want"; exit 1
+      - name: Cache headers of the finder page, script and place search
+        run: for p in / /assets/finder.js /places/find?q=brixton; do echo "== $p"; curl -sI "$BASE$p" | grep -iE '^(http|cache-control|cf-cache-status|age)'; done
       - run: npm i --no-save playwright@1.48.2 && npx playwright install --with-deps chromium
       - run: node tools/live_search.mjs "$BASE"
