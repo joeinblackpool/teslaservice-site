@@ -41,9 +41,8 @@ def key(s):
 
 
 def write_sitemaps(A, out):
-    """Sitemap index + parts: hub, area pages and built-up-area place pages only. Locality ('LOC') pages are
-    served with noindex, follow (worker/index.js indexable()), so they are left out here."""
-    urls = [f'{SITE}/places'] + [f'{SITE}/places/{a[1]}' for a in A] + [f'{SITE}/places/{A[p[1]][1]}/{p[4]}' for p in out if p[6]]
+    """Sitemap index + parts: hub, area pages and every place page."""
+    urls = [f'{SITE}/places'] + [f'{SITE}/places/{a[1]}' for a in A] + [f'{SITE}/places/{A[p[1]][1]}/{p[4]}' for p in out]
     for f in os.listdir(S):
         if re.match(r'sitemap-places(-\d+)?\.xml$', f): os.remove(os.path.join(S, f))
     parts = [urls[i:i + PART] for i in range(0, len(urls), PART)]
