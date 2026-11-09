@@ -7,7 +7,7 @@
 import { BUILT, A, P, L, G, LT, R } from './places-data.js';
 import { CSS } from './css.js';
 import { POP } from './place-pop.js';
-import { SX, LTA } from './place-search.js';
+import { SX as SX0, LTA as LTA0, CHECK } from './place-search.js';
 import { qnorm } from './qnorm.js';
 
 const SITE = 'https://teslaservice.co.uk';
@@ -80,14 +80,22 @@ function cand(k) {
       pop: POP[`${A[p[1]][1]}/${p[4]}`] || (inLondon(p[2], p[3]) ? 5000 : p[6] ? 2000 : 300) };
   }
   const t = LT[-k - 1];
-  return { n: qnorm(t[0]), name: t[0], ai: LTA[-k - 1], lat: t[2], lon: t[3], url: t[1], b: 1, pop: POP[t[1]] || 20000 };
+  return { n: qnorm(t[0]), name: t[0], ai: INDEX().LTA[-k - 1], lat: t[2], lon: t[3], url: t[1], b: 1, pop: POP[t[1]] || 20000 };
 }
-const SXKEYS = lazy(() => Object.keys(SX));
+// the prebuilt index (tools/place_search.mjs), or, if places-data.js was rebuilt without it, one built here (slower)
+const INDEX = lazy(() => {
+  if (CHECK[0] === P.length && CHECK[1] === LT.length && CHECK.slice(2).every(([k, n]) => P[k] && P[k][0] === n)) return { SX: SX0, LTA: LTA0 };
+  const SX = {}, add = (name, k) => { const w = qnorm(name.split(/\s*[(/]/)[0]).split(' ')[0]; if (w) (SX[w] ||= []).push(k); };
+  P.forEach((p, i) => add(p[0], i)); LT.forEach((t, i) => add(t[0], -i - 1));
+  return { SX, LTA: LT.map(t => near(P, t[2], t[3], p => p[2], p => p[3], 1)[0][0][1]) };
+});
+const SXKEYS = lazy(() => Object.keys(INDEX().SX));
 export function findPlaces(q, max = 8) {
   const n = qnorm(q);
   if (n.length < 2) return [];
   // only places whose first word is the query's first word (or, for a part-typed word of 4+ letters, starts with it)
   const w0 = n.split(' ')[0];
+  const { SX } = INDEX();
   let ks = SX[w0] || [];
   if (n.length >= 4) for (const key of SXKEYS()) if (key !== w0 && key.startsWith(w0) && ks.length < 3000) ks = ks.concat(SX[key]);
   const hits = [];
