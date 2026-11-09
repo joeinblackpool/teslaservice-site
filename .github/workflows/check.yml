@@ -6,3 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 tools/check.py
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node --max-old-space-size=4096 tools/check_places.mjs

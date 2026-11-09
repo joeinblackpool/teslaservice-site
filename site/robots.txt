@@ -20,3 +20,4 @@ User-agent: Bingbot
 Allow: /
 
 Sitemap: https://teslaservice.co.uk/sitemap.xml
+Sitemap: https://teslaservice.co.uk/sitemap-places.xml
