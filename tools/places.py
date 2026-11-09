@@ -5,8 +5,8 @@
 
 Inputs
   - ONS Index of Place Names in Great Britain (IPN, 2023 release; OGL v3, contains OS data). Only the
-    'LOC' (locality) and 'BUA' (built-up area) rows are used: wards, parishes and council rows are
-    admin units that repeat the same places. Same-name rows within 3 km are one place.
+    'LOC' (locality) and 'BUA' (built-up area) rows are the places; parish, Welsh community and ward
+    names add the named places those miss (see admin_rows). Same-name rows within 3 km are one place.
   - optional: GeoNames GB.txt (download.geonames.org/export/dump/GB.zip, CC BY 4.0) for Northern Ireland's
     towns, villages and localities. Without it Northern Ireland gets no place pages.
   - tools/places_extra.json: GB airports (sourced coordinates), which the ONS list does not have as places.
@@ -72,6 +72,36 @@ def sitemaps_only():
     print(json.dumps({'sitemap_urls': len(urls)}))
 
 
+GENERIC = set("""abbey castle cathedral central priory harbour riverside village valley park parks hill hills moor moors forest marsh
+market quay docks dock bridge university station heath green common town city centre center north south east west
+great little upper lower nether over bay sands island islands
+northern southern eastern western rural urban coast coastal lakes vale downs fields meadows marina""".split())
+SUFFIX = {'north', 'south', 'east', 'west', 'central', 'rural', 'urban', 'town', 'without', 'within', 'ward', 'ed',
+          'northeast', 'northwest', 'southeast', 'southwest', 'north-east', 'north-west', 'south-east', 'south-west', 'centre', 'village', 'and',
+          'upper', 'lower', 'great', 'little'}
+
+
+def admin_rows(ipn):
+    """Parish (PAR) and Welsh community (COM) names, and London ward (WD) names (London wards are its neighbourhoods;
+    elsewhere they are mostly council labels), split at '&' / 'and' / 'with' / ',' / ':'."""
+    out = []
+    with open(ipn, encoding='cp1252', newline='') as f:
+        for x in csv.DictReader(f):
+            t = x['descnm']
+            if t not in ('PAR', 'COM', 'WD') or not x['lat'] or t == 'WD' and x['rgn22nm'] != 'London': continue
+            nm = re.sub(r'\s*\([^)]*\)\s*$', '', x['place22nm']).strip()
+            if re.search(r'\d|unparished|\bED$|\bWard\b|\bDistrict\b|\bScotland\b|shire$|\bSide$|\bFields$', nm, re.I): continue
+            area = x['lad22nm'] if x['cty22nm'] in ('', 'Inner London', 'Outer London') else x['cty22nm']
+            for part in re.split(r'\s*(?:&|,|\band\b|\bwith\b|\bgyda\b|\ba\b|/|:)\s*', nm):
+                part = clean(part.strip(' -'))
+                w = part.lower().split()
+                if len(part) < 3 or not w or w[-1] in SUFFIX: continue
+                if len(w) == 1 and w[0] in GENERIC or all(v in GENERIC for v in w) or t == 'WD' and w[0] in ('st', 'st.', 'saint', 'all', 'holy'): continue
+                out.append((part, False, float(x['lat']), float(x['long']), area, x['lad22nm'], x['ctry22nm']))
+    out.sort(key=lambda r: (key(r[0]), r[2], r[3]))
+    return out
+
+
 def main(ipn, ni=None):
     # a built-up area that crosses councils has one BUA row per council (splitind 1): keep only its main piece.
     # Main = the council with most wards/parishes named after the town, then the one holding the same-name
@@ -123,6 +153,22 @@ def main(ipn, ni=None):
     for r in rows:
         k = key(r[0])
         if any(miles(r[2], r[3], p[2], p[3]) < 1.9 for p in bykey.get(k, [])): continue
+        bykey.setdefault(k, []).append(r); places.append(r)
+    # named places that are only in the list as a parish, Welsh community or neighbourhood ward (e.g. Abinger,
+    # Beddgelert, Abbeymead): a page each when no same-name place is within 4 miles. Joined names
+    # ('Abbas and Templecombe') are split into their places. Electoral divisions and admin-only ward names
+    # ('Aberaman North', 'St Mary's', 'Abbey') are skipped: they are not places people search for.
+    # Existing pages never change: a name already listed in the same council area, or within 8 miles, is skipped
+    # (otherwise the old page would gain a 'near X' URL). Ward names led by their town ('Falmouth Penwerris')
+    # lose the town word first.
+    in_area = {(key(p[0]), p[4]) for p in places}
+    for r in admin_rows(ipn):
+        w = r[0].split()
+        for i in range(len(w) - 1, 0, -1):
+            if any(miles(r[2], r[3], p[2], p[3]) < 8 for p in bykey.get(key(' '.join(w[:i])), [])):
+                r = (' '.join(w[i:]),) + r[1:]; break
+        k = key(r[0])
+        if len(r[0]) < 3 or r[0].lower() in GENERIC or (k, r[4]) in in_area or any(miles(r[2], r[3], p[2], p[3]) < 8 for p in bykey.get(k, [])): continue
         bykey.setdefault(k, []).append(r); places.append(r)
 
     # existing /locations/ pages
