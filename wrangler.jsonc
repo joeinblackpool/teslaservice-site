@@ -1,11 +1,16 @@
 {
-  // teslaservice.co.uk: static site served by Workers static assets (no script).
+  // teslaservice.co.uk: static site served by Workers static assets. Only /places and /places/* run the
+  // Worker script (worker/index.js: one page per town and village, generated from worker/places-data.js);
+  // every other URL is a static file as before and never invokes the script.
   // Deployed by Cloudflare Workers Builds on every push to main (deploy command: npx wrangler deploy).
   "name": "rough-snow-bc1f",
+  "main": "worker/index.js",
   "compatibility_date": "2026-10-10",
   "workers_dev": true,
   "assets": {
     "directory": "./site",
+    "binding": "ASSETS",
+    "run_worker_first": ["/places", "/places/*"],
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
   },

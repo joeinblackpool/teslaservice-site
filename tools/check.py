@@ -12,9 +12,20 @@ for line in open(os.path.join(S, '_redirects'), encoding='utf-8'):
         dyn = '*' in p[0] or ':' in p[0]
         if dyn: seen_dynamic = True
         elif seen_dynamic: static_after_dynamic.append(p[0])   # Cloudflare rejects the deploy: static rules must come first
+PLACES = None
+def places_ok(p):
+    """/places pages come from the Worker (worker/index.js), not files: valid if the Worker serves them (tools/check_places.mjs checks the pages)."""
+    global PLACES
+    if PLACES is None:
+        PLACES = set()
+        for f in os.listdir(S):
+            if re.match(r'sitemap-places-\d+\.xml$', f):
+                PLACES |= {urllib.parse.urlparse(u).path for u in re.findall(r'<loc>([^<]+)</loc>', open(os.path.join(S, f), encoding='utf-8').read())}
+    return p in PLACES
 def resolve(path):
     """Return (status, location_or_file)."""
     if path in RED: return RED[path]
+    if path == '/places' or path.startswith('/places/'): return (200, 'worker') if places_ok(path) else (404, None)
     p = urllib.parse.unquote(path)
     f = os.path.join(S, p.lstrip('/'))
     if p.endswith('/'):

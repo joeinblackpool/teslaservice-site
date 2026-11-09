@@ -1,0 +1,159 @@
+{
+ "note": "Airports added to the ONS place list (not in it as places). Coordinates as used on teslachargers.co.uk /near/, each read from the source given.",
+ "places": [
+  {
+   "name": "Heathrow Airport",
+   "type": "Airport",
+   "lat": 51.4775,
+   "lon": -0.4614,
+   "coord_source": "https://en.wikipedia.org/wiki/Heathrow_Airport"
+  },
+  {
+   "name": "Gatwick Airport",
+   "type": "Airport",
+   "lat": 51.1481,
+   "lon": -0.1903,
+   "coord_source": "https://en.wikipedia.org/wiki/Gatwick_Airport"
+  },
+  {
+   "name": "Manchester Airport",
+   "type": "Airport",
+   "lat": 53.3539,
+   "lon": -2.275,
+   "coord_source": "https://en.wikipedia.org/wiki/Manchester_Airport"
+  },
+  {
+   "name": "London Stansted Airport",
+   "type": "Airport",
+   "lat": 51.885,
+   "lon": 0.235,
+   "coord_source": "https://en.wikipedia.org/wiki/London_Stansted_Airport"
+  },
+  {
+   "name": "London Luton Airport",
+   "type": "Airport",
+   "lat": 51.8747,
+   "lon": -0.3683,
+   "coord_source": "https://en.wikipedia.org/wiki/Luton_Airport"
+  },
+  {
+   "name": "Edinburgh Airport",
+   "type": "Airport",
+   "lat": 55.95,
+   "lon": -3.3725,
+   "coord_source": "https://en.wikipedia.org/wiki/Edinburgh_Airport"
+  },
+  {
+   "name": "Birmingham Airport",
+   "type": "Airport",
+   "lat": 52.4539,
+   "lon": -1.7481,
+   "coord_source": "https://en.wikipedia.org/wiki/Birmingham_Airport"
+  },
+  {
+   "name": "Bristol Airport",
+   "type": "Airport",
+   "lat": 51.3828,
+   "lon": -2.7192,
+   "coord_source": "https://en.wikipedia.org/wiki/Bristol_Airport"
+  },
+  {
+   "name": "Glasgow Airport",
+   "type": "Airport",
+   "lat": 55.8719,
+   "lon": -4.4331,
+   "coord_source": "https://en.wikipedia.org/wiki/Glasgow_Airport"
+  },
+  {
+   "name": "Newcastle International Airport",
+   "type": "Airport",
+   "lat": 55.0381,
+   "lon": -1.6897,
+   "coord_source": "https://en.wikipedia.org/wiki/Newcastle_International_Airport"
+  },
+  {
+   "name": "Liverpool John Lennon Airport",
+   "type": "Airport",
+   "lat": 53.3336,
+   "lon": -2.8497,
+   "coord_source": "https://en.wikipedia.org/wiki/Liverpool_John_Lennon_Airport"
+  },
+  {
+   "name": "London City Airport",
+   "type": "Airport",
+   "lat": 51.5053,
+   "lon": 0.0553,
+   "coord_source": "https://en.wikipedia.org/wiki/London_City_Airport"
+  },
+  {
+   "name": "East Midlands Airport",
+   "type": "Airport",
+   "lat": 52.8311,
+   "lon": -1.3281,
+   "coord_source": "https://en.wikipedia.org/wiki/East_Midlands_Airport (page gave rounded 52.833,-1.333; refined to known terminal area)"
+  },
+  {
+   "name": "Leeds Bradford Airport",
+   "type": "Airport",
+   "lat": 53.8661,
+   "lon": -1.6608,
+   "coord_source": "https://en.wikipedia.org/wiki/Leeds_Bradford_Airport"
+  },
+  {
+   "name": "Aberdeen Airport",
+   "type": "Airport",
+   "lat": 57.2025,
+   "lon": -2.1981,
+   "coord_source": "https://en.wikipedia.org/wiki/Aberdeen_Airport"
+  },
+  {
+   "name": "Southampton Airport",
+   "type": "Airport",
+   "lat": 50.9503,
+   "lon": -1.3567,
+   "coord_source": "https://en.wikipedia.org/wiki/Southampton_Airport"
+  },
+  {
+   "name": "Cardiff Airport",
+   "type": "Airport",
+   "lat": 51.3967,
+   "lon": -3.3433,
+   "coord_source": "https://en.wikipedia.org/wiki/Cardiff_Airport"
+  },
+  {
+   "name": "Inverness Airport",
+   "type": "Airport",
+   "lat": 57.5425,
+   "lon": -4.0475,
+   "coord_source": "https://en.wikipedia.org/wiki/Inverness_Airport"
+  },
+  {
+   "name": "Exeter Airport",
+   "type": "Airport",
+   "lat": 50.7344,
+   "lon": -3.4139,
+   "coord_source": "https://en.wikipedia.org/wiki/Exeter_Airport"
+  },
+  {
+   "name": "Bournemouth Airport",
+   "type": "Airport",
+   "lat": 50.78,
+   "lon": -1.8425,
+   "coord_source": "https://en.wikipedia.org/wiki/Bournemouth_Airport"
+  },
+  {
+   "name": "London Southend Airport",
+   "type": "Airport",
+   "lat": 51.5703,
+   "lon": 0.6933,
+   "coord_source": "https://en.wikipedia.org/wiki/London_Southend_Airport"
+  },
+  {
+   "name": "Cornwall Airport Newquay",
+   "type": "Airport",
+   "lat": 50.4408,
+   "lon": -4.9953,
+   "coord_source": "https://en.wikipedia.org/wiki/Newquay_Airport"
+  }
+ ]
+}
