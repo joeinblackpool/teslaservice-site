@@ -1,3 +1,4 @@
+/favicon.ico /favicon.svg 301
 # Old-site URLs → new pages (301 = permanent, passes ranking).
 # Add any other old URLs from Google Search Console → Indexing → Pages here, one per line: /old-path /new-path 301
 

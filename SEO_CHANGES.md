@@ -114,3 +114,10 @@ Guard notes 2026-11-02 (no rollback): /hevra/* aggregate position and clicks fel
 |---|---|---|---|---|
 | 2026-11-09 | (this commit) | all static pages (1,241) | tools/trust_fixes.py: footer "Contact" link (/about#contact) after About; phone numbers in listing lines are tel: links; JSON-LD dateModified from the page's sitemap lastmod (existing CollectionPage/Article node, else a small WebPage node). Titles, H1s, descriptions and text unchanged | additive |
 | 2026-11-09 | (this commit) | /places/<area>/<place> (all) | Three H2s phrased as the questions people ask (nearest Tesla Service Centre to X? who can repair a Tesla near X? how do I get my Tesla serviced from X?); garage phone numbers as tel: links and in JSON-LD; new section: 3 nearest Tesla Superchargers (stalls, kW, distance) and the count of public 50 kW+ chargers within 5/10 miles (teslachargers.co.uk data: OCM CC BY-SA + Tesla; names as plain text, no links); footer Contact link. Titles and H1 unchanged | additive |
+
+## 2026-11-11 - monthly SEO check
+| Date | Commit | URLs affected | Change | Status |
+|---|---|---|---|---|
+| 2026-11-11 | (this commit) | /favicon.ico | 301 to /favicon.svg (browsers and crawlers asked for /favicon.ico ~36 times in 3 days and got 404). No page changed | technical |
+
+Check notes 2026-11-11 (Cloudflare data, Search Console not reachable this run): Googlebot ~140 requests/day through October, ~4,300/day on 9-10 Nov after sitemap-index.xml (all 200/301, no 5xx); Google-referred visits ~720 in 11 Oct-10 Nov (Web Analytics, sampled); visits second half of the period +44% on first half. Core Web Vitals (real users): LCP good 96% (p75 0.45 s), CLS good 99%, INP good 98%. The ~95k 504s in zone analytics on 9-10 Nov are the Worker's own Cache API misses (requestSource edgeWorkerCacheAPI), not visitor or Googlebot errors.
